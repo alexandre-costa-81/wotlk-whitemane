@@ -1,0 +1,5 @@
+_Whitemane_Assistant: enabled
+Enchantrix: enabled
+Enchantrix-Barker: enabled
+Stubby: enabled
+!Swatter: disabled

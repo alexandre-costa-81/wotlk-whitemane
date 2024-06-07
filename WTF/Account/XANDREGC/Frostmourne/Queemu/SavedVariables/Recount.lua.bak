@@ -1,0 +1,2153 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Queemu"] = {
+			["GUID"] = "0x0000000000009271",
+			["LastEventHealth"] = {
+				"138 (100%)", -- [1]
+				"136 (98%)", -- [2]
+				"138 (100%)", -- [3]
+				"138 (100%)", -- [4]
+				"138 (100%)", -- [5]
+				"138 (100%)", -- [6]
+				"136 (98%)", -- [7]
+				"138 (100%)", -- [8]
+				"138 (100%)", -- [9]
+				"138 (100%)", -- [10]
+				"138 (100%)", -- [11]
+				"136 (98%)", -- [12]
+				"138 (100%)", -- [13]
+				"138 (100%)", -- [14]
+				"138 (100%)", -- [15]
+				"138 (100%)", -- [16]
+				"135 (97%)", -- [17]
+				"156 (100%)", -- [18]
+				"156 (100%)", -- [19]
+				"156 (100%)", -- [20]
+				"156 (100%)", -- [21]
+				"156 (100%)", -- [22]
+				"156 (100%)", -- [23]
+				"156 (100%)", -- [24]
+				"156 (100%)", -- [25]
+				"156 (100%)", -- [26]
+				"156 (100%)", -- [27]
+				"156 (100%)", -- [28]
+				"156 (100%)", -- [29]
+				"153 (98%)", -- [30]
+				"135 (97%)", -- [31]
+				"133 (96%)", -- [32]
+				"131 (94%)", -- [33]
+				"129 (93%)", -- [34]
+				"129 (93%)", -- [35]
+				"129 (93%)", -- [36]
+				"126 (91%)", -- [37]
+				"138 (100%)", -- [38]
+				"138 (100%)", -- [39]
+				"138 (100%)", -- [40]
+				"138 (100%)", -- [41]
+				"135 (97%)", -- [42]
+				"138 (100%)", -- [43]
+				"138 (100%)", -- [44]
+				"138 (100%)", -- [45]
+				"138 (100%)", -- [46]
+				"135 (97%)", -- [47]
+				"138 (100%)", -- [48]
+				"138 (100%)", -- [49]
+				"138 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Mountain Cougar",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					128.34, -- [1]
+				},
+				["Damage"] = {
+					1179, -- [1]
+				},
+				["DamageTaken"] = {
+					34, -- [1]
+				},
+				["ActiveTime"] = {
+					128.34, -- [1]
+				},
+			},
+			["enClass"] = "DRUID",
+			["unit"] = "Queemu",
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 16,
+			["LastEventNum"] = {
+				1.449275362318841, -- [1]
+				[32] = 1.449275362318841,
+				[6] = 1.449275362318841,
+				[36] = 2.173913043478261,
+				[29] = 1.923076923076923,
+				[31] = 1.449275362318841,
+				[33] = 1.449275362318841,
+				[46] = 2.173913043478261,
+				[41] = 2.173913043478261,
+				[11] = 1.449275362318841,
+				[16] = 2.173913043478261,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 3,
+			["TimeLast"] = {
+				["ActiveTime"] = 1717536790,
+				["TimeDamage"] = 1717536790,
+				["OVERALL"] = 1717536790,
+				["DamageTaken"] = 1717536788,
+				["Damage"] = 1717536790,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 737.11,
+			["NextEventNum"] = 31,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				98.55072463768116, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				98.55072463768116, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				98.55072463768116, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				97.82608695652174, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				98.07692307692308, -- [30]
+				97.82608695652174, -- [31]
+				96.37681159420291, -- [32]
+				94.92753623188406, -- [33]
+				93.47826086956522, -- [34]
+				93.47826086956522, -- [35]
+				93.47826086956522, -- [36]
+				91.30434782608695, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				97.82608695652174, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				97.82608695652174, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Mountain Cougar Melee Queemu Hit -2 (Physical)", -- [1]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [2]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [3]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [4]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [5]
+				"Mountain Cougar Melee Queemu Hit -2 (Physical)", -- [6]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [7]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [8]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [9]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [10]
+				"Mountain Cougar Melee Queemu Hit -2 (Physical)", -- [11]
+				"Queemu Wrath Mountain Cougar Hit -18 (Nature)", -- [12]
+				"Queemu Wrath Mountain Cougar Hit -18 (Nature)", -- [13]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [14]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [15]
+				"Mountain Cougar Melee Queemu Hit -3 (Physical)", -- [16]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [17]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [18]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [19]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [20]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [21]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [22]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [23]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [24]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [25]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [26]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [27]
+				"Queemu Wrath Mountain Cougar Crit -28 (Nature)", -- [28]
+				"Mountain Cougar Melee Queemu Hit -3 (Physical)", -- [29]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [30]
+				"Mountain Cougar Melee Queemu Hit -2 (Physical)", -- [31]
+				"Mountain Cougar Melee Queemu Hit -2 (Physical)", -- [32]
+				"Mountain Cougar Melee Queemu Hit -2 (Physical)", -- [33]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [34]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [35]
+				"Mountain Cougar Melee Queemu Hit -3 (Physical)", -- [36]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [37]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [38]
+				"Queemu Wrath Mountain Cougar Hit -18 (Nature)", -- [39]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [40]
+				"Mountain Cougar Melee Queemu Hit -3 (Physical)", -- [41]
+				"Queemu Wrath Mountain Cougar Hit -18 (Nature)", -- [42]
+				"Queemu Wrath Mountain Cougar Crit -28 (Nature)", -- [43]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [44]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [45]
+				"Mountain Cougar Melee Queemu Hit -3 (Physical)", -- [46]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [47]
+				"Queemu Wrath Mountain Cougar Hit -18 (Nature)", -- [48]
+				"Queemu Wrath Mountain Cougar Hit -19 (Nature)", -- [49]
+				"Queemu Wrath Mountain Cougar Hit -20 (Nature)", -- [50]
+			},
+			["Name"] = "Queemu",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				false, -- [34]
+				false, -- [35]
+				true, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				655.2330000000001, -- [1]
+				656.497, -- [2]
+				662.318, -- [3]
+				663.693, -- [4]
+				664.818, -- [5]
+				665.299, -- [6]
+				666.6030000000001, -- [7]
+				670.958, -- [8]
+				672.496, -- [9]
+				673.535, -- [10]
+				674.014, -- [11]
+				675.376, -- [12]
+				682.9400000000001, -- [13]
+				684.26, -- [14]
+				685.308, -- [15]
+				685.5650000000001, -- [16]
+				687.226, -- [17]
+				710.313, -- [18]
+				711.917, -- [19]
+				713.008, -- [20]
+				714.0840000000001, -- [21]
+				723.045, -- [22]
+				724.6560000000001, -- [23]
+				725.684, -- [24]
+				726.8100000000001, -- [25]
+				732.867, -- [26]
+				734.241, -- [27]
+				735.306, -- [28]
+				735.306, -- [29]
+				737.11, -- [30]
+				605.62, -- [31]
+				607.697, -- [32]
+				609.76, -- [33]
+				609.808, -- [34]
+				611.5310000000001, -- [35]
+				611.828, -- [36]
+				613.566, -- [37]
+				620.4110000000001, -- [38]
+				621.893, -- [39]
+				622.936, -- [40]
+				623.537, -- [41]
+				624.727, -- [42]
+				639.619, -- [43]
+				641.057, -- [44]
+				642.14, -- [45]
+				642.8000000000001, -- [46]
+				643.8150000000001, -- [47]
+				652.177, -- [48]
+				653.663, -- [49]
+				654.705, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 77,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 77,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Nature"] = 0,
+					},
+					["TimeSpent"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.92,
+								},
+							},
+							["amount"] = 7.92,
+						},
+					},
+					["DamageTaken"] = 2,
+					["WhoDamaged"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementDone"] = {
+						["Nature"] = 77,
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DamagedWho"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 77,
+						},
+					},
+					["TimeDamage"] = 7.92,
+					["TimeDamaging"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.92,
+								},
+							},
+							["amount"] = 7.92,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 2,
+					},
+					["ActiveTime"] = 7.92,
+					["Damage"] = 77,
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 77,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 77,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 77,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.270000000000001,
+								},
+							},
+							["amount"] = 7.270000000000001,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7.270000000000001,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 77,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 77,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 7.270000000000001,
+					["TimeDamaging"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.270000000000001,
+								},
+							},
+							["amount"] = 7.270000000000001,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 79,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 79,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 79,
+								},
+							},
+							["amount"] = 79,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.27,
+								},
+							},
+							["amount"] = 7.27,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7.27,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 79,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 79,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 7.27,
+					["TimeDamaging"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.27,
+								},
+							},
+							["amount"] = 7.27,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Nature"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 77,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 77,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 77,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.79,
+								},
+							},
+							["amount"] = 7.79,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7.79,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 77,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 77,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 7.79,
+					["TimeDamaging"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.79,
+								},
+							},
+							["amount"] = 7.79,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 87,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 87,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 87,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.74,
+								},
+							},
+							["amount"] = 7.74,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7.74,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 28,
+									["min"] = 28,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 59,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 87,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 7.74,
+					["TimeDamaging"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.74,
+								},
+							},
+							["amount"] = 7.74,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 87,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 87,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 87,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.74,
+								},
+							},
+							["amount"] = 7.74,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 7.74,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 28,
+									["min"] = 28,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 59,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 87,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 7.74,
+					["TimeDamaging"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 7.74,
+								},
+							},
+							["amount"] = 7.74,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Wrath"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 28,
+									["min"] = 28,
+									["count"] = 2,
+									["amount"] = 56,
+								},
+								["Hit"] = {
+									["max"] = 20,
+									["min"] = 11,
+									["count"] = 62,
+									["amount"] = 1123,
+								},
+							},
+							["count"] = 65,
+							["amount"] = 1179,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Nature"] = 46,
+					},
+					["TimeSpent"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 48.46999999999999,
+								},
+							},
+							["amount"] = 48.46999999999999,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 79.87000000000001,
+								},
+							},
+							["amount"] = 79.87000000000001,
+						},
+					},
+					["DamageTaken"] = 34,
+					["WhoDamaged"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["ElementDone"] = {
+						["Nature"] = 1179,
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 62,
+								},
+							},
+							["amount"] = 65,
+						},
+					},
+					["DamagedWho"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 391,
+								},
+							},
+							["amount"] = 391,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 788,
+								},
+							},
+							["amount"] = 788,
+						},
+					},
+					["TimeDamage"] = 128.34,
+					["TimeDamaging"] = {
+						["Plainstrider"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 48.46999999999999,
+								},
+							},
+							["amount"] = 48.46999999999999,
+						},
+						["Mountain Cougar"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 79.87000000000001,
+								},
+							},
+							["amount"] = 79.87000000000001,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 34,
+					},
+					["ActiveTime"] = 128.34,
+					["Damage"] = 1179,
+				},
+			},
+			["UnitLockout"] = 1717536362,
+			["LastActive"] = 1717536790,
+		},
+	},
+	["FightNum"] = 17,
+	["CombatTimes"] = {
+		{
+			1717536362, -- [1]
+			1717536372, -- [2]
+			"18:26:03", -- [3]
+			"18:26:12", -- [4]
+			"Plainstrider", -- [5]
+		}, -- [1]
+		{
+			1717536384, -- [1]
+			1717536391, -- [2]
+			"18:26:25", -- [3]
+			"18:26:31", -- [4]
+			"Plainstrider", -- [5]
+		}, -- [2]
+		{
+			1717536400, -- [1]
+			1717536406, -- [2]
+			"18:26:41", -- [3]
+			"18:26:46", -- [4]
+			"Plainstrider", -- [5]
+		}, -- [3]
+		{
+			1717536410, -- [1]
+			1717536415, -- [2]
+			"18:26:51", -- [3]
+			"18:26:55", -- [4]
+			"Plainstrider", -- [5]
+		}, -- [4]
+		{
+			1717536420, -- [1]
+			1717536425, -- [2]
+			"18:27:01", -- [3]
+			"18:27:05", -- [4]
+			"Plainstrider", -- [5]
+		}, -- [5]
+		{
+			1717536429, -- [1]
+			1717536434, -- [2]
+			"18:27:10", -- [3]
+			"18:27:14", -- [4]
+			"Plainstrider", -- [5]
+		}, -- [6]
+		{
+			1717536437, -- [1]
+			1717536442, -- [2]
+			"18:27:18", -- [3]
+			"18:27:22", -- [4]
+			"Plainstrider", -- [5]
+		}, -- [7]
+		{
+			1717536653, -- [1]
+			1717536668, -- [2]
+			"18:30:53", -- [3]
+			"18:31:08", -- [4]
+			"Mountain Cougar", -- [5]
+		}, -- [8]
+		{
+			1717536673, -- [1]
+			1717536680, -- [2]
+			"18:31:13", -- [3]
+			"18:31:20", -- [4]
+			"Mountain Cougar", -- [5]
+		}, -- [9]
+		{
+			1717536692, -- [1]
+			1717536699, -- [2]
+			"18:31:32", -- [3]
+			"18:31:39", -- [4]
+			"Mountain Cougar", -- [5]
+		}, -- [10]
+		{
+			1717536705, -- [1]
+			1717536712, -- [2]
+			"18:31:45", -- [3]
+			"18:31:52", -- [4]
+			"Mountain Cougar", -- [5]
+		}, -- [11]
+		{
+			1717536715, -- [1]
+			1717536722, -- [2]
+			"18:31:55", -- [3]
+			"18:32:02", -- [4]
+			"Mountain Cougar", -- [5]
+		}, -- [12]
+		{
+			1717536724, -- [1]
+			1717536730, -- [2]
+			"18:32:04", -- [3]
+			"18:32:10", -- [4]
+			"Mountain Cougar", -- [5]
+		}, -- [13]
+		{
+			1717536736, -- [1]
+			1717536742, -- [2]
+			"18:32:16", -- [3]
+			"18:32:22", -- [4]
+			"Mountain Cougar", -- [5]
+		}, -- [14]
+		{
+			1717536763, -- [1]
+			1717536769, -- [2]
+			"18:32:43", -- [3]
+			"18:32:49", -- [4]
+			"Mountain Cougar", -- [5]
+		}, -- [15]
+		{
+			1717536776, -- [1]
+			1717536782, -- [2]
+			"18:32:56", -- [3]
+			"18:33:02", -- [4]
+			"Mountain Cougar", -- [5]
+		}, -- [16]
+		{
+			1717536785, -- [1]
+			1717536792, -- [2]
+			"18:33:06", -- [3]
+			"18:33:12", -- [4]
+			"Mountain Cougar", -- [5]
+		}, -- [17]
+	},
+	["FoughtWho"] = {
+		"Mountain Cougar 18:33:06-18:33:12", -- [1]
+		"Mountain Cougar 18:32:56-18:33:02", -- [2]
+		"Mountain Cougar 18:32:43-18:32:49", -- [3]
+		"Mountain Cougar 18:32:16-18:32:22", -- [4]
+		"Mountain Cougar 18:32:04-18:32:10", -- [5]
+	},
+}

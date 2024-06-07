@@ -1,0 +1,39 @@
+
+SwatterData = {
+	["enabled"] = true,
+	["autoshow"] = true,
+	["errors"] = {
+		{
+			["message"] = "...nterface\\AddOns\\BonusScanner\\locale\\Localization.lua:201: bad argument #1 to 'gsub' (string expected, got nil)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  WhitemaneAssistant, v1.2\n  Auctionator, v2.6.3\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  BonusScanner, v5.4.0\n  BlizRuntimeLib_enUS v3.3.5.30300 <logon.gamefreedom.org>\n  (ck=e3)\n",
+			["timestamp"] = "2024-06-04 22:30:38",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\n[C]: in function `gsub'\n...nterface\\AddOns\\BonusScanner\\locale\\Localization.lua:201: in main chunk\n",
+		}, -- [1]
+		{
+			["message"] = "[string \"GearScore_StatsFrame:OnLoad\"]:1: attempt to get length of global 'PAPERDOLL_STATCATEGORY_DEFAULTORDER' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  WhitemaneAssistant, v1.2\n  Auctionator, v2.6.3\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  BonusScanner, v5.4.0\n  Configator, v5.1.DEV.278\n  DBMCore, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  Recount, v\n  SlideBar, v3.1.16 (<%codename%>)\n  BlizRuntimeLib_enUS v3.3.5.30300 <logon.gamefreedom.org>\n  (ck=18a)\n",
+			["timestamp"] = "2024-06-04 22:30:38",
+			["context"] = "Global",
+			["stack"] = "[C]: ?\n[string \"*:OnLoad\"]:1: in function <[string \"*:OnLoad\"]:1>\n",
+		}, -- [2]
+		{
+			["message"] = "AceLocale-3.0: BonusScanner: Missing entry for 'BONUSSCANNER_PATTERNS_OTHER'",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  WhitemaneAssistant, v1.2\n  Auctionator, v2.6.3\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  BonusScanner, v5.4.0\n  Configator, v5.1.DEV.278\n  DBMCore, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  QuestHelper, v1.4.1\n  Recount, v\n  Scrap, v\n  SlideBar, v3.1.16 (<%codename%>)\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <logon.gamefreedom.org>\n  (ck=1ef)\n",
+			["timestamp"] = "2024-06-04 22:30:42",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\n...e\\AddOns\\Bagnon\\libs\\AceLocale-3.0\\AceLocale-3.0.lua:31: in function <...e\\AddOns\\Bagnon\\libs\\AceLocale-3.0\\AceLocale-3.0.lua:29>\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:1071: in function `CheckOther'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:926: in function `ScanLine'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:823: in function `ScanTooltip'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:786: in function `ScanItem'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:678: in function `ScanEquipment'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:630: in function <Interface\\AddOns\\BonusScanner\\BonusScanner.lua:629>\n(tail call): ?\n[C]: ?\n[string \"safecall Dispatcher[2]\"]:9: in function <[string \"safecall Dispatcher[2]\"]:5>\n(tail call): ?\n...dOns\\BonusScanner\\libs\\AceTimer-3.0\\AceTimer-3.0.lua:158: in function <...dOns\\BonusScanner\\libs\\AceTimer-3.0\\AceTimer-3.0.lua:132>\n",
+		}, -- [3]
+		{
+			["message"] = "Interface\\AddOns\\BonusScanner\\BonusScanner.lua:1071: bad argument #1 to 'pairs' (table expected, got string)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.16 (<%codename%>)\n  WhitemaneAssistant, v1.2\n  Auctionator, v2.6.3\n  Babylonian, v5.1.DEV.130\n  Bagnon, v2.13.3\n  BagnonForever, v1.1.2\n  BagnonTooltips, v\n  BonusScanner, v5.4.0\n  Configator, v5.1.DEV.278\n  DBMCore, v\n  Gatherer, v3.1.16\n  GearScore, v3.1.20b - Release\n  QuestHelper, v1.4.1\n  Recount, v\n  Scrap, v\n  SlideBar, v3.1.16 (<%codename%>)\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey, v\n  TidyPlatesNeon, v\n  BlizRuntimeLib_enUS v3.3.5.30300 <logon.gamefreedom.org>\n  (ck=1ef)\n",
+			["timestamp"] = "2024-06-04 22:30:42",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\n(tail call): ?\n[C]: in function `pairs'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:1071: in function `CheckOther'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:926: in function `ScanLine'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:823: in function `ScanTooltip'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:786: in function `ScanItem'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:678: in function `ScanEquipment'\nInterface\\AddOns\\BonusScanner\\BonusScanner.lua:630: in function <Interface\\AddOns\\BonusScanner\\BonusScanner.lua:629>\n(tail call): ?\n[C]: ?\n[string \"safecall Dispatcher[2]\"]:9: in function <[string \"safecall Dispatcher[2]\"]:5>\n(tail call): ?\n...dOns\\BonusScanner\\libs\\AceTimer-3.0\\AceTimer-3.0.lua:158: in function <...dOns\\BonusScanner\\libs\\AceTimer-3.0\\AceTimer-3.0.lua:132>\n",
+		}, -- [4]
+	},
+}

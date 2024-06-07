@@ -1,0 +1,188 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Kimi"] = {
+			["GUID"] = "0x00000000000046C2",
+			["LastEventHealth"] = {
+				"5019 (85%)", -- [1]
+				"3804 (65%)", -- [2]
+				"4899 (83%)", -- [3]
+				"5467 (93%)", -- [4]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"HEAL", -- [3]
+				"DAMAGE", -- [4]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					2550, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "Kimi",
+			["level"] = 68,
+			["LastDamageAbility"] = "Falling",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				14.21979148863442, -- [1]
+				22.7995214493249, -- [2]
+				16.09981199794907, -- [3]
+				6.562980687062041, -- [4]
+			},
+			["type"] = "Self",
+			["LastDamageTaken"] = 384,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["DamageTaken"] = 1717353556,
+				["OVERALL"] = 1717353556,
+			},
+			["NextEventNum"] = 5,
+			["LastEventHealthNum"] = {
+				85.78020851136557, -- [1]
+				65.01452743120834, -- [2]
+				83.72927704665869, -- [3]
+				93.43701931293796, -- [4]
+			},
+			["LastEvents"] = {
+				"Environment Falling Kimi Hit -832 (Physical)", -- [1]
+				"Environment Falling Kimi Hit -1334 (Physical)", -- [2]
+				"Krratom Holy Shock Kimi Crit +942", -- [3]
+				"Environment Falling Kimi Hit -384 (Physical)", -- [4]
+			},
+			["Name"] = "Kimi",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+			},
+			["LastEventTimes"] = {
+				155704.765, -- [1]
+				155718.281, -- [2]
+				155736.359, -- [3]
+				156201.218, -- [4]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["DamageTaken"] = 0,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 2550,
+								},
+							},
+							["amount"] = 2550,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 2550,
+					},
+					["DamageTaken"] = 2550,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1717353060,
+			["LastActive"] = 1717353556,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

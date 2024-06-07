@@ -1,0 +1,10 @@
+_Whitemane_Assistant: enabled
+PallyPower: disabled
+GathererDB_Wowhead: enabled
+GatherMate_Data: disabled
+Gatherer: enabled
+Gatherer_HUD: enabled
+Enchantrix: enabled
+Enchantrix-Barker: enabled
+Stubby: enabled
+!Swatter: disabled

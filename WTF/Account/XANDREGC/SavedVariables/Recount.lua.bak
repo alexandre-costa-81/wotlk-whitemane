@@ -1,0 +1,36 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+	},
+	["profiles"] = {
+		["Queemi - Frostmourne"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -87.70341986119992,
+					["x"] = -647.110977376065,
+					["w"] = 215.8519941479671,
+					["h"] = 138.3702103543615,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowWidth"] = 215.8519591337006,
+			["Locked"] = true,
+			["MainWindowHeight"] = 138.3702191079281,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

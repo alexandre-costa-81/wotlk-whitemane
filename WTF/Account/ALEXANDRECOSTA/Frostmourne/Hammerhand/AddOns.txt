@@ -1,0 +1,6 @@
+_Whitemane_Assistant: enabled
+PallyPower: disabled
+Gatherer: enabled
+Gatherer_HUD: enabled
+GathererDB_Wowhead: enabled
+!Swatter: disabled
