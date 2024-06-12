@@ -137,7 +137,6 @@ BN_INLINE_TOAST_ALERT
 END
 
 CHANNELS
-LookingForGroup
 WorldChat
 END
 

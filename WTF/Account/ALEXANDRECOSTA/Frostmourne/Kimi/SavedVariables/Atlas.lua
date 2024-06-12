@@ -2,9 +2,9 @@
 AtlasOptions = {
 	["AtlasScale"] = 1,
 	["AtlasClamped"] = true,
+	["AtlasRightClick"] = false,
 	["AtlasCtrl"] = false,
 	["AtlasAlpha"] = 1,
-	["AtlasRightClick"] = false,
 	["AtlasAcronyms"] = true,
 	["AtlasType"] = 4,
 	["AtlasButtonShown"] = true,

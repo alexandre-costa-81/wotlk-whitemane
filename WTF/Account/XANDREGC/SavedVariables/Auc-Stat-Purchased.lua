@@ -6,7 +6,14 @@ AucAdvancedStatPurchasedData = {
 			["means"] = {
 			},
 			["daily"] = {
-				["created"] = 1717772344,
+				["created"] = 1718162094,
+			},
+		},
+		["Frostmourne-Neutral"] = {
+			["means"] = {
+			},
+			["daily"] = {
+				["created"] = 1718162094,
 			},
 		},
 	},
