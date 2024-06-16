@@ -13,14 +13,11 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -63.44543091517653,
-					["x"] = -623.6542811677067,
+					["x"] = -623.6543249355399,
 					["w"] = 195.4569366578924,
 					["h"] = 136.7901478060245,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "The Culling of Stratholme",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -32,10 +29,13 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
 			["Locked"] = true,
-			["MainWindowHeight"] = 136.7901478060245,
-			["MainWindowWidth"] = 195.4569366578924,
+			["LastInstanceName"] = "The Culling of Stratholme",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 195.4569366578924,
+			["MainWindowHeight"] = 136.7901478060245,
 		},
 		["Queemi - Frostmourne"] = {
 			["GraphWindowY"] = 0,
@@ -49,7 +49,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 138.3702191079281,
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -125,12 +125,15 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -58.46920334542172,
+					["y"] = -58.4692033454217,
 					["x"] = -628.938065301744,
-					["w"] = 200.0494954013343,
+					["w"] = 200.0495129084676,
 					["h"] = 151.0122251080877,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 151.0122426152211,
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -142,12 +145,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowWidth"] = 200.0494603870677,
 			["Locked"] = true,
-			["MainWindowHeight"] = 151.0122426152211,
+			["MainWindowWidth"] = 200.0494603870677,
 			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
 		},
 	},
 }

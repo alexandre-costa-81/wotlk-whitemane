@@ -2,125 +2,142 @@
 ZygorGuidesViewerSettings = {
 	["char"] = {
 		["Kimi - Frostmourne"] = {
-			["step"] = 34,
-			["guidename"] = "Zygor's Horde Dailies Guides\\Icecrown\\Icecrown Full Zone Quest Path (Includes Regular Dailies Pre-Quests)",
+			["step"] = 132,
+			["guidename"] = "Zygor's Horde Dailies Guides\\The Storm Peaks\\The Storm Peaks Full Zone Quest Path (Includes Pre-Quests)",
 			["debuglog"] = {
-				"13:36:17> CacheQuestLog cached 20 quests", -- [1]
-				"13:36:17> Animating progress: Get 15 |cffaaeeffScourgestones|r", -- [2]
-				"13:36:47> CacheQuestLog cached 20 quests", -- [3]
-				"13:36:47> Skipping step: 25 (complete)", -- [4]
-				"13:36:47> SkipStep 1 fast", -- [5]
-				"13:36:47> LastSkip 1", -- [6]
-				"13:36:47> FocusStep 26 (quiet)", -- [7]
-				"13:36:47> FocusStep 26", -- [8]
-				"13:36:47> frameNeedsUpdating, so updating.", -- [9]
-				"13:36:47> CacheQuestLog cached 20 quests", -- [10]
-				"13:37:26> CacheQuestLog cached 20 quests", -- [11]
-				"13:37:26> Animating progress: Kill 3 |cffffaaaaForgotten Depths High Priests|r", -- [12]
-				"13:37:47> CacheQuestLog cached 20 quests", -- [13]
-				"13:37:47> Animating progress: Kill 3 |cffffaaaaForgotten Depths High Priests|r", -- [14]
-				"13:38:20> CacheQuestLog cached 20 quests", -- [15]
-				"13:38:20> Skipping step: 26 (complete)", -- [16]
-				"13:38:20> SkipStep 1 fast", -- [17]
-				"13:38:20> LastSkip 1", -- [18]
-				"13:38:20> FocusStep 27 (quiet)", -- [19]
-				"13:38:20> FocusStep 27", -- [20]
-				"13:38:20> Translated: accept/turnin The Restless Dead", -- [21]
-				"13:38:20> frameNeedsUpdating, so updating.", -- [22]
-				"13:40:47> GetQuestId: id of quest 'The Restless Dead' = 13110", -- [23]
-				"13:40:47> Completed Quest: The Restless Dead, id: 13110", -- [24]
-				"13:40:47> Got completed quests list", -- [25]
-				"13:40:47> CacheQuestLog cached 19 quests", -- [26]
-				"13:40:47> Lost Quest: The Restless Dead, id: 13110, complete: true", -- [27]
-				"13:40:47> Skipping step: 27 (complete)", -- [28]
-				"13:40:47> SkipStep 1 fast", -- [29]
-				"13:40:47> LastSkip 1", -- [30]
-				"13:40:47> FocusStep 28 (quiet)", -- [31]
-				"13:40:47> FocusStep 28", -- [32]
-				"13:40:47> Translated: accept/turnin The Purging Of Scourgeholme", -- [33]
-				"13:40:47> Translated: accept/turnin The Scourgestone", -- [34]
-				"13:40:47> frameNeedsUpdating, so updating.", -- [35]
-				"13:40:58> GetQuestId: id of quest 'The Purging Of Scourgeholme' = 13118", -- [36]
-				"13:40:58> Completed Quest: The Purging Of Scourgeholme, id: 13118", -- [37]
-				"13:40:58> Got completed quests list", -- [38]
-				"13:40:58> CacheQuestLog cached 18 quests", -- [39]
-				"13:40:58> Lost Quest: The Purging Of Scourgeholme, id: 13118, complete: true", -- [40]
-				"13:40:58> Animating completion.", -- [41]
-				"13:41:00> GetQuestId: id of quest 'The Scourgestone' = 13122", -- [42]
-				"13:41:00> Completed Quest: The Scourgestone, id: 13122", -- [43]
-				"13:41:00> Got completed quests list", -- [44]
-				"13:41:00> CacheQuestLog cached 18 quests", -- [45]
-				"13:41:00> CacheQuestLog cached 17 quests", -- [46]
-				"13:41:00> Lost Quest: The Scourgestone, id: 13122, complete: false", -- [47]
-				"13:41:00> Animating completion.", -- [48]
-				"13:41:02> CacheQuestLog cached 18 quests", -- [49]
-				"13:41:02> New Quest: The Air Stands Still id 13125", -- [50]
-				"13:41:02> Skipping step: 28 (complete)", -- [51]
-				"13:41:02> SkipStep 1 fast", -- [52]
-				"13:41:02> LastSkip 1", -- [53]
-				"13:41:02> FocusStep 29 (quiet)", -- [54]
-				"13:41:02> FocusStep 29", -- [55]
-				"13:41:02> Translated: 'kill' The Air Stands Still", -- [56]
-				"13:41:02> frameNeedsUpdating, so updating.", -- [57]
-				"13:44:55> CacheQuestLog cached 18 quests", -- [58]
-				"13:44:55> Skipping step: 29 (complete)", -- [59]
-				"13:44:55> SkipStep 1 fast", -- [60]
-				"13:44:55> LastSkip 1", -- [61]
-				"13:44:55> FocusStep 30 (quiet)", -- [62]
-				"13:44:55> FocusStep 30", -- [63]
-				"13:44:55> Translated: 'kill' The Air Stands Still", -- [64]
-				"13:44:55> frameNeedsUpdating, so updating.", -- [65]
-				"13:46:31> CacheQuestLog cached 18 quests", -- [66]
-				"13:46:31> Skipping step: 30 (complete)", -- [67]
-				"13:46:31> SkipStep 1 fast", -- [68]
-				"13:46:31> LastSkip 1", -- [69]
-				"13:46:31> FocusStep 31 (quiet)", -- [70]
-				"13:46:31> FocusStep 31", -- [71]
-				"13:46:31> Translated: 'kill' The Air Stands Still", -- [72]
-				"13:46:31> frameNeedsUpdating, so updating.", -- [73]
-				"13:51:07> CacheQuestLog cached 18 quests", -- [74]
-				"13:51:07> Skipping step: 31 (complete)", -- [75]
-				"13:51:07> SkipStep 1 fast", -- [76]
-				"13:51:07> LastSkip 1", -- [77]
-				"13:51:07> FocusStep 32 (quiet)", -- [78]
-				"13:51:07> FocusStep 32", -- [79]
-				"13:51:07> frameNeedsUpdating, so updating.", -- [80]
-				"13:51:24> goal clicked 1", -- [81]
-				"13:51:24> Animating completion.", -- [82]
-				"13:51:25> Skipping step: 32 (complete)", -- [83]
-				"13:51:25> SkipStep 1 fast", -- [84]
-				"13:51:25> LastSkip 1", -- [85]
-				"13:51:25> FocusStep 33 (quiet)", -- [86]
-				"13:51:25> FocusStep 33", -- [87]
-				"13:51:25> Translated: accept/turnin The Air Stands Still", -- [88]
-				"13:51:25> frameNeedsUpdating, so updating.", -- [89]
-				"13:53:41> GetQuestId: id of quest 'The Air Stands Still' = 13125", -- [90]
-				"13:53:41> Completed Quest: The Air Stands Still, id: 13125", -- [91]
-				"13:53:41> Got completed quests list", -- [92]
-				"13:53:41> CacheQuestLog cached 17 quests", -- [93]
-				"13:53:41> Lost Quest: The Air Stands Still, id: 13125, complete: true", -- [94]
-				"13:53:41> Skipping step: 33 (complete)", -- [95]
-				"13:53:41> SkipStep 1 fast", -- [96]
-				"13:53:41> LastSkip 1", -- [97]
-				"13:53:41> FocusStep 34 (quiet)", -- [98]
-				"13:53:41> FocusStep 34", -- [99]
-				"13:53:41> frameNeedsUpdating, so updating.", -- [100]
+				"12:35:02> unpausing", -- [1]
+				"12:35:04> Got completed quests list", -- [2]
+				"12:40:59> Viewer started. ---------------------------", -- [3]
+				"12:41:00> PLAYER_ENTERING_WORLD (dead?)", -- [4]
+				"12:41:00> PLAYER_ALIVE (dead?)", -- [5]
+				"12:41:00> CacheQuestLog cached 0 quests", -- [6]
+				"12:41:00> Got completed quests list", -- [7]
+				"12:41:01> CacheQuestLog cached 10 quests", -- [8]
+				"12:41:01> New Quest: Funky Fungi id 13204", -- [9]
+				"12:41:01> New Quest: All Things in Good Time id 13190", -- [10]
+				"12:41:01> New Quest: Orgrim's Hammer id 13224", -- [11]
+				"12:41:01> New Quest: A Hero Remains id 13072", -- [12]
+				"12:41:01> New Quest: Timear Foresees Centrifuge Constructs in your Future! id 13240", -- [13]
+				"12:41:01> New Quest: Bones and Arrows id 13193", -- [14]
+				"12:41:01> New Quest: Slay them all! id 13178", -- [15]
+				"12:41:01> New Quest: Stop the Siege id 13185", -- [16]
+				"12:41:01> New Quest: Toppling the Towers id 13539", -- [17]
+				"12:41:01> New Quest: Victory in Wintergrasp id 13183", -- [18]
+				"12:41:01> CacheQuestLog cached 10 quests", -- [19]
+				"12:41:01> ZONE_CHANGED_NEW_AREA (dead?)", -- [20]
+				"12:41:03> Guides loaded. -----", -- [21]
+				"12:41:03> SetGuide Zygor's Horde Dailies Guides\\The Storm Peaks\\The Storm Peaks Full Zone Quest Path (Includes Pre-Quests) (132", -- [22]
+				"12:41:03> Guide loaded: Zygor's Horde Dailies Guides\\The Storm Peaks\\The Storm Peaks Full Zone Quest Path (Includes Pre-Quests)", -- [23]
+				"12:41:03> FocusStep 132", -- [24]
+				"12:41:03> unpausing", -- [25]
+				"12:41:05> Got completed quests list", -- [26]
+				"12:41:06> 9 Jewelcrafting recipes found", -- [27]
+				"12:41:27> Got completed quests list", -- [28]
+				"12:41:40> 9 Jewelcrafting recipes found", -- [29]
+				"12:41:55> 9 Jewelcrafting recipes found", -- [30]
+				"12:41:57> 9 Jewelcrafting recipes found", -- [31]
+				"12:41:58> 9 Jewelcrafting recipes found", -- [32]
+				"12:41:59> CacheQuestLog cached 10 quests", -- [33]
+				"12:42:10> 9 Jewelcrafting recipes found", -- [34]
+				"12:42:16> 9 Jewelcrafting recipes found", -- [35]
+				"12:42:23> 9 Jewelcrafting recipes found", -- [36]
+				"12:42:24> 9 Jewelcrafting recipes found", -- [37]
+				"12:42:27> 9 Jewelcrafting recipes found", -- [38]
+				"12:47:31> Viewer started. ---------------------------", -- [39]
+				"12:47:32> PLAYER_ENTERING_WORLD (dead?)", -- [40]
+				"12:47:32> PLAYER_ALIVE (dead?)", -- [41]
+				"12:47:32> ZONE_CHANGED_NEW_AREA (dead?)", -- [42]
+				"12:47:32> CacheQuestLog cached 0 quests", -- [43]
+				"12:47:32> Got completed quests list", -- [44]
+				"12:47:33> CacheQuestLog cached 10 quests", -- [45]
+				"12:47:33> New Quest: Funky Fungi id 13204", -- [46]
+				"12:47:33> New Quest: All Things in Good Time id 13190", -- [47]
+				"12:47:33> New Quest: Orgrim's Hammer id 13224", -- [48]
+				"12:47:33> New Quest: A Hero Remains id 13072", -- [49]
+				"12:47:33> New Quest: Timear Foresees Centrifuge Constructs in your Future! id 13240", -- [50]
+				"12:47:33> New Quest: Bones and Arrows id 13193", -- [51]
+				"12:47:33> New Quest: Slay them all! id 13178", -- [52]
+				"12:47:33> New Quest: Stop the Siege id 13185", -- [53]
+				"12:47:33> New Quest: Toppling the Towers id 13539", -- [54]
+				"12:47:33> New Quest: Victory in Wintergrasp id 13183", -- [55]
+				"12:47:33> CacheQuestLog cached 10 quests", -- [56]
+				"12:47:35> 9 Jewelcrafting recipes found", -- [57]
+				"12:47:35> Guides loaded. -----", -- [58]
+				"12:47:35> SetGuide Zygor's Horde Dailies Guides\\The Storm Peaks\\The Storm Peaks Full Zone Quest Path (Includes Pre-Quests) (132", -- [59]
+				"12:47:35> Guide loaded: Zygor's Horde Dailies Guides\\The Storm Peaks\\The Storm Peaks Full Zone Quest Path (Includes Pre-Quests)", -- [60]
+				"12:47:35> FocusStep 132", -- [61]
+				"12:47:35> unpausing", -- [62]
+				"12:47:37> Got completed quests list", -- [63]
+				"12:47:38> 9 Jewelcrafting recipes found", -- [64]
+				"12:47:44> 9 Jewelcrafting recipes found", -- [65]
+				"12:47:51> 9 Jewelcrafting recipes found", -- [66]
+				"12:47:52> 8 Mining recipes found", -- [67]
+				"12:47:58> Got completed quests list", -- [68]
+				"12:47:59> 9 Jewelcrafting recipes found", -- [69]
+				"12:48:08> 9 Jewelcrafting recipes found", -- [70]
+				"12:48:12> 9 Jewelcrafting recipes found", -- [71]
+				"12:48:20> 9 Jewelcrafting recipes found", -- [72]
+				"12:48:31> CacheQuestLog cached 10 quests", -- [73]
+				"12:48:31> 9 Jewelcrafting recipes found", -- [74]
+				"12:48:33> 9 Jewelcrafting recipes found", -- [75]
+				"12:48:34> 9 Jewelcrafting recipes found", -- [76]
+				"12:48:35> 9 Jewelcrafting recipes found", -- [77]
+				"12:48:39> 9 Jewelcrafting recipes found", -- [78]
+				"12:48:47> Viewer started. ---------------------------", -- [79]
+				"12:48:47> PLAYER_ENTERING_WORLD (dead?)", -- [80]
+				"12:48:47> Got completed quests list", -- [81]
+				"12:48:47> CacheQuestLog cached 10 quests", -- [82]
+				"12:48:47> New Quest: Funky Fungi id 13204", -- [83]
+				"12:48:47> New Quest: All Things in Good Time id 13190", -- [84]
+				"12:48:47> New Quest: Orgrim's Hammer id 13224", -- [85]
+				"12:48:47> New Quest: A Hero Remains id 13072", -- [86]
+				"12:48:47> New Quest: Timear Foresees Centrifuge Constructs in your Future! id 13240", -- [87]
+				"12:48:47> New Quest: Bones and Arrows id 13193", -- [88]
+				"12:48:47> New Quest: Slay them all! id 13178", -- [89]
+				"12:48:47> New Quest: Stop the Siege id 13185", -- [90]
+				"12:48:47> New Quest: Toppling the Towers id 13539", -- [91]
+				"12:48:47> New Quest: Victory in Wintergrasp id 13183", -- [92]
+				"12:48:47> CacheQuestLog cached 10 quests", -- [93]
+				"12:48:49> Guides loaded. -----", -- [94]
+				"12:48:49> SetGuide Zygor's Horde Dailies Guides\\The Storm Peaks\\The Storm Peaks Full Zone Quest Path (Includes Pre-Quests) (132", -- [95]
+				"12:48:49> Guide loaded: Zygor's Horde Dailies Guides\\The Storm Peaks\\The Storm Peaks Full Zone Quest Path (Includes Pre-Quests)", -- [96]
+				"12:48:49> FocusStep 132", -- [97]
+				"12:48:49> unpausing", -- [98]
+				"12:48:49> 9 Jewelcrafting recipes found", -- [99]
+				"12:48:52> Got completed quests list", -- [100]
 			},
 			["RecipesKnown"] = {
+				[3308] = true,
+				[25493] = true,
+				[7934] = true,
+				[3304] = true,
+				[3275] = true,
+				[2657] = true,
+				[2659] = true,
+				[27032] = true,
+				[10841] = true,
+				[7928] = true,
 				[18629] = true,
 				[27033] = true,
-				[3278] = true,
 				[18630] = true,
-				[10841] = true,
-				[7934] = true,
-				[7928] = true,
+				[26926] = true,
+				[32178] = true,
+				[3307] = true,
+				[32179] = true,
+				[26925] = true,
+				[3278] = true,
+				[25283] = true,
+				[45545] = true,
+				[2658] = true,
+				[32259] = true,
+				[26928] = true,
 				[7929] = true,
-				[3275] = true,
-				[27032] = true,
+				[25255] = true,
 				[3276] = true,
+				[3569] = true,
+				[10097] = true,
 				[10840] = true,
 				[3277] = true,
-				[45545] = true,
 			},
 			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
@@ -131,13 +148,13 @@ ZygorGuidesViewerSettings = {
 				}, -- [1]
 				{
 					["short"] = "The Storm Peaks Full Zone Quest Path (Includes Pre-Quests)",
-					["step"] = 24,
+					["step"] = 132,
 					["full"] = "Zygor's Horde Dailies Guides\\The Storm Peaks\\The Storm Peaks Full Zone Quest Path (Includes Pre-Quests)",
 				}, -- [2]
 				{
 					["short"] = "Icecrown Full Zone Quest Path (Includes Regular Dailies Pre-Quests)",
 					["full"] = "Zygor's Horde Dailies Guides\\Icecrown\\Icecrown Full Zone Quest Path (Includes Regular Dailies Pre-Quests)",
-					["step"] = 34,
+					["step"] = 48,
 				}, -- [3]
 			},
 			["maint_fetchquestdata"] = true,
@@ -157,109 +174,112 @@ ZygorGuidesViewerSettings = {
 				["Zul'Aman"] = true,
 				["Amber Ledge"] = true,
 				["Durotar - ET - CC Prologue Spy Frog End"] = true,
-				["AAAIcecrown Raid - Airship Battle Taxi Paths"] = true,
-				["Feathermoon"] = true,
-				["Southshore"] = true,
 				[""] = true,
 				["Wyrmrest Temple - top to middle"] = true,
-				["Quest - Howling Fjord Tauren Canoe (End)"] = true,
-				["Altar of Sha'tar"] = true,
+				["Feathermoon"] = true,
+				["AAAIcecrown Raid - Airship Battle Taxi Paths"] = true,
+				["Fordragon Hold"] = true,
+				["Southshore"] = true,
+				["Wyrmrest Temple - middle to bottom"] = true,
+				["Borean Tundra - Quest - Dusk - End"] = true,
+				["Generic"] = true,
 				["Temple of Telhamat"] = true,
+				["Quest - Howling Fjord Tauren Canoe (End)"] = true,
 				["Northpass Tower"] = true,
 				["Quest - Hellfire"] = true,
 				["Gundrak"] = true,
-				["Generic"] = true,
+				["Aerie Peak"] = true,
 				["Lakeshire"] = true,
-				["Fishing Village"] = true,
+				["Nesingwary Base Camp"] = true,
 				["Icecrown Dungeon - Gunships"] = true,
 				["Ironforge"] = true,
 				["Dalaran"] = true,
 				["The Stormspire"] = true,
-				["Borean Tundra - Quest - Dusk - End"] = true,
-				["Naxxramas"] = true,
+				["Grom'gol"] = true,
 				["Shatter Point"] = true,
+				["Agmar's Hammer"] = true,
 				["Vengeance Landing"] = true,
-				["Transport"] = true,
+				["Quest - Westguard Keep to Wintergarde Keep End"] = true,
 				["AAAAQuest [Transport] Icecrown Raid - Saurfang Ship (START)"] = true,
 				["Kor'koron Vanguard"] = true,
 				["Camp Taurajo"] = true,
-				["Wyrmrest Temple - middle to bottom"] = true,
-				["Flavor - Stormwind Harbor - Stop"] = true,
-				["Test SP2"] = true,
-				["Wyrmrest Temple"] = true,
-				["Bouldercrag's Refuge"] = true,
 				["Darkshire"] = true,
+				["Flavor - Stormwind Harbor - Stop"] = true,
+				["Naxxramas"] = true,
+				["Wyrmrest Temple"] = true,
+				["Quest - Yarzill Flight Start End"] = true,
+				["Camp Tunka'lo"] = true,
 				["Sholazar Basin - Quest - Reconnaisance - Start"] = true,
-				["Quest - Naglevar"] = true,
+				["Rut'theran Village"] = true,
 				["New Agamand"] = true,
 				["Transport: Menethil <-> Valgarde"] = true,
 				["Kargath"] = true,
-				["Quest - Stars' Rest to Wintergarde End"] = true,
-				["Mok'Nathal Village"] = true,
+				["Quest - Caverns of Time (Intro Flight Path) (End)"] = true,
+				["Nijel's Point"] = true,
 				["Quest - Howling Fjord - Flight to the Windrunner - End"] = true,
 				["Programmer Isle"] = true,
-				["Quest - Horde Hellfire End"] = true,
+				["Dun Niffelem"] = true,
 				["Development Land - Pat Test End"] = true,
-				["Rut'theran Village"] = true,
-				["Quest - Caverns of Time (Intro Flight Path) (End)"] = true,
-				["Sanctum of the Stars"] = true,
+				["Wintergarde Keep"] = true,
+				["Stonetalon Peak"] = true,
+				["Quest - Netherstorm - Stealth Flight - End"] = true,
 				["Quest - Howling Fjord - Break the Blockade Zeppelin"] = true,
 				["Freewind Post"] = true,
-				["Camp Tunka'lo"] = true,
-				["River's Heart"] = true,
-				["Nijel's Point"] = true,
+				["Bouldercrag's Refuge"] = true,
+				["Chillwind Camp"] = true,
+				["Quest - Stars' Rest to Wintergarde End"] = true,
 				["CC Prologue - GT - Quest - Vent Horizon - End"] = true,
-				["Sun Rock Retreat"] = true,
+				["Mok'Nathal Village"] = true,
 				["Gadgetzan"] = true,
-				["Stonetalon Peak"] = true,
-				["Mudsprocket"] = true,
-				["Filming"] = true,
+				["Camp Winterhoof"] = true,
 				["Durotar - ET - CC Prologue Troll Recruit End"] = true,
-				["Quest - Howling Fjord - Sister Mercy (Start)"] = true,
+				["Filming"] = true,
+				["The Argent Vanguard"] = true,
+				["Test SP2"] = true,
 				["Wyrmrest Temple - top to bottom"] = true,
 				["Eversong - Duskwither Teleport End"] = true,
-				["Forest Song"] = true,
+				["Crown Guard Tower"] = true,
 				["Wildhammer Stronghold"] = true,
 				["Northshire Abbey"] = true,
 				["Valiance Landing Camp"] = true,
 				["Grizzly Hills"] = true,
-				["Wintergarde Keep"] = true,
-				["The Argent Vanguard"] = true,
-				["Stormwind"] = true,
-				["Aerie Peak"] = true,
-				["Camp Winterhoof"] = true,
+				["Transport"] = true,
 				["Wyrmrest Temple - middle to top"] = true,
+				["Nagrand - PvP - Attack Run End 4"] = true,
+				["Quest - Valgarde -> Westguard Keep End"] = true,
+				["Sun Rock Retreat"] = true,
+				["Crossroads"] = true,
 				["Area 52"] = true,
 				["Theramore"] = true,
 				["Borean Tundra - Warsong Hold Wolf End"] = true,
 				["Brackenwall Village"] = true,
 				["Isle of Conquest - Gunships"] = true,
-				["Shadowmoon Village"] = true,
+				["Dun Nifflelem"] = true,
 				["Thunderlord Stronghold"] = true,
 				["Toshley's Station"] = true,
 				["Quest - Blade's Edge - Vision Guide - End"] = true,
-				["Quest - Valgarde -> Westguard Keep End"] = true,
+				["Quest - Howling Fjord - Sister Mercy (End)"] = true,
 				["Krasus' Landing"] = true,
-				["Crossroads"] = true,
-				["Shattered Sun Staging Area"] = true,
-				["Unu'pe"] = true,
 				["Splintertree Post"] = true,
+				["Shattered Sun Staging Area"] = true,
+				["Ebon Watch"] = true,
+				["Astranaar"] = true,
 				["Bor'gorok Outpost"] = true,
 				["Quest - Netherstorm - Manaforge Ultris (Second Pass) End"] = true,
-				["Quest - Netherstorm - Manaforge Ultris (End)"] = true,
-				["Crown Guard Tower"] = true,
-				["The Argent Stand"] = true,
-				["Nagrand - PvP - Attack Run End 4"] = true,
-				["Acherus: The Ebon Hold"] = true,
+				["Cosmowrench"] = true,
+				["Unu'pe"] = true,
+				["Emerald Sanctuary"] = true,
+				["CC Prologue - GT - Battle Flight - End"] = true,
+				["Eastern Plaguelands"] = true,
 				["Sentinel Hill"] = true,
 				["Valormok"] = true,
-				["Quest - Howling Fjord - Test at Sea - End"] = true,
-				["Honor Hold"] = true,
-				["Evergrove"] = true,
-				["Nagrand - PvP - Attack Run End 3"] = true,
 				["Quest - Howling Fjord - Naglfar (Nodes)"] = true,
+				["Honor Hold"] = true,
+				["Zoram'gar Outpost"] = true,
+				["Nagrand - PvP - Attack Run End 3"] = true,
+				["Tarren Mill"] = true,
 				["Bloodvenom Post"] = true,
-				["Light's Hope Chapel"] = true,
+				["Mudsprocket"] = true,
 				["Quest - Nether Dragon Ally - End"] = true,
 				["Blood Watch"] = true,
 				["Ratchet"] = true,
@@ -267,100 +287,100 @@ ZygorGuidesViewerSettings = {
 				["Grom'arsh Crash-Site"] = true,
 				["Revantusk Village"] = true,
 				["Hammerfall"] = true,
-				["Quest - Howling Fjord - Sister Mercy (End)"] = true,
+				["Fort Wildervar"] = true,
 				["Silvermoon City"] = true,
-				["Sunreaver's Command"] = true,
+				["Crusaders' Pinnacle"] = true,
 				["Quest - Dustwallow - Alcaz Survey End"] = true,
 				["Valgarde Port"] = true,
 				["Quest - Howling Fjord - Mission: Plague This! - Start"] = true,
-				["Tarren Mill"] = true,
+				["Auberdine"] = true,
 				["Nagrand - PvP - Attack Run End 1"] = true,
 				["Warsong Hold"] = true,
-				["Everlook"] = true,
-				["Eastern Plaguelands"] = true,
-				["Kamagua"] = true,
+				["Death's Rise"] = true,
+				["Windrunner's Overlook"] = true,
+				["Quest - Netherstorm - Manaforge Ultris (Start)"] = true,
 				["Borean Tundra"] = true,
-				["Quest - Elekk to Kessel Target"] = true,
+				["Quest - Netherstorm - Manaforge Ultris (End)"] = true,
 				["Beryl Point"] = true,
 				["Quest - Howling Fjord - Mission: Plague This! - End"] = true,
 				["Amberpine Lodge"] = true,
-				["Fort Wildervar"] = true,
+				["Quest - Hellfire Peninsula (Alliance) End"] = true,
 				["Ruined City Post 01"] = true,
-				["Auberdine"] = true,
-				["Quest - Nethrandamus End Target"] = true,
-				["Death's Rise"] = true,
-				["Windrunner's Overlook"] = true,
-				["The Exodar"] = true,
-				["Quest - Howling Fjord - McGoyver End"] = true,
+				["Quest - Elekk to Kessel Target"] = true,
+				["Quest - Howling Fjord - Test at Sea - End"] = true,
+				["Evergrove"] = true,
+				["Quest - Borean Tundra - Check In With Bixie - End"] = true,
+				["Flame Crest"] = true,
+				["Acherus: The Ebon Hold"] = true,
 				["Light's Breach"] = true,
 				["Thorium Point"] = true,
 				["Quest - Wintergarde -> Stars' Rest (End)"] = true,
 				["Nagrand - PvP - Attack Run End 2"] = true,
-				["Thunder Bluff"] = true,
-				["Flame Crest"] = true,
 				["Orebor Harborage"] = true,
-				["Menethil Harbor"] = true,
 				["Argent Tournament Grounds"] = true,
-				["Quest - Azuremyst Shaman Start"] = true,
 				["Westfall Brigade"] = true,
+				["Menethil Harbor"] = true,
+				["Quest - Nethrandamus End Target"] = true,
+				["Quest - Azuremyst Shaman Start"] = true,
+				["Wyrmrest Temple - bottom to top"] = true,
 				["Coldarra"] = true,
-				["Quest - Icecrown - North Sea Kraken Bombing - End"] = true,
+				["The Exodar"] = true,
 				["Camp Oneqwah"] = true,
 				["Shattrath"] = true,
 				["Spinebreaker Ridge"] = true,
-				["Transport: Thunder Bluff <-> Org (Zep)"] = true,
+				["Talonbranch Glade"] = true,
 				["Nighthaven"] = true,
-				["Valiance Keep"] = true,
+				["Quest - Icecrown - North Sea Kraken Bombing - End"] = true,
 				["Zangarmarsh - Quest - As the Crow Flies - End"] = true,
-				["Rebel Camp"] = true,
+				["REUSEME"] = true,
 				["Taunka'le Village"] = true,
 				["Tranquillien"] = true,
 				["Thrallmar"] = true,
-				["Talonbranch Glade"] = true,
-				["REUSEME"] = true,
+				["Transport: Thunder Bluff <-> Org (Zep)"] = true,
+				["Rebel Camp"] = true,
 				["Zabra'jin"] = true,
-				["AAAAIcecrown Raid - Saurfang's Ship (Start)"] = true,
-				["Hellfire Peninsula - Reaver's Fall"] = true,
+				["Camp Mojache"] = true,
 				["Ulduar"] = true,
 				["Eastwall Tower"] = true,
-				["Transitus Shield"] = true,
-				["Grom'gol"] = true,
-				["Apothecary Camp"] = true,
-				["Durotar - ET - CC Prologue - Troll Battle End"] = true,
-				["Quest - Sunwell Daily - Dead Scar Bombing - End"] = true,
+				["Hellfire Peninsula - Reaver's Fall"] = true,
 				["Moonglade"] = true,
-				["Quest - Yarzill Flight Start End"] = true,
-				["Camp Mojache"] = true,
+				["Quest - Sunwell Daily - Dead Scar Bombing - End"] = true,
+				["Apothecary Camp"] = true,
+				["Transitus Shield"] = true,
+				["Durotar - ET - CC Prologue - Troll Battle End"] = true,
+				["AAAAIcecrown Raid - Saurfang's Ship (Start)"] = true,
+				["Thunder Bluff"] = true,
+				["Valiance Keep"] = true,
 				["Conquest Hold"] = true,
 				["Talrendis Point"] = true,
 				["Fizzcrank Airstrip"] = true,
 				["Zim'Torga"] = true,
 				["Warsong Camp"] = true,
 				["Frosthold"] = true,
-				["Wyrmrest Temple - bottom to top"] = true,
+				["Quest - Howling Fjord - McGoyver End"] = true,
 				["Development Land - Pat Test Start"] = true,
 				["Thelsamar"] = true,
 				["Westguard Keep"] = true,
-				["Quest - Borean Tundra - Check In With Bixie - End"] = true,
+				["Kamagua"] = true,
 				["Sholazar Basin - Quest - Reconnaisance - End"] = true,
 				["The Bulwark"] = true,
 				["Allerian Stronghold"] = true,
-				["Quest - Hellfire Peninsula (Alliance) End"] = true,
-				["Quest - Netherstorm - Manaforge Ultris (Start)"] = true,
+				["Sunreaver's Command"] = true,
+				["Light's Hope Chapel"] = true,
 				["Quest - Dragonblight - Spiritual Vision - End"] = true,
 				["Thalanaar"] = true,
-				["Cosmowrench"] = true,
+				["Stormwind"] = true,
 				["Moa'ki"] = true,
-				["Zoram'gar Outpost"] = true,
+				["The Argent Stand"] = true,
 				["Quest [Transport] Icecrown Raid - Saurfang Ship (END)"] = true,
 				["Garadar"] = true,
-				["Ebon Watch"] = true,
+				["Shadowmoon Village"] = true,
 				["Refuge Pointe"] = true,
 				["Shadowprey Village"] = true,
-				["CC Prologue - GT - Battle Flight - End"] = true,
+				["Forest Song"] = true,
 				["Telredor"] = true,
-				["Emerald Sanctuary"] = true,
-				["Astranaar"] = true,
+				["Quest - Howling Fjord - Sister Mercy (Start)"] = true,
+				["Sanctum of the Stars"] = true,
 				["Wyrmrest Temple - bottom to middle"] = true,
 				["Telaar"] = true,
 				["Quest - Azuremyst Shaman Target"] = true,
@@ -368,22 +388,22 @@ ZygorGuidesViewerSettings = {
 				["The Sepulcher"] = true,
 				["Falcon Watch"] = true,
 				["Hellfire Peninsula, The Dark Portal"] = true,
-				["Quest - Netherstorm - Stealth Flight - End"] = true,
+				["River's Heart"] = true,
 				["Stonebreaker Hold"] = true,
-				["Chillwind Camp"] = true,
+				["Quest - Horde Hellfire End"] = true,
 				["Sylvanaar"] = true,
 				["Nethergarde Keep"] = true,
 				["Swamprat Post"] = true,
 				["K3"] = true,
-				["Quest - Westguard Keep to Wintergarde Keep End"] = true,
-				["Borean Tundra - Quest - Dusk Start"] = true,
+				["Everlook"] = true,
+				["Fishing Village"] = true,
 				["Thondoril River"] = true,
-				["Agmar's Hammer"] = true,
-				["Nesingwary Base Camp"] = true,
+				["Quest - Naglevar"] = true,
+				["Borean Tundra - Quest - Dusk Start"] = true,
 				["Plaguewood Tower"] = true,
 				["Cenarion Hold"] = true,
+				["Altar of Sha'tar"] = true,
 				["Stonard"] = true,
-				["Fordragon Hold"] = true,
 			},
 			["starting"] = false,
 		},
@@ -500,13 +520,13 @@ ZygorGuidesViewerSettings = {
 				"13:31:08> CacheQuestLog cached 1 quests", -- [99]
 				"13:31:08> Lost Quest: The Power Of Blood, Frost And Unholy, id: 12849, complete: false", -- [100]
 			},
+			["maint_fetchquestdata"] = true,
+			["taxis"] = {
+			},
 			["RecipesKnown"] = {
 				[53341] = true,
 				[53343] = true,
 			},
-			["taxis"] = {
-			},
-			["maint_fetchquestdata"] = true,
 			["starting"] = false,
 		},
 	},
@@ -517,16 +537,19 @@ ZygorGuidesViewerSettings = {
 	["profiles"] = {
 		["Kimi - Frostmourne"] = {
 			["fixblizzardautoaccept"] = true,
+			["fullheight"] = 400.0000054709792,
 			["arrowsmooth"] = true,
 			["autoturnin"] = true,
 			["arrowposx"] = 759.6666176786075,
 			["autoaccept"] = true,
+			["showobsolete"] = false,
 			["arrowcam"] = false,
 			["arrowposy"] = 828.3333760297664,
 			["skipauxsteps"] = false,
+			["showcountsteps"] = 2,
 			["analyzereps"] = true,
-			["showobsolete"] = false,
 			["contractmobs"] = true,
+			["visible"] = false,
 		},
 		["Kimideath - Frostmourne"] = {
 			["arrowsmooth"] = true,

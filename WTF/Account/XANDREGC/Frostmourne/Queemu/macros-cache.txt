@@ -1,12 +1,52 @@
+MACRO 16777226 "GotW" INV_Misc_QuestionMark
+#showtooltip
+/cast [nomod:alt] Gift of the Wild(Rank 4);Mark of the Wild(Rank 9)
+END
+MACRO 16777229 "Inn" INV_Misc_QuestionMark
+#showtooltip
+/cast [@Mouseover] Innervate
+END
+MACRO 16777225 "Lif" INV_Misc_QuestionMark
+#showtooltip
+/cast [@Mouseover] Lifebloom(Rank 3)
+END
+MACRO 16777228 "Nou" INV_Misc_QuestionMark
+#showtooltip
+/cast [@Mouseover] Nourish(Rank 1)
+END
+MACRO 16777227 "Reb" INV_Misc_QuestionMark
+#showtooltip
+/cast [@Mouseover] Rebirth(Rank 7)
+END
+MACRO 16777223 "Reg" INV_Misc_QuestionMark
+#showtooltip
+/cast [@Mouseover] Regrowth(Rank 12)
+END
 MACRO 16777219 "Regrowvenation" INV_Misc_QuestionMark
 /cast Lifeblood
 /cast [nomod:alt] Rejuvenation;Regrowth
+END
+MACRO 16777224 "Rej" INV_Misc_QuestionMark
+#showtooltip
+/cast [@Mouseover] Rejuvenation(Rank 15)
+END
+MACRO 16777218 "Shift" INV_Misc_QuestionMark
+#showtooltip
+/cast [swimming] !Aquatic Form; [outdoors,nomod:alt] !Travel Form; !Moonkin Form(Shapeshift)
 END
 MACRO 16777217 "Shift" INV_Misc_QuestionMark
 #showtooltip
 /cast [swimming] !Aquatic Form;[flyable,nocombat,nomod:alt] !Swift Flight Form(Shapeshift); [outdoors,nomod:alt] !Travel Form; !Moonkin Form(Shapeshift)
 END
-MACRO 16777218 "Shift" INV_Misc_QuestionMark
+MACRO 16777220 "ShiftHealer" INV_Misc_QuestionMark
 #showtooltip
-/cast [swimming] !Aquatic Form; [outdoors,nomod:alt] !Travel Form; !Moonkin Form(Shapeshift)
+/cast [swimming] !Aquatic Form;[flyable,nocombat,nomod:alt] !Swift Flight Form(Shapeshift); [outdoors,nomod:alt] !Travel Form; !Tree of Life(Shapeshift)
+END
+MACRO 16777222 "Shiftmend" INV_Misc_QuestionMark
+#showtooltip
+/cast [@Mouseover] Swiftmend
+END
+MACRO 16777221 "WG" INV_Misc_QuestionMark
+#showtooltip
+/cast Wild Growth(Rank 4)
 END

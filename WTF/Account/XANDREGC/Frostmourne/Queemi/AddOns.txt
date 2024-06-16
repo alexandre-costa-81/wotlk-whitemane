@@ -8,3 +8,10 @@ Enchantrix: enabled
 Enchantrix-Barker: enabled
 Stubby: enabled
 !Swatter: disabled
+Altoholic: enabled
+Altoholic_Achievements: enabled
+DataStore: enabled
+DataStore_Achievements: enabled
+DataStore_Auctions: enabled
+DataStore_Characters: enabled
+BankStack: enabled

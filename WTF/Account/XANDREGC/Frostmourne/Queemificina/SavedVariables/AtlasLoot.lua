@@ -16,11 +16,12 @@ AtlasLootFilterDB = {
 		["Sigils"] = true,
 		["Totem"] = true,
 	},
-	["Other"] = {
-		["Neck"] = true,
-		["Trinket"] = true,
-		["Ring"] = true,
-		["Back"] = true,
+	["WeaponsRanged"] = {
+		["Crossbow"] = true,
+		["Thrown"] = true,
+		["Gun"] = true,
+		["Bow"] = true,
+		["Wand"] = true,
 	},
 	["Armor"] = {
 		["Leather"] = true,
@@ -33,12 +34,11 @@ AtlasLootFilterDB = {
 		["Sword"] = true,
 		["Axe"] = true,
 	},
-	["WeaponsRanged"] = {
-		["Crossbow"] = true,
-		["Thrown"] = true,
-		["Gun"] = true,
-		["Bow"] = true,
-		["Wand"] = true,
+	["Other"] = {
+		["Neck"] = true,
+		["Trinket"] = true,
+		["Ring"] = true,
+		["Back"] = true,
 	},
 	["WeaponsMeele"] = {
 		["Axe"] = true,

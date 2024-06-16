@@ -9,16 +9,16 @@ AtlasLootDB = {
 	},
 	["profiles"] = {
 		["Queemitress - Frostmourne"] = {
-			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51104",
+			["AllLinks"] = false,
 		},
 		["Queemu - Frostmourne"] = {
-			["AtlasLootVersion"] = "51104",
 			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
 		},
 		["Queemi - Frostmourne"] = {
-			["AtlasLootVersion"] = "51104",
 			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51104",
 		},
 		["Queemificina - Frostmourne"] = {
 			["AllLinks"] = false,
@@ -27,46 +27,46 @@ AtlasLootDB = {
 	},
 }
 AtlasLootWishList = {
+	["Shared"] = {
+	},
 	["Options"] = {
 		["Queemu"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
-		},
-		["Queemificina"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
 			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Queemitress"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
 		},
 		["Queemi"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
-	},
-	["Shared"] = {
+		["Queemitress"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Queemificina"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
 	},
 	["Own"] = {
 		["Queemu"] = {
 		},
-		["Queemificina"] = {
+		["Queemi"] = {
 		},
 		["Queemitress"] = {
 		},
-		["Queemi"] = {
+		["Queemificina"] = {
 		},
 	},
 }

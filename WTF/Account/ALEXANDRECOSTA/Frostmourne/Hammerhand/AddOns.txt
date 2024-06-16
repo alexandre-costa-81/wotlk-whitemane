@@ -4,3 +4,4 @@ Gatherer: enabled
 Gatherer_HUD: enabled
 GathererDB_Wowhead: enabled
 !Swatter: disabled
+BankStack: enabled

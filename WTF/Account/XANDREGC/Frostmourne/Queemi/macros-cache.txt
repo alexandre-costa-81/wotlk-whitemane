@@ -1,6 +1,9 @@
 MACRO 16777221 "ConsumeShadows" INV_Misc_QuestionMark
 /cast Consume Shadows(Rank 3)
 END
+MACRO 16777222 "DL&DS" INV_Misc_QuestionMark
+/cast [nomod:alt] Drain Life;Drain Soul
+END
 MACRO 16777217 "PetAttack" INV_Misc_QuestionMark
 /petattack
 END
@@ -8,7 +11,7 @@ MACRO 16777218 "PetFollow" INV_Misc_QuestionMark
 /petfollow
 END
 MACRO 16777219 "Sacrifice" INV_Misc_QuestionMark
-/cast Sacrifice(Rank 3)
+/cast Sacrifice(Rank 6)
 END
 MACRO 16777220 "Torment and Suff" INV_Misc_QuestionMark
 /cast [nomod:alt] Torment;Suffering

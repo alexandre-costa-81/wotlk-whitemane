@@ -4,16 +4,13 @@ BeanCounterDB = {
 		["Queemu"] = {
 			["vendorsell"] = {
 			},
+			["completedAuctions"] = {
+			},
 			["postedBids"] = {
 				["2744"] = {
 					["item:2744:0:0:0:0:0:0:0:80"] = {
 					},
 				},
-			},
-			["completedAuctions"] = {
-			},
-			["wealth"] = 5656856,
-			["postedAuctions"] = {
 			},
 			["completedBidsBuyoutsNeutral"] = {
 				["2744"] = {
@@ -22,17 +19,20 @@ BeanCounterDB = {
 					},
 				},
 			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 2184697,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
 			},
 			["failedBids"] = {
 			},
-			["failedBidsNeutral"] = {
+			["completedBidsBuyouts"] = {
 			},
 			["version"] = 2.12,
 			["faction"] = "Horde",
-			["completedBidsBuyouts"] = {
+			["failedBidsNeutral"] = {
 			},
 			["failedAuctionsNeutral"] = {
 			},
@@ -40,70 +40,70 @@ BeanCounterDB = {
 			},
 			["mailbox"] = {
 				{
-					["subject"] = "Auction won: Green Hills of Stranglethorn - Page 20",
 					["read"] = 2,
-					["time"] = 29.99997711181641,
 					["sender"] = "Blackwater Auction House",
+					["time"] = 29.99997711181641,
+					["subject"] = "Auction won: Green Hills of Stranglethorn - Page 20",
 				}, -- [1]
 				{
-					["subject"] = "Green Hills of Stranglethorn - Page 27",
 					["read"] = 1,
-					["time"] = 29.95086860656738,
 					["sender"] = "Queemi",
+					["time"] = 29.95086860656738,
+					["subject"] = "Green Hills of Stranglethorn - Page 27",
 				}, -- [2]
 				{
-					["subject"] = "Journeyman Riding in Mulgore",
 					["read"] = 1,
-					["time"] = 29.78755760192871,
 					["sender"] = "Kar Stormsinger",
+					["time"] = 29.78755760192871,
+					["subject"] = "Journeyman Riding in Mulgore",
 				}, -- [3]
 				{
-					["subject"] = "Green Hills of Stranglethorn - Page 1",
 					["read"] = 1,
-					["time"] = 29.74004554748535,
 					["sender"] = "Kimi",
+					["time"] = 29.74004554748535,
+					["subject"] = "Green Hills of Stranglethorn - Page 1",
 				}, -- [4]
 				{
-					["subject"] = "Linen Cloth (20)",
 					["read"] = 1,
-					["time"] = 27.35760498046875,
 					["sender"] = "Queemi",
+					["time"] = 27.35760498046875,
+					["subject"] = "Linen Cloth (20)",
 				}, -- [5]
 				{
-					["subject"] = "Forest Leather Chestpiece",
 					["read"] = 1,
-					["time"] = 27.35662078857422,
 					["sender"] = "Queemi",
+					["time"] = 27.35662078857422,
+					["subject"] = "Forest Leather Chestpiece",
 				}, -- [6]
 				{
-					["subject"] = "Linen Bag",
 					["read"] = 1,
-					["time"] = 26.27237319946289,
 					["sender"] = "Queemi",
+					["time"] = 26.27237319946289,
+					["subject"] = "Linen Bag",
 				}, -- [7]
 			},
 		},
-		["Queemificina"] = {
+		["Queemi"] = {
 			["vendorsell"] = {
 			},
 			["postedBids"] = {
 			},
 			["completedAuctions"] = {
 			},
-			["failedBidsNeutral"] = {
-			},
+			["wealth"] = 185919,
 			["postedAuctions"] = {
 			},
-			["wealth"] = 50500,
+			["completedBidsBuyoutsNeutral"] = {
+			},
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
 			},
-			["completedBidsBuyoutsNeutral"] = {
-			},
 			["failedBids"] = {
 			},
 			["version"] = 2.12,
+			["failedBidsNeutral"] = {
+			},
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},
@@ -117,26 +117,26 @@ BeanCounterDB = {
 		["Queemitress"] = {
 			["vendorsell"] = {
 			},
-			["postedBids"] = {
-			},
 			["completedAuctions"] = {
 			},
-			["wealth"] = 391,
-			["postedAuctions"] = {
+			["postedBids"] = {
 			},
 			["completedBidsBuyoutsNeutral"] = {
 			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 391,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
 			},
 			["failedBids"] = {
 			},
-			["failedBidsNeutral"] = {
+			["completedBidsBuyouts"] = {
 			},
 			["version"] = 2.12,
 			["faction"] = "Horde",
-			["completedBidsBuyouts"] = {
+			["failedBidsNeutral"] = {
 			},
 			["failedAuctionsNeutral"] = {
 			},
@@ -145,7 +145,7 @@ BeanCounterDB = {
 			["mailbox"] = {
 			},
 		},
-		["Queemi"] = {
+		["Queemificina"] = {
 			["vendorsell"] = {
 			},
 			["completedAuctions"] = {
@@ -156,7 +156,7 @@ BeanCounterDB = {
 			},
 			["postedAuctions"] = {
 			},
-			["wealth"] = 1001953,
+			["wealth"] = 331613,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
