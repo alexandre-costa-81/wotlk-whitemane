@@ -1,0 +1,4 @@
+MACRO 16777217 "BS&P" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=target Blood Strike,Pestilence
+END

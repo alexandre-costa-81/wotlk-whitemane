@@ -1,0 +1,61 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Kimi - Frostmourne"] = "Kimi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Kimi"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["isSecondary"] = true,
+					},
+					["Blacksmithing"] = {
+						["isPrimary"] = true,
+					},
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
+					["Mining"] = {
+						["isPrimary"] = true,
+					},
+					["First Aid"] = {
+						["isSecondary"] = true,
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+					},
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.Frostmourne.Omnipotent"] = {
+				["Members"] = {
+					["Queemu"] = {
+						["Version"] = 12340,
+					},
+					["Baby"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:51309:438:450:371E:4+/+/uoIydiB8/PS1/KxtTBIyV3nNznLAAAAAYAA4DAEAAAAAABAAAAA+///fKPWzv69/fwAAA|h[Tailoring]|h|r", -- [1]
+							"|cffffd000|Htrade:51313:450:450:371E:47Lbb6a8f5Z7msynvLAAAAAAAAAAAIAAABAAAw7vyJVtHg//sET|h[Enchanting]|h|r", -- [2]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1718332680,
+					},
+					["Kimi"] = {
+						["Professions"] = {
+							3100, -- [1]
+							2575, -- [2]
+							2550, -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1718332026,
+					},
+					["Demolt"] = {
+						["Version"] = 12340,
+					},
+				},
+			},
+		},
+	},
+}

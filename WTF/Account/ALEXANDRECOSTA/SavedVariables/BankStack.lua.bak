@@ -1,0 +1,14 @@
+
+BankStackDB = {
+	["namespaces"] = {
+		["LDB"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Kimi - Frostmourne"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

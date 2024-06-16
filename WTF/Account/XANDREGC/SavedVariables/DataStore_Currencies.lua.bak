@@ -1,0 +1,13 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Queemi"] = {
+				["lastUpdate"] = 1718330262,
+			},
+		},
+	},
+}

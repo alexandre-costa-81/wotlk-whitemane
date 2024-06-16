@@ -1,0 +1,57 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Queemu"] = {
+				["lastUpdate"] = 1718477956,
+				["Factions"] = {
+					["The Taunka"] = "9000|21000|10331",
+					["Bloodsail Buccaneers"] = "-42000|-6000|-13709",
+					["Cenarion Circle"] = "0|3000|2000",
+					["Ratchet"] = "9000|21000|12749",
+					["The Scryers"] = "0|3000|0",
+					["The Mag'har"] = "3000|9000|8104",
+					["Darkspear Trolls"] = "9000|21000|14165",
+					["Booty Bay"] = "9000|21000|13979",
+					["Orgrimmar"] = "9000|21000|19975",
+					["Undercity"] = "3000|9000|7925",
+					["Gadgetzan"] = "9000|21000|12193",
+					["Silvermoon City"] = "3000|9000|8235",
+					["Argent Crusade"] = "0|3000|0",
+					["Darkmoon Faire"] = "0|3000|0",
+					["The Kalu'ak"] = "9000|21000|10800",
+					["Kirin Tor"] = "0|3000|30",
+					["The Consortium"] = "0|3000|18",
+					["Warsong Offensive"] = "9000|21000|16070",
+					["Everlook"] = "9000|21000|10095",
+					["Thrallmar"] = "9000|21000|9847",
+					["Thunder Bluff"] = "9000|21000|17385",
+					["Horde Expedition"] = "9000|21000|12028",
+					["The Hand of Vengeance"] = "9000|21000|9499",
+					["The Sunreavers"] = "9000|21000|9499",
+				},
+			},
+			["Default.Frostmourne.Queemi"] = {
+				["lastUpdate"] = 1718498502,
+				["Factions"] = {
+					["Undercity"] = "9000|21000|13328",
+					["Gadgetzan"] = "3000|9000|6308",
+					["Bloodsail Buccaneers"] = "-42000|-6000|-16757",
+					["Cenarion Circle"] = "3000|9000|5346",
+					["Ratchet"] = "3000|9000|7878",
+					["Everlook"] = "3000|9000|6308",
+					["Darkspear Trolls"] = "9000|21000|9193",
+					["Thrallmar"] = "3000|9000|6945",
+					["Silvermoon City"] = "9000|21000|9851",
+					["Thunder Bluff"] = "9000|21000|9346",
+					["Booty Bay"] = "9000|21000|10142",
+					["Orgrimmar"] = "9000|21000|15237",
+				},
+			},
+		},
+	},
+}

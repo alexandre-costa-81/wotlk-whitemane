@@ -1,0 +1,114 @@
+
+DataStore_MailsDB = {
+	["profileKeys"] = {
+		["Kimi - Frostmourne"] = "Kimi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Kimi"] = {
+				["lastUpdate"] = 1718332040,
+				["Mails"] = {
+					{
+						["lastCheck"] = 1718332040,
+						["sender"] = "Wind Rider Sabamba",
+						["subject"] = "Artisan Riding at Warsong Hold",
+						["money"] = 0,
+						["text"] = "How you doing, Kimi.\n\nIf you want to learn Artisan Riding for faster flying mounts, visit me at Warsong Hold in Borean Tundra. My fee is five thousand gold coins, plus a thousand for more Cold Weather Flying training if you want to ride in Northrend.\n\nIf you want a swift flying mount once you learn, Tohfo Skyhoof sells them for no more than one hundred gold coins.\n\n- Sabamba\n\nP.S. If you can't make it to Northrend, visit Wind Rider Jahubo at Thrallmar in Hellfire Peninsula.",
+						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
+						["daysLeft"] = 18.72773170471191,
+					}, -- [1]
+					{
+						["lastCheck"] = 1718332040,
+						["sender"] = "Magister Arlan",
+						["subject"] = "Emblem Quartermasters in Dalaran's Sunreaver Sanctuary",
+						["money"] = 0,
+						["text"] = "Your achievements in Northrend have not gone unnoticed, friend.\n\nThe Emblems you have earned may be used to purchase equipment from the various Emblem Quartermasters in Dalaran.\n\nYou may find us there, in the Sunreaver Sanctuary, where each variety of Emblem has its own quartermaster.\n\nWe look forward to your arrival!",
+						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
+						["daysLeft"] = 21.81023216247559,
+					}, -- [2]
+					{
+						["lastCheck"] = 1718332040,
+						["sender"] = "Rhonin",
+						["subject"] = "Level 80",
+						["money"] = 0,
+						["text"] = "Congratulations on your conviction to reach the 80th season of adventure. You are undoubtedly dedicated to the cause of ridding Azeroth of the evils which have plagued us.\n\nAnd while the journey thus far has been no minor feat, the true battle lies ahead.\n\nFight on!\n\nRhonin",
+						["icon"] = "Interface\\Icons\\INV_Misc_Note_01",
+						["daysLeft"] = 21.82571792602539,
+					}, -- [3]
+					{
+						["sender"] = "Queemi",
+						["count"] = 0,
+						["lastCheck"] = 1718332040,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+						["daysLeft"] = 22.03936386108398,
+					}, -- [4]
+					{
+						["sender"] = "Queemi",
+						["count"] = 0,
+						["lastCheck"] = 1718332040,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+						["daysLeft"] = 24.63365745544434,
+					}, -- [5]
+					{
+						["sender"] = "Queemi",
+						["count"] = 1,
+						["link"] = "|cff1eff00|Hitem:1705:0:0:0:0:0:0:0:80|h[Lesser Moonstone]|h|r",
+						["lastCheck"] = 1718332040,
+						["icon"] = "Interface\\Icons\\INV_Misc_Gem_Crystal_01",
+						["daysLeft"] = 24.63365745544434,
+					}, -- [6]
+					{
+						["sender"] = "Queemi",
+						["count"] = 0,
+						["lastCheck"] = 1718332040,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+						["daysLeft"] = 24.63365745544434,
+					}, -- [7]
+					{
+						["sender"] = "Queemi",
+						["count"] = 0,
+						["lastCheck"] = 1718332040,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+						["daysLeft"] = 24.63365745544434,
+					}, -- [8]
+					{
+						["sender"] = "Queemi",
+						["count"] = 0,
+						["lastCheck"] = 1718332040,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+						["daysLeft"] = 24.63365745544434,
+					}, -- [9]
+					{
+						["sender"] = "Queemi",
+						["count"] = 0,
+						["lastCheck"] = 1718332040,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+						["daysLeft"] = 24.63365745544434,
+					}, -- [10]
+					{
+						["sender"] = "Queemi",
+						["count"] = 0,
+						["lastCheck"] = 1718332040,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+						["daysLeft"] = 24.63365745544434,
+					}, -- [11]
+					{
+						["sender"] = "Queemu",
+						["count"] = 0,
+						["lastCheck"] = 1718332040,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+						["daysLeft"] = 29.99916648864746,
+					}, -- [12]
+					{
+						["sender"] = "Queemu",
+						["count"] = 0,
+						["lastCheck"] = 1718332040,
+						["icon"] = "Interface\\Icons\\INV_Misc_QuestionMark",
+						["daysLeft"] = 29.99916648864746,
+					}, -- [13]
+				},
+				["lastVisitDate"] = "2024/06/13 23:27",
+			},
+		},
+	},
+}

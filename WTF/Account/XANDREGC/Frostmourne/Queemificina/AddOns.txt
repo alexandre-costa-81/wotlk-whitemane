@@ -1,0 +1,8 @@
+_Whitemane_Assistant: enabled
+Altoholic: enabled
+Altoholic_Achievements: enabled
+DataStore: enabled
+DataStore_Achievements: enabled
+DataStore_Auctions: enabled
+DataStore_Characters: enabled
+BankStack: enabled

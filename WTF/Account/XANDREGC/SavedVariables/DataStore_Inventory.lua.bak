@@ -1,0 +1,42 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Queemi"] = {
+				["Inventory"] = {
+					2721, -- [1]
+					5003, -- [2]
+					nil, -- [3]
+					4334, -- [4]
+					7058, -- [5]
+					14414, -- [6]
+					7062, -- [7]
+					"|cff1eff00|Hitem:14196:0:0:0:0:0:1022:0:35|h[Thistlefur Sandals of the Whale]|h|r", -- [8]
+					"|cff0070dd|Hitem:13106:724:0:0:0:0:0:0:35|h[Glowing Magical Bracelets]|h|r", -- [9]
+					4307, -- [10]
+					5351, -- [11]
+					5313, -- [12]
+					nil, -- [13]
+					nil, -- [14]
+					12979, -- [15]
+					"|cff1eff00|Hitem:5306:255:0:0:0:0:0:0:35|h[Wind Rider Staff]|h|r", -- [16]
+					[18] = 13063,
+				},
+				["averageItemLvl"] = 28,
+				["lastUpdate"] = 1718331407,
+			},
+		},
+		["Guilds"] = {
+			["Default.Frostmourne.TorosNegros"] = {
+				["Members"] = {
+					["Queemi"] = {
+						["averageItemLvl"] = 28,
+					},
+				},
+			},
+		},
+	},
+}
