@@ -5,7 +5,7 @@ ElvDB = {
 	},
 	["gold"] = {
 		["Frostmourne"] = {
-			["Queemu"] = 2584286,
+			["Queemu"] = 3563469,
 		},
 	},
 	["namespaces"] = {
@@ -23,9 +23,9 @@ ElvDB = {
 		},
 		["nameplates"] = {
 			["filters"] = {
-				["ElvUI_Totem"] = {
-				},
 				["ElvUI_Boss"] = {
+				},
+				["ElvUI_Totem"] = {
 				},
 			},
 		},
@@ -37,12 +37,12 @@ ElvDB = {
 					["enable"] = true,
 				},
 			},
-			["currentTutorial"] = 7,
+			["currentTutorial"] = 8,
 			["general"] = {
 				["valuecolor"] = {
-					["r"] = 1,
-					["g"] = 0.49,
 					["b"] = 0.04,
+					["g"] = 0.49,
+					["r"] = 1,
 				},
 			},
 			["movers"] = {
@@ -50,17 +50,17 @@ ElvDB = {
 				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
 				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
 				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-285,127",
-				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,87",
-				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
-				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,144",
-				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
 				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,257,127",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,144",
+				["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,87",
 			},
 			["bags"] = {
 				["vendorGrays"] = {
 					["details"] = true,
-					["interval"] = 0.1,
 					["enable"] = true,
+					["interval"] = 0.1,
 				},
 			},
 			["chat"] = {
@@ -68,7 +68,7 @@ ElvDB = {
 			},
 			["unitframe"] = {
 				["units"] = {
-					["boss"] = {
+					["targettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -88,12 +88,12 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["party"] = {
-						["healPrediction"] = {
-							["enable"] = true,
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
 						},
 					},
-					["player"] = {
+					["boss"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -113,14 +113,14 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["targettarget"] = {
+					["player"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
+					["party"] = {
+						["healPrediction"] = {
+							["enable"] = true,
 						},
 					},
 				},
@@ -129,9 +129,9 @@ ElvDB = {
 					["colorhealthbyvalue"] = false,
 					["castClassColor"] = true,
 					["auraBarBuff"] = {
-						["r"] = 1,
-						["g"] = 0.49,
 						["b"] = 0.04,
+						["g"] = 0.49,
+						["r"] = 1,
 					},
 				},
 			},
