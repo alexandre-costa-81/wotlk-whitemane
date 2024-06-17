@@ -1,0 +1,7 @@
+# Ignorar tudo
+/*
+
+# Exceto as pastas WTF e Interface
+!/WTF/
+!/Interface/
+!.gitignore
