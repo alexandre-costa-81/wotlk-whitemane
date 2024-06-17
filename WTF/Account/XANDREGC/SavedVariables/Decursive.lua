@@ -1,7 +1,7 @@
 
 DecursiveDB = {
-	["global"] = {
-		["LastExpirationAlert"] = 1718606441,
+	["profileKeys"] = {
+		["Queemu - Frostmourne"] = "Default",
 	},
 	["class"] = {
 		["DRUID"] = {
@@ -16,16 +16,16 @@ DecursiveDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Queemu - Frostmourne"] = "Default",
+	["global"] = {
+		["LastExpirationAlert"] = 1718606441,
 	},
 	["profiles"] = {
 		["Default"] = {
-			["DebuffsFrame_y"] = -430.2221529337,
+			["DebuffsFrame_y"] = -462.9333343791163,
 			["MainBarX"] = 682.6666925341594,
 			["Hidden"] = true,
 			["MainBarY"] = -95.99992115956388,
-			["DebuffsFrame_x"] = 186.3110353814909,
+			["DebuffsFrame_x"] = 487.8224342966958,
 		},
 	},
 }
