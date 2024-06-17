@@ -32,7 +32,19 @@ ElvDB = {
 	},
 	["profiles"] = {
 		["Queemu - Frostmourne"] = {
-			["currentTutorial"] = 3,
+			["databars"] = {
+				["reputation"] = {
+					["enable"] = true,
+				},
+			},
+			["currentTutorial"] = 5,
+			["general"] = {
+				["valuecolor"] = {
+					["r"] = 1,
+					["g"] = 0.49,
+					["b"] = 0.04,
+				},
+			},
 			["movers"] = {
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
 				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
@@ -56,7 +68,7 @@ ElvDB = {
 			},
 			["unitframe"] = {
 				["units"] = {
-					["boss"] = {
+					["player"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -71,7 +83,7 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["targettarget"] = {
+					["pettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -81,7 +93,7 @@ ElvDB = {
 							["enable"] = true,
 						},
 					},
-					["player"] = {
+					["boss"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -101,12 +113,12 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
+					["pet"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pet"] = {
+					["targettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -126,13 +138,6 @@ ElvDB = {
 			["actionbar"] = {
 				["bar2"] = {
 					["enabled"] = true,
-				},
-			},
-			["general"] = {
-				["valuecolor"] = {
-					["r"] = 1,
-					["g"] = 0.49,
-					["b"] = 0.04,
 				},
 			},
 		},
