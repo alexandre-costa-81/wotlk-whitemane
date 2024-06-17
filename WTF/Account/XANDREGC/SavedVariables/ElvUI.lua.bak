@@ -1,0 +1,128 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+	},
+	["gold"] = {
+		["Frostmourne"] = {
+			["Queemu"] = 2184487,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["class"] = {
+		["Frostmourne"] = {
+			["Queemu"] = "DRUID",
+		},
+	},
+	["global"] = {
+		["general"] = {
+			["locale"] = "enUS",
+		},
+		["nameplates"] = {
+			["filters"] = {
+				["ElvUI_Boss"] = {
+				},
+				["ElvUI_Totem"] = {
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Queemu - Frostmourne"] = {
+			["chat"] = {
+				["panelColorConverted"] = true,
+			},
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+			["general"] = {
+				["valuecolor"] = {
+					["b"] = 0.04,
+					["g"] = 0.49,
+					["r"] = 1,
+				},
+			},
+			["unitframe"] = {
+				["units"] = {
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+				["colors"] = {
+					["auraBarBuff"] = {
+						["b"] = 0.04,
+						["g"] = 0.49,
+						["r"] = 1,
+					},
+					["healthclass"] = true,
+					["castClassColor"] = true,
+				},
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+	},
+	["profiles"] = {
+		["Queemu - Frostmourne"] = {
+			["theme"] = "class",
+			["install_complete"] = "6.09",
+		},
+	},
+}
