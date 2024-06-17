@@ -21,11 +21,11 @@ DecursiveDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["MainBarX"] = 682.6666925341594,
-			["MainBarY"] = -95.99992115956388,
 			["DebuffsFrame_y"] = -153.5999933706685,
-			["DebuffsFrame_x"] = 1024.000038801239,
+			["MainBarX"] = 682.6666925341594,
 			["Hidden"] = true,
+			["MainBarY"] = -95.99992115956388,
+			["DebuffsFrame_x"] = 1024.000038801239,
 		},
 	},
 }

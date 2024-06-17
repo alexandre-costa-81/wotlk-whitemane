@@ -37,7 +37,7 @@ ElvDB = {
 					["enable"] = true,
 				},
 			},
-			["currentTutorial"] = 5,
+			["currentTutorial"] = 7,
 			["general"] = {
 				["valuecolor"] = {
 					["r"] = 1,
@@ -68,7 +68,7 @@ ElvDB = {
 			},
 			["unitframe"] = {
 				["units"] = {
-					["player"] = {
+					["boss"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -83,7 +83,7 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
+					["pet"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -93,7 +93,7 @@ ElvDB = {
 							["enable"] = true,
 						},
 					},
-					["boss"] = {
+					["player"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -113,12 +113,12 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pet"] = {
+					["targettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["targettarget"] = {
+					["pettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},

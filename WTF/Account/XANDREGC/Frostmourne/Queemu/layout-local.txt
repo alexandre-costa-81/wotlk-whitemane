@@ -52,6 +52,6 @@ Frame: ZygorGuidesViewerFrame
 FrameLevel: 29
 Anchor: RIGHT
 X: -73
-Y: 187
+Y: 197
 W: 260
-H: 120
+H: 100

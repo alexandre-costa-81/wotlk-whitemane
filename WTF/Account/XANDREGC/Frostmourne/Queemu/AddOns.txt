@@ -3,3 +3,5 @@ ElvUI_FogOfWar: disabled
 ElvUI_VisualAuraTimers: disabled
 ElvUI_MinimapButtons: disabled
 ElvUI_ChannelAlerts: disabled
+_Whitemane_Assistant: enabled
+gatherer_hud: enabled
