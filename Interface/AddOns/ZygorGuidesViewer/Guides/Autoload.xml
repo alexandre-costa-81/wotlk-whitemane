@@ -4,12 +4,15 @@
 	
 	<Script file="ZygorGuidesAlliance.lua"/>
 	<Script file="ZygorGuidesHorde.lua"/>
+	<Script file="ZygorGuidesAllianceCata.lua"/>
 	<Script file="ZygorDailiesAlliance.lua"/>
 	<Script file="ZygorDailiesHorde.lua"/>
 	<Script file="ZygorGoldAlliance.lua"/>
 	<Script file="ZygorGoldHorde.lua"/>
 	<Script file="ZygorDungeonAlliance.lua"/>
 	<Script file="ZygorDungeonHorde.lua"/>
+	<Script file="ZygorUAlliance.lua"/>
+	<Script file="ZygorUHorde.lua"/>
 
 	<Script file="ZygorGuidesAllianceTrial.lua"/>
 	<Script file="ZygorGuidesHordeTrial.lua"/>

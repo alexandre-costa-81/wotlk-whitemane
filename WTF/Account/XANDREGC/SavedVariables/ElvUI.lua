@@ -5,7 +5,7 @@ ElvDB = {
 	},
 	["gold"] = {
 		["Frostmourne"] = {
-			["Queemu"] = 3563469,
+			["Queemu"] = 3583171,
 		},
 	},
 	["namespaces"] = {
@@ -37,7 +37,7 @@ ElvDB = {
 					["enable"] = true,
 				},
 			},
-			["currentTutorial"] = 8,
+			["currentTutorial"] = 10,
 			["general"] = {
 				["valuecolor"] = {
 					["b"] = 0.04,
@@ -68,7 +68,7 @@ ElvDB = {
 			},
 			["unitframe"] = {
 				["units"] = {
-					["targettarget"] = {
+					["pettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -83,17 +83,17 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
 					["pet"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["boss"] = {
+					["player"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -113,7 +113,7 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["player"] = {
+					["boss"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},

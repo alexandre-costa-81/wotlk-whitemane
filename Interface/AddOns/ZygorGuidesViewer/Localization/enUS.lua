@@ -383,6 +383,12 @@ ZygorGuidesViewer_L("Main", "enUS", function() return {
 	['gold_missing_nospotsinrange'] = "No gold spots within range.",
 	['gold_missing_noguidesloaded'] = "No gold guides are loaded!",
 
+	['gold_header_drop'] = "Drops from |cffffdddd%s|r:",
+	['gold_header_ore'] = "Ore deposits:",
+	['gold_header_herb'] = "Herbs:",
+	['gold_header_skin'] = "Skins:",
+	['gold_header_vendor'] = "Buy:", -- from |cffddffdd%s|r:",
+
 } end)
 
 ZygorGuidesViewer_L("Faction", "enUS", function() return {

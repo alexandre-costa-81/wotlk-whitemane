@@ -292,6 +292,7 @@ end
 
 local markerproto = {}
 local markermeta = {__index=markerproto}
+local nummarkers=0
 
 function Pointer:GetMarker()
 	local marker = table.remove(unusedMarkers)
@@ -301,8 +302,9 @@ function Pointer:GetMarker()
 	marker = {visible=true}
 	setmetatable(marker,markermeta)
 
-	marker.minimapFrame = CreateFrame("Button", nil, Minimap, "ZygorGuidesViewerPointerMinimapMarker")
-	marker.worldmapFrame = CreateFrame("Button", nil, self.OverlayFrame, "ZygorGuidesViewerPointerWorldMapMarker")
+	nummarkers=nummarkers+1
+	marker.minimapFrame = CreateFrame("Button", "ZGVMarker"..nummarkers.."Mini", Minimap, "ZygorGuidesViewerPointerMinimapMarker")
+	marker.worldmapFrame = CreateFrame("Button", "ZGVMarker"..nummarkers.."World", self.OverlayFrame, "ZygorGuidesViewerPointerWorldMapMarker")
 
 	return marker
 end
@@ -347,7 +349,12 @@ end
 
 function markerproto:UpdateMiniMapIcon(c,z)
 	if not c then c,z=GetCurrentMapContinentAndZone() end
-	if profile.minicons and not self.hidden and (self.onminimap=="always" or ((self.onminimap=="zone" or self.onminimap=="zonedistance" or ZGV.Pointer.ArrowFrame.waypoint==self) and c==self.c and z==self.z)) then
+	if profile.minicons and not self.hidden and 
+	(
+	 self.onminimap=="always" or 
+	 ZGV.Pointer.ArrowFrame.waypoint==self or
+	 ((self.onminimap=="zone" or self.onminimap=="zonedistance") and c==self.c and z==self.z)
+	) then
 		Astrolabe:PlaceIconOnMinimap(self.minimapFrame, self.c, self.z, self.x, self.y)
 	else
 		Astrolabe:RemoveIconFromMinimap(self.minimapFrame)
@@ -457,7 +464,7 @@ local function FormatDistance(dist)
 		end
 	end
 end
-
+ZGV.FormatDistance=FormatDistance
 
 ---------------
 function Pointer:CreateArrowFrame()
@@ -758,6 +765,164 @@ local instancemaps = {
 }
 if not ZGV_DEV then instancemaps={} end
 
+-- DUNGEON MAPS
+
+function after_WorldMapFrame_LoadZones(...)
+	local info = UIDropDownMenu_CreateInfo();
+	info.text = "dupa"
+	info.func = WorldMapZygorDungeonButton_OnClick
+	info.checked = nil
+	UIDropDownMenu_AddButton(info)
+end
+hooksecurefunc("WorldMapFrame_LoadZones",after_WorldMapFrame_LoadZones)
+
+local dungeons = {
+	[1] = {
+		['Blackfathom Deeps']={
+			l1=21,l2=24,type='D',
+			floors={
+				{
+					map='blackfathomdeeps',
+					rooms={
+					}
+				}
+			}
+		},
+		['Dire Maul']={
+			l1=55,l2=65,type='D',floors={
+			{map='diremaul',rooms={}} }},
+		['Maraudon']={
+			l1=45,l2=48,type='D',floors={{map='maraudon',rooms={}}} },
+		['Ragefire Chasm']={
+			l1=15,l2=16,type='D',floors={{map='ragefirechasm',rooms={}}} },
+		['Razorfen Downs']={
+			l1=34,l2=37,type='D',floors={{map='razorfendowns',rooms={}}} },
+		['Razorfen Kraul']={
+			l1=24,l2=27,type='D',floors={{map='razorfenkraul',rooms={}}} },
+		['Wailing Caverns']={
+			l1=17,l2=20,type='D',floors={{map='wailingcaverns',rooms={}}} },
+		['Zul\'Farrak']={
+			l1=43,l2=46,type='D',floors={{map='zulfarrak',rooms={}}} },
+		['Ahn\'Qiraj']={
+			l1=60,l2=63,type='R',floors={{map='ahnqiraj',rooms={}}} },
+		['Ruins of Ahn\'Qiraj']={
+			l1=60,l2=63,type='R',floors={{map='ruinsofahnqiraj',rooms={}}} },
+		['Onyxia\'s Lair']={
+			l1=80,l2=83,type='R',floors={{map='onyxiaslair',rooms={}}} },
+	},
+	[2] = {
+		['Blackrock Depths']={
+			l1=53,l2=56,type='D',floors={{map='blackrockdepths',rooms={}}} },
+		['Blackrock Spire']={
+			l1=57,l2=63,type='D',floors={{map='blackrockspire',rooms={}}} },
+		['Gnomeregan']={
+			l1=25,l2=28,type='D',floors={{map='gnomeregan',rooms={}}} },
+		['Scarlet Monastery']={
+			l1=32,l2=35,type='D',floors={{map='scarletmonastery',rooms={}}} },
+		['Scholomance']={
+			l1=55,l2=65,type='D',floors={{map='scholomance',rooms={}}} },
+		['Shadowfang Keep']={
+			l1=18,l2=21,type='D',floors={{map='shadowfangkeep',rooms={}}} },
+		['Stratholme']={
+			l1=55,l2=65,type='D',floors={{map='stratholme',rooms={}}} },
+		['Sunken Temple']={
+			l1=55,l2=65,type='D',floors={{map='sunkentemple',rooms={}}} },
+		['The Deadmines']={
+			l1=17,l2=20,type='D',floors={{map='deadmines',rooms={}}} },
+		['The Stockade']={
+			l1=22,l2=25,type='D',floors={{map='stockade',rooms={}}} },
+		['Uldaman']={
+			l1=37,l2=40,type='D',floors={{map='uldaman',rooms={}}} },
+		['Blackwing Lair']={
+			l1=60,l2=63,type='R',floors={{map='blackwinglair',rooms={}}} },
+		['Molten Core']={
+			l1=60,l2=63,type='R',floors={{map='moltencore',rooms={}}} },
+		['Zul\'Gurub']={
+			l1=57,l2=63,type='R',floors={{map='zulgurub',rooms={}}} },
+		['Zul\'Aman']={
+			l1=70,l2=73,type='R',floors={{map='zulaman',rooms={}}} },
+	},
+	[3] = {
+		['Auchindoun: Auchenai Crypts']={
+			l1=65,l2=67,type='D',floors={{map='auchenaicrypts',rooms={}}} },
+		['Auchindoun: Mana-Tombs']={
+			l1=64,l2=66,type='D',floors={{map='manatombs',rooms={}}} },
+		['Auchindoun: Sethekk Halls']={
+			l1=67,l2=68,type='D',floors={{map='sethekkhalls',rooms={}}} },
+		['Auchindoun: Shadow Labyrinth']={
+			l1=67,l2=75,type='D',floors={{map='shadowlabyrinth',rooms={}}} },
+		['Caverns of Time: Old Hillsbrad Foothills']={
+			l1=66,l2=68,type='D',floors={{map='oldhillsbrad',rooms={}}} },
+		['Caverns of Time: The Black Morass']={
+			l1=68,l2=75,type='D',floors={{map='blackmorass',rooms={}}} },
+		['Coilfang Reservoir: The Slave Pens']={
+			l1=62,l2=64,type='D',floors={{map='slavepens',rooms={}}} },
+		['Coilfang Reservoir: The Steamvault']={
+			l1=67,l2=75,type='D',floors={{map='steamvault',rooms={}}} },
+		['Coilfang Reservoir: The Underbog']={
+			l1=63,l2=65,type='D',floors={{map='underbog',rooms={}}} },
+		['Hellfire Citadel: Hellfire Ramparts']={
+			l1=59,l2=62,type='D',floors={{map='hellfireramparts',rooms={}}} },
+		['Hellfire Citadel: The Blood Furnace']={
+			l1=61,l2=63,type='D',floors={{map='bloodfurnace',rooms={}}} },
+		['Hellfire Citadel: The Shattered Halls']={
+			l1=67,l2=75,type='D',floors={{map='shatteredhalls',rooms={}}} },
+		['Magisters\' Terrace']={
+			l1=68,l2=75,type='D',floors={{map='magistersterrace',rooms={}}} },
+		['The Eye: The Arcatraz']={
+			l1=68,l2=75,type='D',floors={{map='arcatraz',rooms={}}} },
+		['The Eye: The Botanica']={
+			l1=67,l2=75,type='D',floors={{map='botanica',rooms={}}} },
+		['The Eye: The Mechanar']={
+			l1=67,l2=75,type='D',floors={{map='mechanar',rooms={}}} },
+
+		['Black Temple']={
+			l1=70,l2=73,type='R',floors={{map='blacktemple',rooms={}}} },
+		['Coilfang Reservoir: Serpentshrine Cavern']={
+			l1=70,l2=73,type='R',floors={{map='serpentshrinecavern',rooms={}}} },
+		['Hellfire Citadel: Magtheridon\'s Lair']={
+			l1=70,l2=73,type='R',floors={{map='magtheridonslair',rooms={}}} },
+		['Karazhan']={
+			l1=70,l2=73,type='R',floors={{map='karazhan',rooms={}}} },
+		['Sunwell Plateau']={
+			l1=70,l2=73,type='R',floors={{map='sunwellplateau',rooms={}}} },
+		['Tempest Keep: Tempest Keep']={
+			l1=70,l2=73,type='R',floors={{map='tempestkeep',rooms={}}} },
+ 	},
+	[4] = {
+		['Ahn\'kahet: The Old Kingdom']={ l1=73,l2=75,type='D',builtin=true},
+		['Azjol-Nerub']={ l1=72,l2=74,type='D',builtin=true},
+		['The Culling of Stratholme']={ l1=79,l2=80,type='D',builtin=true},
+		['Trial of the Champion']={ l1=79,l2=80,type='D',builtin=true},
+		['Trial of the Crusader']={ l1=80,l2=83,type='R',builtin=true},
+		['Drak\'Tharon Keep']={ l1=74,l2=76,type='D',builtin=true},
+		['Gundrak']={ l1=76,l2=78,type='D',builtin=true},
+		['Icecrown Citadel: Halls of Reflection']={ l1=79,l2=80,type='D',builtin=true},
+		['Icecrown Citadel: Pit of Saron']={ l1=79,l2=80,type='D',builtin=true},
+		['Icecrown Citadel: The Forge of Souls']={ l1=79,l2=80,type='D',builtin=true},
+		['The Nexus']={ l1=71,l2=73,type='D',builtin=true},
+		['The Oculus']={ l1=79,l2=80,type='D',builtin=true},
+		['The Violet Hold']={ l1=75,l2=77,type='D',builtin=true},
+		['Ulduar: Halls of Lightning']={ l1=79,l2=80,type='D',builtin=true},
+		['Ulduar: Halls of Stone']={ l1=77,l2=79,type='D',builtin=true},
+		['Utgarde Keep: Utgarde Keep']={ l1=69,l2=72,type='D',builtin=true},
+		['Utgarde Keep: Utgarde Pinnacle']={ l1=79,l2=80,type='D',builtin=true},
+		['Icecrown Citadel']={ l1=80,l2=83,type='R',builtin=true},
+		['Naxxramas']={ l1=80,l2=83,type='R',builtin=true},
+		['The Nexus: The Eye of Eternity']={ l1=80,l2=83,type='R',builtin=true},
+		['Ulduar']={ l1=80,l2=83,type='R',builtin=true},
+		['Vault of Archavon']={ l1=80,l2=83,type='R',builtin=true},
+		['Wyrmrest Temple: The Obsidian Sanctum']={ l1=80,l2=83,type='R',builtin=true},
+		['Wyrmrest Temple: The Ruby Sanctum']={ l1=80,l2=83,type='R',builtin=true}
+	},
+}
+
+function WorldMapZygorDungeonButton_OnClick(self)
+	UIDropDownMenu_SetSelectedID(WorldMapZoneDropDown, self:GetID())
+	ZGV:Print("dupa mapa")
+end
+
+
 function Pointer.Overlay_OnEvent(self,event,...)
 	if event == "WORLD_MAP_UPDATE" then
 		if not WorldMapFrame:IsVisible() then
@@ -883,15 +1048,18 @@ function Pointer.ArrowFrame_OnUpdate(self,elapsed)
 	if profile.hidearrowwithguide and self.waypoint.type=="way" and not ZGV.Frame:IsVisible() then self:Hide() return end
 	--if GetCurrentMapContinentAndZone()~=self.waypoint.c then end
 
-	local dist,x,y = Astrolabe:GetDistanceToIcon(self.waypoint.minimapFrame)
+	if IsInInstance() then self:Hide() return end
 
-	if not dist then
-		dist=9999999
-		x=0
-		y=1000
+	local dist,x,y
+	local cc,cz = GetCurrentMapContinentAndZone()
+
+	if self.waypoint.c~=cc then
+		dist,x,y = 9999999,0,1000
+	else
+		dist,x,y = Astrolabe:GetDistanceToIcon(self.waypoint.minimapFrame)
 	end
 
-	if IsInInstance() then self:Hide() return end
+	if not dist then dist,x,y = 9999999,0,1000 end
 
 	-- okay, we're live. 3, 2, 1, action!
 
@@ -961,7 +1129,7 @@ function Pointer.ArrowFrame_OnUpdate(self,elapsed)
 
 		------------- angle
 		angle = Astrolabe:GetDirectionToIcon(self.waypoint.minimapFrame)
-		if not angle then
+		if not angle or dist>9999998 then
 			angle=3.1415
 		else
 			--local player = profile.arrowcam and cam_yaw - (is_moving and GetPlayerFacing() or 0) or GetPlayerFacing()
@@ -1056,7 +1224,7 @@ function Pointer.ArrowFrame_OnUpdate(self,elapsed)
 	end
 
 	if dist>9999998 then
-		disttxt="Far away"
+		disttxt = select(self.waypoint.c,GetMapContinents()) --"Far away"
 	else
 		disttxt = FormatDistance(dist)
 	end

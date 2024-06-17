@@ -2,110 +2,368 @@
 ZygorGuidesViewerSettings = {
 	["char"] = {
 		["Queemu - Frostmourne"] = {
-			["maint_fetchitemdata"] = true,
+			["RecipesKnown"] = {
+				[50608] = true,
+				[56991] = true,
+				[56954] = true,
+				[57007] = true,
+				[57270] = true,
+				[57023] = true,
+				[57031] = true,
+				[61119] = true,
+				[50601] = true,
+				[71015] = true,
+				[57024] = true,
+				[58489] = true,
+				[57716] = true,
+				[57198] = true,
+				[57120] = true,
+				[58481] = true,
+				[58483] = true,
+				[64259] = true,
+				[64267] = true,
+				[64275] = true,
+				[56943] = true,
+				[57151] = true,
+				[50610] = true,
+				[57167] = true,
+				[52840] = true,
+				[57183] = true,
+				[59486] = true,
+				[59494] = true,
+				[58482] = true,
+				[58490] = true,
+				[56968] = true,
+				[56976] = true,
+				[50609] = true,
+				[50617] = true,
+				[57000] = true,
+				[57263] = true,
+				[57271] = true,
+				[58299] = true,
+				[53462] = true,
+				[61120] = true,
+				[59493] = true,
+				[57248] = true,
+				[58488] = true,
+				[64261] = true,
+				[56985] = true,
+				[59502] = true,
+				[59498] = true,
+				[50604] = true,
+				[45382] = true,
+				[64260] = true,
+				[58480] = true,
+				[57257] = true,
+				[56978] = true,
+				[62162] = true,
+				[57227] = true,
+				[57168] = true,
+				[58321] = true,
+				[57184] = true,
+				[59487] = true,
+				[56945] = true,
+				[59503] = true,
+				[58491] = true,
+				[57224] = true,
+				[50602] = true,
+				[57240] = true,
+				[50618] = true,
+				[57001] = true,
+				[57009] = true,
+				[57272] = true,
+				[57025] = true,
+				[57033] = true,
+				[48116] = true,
+				[57119] = true,
+				[57196] = true,
+				[60337] = true,
+				[52738] = true,
+				[57246] = true,
+				[56971] = true,
+				[61177] = true,
+				[59489] = true,
+				[57113] = true,
+				[57121] = true,
+				[57129] = true,
+				[57712] = true,
+				[50607] = true,
+				[50599] = true,
+				[57161] = true,
+				[57169] = true,
+				[71102] = true,
+				[57185] = true,
+				[57703] = true,
+				[59496] = true,
+				[58484] = true,
+				[56987] = true,
+				[57225] = true,
+				[50603] = true,
+				[50611] = true,
+				[50619] = true,
+				[57002] = true,
+				[57265] = true,
+				[59500] = true,
+				[57026] = true,
+				[57197] = true,
+				[58317] = true,
+				[58325] = true,
+				[57011] = true,
+				[57008] = true,
+				[52739] = true,
+				[57710] = true,
+				[57262] = true,
+				[71101] = true,
+				[57032] = true,
+				[57114] = true,
+				[64262] = true,
+				[56984] = true,
+				[59501] = true,
+				[58565] = true,
+				[57154] = true,
+				[57162] = true,
+				[50620] = true,
+				[52843] = true,
+				[57186] = true,
+				[57704] = true,
+				[59497] = true,
+				[58485] = true,
+				[56963] = true,
+				[57226] = true,
+				[56979] = true,
+				[50612] = true,
+				[56995] = true,
+				[57003] = true,
+				[57266] = true,
+				[57274] = true,
+				[57027] = true,
+				[58310] = true,
+				[59338] = true,
+				[58326] = true,
+				[57201] = true,
+				[58342] = true,
+				[64053] = true,
+				[57210] = true,
+				[50616] = true,
+				[59499] = true,
+				[58478] = true,
+				[57275] = true,
+				[57123] = true,
+				[57131] = true,
+				[58487] = true,
+				[57709] = true,
+				[57242] = true,
+				[57163] = true,
+				[59480] = true,
+				[59478] = true,
+				[57187] = true,
+				[59490] = true,
+				[56948] = true,
+				[56956] = true,
+				[57219] = true,
+				[56972] = true,
+				[50605] = true,
+				[57243] = true,
+				[57251] = true,
+				[57004] = true,
+				[56952] = true,
+				[57020] = true,
+				[58303] = true,
+				[57036] = true,
+				[59339] = true,
+				[57241] = true,
+				[57005] = true,
+				[57252] = true,
+				[57244] = true,
+				[57236] = true,
+				[59387] = true,
+				[56973] = true,
+				[58476] = true,
+				[57216] = true,
+				[56953] = true,
+				[57132] = true,
+				[59491] = true,
+				[58486] = true,
+				[57156] = true,
+				[57172] = true,
+				[48247] = true,
+				[59475] = true,
+				[57188] = true,
+				[57706] = true,
+				[57714] = true,
+				[56957] = true,
+				[57249] = true,
+				[50598] = true,
+				[56981] = true,
+				[50614] = true,
+				[56997] = true,
+				[67600] = true,
+				[57708] = true,
+				[60336] = true,
+				[57029] = true,
+				[61117] = true,
+				[59340] = true,
+				[50606] = true,
+				[56994] = true,
+				[58344] = true,
+				[58330] = true,
+				[57259] = true,
+				[56980] = true,
+				[57713] = true,
+				[57122] = true,
+				[57711] = true,
+				[57125] = true,
+				[57133] = true,
+				[61288] = true,
+				[57200] = true,
+				[57157] = true,
+				[57165] = true,
+				[48248] = true,
+				[57035] = true,
+				[59484] = true,
+				[58472] = true,
+				[57715] = true,
+				[57213] = true,
+				[57221] = true,
+				[56974] = true,
+				[56982] = true,
+				[57245] = true,
+				[57253] = true,
+				[57006] = true,
+				[57269] = true,
+				[57022] = true,
+				[57030] = true,
+				[61118] = true,
+				[48121] = true,
+				[57707] = true,
+				[58337] = true,
+				[58345] = true,
+				[56961] = true,
+				[57239] = true,
+				[58315] = true,
+				[59504] = true,
+				[59488] = true,
+				[64258] = true,
+				[64266] = true,
+				[57277] = true,
+				[56955] = true,
+				[57238] = true,
+				[57158] = true,
+				[59495] = true,
+				[57192] = true,
+				[57194] = true,
+				[57190] = true,
+				[58473] = true,
+				[56951] = true,
+				[56959] = true,
+				[57222] = true,
+				[50600] = true,
+				[48114] = true,
+			},
 			["guidename"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
 			["debuglog"] = {
-				"03:44:53> CacheQuestLog cached 6 quests", -- [1]
-				"03:44:53> New Quest: Cleansing Drak'Tharon id 12238", -- [2]
-				"03:44:53> New Quest: Containment id 13159", -- [3]
-				"03:44:53> New Quest: Stop the Siege id 13185", -- [4]
-				"03:44:53> New Quest: Toppling the Towers id 13539", -- [5]
-				"03:44:53> New Quest: Victory in Wintergrasp id 13183", -- [6]
-				"03:44:53> New Quest: The Champion's Call! id 12974", -- [7]
-				"03:44:54> ZONE_CHANGED_NEW_AREA (dead?)", -- [8]
-				"03:44:55> Guides loaded. -----", -- [9]
-				"03:44:55> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [10]
-				"03:44:55> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [11]
-				"03:44:55> FocusStep 1", -- [12]
-				"03:45:47> Viewer started. ---------------------------", -- [13]
-				"03:45:48> PLAYER_ENTERING_WORLD (dead?)", -- [14]
-				"03:45:48> PLAYER_ALIVE (dead?)", -- [15]
-				"03:45:48> CacheQuestLog cached 6 quests", -- [16]
-				"03:45:48> New Quest: Cleansing Drak'Tharon id 12238", -- [17]
-				"03:45:48> New Quest: Containment id 13159", -- [18]
-				"03:45:48> New Quest: Stop the Siege id 13185", -- [19]
-				"03:45:48> New Quest: Toppling the Towers id 13539", -- [20]
-				"03:45:48> New Quest: Victory in Wintergrasp id 13183", -- [21]
-				"03:45:48> New Quest: The Champion's Call! id 12974", -- [22]
-				"03:45:48> Got completed quests list", -- [23]
-				"03:45:48> CacheQuestLog cached 6 quests", -- [24]
-				"03:45:48> CacheQuestLog cached 6 quests", -- [25]
-				"03:45:48> ZONE_CHANGED_NEW_AREA (dead?)", -- [26]
-				"03:45:49> Guides loaded. -----", -- [27]
-				"03:45:49> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [28]
-				"03:45:49> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [29]
-				"03:45:49> FocusStep 1", -- [30]
-				"03:48:53> Viewer started. ---------------------------", -- [31]
-				"03:48:54> PLAYER_ENTERING_WORLD (dead?)", -- [32]
-				"03:48:54> PLAYER_ALIVE (dead?)", -- [33]
-				"03:48:54> CacheQuestLog cached 0 quests", -- [34]
-				"03:48:54> Got completed quests list", -- [35]
-				"03:48:54> CacheQuestLog cached 6 quests", -- [36]
-				"03:48:54> New Quest: Cleansing Drak'Tharon id 12238", -- [37]
-				"03:48:54> New Quest: Containment id 13159", -- [38]
-				"03:48:54> New Quest: Stop the Siege id 13185", -- [39]
-				"03:48:54> New Quest: Toppling the Towers id 13539", -- [40]
-				"03:48:54> New Quest: Victory in Wintergrasp id 13183", -- [41]
-				"03:48:54> New Quest: The Champion's Call! id 12974", -- [42]
-				"03:48:54> ZONE_CHANGED_NEW_AREA (dead?)", -- [43]
-				"03:48:56> Guides loaded. -----", -- [44]
-				"03:48:56> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [45]
-				"03:48:56> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [46]
-				"03:48:56> FocusStep 1", -- [47]
-				"03:53:41> PLAYER_ENTERING_WORLD (dead?)", -- [48]
-				"03:53:41> PLAYER_ALIVE (dead?)", -- [49]
-				"03:53:41> CacheQuestLog cached 6 quests", -- [50]
-				"03:53:41> ZONE_CHANGED_NEW_AREA (dead?)", -- [51]
-				"03:53:42> CacheQuestLog cached 6 quests", -- [52]
-				"03:53:42> CacheQuestLog cached 6 quests", -- [53]
-				"04:15:11> PLAYER_ENTERING_WORLD (dead?)", -- [54]
-				"04:15:11> PLAYER_ALIVE (dead?)", -- [55]
-				"04:15:11> CacheQuestLog cached 6 quests", -- [56]
-				"04:15:11> ZONE_CHANGED_NEW_AREA (dead?)", -- [57]
-				"04:15:11> CacheQuestLog cached 6 quests", -- [58]
-				"04:15:11> CacheQuestLog cached 6 quests", -- [59]
-				"04:17:06> PLAYER_ENTERING_WORLD (dead?)", -- [60]
-				"04:17:06> PLAYER_ALIVE (dead?)", -- [61]
-				"04:17:06> CacheQuestLog cached 6 quests", -- [62]
-				"04:17:06> ZONE_CHANGED_NEW_AREA (dead?)", -- [63]
-				"04:17:06> CacheQuestLog cached 6 quests", -- [64]
-				"04:17:06> CacheQuestLog cached 6 quests", -- [65]
-				"04:32:11> CacheQuestLog cached 6 quests", -- [66]
-				"04:32:12> CacheQuestLog cached 7 quests", -- [67]
-				"04:32:12> New Quest: Halls of Stone id 13207", -- [68]
-				"04:32:57> CacheQuestLog cached 7 quests", -- [69]
-				"04:40:12> PLAYER_ENTERING_WORLD (dead?)", -- [70]
-				"04:40:12> PLAYER_ALIVE (dead?)", -- [71]
-				"04:40:12> CacheQuestLog cached 7 quests", -- [72]
-				"04:40:12> ZONE_CHANGED_NEW_AREA (dead?)", -- [73]
-				"04:40:12> CacheQuestLog cached 7 quests", -- [74]
-				"04:40:12> CacheQuestLog cached 7 quests", -- [75]
-				"04:40:14> PLAYER_ENTERING_WORLD (dead?)", -- [76]
-				"04:40:14> PLAYER_ALIVE (dead?)", -- [77]
-				"04:40:14> CacheQuestLog cached 7 quests", -- [78]
-				"04:40:15> ZONE_CHANGED_NEW_AREA (dead?)", -- [79]
-				"04:40:15> CacheQuestLog cached 7 quests", -- [80]
-				"04:40:15> CacheQuestLog cached 7 quests", -- [81]
-				"04:42:49> CacheQuestLog cached 7 quests", -- [82]
-				"04:43:12> GetQuestId: id of quest 'Halls of Stone' = 0", -- [83]
-				"04:43:12> Completed Quest: Halls of Stone, id: 0", -- [84]
-				"04:43:12> CacheQuestLog cached 6 quests", -- [85]
-				"04:43:12> Lost Quest: Halls of Stone, id: 13207, complete: true", -- [86]
-				"04:43:38> PLAYER_ENTERING_WORLD (dead?)", -- [87]
-				"04:43:38> PLAYER_ALIVE (dead?)", -- [88]
-				"04:43:38> ZONE_CHANGED_NEW_AREA (dead?)", -- [89]
-				"04:43:38> CacheQuestLog cached 6 quests", -- [90]
-				"04:43:39> CacheQuestLog cached 6 quests", -- [91]
-				"04:43:39> CacheQuestLog cached 6 quests", -- [92]
-				"04:44:11> CacheQuestLog cached 6 quests", -- [93]
-				"04:44:11> CacheQuestLog cached 7 quests", -- [94]
-				"04:44:11> New Quest: Proof of Demise: Mal'Ganis id 13251", -- [95]
-				"04:44:12> CacheQuestLog cached 7 quests", -- [96]
-				"04:44:20> CacheQuestLog cached 7 quests", -- [97]
-				"04:44:20> CacheQuestLog cached 8 quests", -- [98]
-				"04:44:20> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [99]
-				"04:44:21> CacheQuestLog cached 8 quests", -- [100]
+				"12:09:32> New Quest: Containment id 13159", -- [1]
+				"12:09:32> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [2]
+				"12:09:32> New Quest: Stop the Siege id 13185", -- [3]
+				"12:09:32> New Quest: Toppling the Towers id 13539", -- [4]
+				"12:09:32> New Quest: Victory in Wintergrasp id 13183", -- [5]
+				"12:09:32> New Quest: The Champion's Call! id 12974", -- [6]
+				"12:09:32> ZONE_CHANGED_NEW_AREA (dead?)", -- [7]
+				"12:09:32> CacheQuestLog cached 8 quests", -- [8]
+				"12:09:33> Guides loaded. -----", -- [9]
+				"12:09:33> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [10]
+				"12:09:33> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [11]
+				"12:09:33> FocusStep 1", -- [12]
+				"12:11:40> CacheQuestLog cached 8 quests", -- [13]
+				"12:13:44> frameNeedsUpdating, so updating.", -- [14]
+				"12:14:26> PLAYER_ENTERING_WORLD (dead?)", -- [15]
+				"12:14:26> PLAYER_ALIVE (dead?)", -- [16]
+				"12:14:26> CacheQuestLog cached 8 quests", -- [17]
+				"12:14:26> ZONE_CHANGED_NEW_AREA (dead?)", -- [18]
+				"12:14:26> CacheQuestLog cached 8 quests", -- [19]
+				"12:14:26> CacheQuestLog cached 8 quests", -- [20]
+				"12:20:41> Hiding arrow with guide", -- [21]
+				"12:25:12> PLAYER_ENTERING_WORLD (dead?)", -- [22]
+				"12:25:12> Player dead!", -- [23]
+				"12:25:12> SetCorpseArrow, mc/mz=4/0", -- [24]
+				"12:25:12> SetCorpseArrow, seeking corpse", -- [25]
+				"12:25:12> SetCorpseArrow, corpse on c=1? 0:0", -- [26]
+				"12:25:12> SetCorpseArrow, corpse on c=2? 0:0", -- [27]
+				"12:25:12> SetCorpseArrow, corpse on c=3? 0:0", -- [28]
+				"12:25:12> SetCorpseArrow, corpse on c=4? 0:0", -- [29]
+				"12:25:12> SetCorpseArrow, corpse on cont 0", -- [30]
+				"12:25:12> PLAYER_ALIVE (dead?)", -- [31]
+				"12:25:12> Player dead!", -- [32]
+				"12:25:12> SetCorpseArrow, mc/mz=4/0", -- [33]
+				"12:25:12> SetCorpseArrow, seeking corpse", -- [34]
+				"12:25:12> SetCorpseArrow, corpse on c=1? 0:0", -- [35]
+				"12:25:12> SetCorpseArrow, corpse on c=2? 0:0", -- [36]
+				"12:25:12> SetCorpseArrow, corpse on c=3? 0:0", -- [37]
+				"12:25:12> SetCorpseArrow, corpse on c=4? 0:0", -- [38]
+				"12:25:12> SetCorpseArrow, corpse on cont 0", -- [39]
+				"12:25:12> CacheQuestLog cached 8 quests", -- [40]
+				"12:25:12> ZONE_CHANGED_NEW_AREA (dead?)", -- [41]
+				"12:25:12> Player dead!", -- [42]
+				"12:25:12> SetCorpseArrow, mc/mz=4/10", -- [43]
+				"12:25:12> SetCorpseArrow, seeking corpse", -- [44]
+				"12:25:12> SetCorpseArrow, corpse on c=1? 0:0", -- [45]
+				"12:25:12> SetCorpseArrow, corpse on c=2? 0:0", -- [46]
+				"12:25:12> SetCorpseArrow, corpse on c=3? 0:0", -- [47]
+				"12:25:12> SetCorpseArrow, corpse on c=4? 0:0", -- [48]
+				"12:25:12> SetCorpseArrow, corpse on cont 0", -- [49]
+				"12:25:12> CacheQuestLog cached 8 quests", -- [50]
+				"12:25:12> CacheQuestLog cached 8 quests", -- [51]
+				"12:25:24> PLAYER_ENTERING_WORLD (dead?)", -- [52]
+				"12:25:24> PLAYER_ALIVE (dead?)", -- [53]
+				"12:25:24> CacheQuestLog cached 8 quests", -- [54]
+				"12:25:24> ZONE_CHANGED_NEW_AREA (dead?)", -- [55]
+				"12:25:24> CacheQuestLog cached 8 quests", -- [56]
+				"12:25:24> CacheQuestLog cached 8 quests", -- [57]
+				"12:28:03> PLAYER_ENTERING_WORLD (dead?)", -- [58]
+				"12:28:03> Player dead!", -- [59]
+				"12:28:03> SetCorpseArrow, mc/mz=4/0", -- [60]
+				"12:28:03> SetCorpseArrow, seeking corpse", -- [61]
+				"12:28:03> SetCorpseArrow, corpse on c=1? 0:0", -- [62]
+				"12:28:03> SetCorpseArrow, corpse on c=2? 0:0", -- [63]
+				"12:28:03> SetCorpseArrow, corpse on c=3? 0:0", -- [64]
+				"12:28:03> SetCorpseArrow, corpse on c=4? 0:0", -- [65]
+				"12:28:03> SetCorpseArrow, corpse on cont 0", -- [66]
+				"12:28:03> PLAYER_ALIVE (dead?)", -- [67]
+				"12:28:03> Player dead!", -- [68]
+				"12:28:03> SetCorpseArrow, mc/mz=4/0", -- [69]
+				"12:28:03> SetCorpseArrow, seeking corpse", -- [70]
+				"12:28:03> SetCorpseArrow, corpse on c=1? 0:0", -- [71]
+				"12:28:03> SetCorpseArrow, corpse on c=2? 0:0", -- [72]
+				"12:28:03> SetCorpseArrow, corpse on c=3? 0:0", -- [73]
+				"12:28:03> SetCorpseArrow, corpse on c=4? 0:0", -- [74]
+				"12:28:03> SetCorpseArrow, corpse on cont 0", -- [75]
+				"12:28:03> CacheQuestLog cached 8 quests", -- [76]
+				"12:28:03> ZONE_CHANGED_NEW_AREA (dead?)", -- [77]
+				"12:28:03> Player dead!", -- [78]
+				"12:28:03> SetCorpseArrow, mc/mz=4/10", -- [79]
+				"12:28:03> SetCorpseArrow, seeking corpse", -- [80]
+				"12:28:03> SetCorpseArrow, corpse on c=1? 0:0", -- [81]
+				"12:28:03> SetCorpseArrow, corpse on c=2? 0:0", -- [82]
+				"12:28:03> SetCorpseArrow, corpse on c=3? 0:0", -- [83]
+				"12:28:03> SetCorpseArrow, corpse on c=4? 0:0", -- [84]
+				"12:28:03> SetCorpseArrow, corpse on cont 0", -- [85]
+				"12:28:03> CacheQuestLog cached 8 quests", -- [86]
+				"12:28:03> CacheQuestLog cached 8 quests", -- [87]
+				"12:28:15> PLAYER_ENTERING_WORLD (dead?)", -- [88]
+				"12:28:15> PLAYER_ALIVE (dead?)", -- [89]
+				"12:28:15> CacheQuestLog cached 8 quests", -- [90]
+				"12:28:15> ZONE_CHANGED_NEW_AREA (dead?)", -- [91]
+				"12:28:15> CacheQuestLog cached 8 quests", -- [92]
+				"12:28:15> CacheQuestLog cached 8 quests", -- [93]
+				"12:28:33> PLAYER_ENTERING_WORLD (dead?)", -- [94]
+				"12:28:33> PLAYER_ALIVE (dead?)", -- [95]
+				"12:28:33> CacheQuestLog cached 8 quests", -- [96]
+				"12:28:33> ZONE_CHANGED_NEW_AREA (dead?)", -- [97]
+				"12:28:33> CacheQuestLog cached 8 quests", -- [98]
+				"12:28:33> CacheQuestLog cached 8 quests", -- [99]
+				"12:31:59> ZONE_CHANGED_NEW_AREA (dead?)", -- [100]
 			},
+			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
 				{
 					["short"] = "Tauren (1-13)",

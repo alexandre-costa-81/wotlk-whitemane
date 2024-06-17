@@ -5762,10 +5762,6 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (20-25
 		goto 39,43.6
 		.talk Sentinel Elissa Starbreeze##3657
 		..accept The Tower of Althalaxx (1)##965
-	step //46
-		goto 37.4,40.1
-		.talk Thundris Windweaver##3649
-		..accept Onward to Ashenvale##10752
 	step //47
 		goto 55,24.9
 		.talk Balthule Shadowstrike##3661
@@ -5870,7 +5866,6 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (20-25
 	step //68
 		goto 36.6,49.6
 		.talk Raene Wolfrunner##3691
-		..turnin Onward to Ashenvale##10752
 		..accept Raene's Cleansing (1)##991
 		..accept Culling the Threat##1054
 	step //69
@@ -14064,7 +14059,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Levels (66-68
 		goto 33.4,62.4
 		.' Click the Oshu'gun Crystal Fragments on the ground|tip They are the green and white crystals on the ground.
 		.' Kill the mobs here
-		.get 10 Oshu'gun Crystal Fragment|q 9882/1
+		.get 10 Oshu'gun Crystal Fragment##25416 |q 9882/1
 	step //22
 		goto 30.6,67.5
 		.kill 8 Voidspawn|q 9925/1
@@ -18826,7 +18821,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Northrend (72
 		goto 48.9,75.8
 		.' Use Toalu'u's Spiritual Incense next to Toalu'u's Brazier|use Toalu'u's Spiritual Incense##35907|tip Sitting next to the entrance to the small house.
 		.' Watch yourself fly as a wisp
-		.' Attain Spiritual Insight cocnerning Indu'le Village|goal Spiritual insight concerning Indu'le Village attained.|q 12028/1
+		.' Attain Spiritual Insight concerning Indu'le Village|goal Spiritual insight concerning Indu'le Village attained.|q 12028/1
 	step //331
 		goto 49.2,75.6
 		.talk Toalu'u the Mystic##26595
@@ -20878,43 +20873,43 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Northrend (76
 		.kill Withered Trolls|n
 		.' Use Stefan's Steel Toed Boot on Nass|use Stefan's Steel Toed Boot##38659
 		.' Collect 10 Hair Samples|goal 10 Hair Samples Collected|q 12630/1
-		.get an Unliving Choker|n
-		.' Click the Unliving Choker in your bags|use Unliving Choker##38660
-		..accept An Invitation, of Sorts...##12631
+		.get a Writhing Choker|n
+		.' Click the Writhing Choker in your bags|use Unliving Choker##38673
+		..accept Darkness Calling##12633
 	step //65
 		goto 14.1,73.8
 		.talk Stefan Vadu##28518
 		..turnin Kickin' Nass and Takin' Manes##12630
-		..turnin An Invitation, of Sorts...##12631
-		..accept Near Miss##12637
+		..turnin Darkness Calling##12633
+		..accept Close Call##12638
 	step //66
 		goto 14.3,74
 		.talk Bloodrose Datura##28532
 		..accept Taking a Stand##12795
 		.' Tell her Stefan said she would demonstrate the item's purpose
-		.' Expose the Choker's Purpose|goal Choker's Purpose Exposed|q 12637/1
+		.' Expose the Choker's Purpose|goal Choker's Purpose Exposed|q 12638/1
 	step //67
 		goto 14.1,73.8
 		.talk Stefan Vadu##28518
-		..turnin Near Miss##12637
-		..accept You Can Run, But You Can't Hide##12629
+		..turnin Close Call##12637
+		..accept Silver Lining##12643
 	step //68
 		goto 19.9,73.5
 		.kill Putrid Abominations|n
-		.get 5 Putrid Abomination Guts|q 12629/1
+		.get 5 Putrid Abomination Guts|q 12643/1
 		.' Click the Gooey Ghoul Drool on the ground|tip They look like jelly blobs on the ground around this area.
-		.get 5 Gooey Ghoul Drool|q 12629/2
+		.get 5 Gooey Ghoul Drool|q 12643/2
 	step //69
 		goto 14.1,73.8
 		.talk Stefan Vadu##28518
-		..turnin You Can Run, But You Can't Hide##12629
-		..accept Dressing Down##12648
+		..turnin Silver Lining##12643
+		..accept Suit Up!##12649
 	step //70
 		goto 19.9,75.5
 		.' Use the Ensorcelled Choker to wear a ghoul costume|use Ensorcelled Choker##38699
 		.talk Gristlegut##28589
 		..accept Feedin' Da Goolz##12652
-		..buy 1 Bitter Plasma|q 12648/1
+		..buy 1 Bitter Plasma|q 12649/1
 	step //71
 		goto 20.5,74.8
 		.' Use your Bowels and Brains Bowel near Decaying Ghouls|use Bowels and Brains Bowl##38701
@@ -20926,7 +20921,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Northrend (76
 	step //73
 		goto 14.1,73.8
 		.talk Stefan Vadu##28518
-		..turnin Dressing Down##12648
+		..turnin Suit Up!##12649
 		..accept Infiltrating Voltarus##12661
 	step //74
 		goto 25.3,64
@@ -23538,6 +23533,8 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Northrend (78
 		ding 80
 	step //305
 		'Congratulations, you are now level 80!
+	step //
+		'Fly to Area 52 |goto Netherstorm,33.9,63.9,0.5 |c
 ]])
 --TRIAL ZygorGuidesViewer:RegisterGuide("Zygor's Alliance Leveling Guides\\Main Guide (13-20)",[[
 --TRIAL 	author support@zygorguides.com

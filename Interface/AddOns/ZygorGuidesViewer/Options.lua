@@ -102,7 +102,7 @@ function me:Options_RegisterDefaults()
 
 			waypointaddon = "internal",
 
-			golddetectiondist = 200,
+			golddetectiondist = 400,
 			goldreqmode = 3, -- current
 			golddistmode = 1, -- in range
 
@@ -776,12 +776,13 @@ function me:Options_DefineOptions()
 				name = L['opt_gold_reqmode'],
 				desc = L['opt_gold_reqmode_desc'],
 				type = "select",
+				style = "radio",
 				values = {
 					[1]=L['opt_gold_reqmode_all'],
 					[2]=L['opt_gold_reqmode_future'],
 					[3]=L['opt_gold_reqmode_current'],
 				},
-				set = function(i,v) Setter_Simple(i,v)  end,
+				set = function(i,v) Setter_Simple(i,v)  ZGV:UpdateMapSpotVisibilities()  end,
 				width = "double",
 				order = 3,
 			},

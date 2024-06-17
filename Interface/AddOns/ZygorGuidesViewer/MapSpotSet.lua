@@ -20,6 +20,14 @@ function MapSpotSet:NewRaw(title,tit,data)
 	return set
 end
 
+local function split(str,sep)
+	local fields = {}
+	str = str..sep
+	local tinsert=tinsert
+	str:gsub("(.-)"..sep, function(c) tinsert(fields, c) end)
+	return fields
+end
+
 --local baditems={}
 --- parse ONE guide section into usable arrays.
 function MapSpotSet:ParseRaw()
@@ -87,6 +95,8 @@ function MapSpotSet:ParseRaw()
 					return nil,"'"..cmd.."' has no map parameter, neither has one been given before.",linecount,chunk
 				end
 
+				spot.itemsource="drops"
+
 			-- step parameters
 			elseif cmd=="level" or cmd=="lv" then
 				prevlevel=tonumber(params)
@@ -119,6 +129,31 @@ function MapSpotSet:ParseRaw()
 --]]
 
 			-- node subcommands
+			elseif cmd=="from" then
+				params=params:gsub(",%s+",",")
+				spot.mobsraw = params
+				local mobs = split(params,",")
+				spot.mobspre = mobs
+				spot.mobs = {}
+				for i,mob in ipairs(mobs) do
+					local name,plural = mob:match("^(.+)(%+)$")
+					if not plural then name=mob end
+
+					local nm,id = ZGV:ParseID(name)
+					
+					local name,tip = ZGV:GetTranslatedNPC(id)
+
+					tinsert(spot.mobs,{name=nm or name,id=id,pl=plural and true or false})
+				end
+
+				spot.itemsource="drop"
+
+			elseif cmd=="vendor" then
+				spot.vendor,spot.vendorid = ZGV:ParseID(params)
+
+				spot.itemsource="vendor"
+				spot.title = spot.title or spot.vendor
+
 			elseif cmd=="item" then
 				params = params..","
 				for itemstr in params:gmatch("%s*(.-)%s*,") do
@@ -170,6 +205,8 @@ function MapSpotSet:ParseRaw()
 						end
 					end
 					--]]
+
+					if spot.itemsource=="vendor" then object.vendor=1 end
 				end
 
 			end
@@ -206,13 +243,73 @@ function MapSpotSet:Show()
 	end
 end
 
-function MapSpotSet:GetSpotsInRange()
-	local ret={}
+function MapSpotSet:GetSpotsInRange(into)
+	local ret=into or {}
 	local tinsert=tinsert
 	for s,spot in ipairs(self.spots) do
-		if spot.waypoint and spot.waypoint.minimapFrame and spot.waypoint.minimapFrame.dist and spot.waypoint.minimapFrame.dist<=ZGV.db.profile.golddetectiondist then
+		if spot.waypoint and spot.waypoint.minimapFrame and spot.waypoint.minimapFrame:IsShown() and spot.waypoint.minimapFrame.dist and spot.waypoint.minimapFrame.dist<=ZGV.db.profile.golddetectiondist then
+			tinsert(ret,spot)
+		end
+	end
+	table.sort(ret,function(a,b) return a.waypoint.minimapFrame.dist and a.waypoint.minimapFrame.dist and a.waypoint.minimapFrame.dist<b.waypoint.minimapFrame.dist or false end)
+	return ret
+end
+
+function MapSpotSet:UpdateVisibilities()
+	for s,spot in ipairs(self.spots) do
+		spot:UpdateVisibility()
+	end
+end
+
+
+
+
+
+function ZGV:GetMapSpotsInRange()
+	local ret={}
+	local tinsert=tinsert
+	for i,set in ipairs(self.registeredmapspotsets) do
+		set:GetSpotsInRange(ret)
+	end
+	return ret
+end
+
+function ZGV:GetMapSpotsInZone()
+	local ret={}
+	local tinsert=tinsert
+	for i,set in ipairs(self.registeredmapspotsets) do
+		for s,spot in ipairs(set.spots) do
+			if spot.waypoint and not spot.hidden and spot.map==GetRealZoneText() then
+				tinsert(ret,spot)
+			end
+		end
+	end
+	return ret
+end
+
+function ZGV:GetAllMapSpots()
+	local ret={}
+	local tinsert=tinsert
+	for i,set in ipairs(self.registeredmapspotsets) do
+		for s,spot in ipairs(set.spots) do
 			tinsert(ret,spot)
 		end
 	end
 	return ret
+end
+
+function ZGV:UpdateMapSpots()
+	for i,set in ipairs(self.registeredmapspotsets) do
+		for s,spot in ipairs(set.spots) do
+			spot:UpdateVisibility()
+		end
+	end
+end
+
+function ZGV:UpdateMapSpotVisibilities()
+	for i,set in ipairs(self.registeredmapspotsets) do
+		set:UpdateVisibilities()
+	end
+	ZGV.Pointer.Overlay_OnEvent(ZGV.Pointer.OverlayFrame,"WORLD_MAP_UPDATE")
+	self:UpdateFrame(true)
 end

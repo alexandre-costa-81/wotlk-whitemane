@@ -117,6 +117,95 @@ ZygorTalentAdvisor:RegisterBuild("DEATHKNIGHT","Zygor PVP (50/3/18)",[[
 	Minor Glyph of Pestilence
 ]])
 
+ZygorTalentAdvisor:RegisterBuild("DEATHKNIGHT","Zygor Blood Tanking (53/8/10)",[[
+	5/5 Toughness
+	3/3 Improved Icy Touch
+	5/5 Anticipation
+	3/3 Morbidity
+	2/2 Epidemic
+	5/5 Blade Barrier
+	5/5 Bladed Armor
+	5/5 Dark Conviction
+	3/3 Death Rune Mastery
+	1/1 Rune Tap
+	2/2 Two-Handed Weapon Specialization
+	3/3 Improved Rune Tap
+	3/3 Veteran of the Third War
+	3/3 Bloody Vengeance
+
+	// Level 58-59
+	2/2 Improved Blood Presence
+
+	// Level 60-61
+	2/2 Abomination's Might
+
+	// Level 62-64
+	3/3 Bloody Strikes
+	
+	// Level 65
+	1/1 Vampiric Blood
+	
+	// Level 66-67
+	2/2 Improved Death Strike
+	
+	// Level 68
+	1/1 Heart Strike
+	
+	// Level 69-71
+	3/3 Might of Mograine
+	
+	// Level 72-74
+	3/3 Will of the Necropolis
+	
+	// Level 75-79
+	5/5 Blood Gorged
+	
+	// Level 80
+	1/3 Bloodworms
+]],[[
+	Major Glyph of Disease
+	Major Glyph of Death Strike
+	Major Glyph of Vampiric Blood
+	Minor Glyph of Horn of Winter
+	Minor Glyph of Raise Dead
+	Minor Glyph of of Pestilence
+]])
+
+ZygorTalentAdvisor:RegisterBuild("DEATHKNIGHT","Zygor Unholy Raid DPS (0/17/54)",[[
+	3/3 Virulence
+	2/2 Vicious Strikes
+	3/3 Ravenous Dead
+	2/2 Epidemic
+	5/5 Necrosis
+	2/2 Night of the Dead
+	3/3 Blood-Caked Blade
+	5/5 Impurity
+	1/1 Master of Ghouls
+	3/3 Outbreak
+	2/2 Dirge
+	1/1 Unholy Blight
+	5/5 Desolation
+	3/3 Crypt Fever
+	1/1 Bone Shield
+	1/1 Scourge Strike
+	3/3 Ebon Plaguebringer
+	5/5 Rage of Rivendare
+	1/1 Summon Gargoyle
+	3/3 Wandering Plague
+	3/3 Improved Icy Touch
+	2/2 Runic Power Mastery
+	5/5 Black Ice
+	5/5 Icy Talons
+	2/2 Endless Winter
+]],[[
+	Major Glyph of Dark Death
+	Major Glyph of Icy Touch
+	Major Glyph of the Ghoul
+	Minor Glyph of Blood Tap
+	Minor Glyph of Raise Dead
+	Minor Glyph of Pestilence
+]])
+
 ZygorTalentAdvisor:RegisterBuild("HUNTER","Zygor Leveling (53/18/0)",[[
 	5/5 Improved Aspect of the Hawk
 	3/3 Thick Hide
@@ -184,6 +273,44 @@ ZygorTalentAdvisor:RegisterBuild("HUNTER","Zygor PVP (11/53/7)",[[
 	Major Glyph of Hunter's Mark
 	Major Glyph of Aimed Shot
 	Major Glyph of Trueshot Aura
+	Minor Glyph of Mend Pet
+	Minor Glyph of Revive Pet
+	Minor Glyph of Feign Death
+]])
+
+ZygorTalentAdvisor:RegisterBuild("HUNTER","Zygor Survival Hunter DPS (0/15/56)",[[
+	5/5 Improved Tracking
+	3/3 Trap Mastery
+	2/2 Survival Instincts
+	5/5 Survivalist
+	3/3 Lock and Load
+	2/3 T.N.T.
+	3/3 Killer Instinct
+	2/3 Hunter vs. Wild
+	5/5 Lightning Reflexes
+	1/1 Wyvern Sting
+	2/3 Expose Weakness
+	1 Hunter vs. Wild //(Now 3/3)
+	3/3 Noxious Stings
+	2/5 Master Tactician
+	1/1 Black Arrow
+	3/3 Sniper Training
+	3/3 Thrill of the Hunt
+	2/3 Hunting Party
+	1 Master Tactician //(Now 3/5)
+	1/1 Explosive Shot
+	2 Master Tactician //(Now 5/5)
+	1 T.N.T. //(Now 3/3)
+	3/3 Resourcefulness
+	5/5 Lethal Shots
+	5/5 Mortal Shots
+	3/3 Careful Aim
+	1/1 Aimed Shot
+	1/2 Go for the Throat
+]],[[
+	Major Glyph of Steady Shot
+	Major Glyph of Serpent Sting
+	Major Glyph of Explosive Shot
 	Minor Glyph of Mend Pet
 	Minor Glyph of Revive Pet
 	Minor Glyph of Feign Death
@@ -669,6 +796,46 @@ ZygorTalentAdvisor:RegisterBuild("MAGE","Zygor Fire PVP (21 / 50 / 0)",[[
 	Minor Glyph of Frost Armor
 ]])
 
+ZygorTalentAdvisor:RegisterBuild("MAGE","Zygor Arcane DPS (57 / 3 / 11)",[[
+	3/3 Arcane Focus
+	2/2 Arcane Subtlety
+	5/5 Arcane Concentration
+	1/1 Focus Magic
+	3/3 Spell Impact
+	1/2 Magic Attunement
+	3/3 Arcane Meditation
+	2/3 Torment the Weak
+	1/1 Presence of Mind
+	4/5 Arcane Mind
+	3/3 Arcane Instability
+	2/2 Arcane Potency
+	1/1 Arcane Power
+	3/3 Arcane Empowerment
+	1 Arcane Mind //(Now 5/5)
+	2/2 Arcane Flows
+	3/5 Mind Mastery
+	5/5 Missile Barrage
+	3/3 Netherwind Presence
+	2/2 Spell Power
+	1/1 Arcane Barrage
+	2 Mind Mastery //(Now 5/5)
+	1 Torment the Weak
+	3/3 Student of the Mind
+	3/3 Ice Floes
+	2/3 Frostbite
+	3/3 Precision
+	2/3 Ice Shards
+	1/1 Icy Veins
+	3/3 Incineration
+]],[[
+	Major Glyph of Arcane Missiles
+	Major Glyph of Molten Armor
+	Major Glyph of Arcane Blast
+	Minor Glyph of Arcane Intellect
+	Minor Glyph of Slow Flall
+	Minor Glyph of Penguin
+]])
+
 ZygorTalentAdvisor:RegisterBuild("PRIEST","Zygor Leveling Build (13 / 0 / 58)",[[
 	3/3 Spirit Tap
 	2/2 Improved Spirit Tap
@@ -749,6 +916,115 @@ ZygorTalentAdvisor:RegisterBuild("PRIEST","Zygor PVP  Build (13 / 0 / 58)",[[
 	Minor Glyph of Shadow Protection
 ]])
 
+ZygorTalentAdvisor:RegisterBuild("PRIEST","Zygor Holy Healing (14 / 57 / 0)",[[
+	5/5 Holy Specialization
+	5/5 Divine Fury
+	3/3 Inspiration
+	3/3 Improved Renew
+	3/3 Improved Healing
+	1/1 Desperate Prayer
+	1/1 Spirit of Redemption
+	5/5 Spiritual Guidance
+	2/2 Surge of Light
+	5/5 Spiritual Healing
+	2/3 Holy Concentration
+	5/5 Empowered Healing
+	1/1 Circle of Healing
+	1 Holy Concentration //(Now 3/3)
+	3/3 Empowered Renew
+	5/5 Divine Providence
+	1/1 Guardian Spirit
+	3/3 Test of Faith
+	3/3 Serendipity
+	5/5 Twin Disciplines
+	3/3 Improved Inner Fire
+	2/2 Improved Power Word: Fortitude
+	3/3 Meditation
+	1/1 Inner Focus
+]],[[
+	Major Glyph of Flash Heal
+	Major Glyph of Circle of Healing
+	Major Glyph of Guardian Spirit
+	Minor Glyph of Fortitude
+	Minor Glyph of Shadowfiend
+	Minor Glyph of Shadow Protection
+]])
+
+ZygorTalentAdvisor:RegisterBuild("PRIEST","Zygor Discipline Healing (57 / 14 / 0)",[[
+	5/5 Twin Disciplines
+	3/3 Improved Inner Fire
+	2/2 Improved Power Word: Fortitude
+	3/3 Meditation
+	3/3 Improved Power Word: Shield
+	3/3 Mental Agility
+	1/1 Inner Focus
+	5/5 Mental Strength
+	2/2 Focused Power
+	3/3 Enlightenment
+	1/1 Power Infusion
+	3/3 Focused Will
+	1/1 Soul Warding
+	3/3 Rapture
+	2/2 Renewed Hope
+	1/1 Pain Suppression
+	3/3 Divine Aegis
+	1/2 Grace
+	5/5 Borrowed Time
+	1/1 Penance
+	1 Grace //(Now 2/2)
+	2/2 Aspiration
+	3/3 Improved Flash Heal
+	5/5 Holy Specialization
+	5/5 Divine Fury
+	3/3 Inspiration
+	1/1 Desperate Prayer
+]],[[
+	Major Glyph of Flash Heal
+	Major Glyph of Power Word: Shield
+	Major Glyph of Penance
+	Minor Glyph of Fortitude
+	Minor Glyph of Shadowfiend
+	Minor Glyph of Shadow Protection
+]])
+
+ZygorTalentAdvisor:RegisterBuild("PRIEST","Zygor Shadow DPS (13 / 0 / 58)",[[
+	3/3 Spirit Tap
+	2/2 Improved Spirit Tap
+	2/2 Improved Shadow Word: Pain
+	3/3 Shadow Focus
+	1/1 Mind Flay
+	4/5 Darkness
+	3/3 Shadow Weaving
+	2/2 Shadow Reach
+	1/1 Vampiric Embrace
+	3/3 Focused Mind
+	1 Darkness //(Now 5/5)
+	3/3 Improved Devouring Plague
+	2/2 Mind Melt
+	1/1 Shadowform
+	4/5 Shadow Power
+	2/2 Improved Shadowform
+	3/3 Misery
+	1/1 Vampiric Touch
+	3/3 Pain and Suffering
+	1 Shadow Power //(Now 5/5)
+	5/5 Twisted Faith
+	1/1 Dispersion
+	2/2 Veiled Shadows
+	5/5 Improved Mind Blast
+	5/5 Twin Disciplines
+	3/3 Improved Inner Fire
+	2/2 Improved Power Word: Fortitude
+	3/3 Meditation
+]],[[
+	Major Glyph of Shadow Word: Pain
+	Major Glyph of Shadow
+	Major Glyph of Mind Flay
+	Minor Glyph of Fortitude
+	Minor Glyph of Levitate
+	Minor Glyph of Shadowfiend
+]])
+
 ZygorTalentAdvisor:RegisterBuild("ROGUE","Zygor Leveling (13 / 53 / 5)",[[
 	2/2 Improved Sinister Strike
 	3/5 Dual Wield Specialization
@@ -779,7 +1055,7 @@ ZygorTalentAdvisor:RegisterBuild("ROGUE","Zygor Leveling (13 / 53 / 5)",[[
 	2/2 Blood Spatter
 	3/5 Lethality
 ]],[[
-	Major Glyph of Sinister Stike
+	Major Glyph of Sinister Strike
 	Major Glyph of Eviscerate
 	Major Glyph of Killing Spree
 	Minor Glyph of Pick Lock
@@ -825,6 +1101,37 @@ ZygorTalentAdvisor:RegisterBuild("ROGUE","Zygor PVP (16 / 0 / 55)",[[
 	Minor Glyph of Blurred Speed
 	Minor Glyph of Vanish
 	Minor Glyph of Distract
+]])
+
+ZygorTalentAdvisor:RegisterBuild("ROGUE","Zygor Assassination (51 / 15 / 5)",[[
+	5/5 Malice
+	3/3 Puncturing Wounds
+	3/3 Ruthlessness
+	5/5 Lethality
+	5/5 Improved Poisons
+	3/3 Vile Poisons
+	1/1 Cold Blood
+	5/5 Seal Fate
+	1/1 Overkill
+	2/2 Murder
+	2/2 Fleet Footed
+	3/3 Find Weakness
+	3/3 Focused Attacks
+	1/1 Mutilate
+	3/3 Master Poisoner
+	5/5 Cut to the Chase
+	1/1 Hunger For Blood
+	5/5 Dual Wield Specialization
+	5/5 Precision
+	5/5 Close Quarters Combat
+	5/5 Relentless Strikes
+]],[[
+	Major Glyph of Rupture
+	Major Glyph of Mutilate
+	Major Glyph of Hunger For Blood
+	Minor Glyph of Pick Lock
+	Minor Glyph of Vanish
+	Minor Glyph of Blurred Speed
 ]])
 
 ZygorTalentAdvisor:RegisterBuild("DRUID","Zygor Feral Leveling (0 / 55 / 16)",[[
@@ -995,7 +1302,158 @@ ZygorTalentAdvisor:RegisterBuild("DRUID","Zygor Balance PVP (58 / 0 / 13)",[[
 	Minor Glyph of Thorns
 ]])
 
-ZygorTalentAdvisor:RegisterBuild("SHAMAN","Zygor Enhancement Leveling (16 / 55 / 0)",[[
+ZygorTalentAdvisor:RegisterBuild("DRUID","Zygor Restoration AoE (14 / 0 / 57)",[[
+	3/3 Nature's Focus
+	2/2 Improved Mark of the Wild
+	2/5 Subtlety
+	3/3 Natural Shapeshifter
+	2/2 Master Shapeshifter
+	1/1 Omen of Clarity
+	3/3 Intensity
+	3/3 Improved Rejuvenation
+	5/5 Tranquil Spirit
+	1/1 Nature's Swiftness
+	5/5 Gift of Nature
+	5/5 Nature's Bounty
+	5/5 Empowered Rejuvenation
+	1/1 Tree of Life
+	3/3 Improved Tree of Life
+	1/1 Swiftmend
+	3/3 Living Spirit
+	3/3 Living Seed
+	5/5 Gift of the Earthmother
+	1/1 Wild Growth
+	3/3 Living Seed
+	5/5 Genesis
+	2/2 Nature's Majesty
+	3/3 Moonglow
+	3/3 Nature's Grace
+	1/1 Nature's Splendor
+]],[[
+	Major Glyph of Rejuvenation
+	Major Glyph of Swiftmend
+	Major Glyph of Wild Growth
+	Minor Glyph of Thorns
+	Minor Glyph of Unburdened Rebirth
+	Minor Glyph of the Wild
+]])
+
+ZygorTalentAdvisor:RegisterBuild("DRUID","Zygor Restoration Single (14 / 0 / 57)",[[
+	2/2 Improved Mark of the Wild
+	3/3 Nature's Focus
+	3/3 Natural Shapeshifter
+	4/5 Naturalist
+	2/2 Master Shapeshifter
+	1/1 Omen of Clarity
+	3/3 Intensity
+	3/3 Improved Rejuvenation
+	1/1 Nature's Swiftness
+	5/5 Gift of Nature
+	2/2 Empowered Touch
+	2/5 Nature's Bounty
+	1/1 Swiftmend
+	3/3 Living Spirit
+	5/5 Empowered Rejuvenation
+	1/1 Tree of Life
+	3/3 Improved Tree of Life
+	3/3 Living Seed
+	5/5 Gift of the Earthmother
+	1/1 Wild Growth
+	4/5 Tranquil Spirit
+	5/5 Genesis
+	2/2 Nature's Majesty
+	3/3 Moonglow
+	3/3 Nature's Grace
+	1/1 Nature's Splendor
+]],[[
+	Major Glyph of Rapid Rejuvenation
+	Major Glyph of Swiftmend
+	Major Glyph of Nourish
+	Minor Glyph of Thorns
+	Minor Glyph of Unburdened Rebirth
+	Minor Glyph of the Wild
+]])
+
+ZygorTalentAdvisor:RegisterBuild("DRUID","Zygor Feral Tanking (0 / 58 / 13)",[[
+	5/5 Ferocity
+	3/3 Thick Hide
+	2/2 Savage Fury
+	3/3 Sharpened Claws
+	2/2 Feral Swiftness
+	3/3 Predatory Strikes
+	2/2 Primal Fury
+	1/1 Feral Charge
+	1/1 Survival Instincts
+	3/3 Feral Instinct
+	5/5 Heart of the Wild
+	1/1 Leader of the Pack
+	2/2 Improved Leader of the Pack
+	3/3 Survival of the Fittest
+	3/3 Protector of the Pack
+	1/3 Infected Wounds
+	1/1 Mangle
+	3/3 Improved Mangle
+	1 Infected Wounds //(Now 2/3)
+	5/5 Rend and Tear
+	1/1 Primal Gore
+	1/1 Berserk
+	2/2 Shredding Attacks
+	3/3 Natural Reaction
+	1 Infected Wounds //(Now 3/3)
+	2/2 Improved Mark of the Wild
+	3/5 Furor
+	5/5 Naturalist
+	1/1 Omen of Clarity
+	2 Furor //(Now 5/5)
+]],[[
+	Major Glyph of Maul
+	Major Glyph of Survival Instincts
+	Major Glyph of Frenzied Regeneration
+	Minor Glyph of the Wild
+	Minor Glyph of Thorns
+	Minor Glyph of Unburdened Rebirth
+]])
+
+ZygorTalentAdvisor:RegisterBuild("DRUID","Zygor Balance DPS (56 / 0 / 15)",[[
+	5/5 Starlight Wrath
+	3/3 Moonglow
+	2/2 Nature's Majesty
+	1/1 Nature's Splendor
+	3/3 Nature's Grace
+	2/2 Nature's Reach
+	5/5 Vengeance
+	1/1 Insect Swarm
+	3/3 Improved Insect Swarm
+	2/2 Balance of Power
+	3/3 Moonfury
+	1/1 Moonkin Form
+	3/3 Improved Moonkin Form
+	3/3 Improved Faerie Fire
+	5/5 Wrath of Cenarius
+	1/1 Force of Nature
+	3/3 Eclipse
+	3/3 Earth and Moon
+	1/3 Lunar Guidance
+	1/1 Starfall
+	2 Lunar Guidance //(Now 3/3)
+	3/3 Celestial Focus
+	5/5 Furor
+	2/2 Improved Mark of the Wild
+	3/3 Natural Shapeshifter
+	2/2 Master Shapeshifter
+	1/1 Omen of Clarity
+	2/3 Intensity
+]],[[
+	Major Glyph of Insect Swarm
+	Major Glyph of Starfire
+	Major Glyph of Moonfire
+	Minor Glyph of Aquatic Form
+	Minor Glyph of the Wild
+	Minor Glyph of Thorns
+]])
+
+
+ZygorTalentAdvisor:RegisterBuild("SHAMAN","Zygor Enhancement Leveling/DPS (16 / 55 / 0)",[[
 	3/3 Enhancing Totems
 	2/5 Ancestral Knowledge
 	5/5 Thundering Strikes
@@ -1023,14 +1481,13 @@ ZygorTalentAdvisor:RegisterBuild("SHAMAN","Zygor Enhancement Leveling (16 / 55 /
 	1 Static Shock
 	5/5 Concussion
 	3/3 Elemental Devastation
-	2/3 Call of Flame
-	1/1 Elemental Focus
+	3/3 Call of Flame
 	5/5 Elemental Fury
 	2/2 Improved Windfury Totem
 ]],[[
 	Major Glyph of Windfury Weapon
+	Major Glyph of Stormstrike
 	Major Glyph of Lava Lash
-	Major Glyph of Shocking
 	Minor Glyph of Water Walking
 	Minor Glyph of Ghost Wolf
 	Minor Glyph of Renewed Life
@@ -1077,7 +1534,7 @@ ZygorTalentAdvisor:RegisterBuild("SHAMAN","Zygor Enhancement PVP (17 / 54 / 0)",
 	Minor Glyph of Renewed Life
 ]])
 
-ZygorTalentAdvisor:RegisterBuild("SHAMAN","Zygor Elemental Leveling (57 / 14 / 0)",[[
+ZygorTalentAdvisor:RegisterBuild("SHAMAN","Zygor Elemental Leveling/DPS (57 / 14 / 0)",[[
 	5/5 Concussion
 	3/3 Call of Flame
 	2/5 Convection
@@ -1107,11 +1564,11 @@ ZygorTalentAdvisor:RegisterBuild("SHAMAN","Zygor Elemental Leveling (57 / 14 / 0
 	1/1 Shamanistic Focus
 	3/3 Elemental Weapons
 ]],[[
-	Major Glyph of Flametongue Weapon
+	Major Glyph of Lightning Bolt
 	Major Glyph of Flame Shock
-	Major Glyph of Chain Lightning
+	Major Glyph of Lava
 	Minor Glyph of Water Shield
-	Minor Glyph of Ghost Wolf
+	Minor Glyph of Water Walking
 	Minor Glyph of Renewed Life
 ]])
 
@@ -1155,77 +1612,234 @@ ZygorTalentAdvisor:RegisterBuild("SHAMAN","Zygor Elemental PVP (58 / 13 / 0)",[[
 	Minor Glyph of Renewed Life
 ]])
 
-ZygorTalentAdvisor:RegisterBuild("WARLOCK","Zygor Demonology Leveling (0 / 51 / 20)",[[
-	3/3 Demonic Embrace
-	2/2 Fel Synergy
-	3/3 Fel Vitality
-	2/2 Improved Healthstone
-	1/1 Soul Link
-	3/3 Demonic Aegis
-	1/1 Fel Domination
-	5/5 Unholy Power
-	1/1 Mana Feed
-	2/2 Improved Health Funnel
-	2/2 Master Conjuror
-	5/5 Master Demonologist
-	1/1 Demonic Empowerment
-	3/3 Molten Core
-	1/3 Demonic Knowledge
-	5/5 Demonic Tactics
-	1/1 Summon Felguard
-	2   Demonic Knowledge //(Now 3/3)
-	2/3 Demonic Resilience
-	5/5 Demonic Pact
-	1/1 Metamorphosis
-	5/5 Bane
-	2/2 Aftermath
-	3/3 Molten Skin
-	5/5 Ruin
-	2/2 Intensity
-	2/2 Destructive Reach
-	1/1 Shadowburn
+ZygorTalentAdvisor:RegisterBuild("SHAMAN","Zygor Restoration (0 / 16/ 55)",[[
+	5/5 Improved Healing Wave
+	5/5 Tidal Focus
+	1/1 Tidal Force
+	3/3 Improved Water Shield
+	1/3 Ancestral Healing
+	3/3 Restorative Totems
+	2/5 Tidal Mastery 
+	1/1 Nature's Swiftness
+	3 Tidal Mastery //(Now 5/5)
+	1 Ancestral Healing //(Now 2/3)
+	5/5 Purification
+	1/1 Mana Tide Totem
+	1/1 Cleanse Spirit
+	3/3 Healing Focus
+	3/3 Nature's Blessing
+	2/2 Improved Chain Heal
+	1/1 Earth Shield
+	2/2 Improved Earth Shield
+	2/3 Ancestral Awakening
+	5/5 Tidal Waves
+	1/1 Riptide
+	2/2 Blessing of the Eternals
+	1 Ancestral Awakening //(Now 3/3)
+	1 Ancestral Healing //(Now 3/3)
+	5/5 Ancestral Knowledge
+	5/5 Thundering Strikes
+	3/3 Elemental Weapons
+	3/3 Improved Shields
 ]],[[
-	Major Glyph of Immolate
-	Major Glyph of Soul Link
-	Major Glyph of Felguard
+	Major Glyph of Earth Shield
+	Major Glyph of Riptide
+	Major Glyph of Chain Heal
+	Minor Glyph of Water Shield
+	Minor Glyph of Renewed Life
+	Minor Glyph of Astral Recall
+]])
+
+ZygorTalentAdvisor:RegisterBuild("WARLOCK","Zygor Affliction Leveling (56 / 0 / 15)",[[
+	5/5 Improved Corruption
+	2/2 Soul Siphon
+	2/2 Improved Drain Soul
+	1/2 Improved Curse of Agony
+	1/1 Amplify Curse
+	1 Improved Curse of Agony //(Now 2/2)
+	3/3 Fel Concentration
+	3/3 Empowered Corruption
+	2/2 Nightfall
+	1/1 Siphon Life
+	4/5 Shadow Embrace
+	5/5 Shadow Mastery
+	5/5 Contagion
+	3/3 Malediction
+	2/2 Improved Felhunter
+	1/1 Unstable Affliction
+	1/1 Pandemic
+	1 Shadow Embrace //(Now 5/5)
+	2/3 Eradication
+	5/5 Everlasting Affliction
+	1/1 Haunt
+	1 Eradication //(Now 3/3)
+	1/1 Dark Pact
+	1/3 Death's Embrace
+	2/2 Improved Life Tap
+	5/5 Improved Shadow Bolt
+	5/5 Bane
+	5/5 Ruin
+]],[[
+	Major Glyph of Haunt
+	Major Glyph of Life Tap
+	Major Glyph of Quick Decay
 	Minor Glyph of Souls
 	Minor Glyph of Unending Breath
 	Minor Glyph of Drain Soul
-
 ]])
 
-ZygorTalentAdvisor:RegisterBuild("WARLOCK","Zygor PVP (0 / 13 / 58)",[[
+ZygorTalentAdvisor:RegisterBuild("WARLOCK","Zygor Demonology Leveling (16 / 55 / 0)",[[
+	2/2 Fel Synergy
+	3/3 Demonic Embrace
+	3/3 Fel Vitality
+	2/2 Improved Health Funnel
+	1/1 Soul Link
+	1/1 Fel Domination
+	3/3 Demonic Aegis
+	5/5 Unholy Power
+	1/1 Mana Feed
+	2/2 Master Summoner
+	2/2 Master Conjuror
+	5/5 Master Demonologist
+	1/1 Demonic Empowerment
+	3/3 Demonic Knowledge
+	1/3 Demonic Resilience
+	5/5 Demonic Tactics
+	1/1 Summon Felguard
+	3/3 Improved Demonic Tactics
+	1 Demonic Resilience // (Now 2/3)
+	5/5 Demonic Pact
+	1/1 Metamorphosis
+	3/3 Nemesis
+	1 Demonic Resilience // (Now 3/3)
+	5/5 Improved Corruption
+	2/2 Improved Drain Soul
+	2/2 Improved Curse of Agony
+	1/2 Soul Siphon
+	3/3 Fel Concentration
+	1 Soul Siphon // (Now 2/2)
+	2/2 Improved Life Tap
+]], [[
+	Major Glyph of Curse of Agony
+	Major Glyph of Felguard
+	Major Glyph of Life Tap
+	Minor Glyph of Drain Soul
+	Minor Glyph of Souls
+	Minor Glyph of Kilrogg
+]])
+
+ZygorTalentAdvisor:RegisterBuild("WARLOCK","Zygor Affliction PVP (54 / 17 / 0)",[[
+	5/5 Improved Corruption
+	2/2 Soul Siphon
+	2/2 Improved Curse of Agony
+	1/3 Suppression
+	1/1 Amplify Curse
+	3/3 Fel Concentration
+	1 Suppression //(Now 2/3)
+	2/2 Grim Reach
+	2/2 Nightfall
+	1/3 Empowered Corruption
+	1/1 Curse of Exhaustion
+	1/1 Siphon Life
+	2/2 Improved Fear
+	1 Empowered Corruption //(Now 2/3)
+	5/5 Shadow Mastery
+	5/5 Contagion
+	2/2 Improved Howl of Terror
+	3/3 Malediction
+	1/1 Unstable Affliction
+	1/1 Pandemic
+	3/3 Eradication
+	5/5 Everlasting Affliction
+	1/1 Haunt
+	1 Empowered Corruption //(Now 3/3)
+	2/2 Improved Life Tap
+	3/3 Demonic Embrace
+	2/2 Fel Synergy
+	3/3 Fel Vitality
+	2/2 Improved Health Funnel
+	3/3 Demonic Aegis
+	1/1 Soul Link
+	1/1 Fel Domination
+	2/2 Master Summoner
+]],[[
+	Major Glyph of Quick Decay
+	Major Glyph of Howl of Terror
+	Major Glyph of Corruption
+	Minor Glyph of Unending Breath
+	Minor Glyph of Drain Soul
+	Minor Glyph of Souls
+]])
+
+ZygorTalentAdvisor:RegisterBuild("WARLOCK","Zygor Destruction DPS (0 / 13 / 58)",[[
 	5/5 Bane
-	3/3 Molten Skin
+	3/3 Cataclysm
 	2/2 Aftermath
 	5/5 Ruin
 	2/2 Intensity
-	2/2 Demonic Power
 	1/2 Destructive Reach
+	2/2 Demonic Power
 	1/1 Devastation
-	3/3 Backlash
 	3/3 Improved Immolate
-	3/3 Nether Protection
+	1/3 Backlash
+	5/5 Emberstorm
 	1/1 Conflagrate
 	3/3 Pyroclasm
-	1/3 Soul Leech
+	1 Backlash //(Now 2/3)
 	5/5 Shadow and Flame
-	3/3 Backdraft
-	2/3 Empowered Imp
+	3/3 Empowered Imp
+	2/3 Backdraft
 	5/5 Fire and Brimstone
-	Chaos Bolt
-	1 Empowered Imp
-	5/5 Emberstorm
-	1/1 Shadowfury
+	1/1 Chaos Bolt
+	1 Backdraft //(Now 3/3)
+	1 Backlash //(Now 3/3)
+	3/3 Soul Leech
+	2/2 Improved Soul Leech
 	3/3 Improved Imp
-	3/3 Demonic Embrace
+	2/3 Demonic Embrace
 	3/3 Fel Vitality
-	1/2 Fel Synergy
+	2/2 Fel Synergy
 	3/3 Demonic Aegis
 ]],[[
 	Major Glyph of Immolate
 	Major Glyph of Conflagrate
-	Major Glyph of Life Tap
+	Major Glyph of Incinerate
+	Minor Glyph of Unending Breath
+	Minor Glyph of Drain Soul
+	Minor Glyph of Souls
+]])
+
+ZygorTalentAdvisor:RegisterBuild("WARLOCK","Zygor Demonology DPS (0 / 56 / 15)",[[
+	3/3 Demonic Embrace
+	2/2 Fel Synergy
+	3/3 Demonic Brutality
+	2/2 Fel Vitality
+	3/3 Demonic Aegis
+	1/1 Soul Link
+	1/1 Fel Domination
+	5/5 Unholy Power
+	2/2 Master Conjuror
+	2/2 Master Summoner
+	1 Fel Vitality //(Now 3/3)
+	5/5 Master Demonologist
+	1/1 Demonic Empowerment
+	3/3 Demonic Knowledge
+	1/3 Molten Core
+	5/5 Demonic Tactics
+	1/1 Summon Felguard
+	3/3 Nemesis
+	1 Molten Core //(Now 2/3)
+	5/5 Demonic Pact
+	1/1 Metamorphosis
+	2/2 Decimation
+	3/3 Improved Demonic Tactics
+	5/5 Bane
+	5/5 Improved Shadow Bolt
+	5/5 Ruin
+]],[[
+	Major Glyph of Immolate
+	Major Glyph of Felguard
+	Major Glyph of Incinerate
 	Minor Glyph of Unending Breath
 	Minor Glyph of Drain Soul
 	Minor Glyph of Souls
@@ -1275,7 +1889,7 @@ ZygorTalentAdvisor:RegisterBuild("WARRIOR","Zygor PVP Leveling (56 / 15 / 0)",[[
 	3/3 Deep Wounds
 	3/3 Two-Handed Weapon Specialization
 	2/2 Improved Overpower
-	5/5 Sword Specialization // Preference? Poleaxe / Mace 
+	5/5 Sword Specialization // Preference? Poleaxe / Mace
 	1/1 Sweeping Strikes
 	2/2 Weapon Mastery
 	2/2 Trauma
@@ -1306,6 +1920,123 @@ ZygorTalentAdvisor:RegisterBuild("WARRIOR","Zygor PVP Leveling (56 / 15 / 0)",[[
 	Minor Glyph of Battle
 	Minor Glyph of Charge
 	Minor Glyph of Bloodrage
+]])
+
+ZygorTalentAdvisor:RegisterBuild("WARRIOR","Zygor Fury DPS (19 / 52 / 0)",[[
+	5/5 Cruelty
+	3/3 Armored to the Teeth
+	2/5 Unbridled Wrath
+	3/3 Improved Cleave
+	2/5 Commanding Presence
+	5/5 Dual Wield Specialization
+	1/1 Death Wish
+	3/3 Precision
+	1/5 Enrage
+	5/5 Flurry
+	1/1 Bloodthirst
+	2/2 Improved Whirlwind
+	2/3 Intensify Rage
+	5/5 Improved Berserker Stance
+	1/1 Rampage
+	3/3 Bloodsurge
+	1 Enrage //(Now 2/5)
+	5/5 Unending Fury
+	1/1 Titan's Grip
+	1 Intensify Rage //(Now 3/3)
+	3/3 Improved Heroic Strike
+	2/5 Deflection
+	3/3 Iron Will
+	2 Deflection //(Now 4/5)
+	2/2 Impale
+	3/3 Deep Wounds
+	3/3 Two-Handed Weapon Specialization
+	1/1 Anger Management
+]],[[
+	Major Glyph of Heroic Strike
+	Major Glyph of Whirlwind
+	Major Glyph of Cleaving
+	Minor Glyph of Bloodrage
+	Minor Glyph of Battle
+	Minor Glyph of Command
+]])
+
+ZygorTalentAdvisor:RegisterBuild("WARRIOR","Zygor Arms DPS (54 / 17 / 0)",[[
+	5/5 Deflection
+	3/3 Iron Will
+	2/2 Improved Rend
+	2/2 Impale
+	3/3 Deep Wounds
+	3/3 Two-Handed Weapon Specialization
+	2/3 Taste for Blood
+	1/1 Sweeping Strikes
+	5/5 Sword Specialization // Preference? Poleaxe / Mace
+	2/2 Trauma
+	1 Taste for Blood //(Now 3/3)
+	1/1 Anger Management
+	1/1 Mortal Strike
+	1/2 Second Wind
+	2/2 Strength of Arms
+	1/2 Improved Overpower
+	3/3 Improved Mortal Strike
+	1/1 Juggernaut
+	1 Improved Overpower //(Now 2/2)
+	1/1 Endless Rage
+	3/3 Sudden Death
+	1/2 Blood Frenzy
+	5/5 Wrecking Crew
+	1/1 Bladestorm
+	1 Blood Frenzy //(Now 2/2)
+	2/2 Unrelenting Assault
+	5/5 Cruelty
+	3/3 Armored to the Teeth
+	5/5 Improved Demoralizing Shout
+	1/1 Piercing Howl
+	1/5 Commanding Presence
+	2/2 Improved Execute
+]],[[
+	Major Glyph of Rending
+	Major Glyph of Execution
+	Major Glyph of Mortal Strike
+	Minor Glyph of Bloodrage
+	Minor Glyph of Charge
+	Minor Glyph of Battle
+]])
+
+ZygorTalentAdvisor:RegisterBuild("WARRIOR","Zygor Protection (15 / 3 / 53)",[[
+	5/5 Shield Specialization
+	5/5 Anticipation
+	5/5 Toughness
+	3/3 Improved Thunder Clap
+	2/2 Improved Revenge
+	1/1 Concussion Blow
+	1/1 Last Stand
+	3/3 Puncture
+	5/5 One-Handed Weapon Specialization
+	3/3 Focused Rage
+	2/2 Improved Defensive Stance
+	3/3 Vitality 
+	2/2 Shield Mastery
+	1/1 Devastate
+	3/3 Critical Block
+	1/1 Warbringer
+	3/3 Sword and Board
+	2/2 Damage Shield
+	1/1 Shockwave
+	1/1 Vigilance
+	3/3 Armored to the Teeth
+	5/5 Deflection
+	3/3 Iron Will
+	2/2 Improved Heroic Strike
+	2/2 Impale
+	3/3 Deep Wounds
+	1/3 Incite
+]],[[
+	Major Glyph of Blocking
+	Major Glyph of Revenge
+	Major Glyph of Cleaving
+	Minor Glyph of Thunder Clap
+	Minor Glyph of Charge
+	Minor Glyph of Command
 ]])
 
 ZygorTalentAdvisor:RegisterBuild("PALADIN","Zygor Leveling (0 / 10 / 61)",[[
@@ -1391,7 +2122,117 @@ ZygorTalentAdvisor:RegisterBuild("PALADIN","Zygor PVP Leveling (0 / 17 / 54)",[[
 	Minor Glyph of Blessing of Kings
 ]])
 
-ZygorTalentAdvisor:RegisterBuild("PRIEST","WoWwiki Basic Shadow Raiding",{
+ZygorTalentAdvisor:RegisterBuild("PALADIN","Zygor Holy, Spell Power Focus (51 / 20 / 0)",[[
+	5/5 Spiritual Focus
+	5/5 Divine Intellect
+	5/5 Illumination
+	3/3 Healing Light
+	1/1 Aura Mastery
+	3/3 Improved Concentration Aura
+	1/1 Divine Favor
+	3/3 Sanctified Light
+	5/5 Holy Power
+	1/1 Holy Shock
+	3/3 Light's Grace
+	5/5 Holy Guidance
+	5/5 Judgements of the Pure
+	2/2 Infusion of Light
+	2/2 Enlightened Judgements
+	1/1 Divine Illumination
+	1/1 Beacon of Light
+	5/5 Divinity
+	3/3 Stoicism
+	2/2 Guardian's Favor
+	1/1 Divine Sacrifice
+	4/5 Toughness
+	3/3 Improved Devotion Aura 
+	2/2 Divine Guardian
+]],[[
+	Major Glyph of Holy Light
+	Major Glyph of Seal of Light
+	Major Glyph of Holy Shock
+	Minor Glyph of Blessing of Kings
+	Minor Glyph of Lay on Hands
+	Minor Glyph of Blessing of Wisdom
+]])
+
+ZygorTalentAdvisor:RegisterBuild("PALADIN","Zygor Holy, Spell Crit Focus (51 / 0 / 20)",[[
+	5/5 Spiritual Focus
+	5/5 Divine Intellect
+	3/3 Healing Light
+	5/5 Illumination
+	1/1 Aura Mastery
+	1/3 Improved Concentration Aura
+	1/1 Divine Favor
+	3/3 Sanctified Light
+	1 Improved Concentration Aura //(Now 2/3)
+	5/5 Holy Power
+	1/1 Holy Shock
+	3/3 Light's Grace
+	1 Improved Concentration Aura //(Now 3/3)
+	5/5 Holy Guidance
+	5/5 Judgements of the Pure
+	2/2 Infusion of Light
+	2/2 Enlightened Judgements
+	1/1 Divine Illumination
+	1/1 Beacon of Light
+	5/5 Benediction
+	3/3 Heart of the Crusader
+	2/2 Improved Blessing of Might
+	5/5 Conviction
+	3/3 Sanctity of Battle
+	2/2 Pursuit of Justice
+]],[[
+	Major Glyph of Holy Light
+	Major Glyph of Seal of Wisdom
+	Major Glyph of Holy Shock
+	Minor Glyph of Blessing of Kings
+	Minor Glyph of Lay on Hands
+	Minor Glyph of the Wise
+]])
+
+ZygorTalentAdvisor:RegisterBuild("PALADIN","Zygor Protection (0 / 53 / 18)",[[
+	5/5 Divine Strength
+	5/5 Anticipation
+	3/3 Improved Righteous Fury
+	2/5 Toughness
+	3/3 Improved Devotion Aura
+	2 Toughness //(Now 4/5)
+	1/1 Blessing of Sanctuary
+	3/3 Stoicism
+	1 Toughness //(Now 5/5)
+	2/2 Sacred Duty
+	3/3 One-Handed Weapon Specialization
+	3/3 Ardent Defender
+	1/1 Holy Shield
+	1/2 Spiritual Attunement
+	3/3 Combat Expertise
+	2/3 Redoubt
+	1/1 Avenger's Shield
+	3/3 Touched by the Light
+	1/2 Guarded by the Light
+	3/3 Shield of the Templar
+	2/2 Judgements of the Just
+	1/1 Hammer of the Righteous
+	1 Guarded by the Light //(Now 2/2)
+	1 Redoubt //(Now 3/3)
+	5/5 Deflection
+	2/2 Improved Judgements
+	3/5 Benediction
+	2/2 Vindication
+	2/2 Pursuit of Justice
+	1 Benediction //(Now 4/5)
+	3/3 Crusade
+]],[[
+	Major Glyph of Divine Plea
+	Major Glyph of Hammer of the Righteous
+	Major Glyph of Seal of Vengeance
+	Minor Glyph of Blessing of Kings
+	Minor Glyph of Lay on Hands
+	Minor Glyph of Sense Undead
+]])
+
+ZygorTalentAdvisor:RegisterBuild("PRIEST","Zygor Shadow Raiding",{
 	"Twin Disciplines",
 	"Twin Disciplines",
 	"Twin Disciplines",

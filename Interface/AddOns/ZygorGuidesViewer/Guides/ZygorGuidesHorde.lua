@@ -3772,7 +3772,7 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Horde Leveling Guides\\Blood Elf (1-13)
 	step //121
 		'Go to Silvermoon City|goto Silvermoon City
 	step //122
-		goto 79.5,58.5
+		goto Silvermoon City,79.5,58.5
 		.talk Vinemaster Suntouched##16442
 		..buy Suntouched Special Reserve|get 1 Suntouched Special Reserve|q 9067/1
 	step //123
@@ -14617,8 +14617,8 @@ ZygorGuidesViewer:RegisterGuide("Zygor's Horde Leveling Guides\\Outland (66-68)"
 		goto 71.4,79.4
 		.' Click the Kil'sorrow Armaments
 		.get 10 Kil'sorrow Armaments|q 9928/1
-		.kill Kil'sorrow Agents|n
-		.' Kill Kil'sorrow mobs
+		.from Kil'sorrow Deathsworn##17148, Kil'sorrow Cultist##17147, Kil'sorrow Spellbinder##17146
+		.' Kill 10 Kil'sorrow Agents |q 9936/2
 		.' Use your Warmaul Ogre Banner on their corpses|use Warmaul Ogre Banner##25552
 		.' Plant 10 Warmaul Ogre Banners|goal 10 Warmaul Ogre Banner Planted|q 9927/1
 		info The Kil'sorrow Armaments look like skinny, square, tan boxes on the ground with a red axe logo on them.

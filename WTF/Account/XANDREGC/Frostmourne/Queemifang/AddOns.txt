@@ -1,2 +1,3 @@
 _Whitemane_Assistant: enabled
 GathererDB_Wowhead: enabled
+!Swatter: disabled

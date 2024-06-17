@@ -8,6 +8,8 @@ local MapSpot = {}
 ZGV.MapSpotProto = MapSpot
 ZGV.MapSpotProto_mt = { __index=MapSpot }
 
+local L = ZGV.L
+
 function MapSpot:New(spottype,level)
 	return setmetatable({['type']=spottype or "at",['level']=level, ['objects']={}},ZGV.MapSpotProto_mt);
 end
@@ -29,14 +31,9 @@ function MapSpot:AreRequirementsMet()
 end
 
 function MapSpot:GetTitle()
-	--[[
 	if self.title then return self.title end
-	for i,goal in ipairs(self.goals) do
-		if goal.title then return goal.title end
-		if goal.quest and goal.L then return goal.quest end
-		if goal.npc and goal.L then return goal.npc end
-	end
-	--]]
+	if self.vendor then return self.vendor end
+	return "?"
 end
 
 function MapSpot:IsInRange()
@@ -79,7 +76,7 @@ end
 
 function MapSpot:Show()
 	if not self.waypoint then
-		self.waypoint = ZGV.Pointer:SetWaypoint(nil,self.map,self.x,self.y,{title=self.title,type="poi",icon=ZGV.DIR .. "\\Skin\\minimaparrow-gold-dot",edgeicon=ZGV.DIR .. "\\Skin\\minimaparrow-gold-edge",overworld=false,onminimap="zonedistance"})
+		self.waypoint = ZGV.Pointer:SetWaypoint(nil,self.map,self.x,self.y,{title=self:GetTitle(),type="poi",icon=ZGV.DIR .. "\\Skin\\minimaparrow-gold-dot",edgeicon=ZGV.DIR .. "\\Skin\\minimaparrow-gold-edge",overworld=false,onminimap="zonedistance"})
 		if not self.waypoint then return end
 		self.waypoint.spot = self
 		self.waypoint.OnUpdate = MapSpot_waypoint_OnUpdate
@@ -90,11 +87,17 @@ function MapSpot:Show()
 	return self.waypoint
 end
 
-function MapSpot:GetObjectsOfType(objtype)
+function MapSpot:GetObjectsOfType(objtype,onlyvis)
 	if self.objects then
+		local ret={}
 		for o,obj in ipairs(self.objects) do
-			
+			if obj.item and (obj[objtype] or obj.item[objtype] or (objtype=="drop" and not obj.item.ore and not obj.item.skin and not obj.item.herb and not obj.item.vendor and not obj.vendor)) then
+				if not onlyvis or not obj.hidden then
+					tinsert(ret,obj)
+				end
+			end
 		end
+		if #ret>0 then return ret else return nil end
 	end
 end
 
@@ -113,8 +116,11 @@ local function MapSpot_ObjectToString(obj)
 		else
 			obj.string = data..perc
 		end
+		obj.icon = "|T"..(GetItemIcon(obj.item.id) or "")..":13:13:0:0:64:64:4:60:4:60|t"
+		obj.iconstring = obj.icon.." "..obj.string
 	else
 		obj.string = ""
+		obj.iconstring = ""
 	end
 end
 
@@ -160,18 +166,31 @@ function MapSpot:Hide()
 	end
 end
 
+local itemsources={"vendor","drop","ore","herb","skin"}
 function MapSpot:FillTooltip(tooltip)
 	ZGV:Debug("Filling tooltip (MS set)")  	MS=self
 	if self.hidden then return false end
 
 	tooltip:AddLine(self.desc,1,1,1,true)
 	if self.objects then
-		for o,obj in ipairs(self.objects) do
-			if obj.type=="item" and not obj.hidden then
-				if obj.toohard then
-					tooltip:AddLine(obj.string,1,0,0,true)
-				else
-					tooltip:AddLine(obj.string,0,1,0,true)
+		for s,source in ipairs(itemsources) do
+			local objs = self:GetObjectsOfType(source,true)
+			if objs then
+				local mobs = source=="drop" and self.mobs
+				local mobtext
+				if mobs then
+					mobtext = ""
+					for i,mob in ipairs(self.mobs) do
+						if #mobtext>0 then mobtext = mobtext .. ", " end
+						mobtext = mobtext .. mob.name
+					end
+				elseif self.vendorid then
+					mobtext = self.vendor
+				end
+
+				tooltip:AddLine(L['gold_header_'..source]:format(mobtext),0.7,0.7,0.4,true)
+				for o,obj in ipairs(objs) do
+					if obj.toohard then tooltip:AddLine(obj.iconstring,1,0,0,true) else tooltip:AddLine(obj.iconstring,1,1,1,true) end
 				end
 			end
 		end
@@ -180,11 +199,17 @@ function MapSpot:FillTooltip(tooltip)
 end
 
 function MapSpot:OnUpdate()
+	if not self.waypoint then return end
 	local minimapframe = self.waypoint.minimapFrame
-	if minimapframe.dist>ZGV.db.profile.golddetectiondist then
-		self.waypoint.hideminimap=true
-	else
+	--print("onupdate "..self.title)
+	local oldhide = self.waypoint.hideminimap
+	if minimapframe.dist and (minimapframe.dist<ZGV.db.profile.golddetectiondist) then
 		self.waypoint.hideminimap=nil
+	else
+		self.waypoint.hideminimap=true
+	end
+	if self.waypoint.hideminimap~=oldhide then
+		ZGV:UpdateFrame(true)
 	end
 end
 

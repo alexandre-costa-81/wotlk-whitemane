@@ -1,7 +1,19 @@
---[[ $Id: AceGUIWidget-DropDown.lua 828 2009-08-28 08:47:06Z ammo $ ]]--
-local min, max, floor = math.min, math.max, math.floor
-
+--[[ $Id: AceGUIWidget-DropDown.lua 916 2010-03-15 12:24:36Z nevcairiel $ ]]--
 local AceGUI = LibStub("AceGUI-3.0")
+
+-- Lua APIs
+local min, max, floor = math.min, math.max, math.floor
+local select, pairs, ipairs = select, pairs, ipairs
+local tsort = table.sort
+
+-- WoW APIs
+local PlaySound = PlaySound
+local UIParent, CreateFrame = UIParent, CreateFrame
+local _G = _G
+
+-- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
+-- List them here for Mikk's FindGlobals script
+-- GLOBALS: CLOSE
 
 local function fixlevels(parent,...)
 	local i = 1
@@ -344,7 +356,7 @@ end
 
 do
 	local widgetType = "Dropdown"
-	local widgetVersion = 20
+	local widgetVersion = 22
 	
 	--[[ Static data ]]--
 	
@@ -367,6 +379,7 @@ do
 	
 	local function Dropdown_TogglePullout(this)
 		local self = this.obj
+		PlaySound("igMainMenuOptionCheckBoxOn") -- missleading name, but the Blizzard code uses this sound
 		if self.open then
 			self.open = nil
 			self.pullout:Close()
@@ -521,6 +534,11 @@ do
 	end
 	
 	-- exported
+	local function GetValue(self)
+		return self.value
+	end
+	
+	-- exported
 	local function SetItemValue(self, item, value)
 		if not self.multiselect then return end
 		for i, widget in self.pullout:IterateItems() do
@@ -571,7 +589,7 @@ do
 		for v in pairs(list) do
 			sortlist[#sortlist + 1] = v
 		end
-		table.sort(sortlist)
+		tsort(sortlist)
 		
 		for i, value in pairs(sortlist) do
 			AddListItem(self, value, list[value])
@@ -627,6 +645,7 @@ do
 
 		self.SetText     = SetText
 		self.SetValue    = SetValue
+		self.GetValue    = GetValue
 		self.SetList     = SetList
 		self.SetLabel    = SetLabel
 		self.SetDisabled = SetDisabled

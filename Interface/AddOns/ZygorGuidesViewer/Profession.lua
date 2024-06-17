@@ -47,7 +47,7 @@ tinsert(me.startups,function(self)
 	end
 end)
 
-local ERR_LEARN_RECIPE_S_fmt = ERR_LEARN_RECIPE_S:gsub(".","%."):gsub("%%s","(.+)")
+local ERR_LEARN_RECIPE_S_fmt = ERR_LEARN_RECIPE_S:gsub("%.","%%."):gsub("%%s","(.+)")
 --local TRADESKILL_LOG_FIRSTPERSON_fmt = TRADESKILL_LOG_FIRSTPERSON:gsub("%%s","(.-)")
 
 function me:Profession_CHAT_MSG_SYSTEM(event,text)

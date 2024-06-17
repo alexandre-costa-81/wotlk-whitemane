@@ -93,6 +93,11 @@ ZGV.MIN_STEP_HEIGHT=15
 local FONT = STANDARD_TEXT_FONT
 --ZGV.BUTTONS_INLINE=true
 
+
+local math_modf=math.modf
+math.round=function(n) local x,y=math_modf(n) return n>0 and (y>=0.5 and x+1 or x) or (y<=-0.5 and x-1 or x) end
+local round=math.round
+
 function me:OnInitialize() 
 
 --	if not ZygorGuidesViewerMiniFrame then error("Zygor Guide Viewer step frame not loaded.") end
@@ -785,6 +790,27 @@ function me:SetDisplayMode(mode)
 	self:UpdateFrame(true)
 end
 
+local Tpi=6.2832
+local cardinals = {"N","NW","W","SW","S","SE","E","NE","N"}
+local function GetCardinalDirName(angle)
+	for i=1,9 do
+		if Tpi*((i*2)-1)/16>angle then return cardinals[i] end
+	end
+end
+function GetCardinalDirNum(angle)
+	while angle<0 do angle=angle+Tpi end
+	while angle>Tpi do angle=angle-Tpi end
+	local ret=1
+	for i=1,16 do
+		if Tpi*((i*2)-1)/32>angle then ret=i break end
+	end
+	return ret
+end
+
+local itemsources={"vendor","drop","ore","herb","skin"}
+
+local gold_ox,gold_oy=0,0
+
 function me:UpdateFrame(full,onupdate)
 	if full then self.stepchanged=true end
 
@@ -812,7 +838,6 @@ function me:UpdateFrame(full,onupdate)
 		ZygorGuidesViewerFrame_MissingText:SetText(L['miniframe_loading']:format((self.loadprogress or 0)*100))
 
 	elseif self.db.profile.displaymode=="guide" then
-	
 		if self.CurrentGuide and self.CurrentGuide.steps then
 
 			-- hide spot frames, if visible
@@ -914,7 +939,7 @@ function me:UpdateFrame(full,onupdate)
 						frame.lines[line].label:SetText((numbertext or "")..(leveltext or "")..(reqtext or ""))
 						--frame.lines[line].label:SetMultilineIndent(1)
 						frame.lines[line].goal = nil
-						frame.lines[line].label:SetFont(FONT,math.round(self.db.profile.fontsecsize))
+						frame.lines[line].label:SetFont(FONT,round(self.db.profile.fontsecsize))
 						line=line+1
 					else
 						frame.lines[line].label:SetPoint("TOPLEFT",ZGV.ICON_INDENT,0)
@@ -934,7 +959,7 @@ function me:UpdateFrame(full,onupdate)
 								local goaltxt = goal:GetText(true)
 								if goaltxt~="?" or (goal.action=="info") then
 									if goal.action=="info" then
-										frame.lines[line].label:SetFont(FONT,math.round(self.db.profile.fontsecsize))
+										frame.lines[line].label:SetFont(FONT,round(self.db.profile.fontsecsize))
 										frame.lines[line].label:SetText(indent.."|cffeeeecc"..goal.info.."|r")
 										frame.lines[line].goal = nil
 									else
@@ -948,7 +973,7 @@ function me:UpdateFrame(full,onupdate)
 									--frame.lines[line].label:SetMultilineIndent(1)
 
 									if self.db.profile.tooltipsbelow and goal.tooltip then
-										frame.lines[line].label:SetFont(FONT,math.round(self.db.profile.fontsecsize))
+										frame.lines[line].label:SetFont(FONT,round(self.db.profile.fontsecsize))
 										frame.lines[line].label:SetText(indent.."|cffeeeecc"..goal.tooltip.."|r")
 										--frame.lines[line].label:SetMultilineIndent(1)
 										frame.lines[line].goal = nil
@@ -960,7 +985,7 @@ function me:UpdateFrame(full,onupdate)
 								-- not anymore
 								--[[
 								if goal.orlogic and i<#stepdata.goals and stepdata.goals[i+1].orlogic then
-									frame.lines[line].label:SetFont(FONT,math.round(self.db.profile.fontsecsize))
+									frame.lines[line].label:SetFont(FONT,round(self.db.profile.fontsecsize))
 									frame.lines[line].label:SetText(indent.."|cffeeeecc"..L['stepgoal_or'].."|r")
 									--frame.lines[line].label:SetMultilineIndent(1)
 									frame.lines[line].goal = nil
@@ -1211,6 +1236,14 @@ function me:UpdateFrame(full,onupdate)
 
 	elseif self.db.profile.displaymode=="gold" then
 
+		local x,y = GetPlayerMapPosition("player")
+		local d = GetPlayerFacing()
+		if x==gold_ox and y==gold_oy and d==gold_od and not full then return end
+		gold_ox,gold_oy,gold_od = x,y,d
+
+		-- get rid of tooltips, before they get messed up
+		if ZGV.hasTooltipOverSpotLink then GameTooltip:Hide() ZGV.hasTooltipOverSpotLink=nil end
+
 		-- hide step frames, if visible
 		if self.stepframes[1]:IsVisible() then for i,stepframe in ipairs(self.stepframes) do stepframe:Hide() end end
 
@@ -1259,6 +1292,7 @@ function me:UpdateFrame(full,onupdate)
 		for spotbuttonnum = 1,self.StepLimit do repeat
 			--frame = _G['ZygorGuidesViewerFrame_Step'..stepbuttonnum]
 			frame = self.spotframes[spotbuttonnum]
+			assert(frame,"Out of spot frames at "..spotbuttonnum)
 			
 			spotnum = firstspot + spotbuttonnum - 1
 			
@@ -1299,39 +1333,106 @@ function me:UpdateFrame(full,onupdate)
 
 				local line=1
 
-				frame.lines[line].label:SetFont(FONT,math.round(self.db.profile.fontsize))
-				frame.lines[line].label:SetText(("|cffffbb00%s|r"):format(spotdata.title))
+				assert(frame.lines[line],"Out of lines ("..line..") in spot frame "..spotbuttonnum)
+
+				frame.lines[line].label:SetFont(FONT,round(self.db.profile.fontsize))
+				
+				-- cardinal names
+				--frame.lines[line].label:SetText(("|cffffbb00%s|r (%s %s)"):format(spotdata.title or "?",ZGV.FormatDistance(spotdata.waypoint.minimapFrame.dist),GetCardinalDirName(Astrolabe:GetDirectionToIcon(spotdata.waypoint.minimapFrame))))
+
+				-- icons
+				local dirnum=GetCardinalDirNum(-Astrolabe:GetDirectionToIcon(spotdata.waypoint.minimapFrame) + GetPlayerFacing())-1 --:30:30:0:0:32:32:0:0:0:0
+				local dirnum2=dirnum>8 and 16-dirnum or dirnum
+				local arrow = ("|Tinterface\\addons\\ZygorGuidesViewer\\skin\\arrow-mini-multi:20:20:0:0:32:512:%d:%d:%d:%d|t"):format(dirnum>8 and 32 or 0,dirnum>8 and 0 or 32,dirnum2*32,(dirnum2+1)*32)
+				frame.lines[line].label:SetText(("%s |cffffbb00%s|r (%s)"):format(arrow, spotdata.title or "?",ZGV.FormatDistance(spotdata.waypoint.minimapFrame.dist)))
+				
 				line=line+1
 
-				frame.lines[line].label:SetFont(FONT,math.round(self.db.profile.fontsize))
+				--[[
+				frame.lines[line].label:SetFont(FONT,round(self.db.profile.fontsize))
 				frame.lines[line].label:SetText(("|cffffff00%s %s,%s|r"):format(spotdata.map,spotdata.x,spotdata.y))
 				line=line+1
+				--]]
 
 				if (spotdata.desc) then
-					frame.lines[line].label:SetFont(FONT,math.round(self.db.profile.fontsize))
+					frame.lines[line].label:SetFont(FONT,round(self.db.profile.fontsize))
 					frame.lines[line].label:SetText(("%s"):format(spotdata.desc))
 					line=line+1
 				end
 
+
 				if spotdata.objects then
-					local str=""
-					for i,obj in ipairs(spotdata.objects) do
-						if not obj.hidden then
-							if #str>0 then str=str..", " end
-							if obj.toohard then
-								str = str .. ("|cffff0000%s|r"):format(obj.string)
-							else
-								str = str .. ("|cff00ff00%s|r"):format(obj.string)
+					for s,source in ipairs(itemsources) do
+						local objs = spotdata:GetObjectsOfType(source,true)
+						if objs then
+							local mobs = source=="drop" and spotdata.mobs
+							local mobtext
+							if mobs then
+								mobtext = ""
+								for i,mob in ipairs(spotdata.mobs) do
+									if #mobtext>0 then mobtext = mobtext .. ", " end
+									mobtext = mobtext .. mob.name
+								end
+							elseif spotdata.vendorid then
+								mobtext = spotdata.vendor
+							end
+							
+							--[[
+							-- all in one line; tidy but impractical
+							local header = L['gold_header_'..source]:format(mobtext or "mob")
+							local str=""
+							for o,obj in ipairs(objs) do
+								if not obj.hidden then
+									if obj.item.id then
+										str = str .. "|Hitem:"..obj.item.id.."|h"..(obj.icon or "item").."|h "
+									else
+										str = str .. " ["..obj.item.name.."]"
+									end
+								end
+							end
+
+							if #str>0 then
+								frame.lines[line].label:SetFont(FONT,round(self.db.profile.fontsize))
+								--frame.lines[line].label:SetText("<html><body><p>"..("|cffdddd66%s |r%s"):format(header,str).."</p></body></html>")
+								frame.lines[line].label:SetText(("|cffdddd66%s |r%s"):format(header,str))
+								line=line+1
+							end
+							--]]
+
+							local goodobjs = {}
+							for o,obj in ipairs(objs) do
+								if not obj.hidden then
+									tinsert(goodobjs,obj)
+								end
+							end
+
+							if #goodobjs then
+								frame.lines[line].label:SetFont(FONT,round(self.db.profile.fontsize))
+								--frame.lines[line].label:SetText("<html><body><p>"..("|cffdddd66%s |r%s"):format(header,str).."</p></body></html>")
+								frame.lines[line].label:SetText(("|cffdddd66%s|r"):format(L['gold_header_'..source]:format(mobtext or "mob")))
+								line=line+1
+
+								for o,obj in ipairs(goodobjs) do
+									local str
+									if obj.item.id then
+										str = "|Hitem:"..obj.item.id.."|h"..(obj.icon or "item").." "..(obj.string or "?").."|h "
+									else
+										str = obj.item.name
+									end
+
+									if obj.toohard then str = "|cffff0000"..str.."|r" end
+
+									frame.lines[line].label:SetFont(FONT,round(self.db.profile.fontsize*1.0))
+									frame.lines[line].label:SetText(str)
+									frame.lines[line].label:SetHyperlinksEnabled(false)
+									frame.lines[line].label.reenableHyperlinks=true
+									line=line+1
+
+								end
 							end
 						end
 					end
-					if #str>0 then
-						frame.lines[line].label:SetFont(FONT,math.round(self.db.profile.fontsecsize))
-						frame.lines[line].label:SetText(str)
-						line=line+1
-					end
 				end
-
 
 				local TMP_TRUNCATE = true
 				local heightleft = 400
@@ -1366,7 +1467,12 @@ function me:UpdateFrame(full,onupdate)
 					local text = lineframe.label
 					if l<line and not frame.truncated then
 						text:SetWidth(frame:GetWidth()-ICON_INDENT-2*ZGV.STEPMARGIN_X)
-						textheight = text:GetHeight()
+						
+						-- old non-HTML stuff
+						--textheight = text:GetHeight()
+						textheight = text:GetRegions():GetHeight()
+						text:SetHeight(textheight)
+
 						height = height + (height>0 and STEP_LINE_SPACING or 0) + textheight
 						--text:SetWidth(ZygorGuidesViewerFrameScroll:GetWidth()-30)
 
@@ -3609,9 +3715,6 @@ function me:GetItemData(itemid,n)
 end
 
 -- HACKS
-local math_modf=math.modf
-math.round=function(n) local x,y=math_modf(n) return n>0 and (y>=0.5 and x+1 or x) or (y<=-0.5 and x-1 or x) end
-
 function me:ListQuests(from,to)
 	local CQI=Cartographer_QuestInfo
 	local qlog = ""
@@ -3696,47 +3799,3 @@ end
 --hooksecurefunc("QuestInfo_Display",function() if not InCombatLockdown() then shownFrame=nil bottomShownFrame=nil end end)
 
 
-function me:GetMapSpotsInRange()
-	local ret={}
-	local tinsert=tinsert
-	for i,set in ipairs(self.registeredmapspotsets) do
-		for s,spot in ipairs(set.spots) do
-			if spot.waypoint and not spot.waypoint.hideminimap then
-				if not spot.hidden then tinsert(ret,spot) end
-			end
-		end
-	end
-	return ret
-end
-
-function me:GetMapSpotsInZone()
-	local ret={}
-	local tinsert=tinsert
-	for i,set in ipairs(self.registeredmapspotsets) do
-		for s,spot in ipairs(set.spots) do
-			if spot.waypoint and not spot.hidden and spot.map==GetRealZoneText() then
-				tinsert(ret,spot)
-			end
-		end
-	end
-	return ret
-end
-
-function me:GetAllMapSpots()
-	local ret={}
-	local tinsert=tinsert
-	for i,set in ipairs(self.registeredmapspotsets) do
-		for s,spot in ipairs(set.spots) do
-			tinsert(ret,spot)
-		end
-	end
-	return ret
-end
-
-function me:UpdateMapSpots()
-	for i,set in ipairs(self.registeredmapspotsets) do
-		for s,spot in ipairs(set.spots) do
-			spot:UpdateVisibility()
-		end
-	end
-end

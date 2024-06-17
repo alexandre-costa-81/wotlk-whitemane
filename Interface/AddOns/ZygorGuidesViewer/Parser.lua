@@ -207,6 +207,8 @@ function me:ParseEntry(text)
 		local indent
 		indent,line = line:match("^(%.*)(.*)")
 
+		line = line:gsub("^%* *","")
+
 		line = line .. "|"
 		local goal={}
 

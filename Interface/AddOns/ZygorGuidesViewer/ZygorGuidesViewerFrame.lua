@@ -198,6 +198,24 @@ local function Spot_OnUpdate(self,button)
 	end
 end
 
+local function SpotLabel_OnHyperlinkEnter(self,linkdata,link)
+	--print("hyper enter")
+	--print(linkdata)
+	GameTooltip:SetOwner(self,"ANCHOR_CURSOR")
+	GameTooltip:ClearAllPoints()
+	GameTooltip:ClearLines()
+	--GameTooltip:SetPoint("BOTTOMRIGHT",self,"TOPLEFT")
+	GameTooltip:SetHyperlink(linkdata)
+	GameTooltip:Show()
+	ZGV.hasTooltipOverSpotLink=true
+end
+
+local function SpotLabel_OnHyperlinkLeave(self,linkdata,link)
+	--print("hyper leave")
+	GameTooltip:Hide()
+	ZGV.hasTooltipOverSpotLink=nil
+end
+
 function ZygorGuidesViewerFrame_Spot_Setup(num)
 	local function obj(name) return _G['ZygorGuidesViewerFrame_Spot'..num..(name and '_'..name or '')] end
 
@@ -220,14 +238,13 @@ function ZygorGuidesViewerFrame_Spot_Setup(num)
 
 	ZGV.spotframes[num] = spot
 
-	for i=1,20,1 do
+	for i=1,20 do
 		local line = obj("Line"..i)
-		local label = obj("Line"..i.."Text")
+		local label = line.label
 		if not label then break end
 
-		local icon = obj("Line"..i.."Icon")
-		local back = obj("Line"..i.."Back")
-		local clicker = obj("Line"..i.."Clicker")
+		--local icon = obj("Line"..i.."Icon")
+		--local clicker = obj("Line"..i.."Clicker")
 
 		line:ClearAllPoints()
 		if i==1 then
@@ -246,6 +263,11 @@ function ZygorGuidesViewerFrame_Spot_Setup(num)
 		label:ClearAllPoints()
 		label:SetPoint("TOPLEFT",ZGV.ICON_INDENT,0)
 		label:SetPoint("TOPRIGHT",0,0)
+
+		label:SetHyperlinksEnabled(true)
+		label:SetScript("OnHyperlinkEnter", SpotLabel_OnHyperlinkEnter)
+		label:SetScript("OnHyperlinkLeave", SpotLabel_OnHyperlinkLeave)
+		label:SetScript("OnLeave", SpotLabel_OnHyperlinkLeave)
 
 		spot.lines[i]=line
 
@@ -670,6 +692,18 @@ function ZygorGuidesViewerFrame_OnUpdate(self,elapsed)
 		ZGV.completionelapsed = ZGV.completionelapsed + elapsed
 		if ZGV.completionelapsed>=ZGV.completioninterval then
 			ZGV:TryToCompleteStep(true)
+		end
+	end
+
+	for i=1,50 do
+		local spot = ZGV.spotframes[i]
+		if spot and spot:IsShown() then
+			for l=1,20 do
+				if spot.lines[l] and spot.lines[l].label.reenableHyperlinks then
+					spot.lines[l].label:SetHyperlinksEnabled(true)
+					spot.lines[l].label.reenableHyperlinks = nil
+				end
+			end
 		end
 	end
 
