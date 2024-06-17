@@ -1,9 +1,0 @@
-MACRO 16777217 "PetAttack" INV_Misc_QuestionMark
-/petattack
-END
-MACRO 16777218 "PetFollow" INV_Misc_QuestionMark
-/petfollow
-END
-MACRO 16777219 "Sacrifice" INV_Misc_QuestionMark
-/cast Sacrifice
-END

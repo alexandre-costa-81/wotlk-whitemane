@@ -1,3 +1,0 @@
-MACRO 1 "Mount" INV_Misc_QuestionMark
-/cast [flyable] Tawny Wind Rider;Summon Charger
-END

@@ -1,4 +1,0 @@
-MACRO 16777217 "Foreword" INV_Misc_QuestionMark
-#showtooltip
-/cast [swimming] !Aquatic Form;[outdoors,nomod:alt] !Travel Form; !Moonkin Form(Shapeshift)
-END

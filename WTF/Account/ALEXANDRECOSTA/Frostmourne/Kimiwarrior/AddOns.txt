@@ -1,2 +1,0 @@
-_Whitemane_Assistant: enabled
-BankStack: enabled
