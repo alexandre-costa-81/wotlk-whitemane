@@ -1,0 +1,52 @@
+
+ZygorGuidesViewerSettings = {
+	["char"] = {
+		["Kimi - Frostmourne"] = {
+			["maint_fetchitemdata"] = true,
+			["taxis"] = {
+			},
+			["guidename"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
+			["maint_fetchquestdata"] = true,
+			["starting"] = false,
+			["debuglog"] = {
+				"12:34:21> Viewer started. ---------------------------", -- [1]
+				"12:34:21> PLAYER_ENTERING_WORLD (dead?)", -- [2]
+				"12:34:21> PLAYER_ALIVE (dead?)", -- [3]
+				"12:34:21> CacheQuestLog cached 0 quests", -- [4]
+				"12:34:22> Got completed quests list", -- [5]
+				"12:34:22> CacheQuestLog cached 9 quests", -- [6]
+				"12:34:22> New Quest: Funky Fungi id 13204", -- [7]
+				"12:34:22> New Quest: All Things in Good Time id 13190", -- [8]
+				"12:34:22> New Quest: Orgrim's Hammer id 13224", -- [9]
+				"12:34:22> New Quest: The Touch of an Aspect id 13077", -- [10]
+				"12:34:22> New Quest: Bones and Arrows id 13193", -- [11]
+				"12:34:22> New Quest: Slay them all! id 13178", -- [12]
+				"12:34:22> New Quest: Stop the Siege id 13185", -- [13]
+				"12:34:22> New Quest: Toppling the Towers id 13539", -- [14]
+				"12:34:22> New Quest: Victory in Wintergrasp id 13183", -- [15]
+				"12:34:22> ZONE_CHANGED_NEW_AREA (dead?)", -- [16]
+				"12:34:22> CacheQuestLog cached 9 quests", -- [17]
+				"12:34:23> Guides loaded. -----", -- [18]
+				"12:34:23> SetGuide Zygor's Horde Leveling Guides\\Undead (1-13) (1", -- [19]
+				"12:34:23> Guide loaded: Zygor's Horde Leveling Guides\\Undead (1-13)", -- [20]
+				"12:34:23> FocusStep 1", -- [21]
+				"12:34:23> frameNeedsUpdating, so updating.", -- [22]
+			},
+			["guides_history"] = {
+				{
+					["short"] = "Undead (1-13)",
+					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
+				}, -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Kimi - Frostmourne"] = "Kimi - Frostmourne",
+	},
+	["profiles"] = {
+		["Kimi - Frostmourne"] = {
+			["arrowcam"] = false,
+			["arrowsmooth"] = true,
+		},
+	},
+}

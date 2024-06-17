@@ -42,6 +42,14 @@ ZygorTalentAdvisorSettings = {
 				"12:28:20> playtalented", -- [37]
 				"12:28:32> playtalented", -- [38]
 				"12:28:33> PLAYER_ALIVE", -- [39]
+				"12:33:34> Viewer started. ---------------------------", -- [40]
+				"12:33:34> PLAYER_ALIVE", -- [41]
+				"12:33:43> playtalented", -- [42]
+				"12:33:43> playtalented", -- [43]
+				"12:33:58> playtalented", -- [44]
+				"12:33:58> playtalented", -- [45]
+				"12:47:53> PLAYER_ALIVE", -- [46]
+				"13:06:48> PLAYER_ALIVE", -- [47]
 			},
 		},
 	},

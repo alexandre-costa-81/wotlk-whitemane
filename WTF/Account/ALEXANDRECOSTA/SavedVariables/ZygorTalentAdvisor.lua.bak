@@ -1,0 +1,18 @@
+
+ZygorTalentAdvisorSettings = {
+	["char"] = {
+		["Kimi - Frostmourne"] = {
+			["debuglog"] = {
+				"12:34:21> Viewer started. ---------------------------", -- [1]
+				"12:34:21> PLAYER_ALIVE", -- [2]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Kimi - Frostmourne"] = "Kimi - Frostmourne",
+	},
+	["profiles"] = {
+		["Kimi - Frostmourne"] = {
+		},
+	},
+}
