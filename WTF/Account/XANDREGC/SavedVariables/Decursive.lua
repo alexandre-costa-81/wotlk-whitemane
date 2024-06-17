@@ -1,9 +1,20 @@
 
 DecursiveDB = {
-	["profileKeys"] = {
-		["Queemu - Frostmourne"] = "Default",
+	["global"] = {
+		["LastExpirationAlert"] = 1718606441,
 	},
 	["class"] = {
+		["WARLOCK"] = {
+			["CureOrder"] = {
+				-13, -- [1]
+				-12, -- [2]
+				nil, -- [3]
+				-14, -- [4]
+				[32] = 1,
+				[16] = -16,
+				[8] = -15,
+			},
+		},
 		["DRUID"] = {
 			["CureOrder"] = {
 				-15, -- [1]
@@ -16,8 +27,9 @@ DecursiveDB = {
 			},
 		},
 	},
-	["global"] = {
-		["LastExpirationAlert"] = 1718606441,
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Default",
+		["Queemu - Frostmourne"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -4,7 +4,7 @@ FarmHudDB = {
 	["MinimapIcon"] = {
 		["minimapPos"] = 220,
 		["radius"] = 80,
-		["hide"] = false,
+		["hide"] = true,
 	},
 	["show_routes"] = true,
 	["show_npcscan"] = true,

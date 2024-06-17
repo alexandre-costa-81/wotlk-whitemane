@@ -1,0 +1,25 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+	},
+	["ChatHistoryLog"] = {
+		{
+			"<ImPact> Spanish speaking Guild looking for members High prio: Feral, any experienced player will be considered. Raid schedule : Wed/Thurs/Fri 21-24ST.", -- [1]
+			"Obudin", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Obudin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			13, -- [11]
+			"0x0000000000000709", -- [12]
+			0, -- [13]
+			[51] = 1718660806,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Obudin",
+		}, -- [1]
+	},
+}
