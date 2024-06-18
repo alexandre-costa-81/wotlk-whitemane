@@ -24,26 +24,242 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"WTSS |cffa335ee|Hitem:43573:0:0:0:0:0:0:0:80|h[Tears of Bitter Anguish]|h|r", -- [1]
-			"Zagorka", -- [2]
+			" |cffffff00|Hquest:13043:80|h[The Sum is Greater than the Parts]|h|r bug?", -- [1]
+			"Vegankiller", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Zagorka", -- [5]
-			"DND", -- [6]
+			"Vegankiller", -- [5]
+			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			177, -- [11]
-			"0x0000000000002962", -- [12]
+			365, -- [11]
+			"0x000000000000FADC", -- [12]
 			0, -- [13]
-			[51] = 1718661260,
+			[51] = 1718714802,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zagorka",
+			[52] = "Vegankiller",
 		}, -- [1]
 		{
-			"most people ask for higher gs than that's needed just to be sure", -- [1]
-			"Manalust", -- [2]
+			"WTB KROL CLEAVER /w me!", -- [1]
+			"Opliths", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Opliths", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			366, -- [11]
+			"0x00000000000057DA", -- [12]
+			0, -- [13]
+			[51] = 1718714804,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Opliths",
+		}, -- [2]
+		{
+			"WTS |cffa335ee|Hitem:41257:0:0:0:0:0:0:0:80|h[Titansteel Destroyer]|h|r", -- [1]
+			"Voidhealer", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Voidhealer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			368, -- [11]
+			"0x000000000000533F", -- [12]
+			0, -- [13]
+			[51] = 1718714804,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Voidhealer",
+		}, -- [3]
+		{
+			"VOA 10 CLASS run LF 1 Tank rest dps need war pala shaman hunter", -- [1]
+			"Bakaprase", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Bakaprase", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			372, -- [11]
+			"0x000000000000F5E4", -- [12]
+			0, -- [13]
+			[51] = 1718714809,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bakaprase",
+		}, -- [4]
+		{
+			"WTS |cffffd000|Henchant:55208|h[Mining: Smelt Titansteel]|h|r cd 80g", -- [1]
+			"Zbiracica", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Zbiracica", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			382, -- [11]
+			"0x000000000000DFD7", -- [12]
+			0, -- [13]
+			[51] = 1718714816,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Zbiracica",
+		}, -- [5]
+		{
+			"|Hplayer:Raigaster|h[Raigaster]|h has earned the achievement |cffffff00|Hachievement:2150:000000000000486A:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Split Personality]|h|r!", -- [1]
+			"Raigaster", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Raigaster", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			383, -- [11]
+			"0x000000000000486A", -- [12]
+			0, -- [13]
+			[51] = 1718714817,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "Raigaster",
+		}, -- [6]
+		{
+			"LFM voa 10 classrun! /w me with spec and gs! Still need warrior tank and hunter!", -- [1]
+			"Saskia", -- [2]
+			"", -- [3]
+			"1. general - dalaran", -- [4]
+			"Saskia", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"general - dalaran", -- [9]
+			0, -- [10]
+			389, -- [11]
+			"0x00000000000026A7", -- [12]
+			0, -- [13]
+			[51] = 1718714823,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Saskia",
+		}, -- [7]
+		{
+			"LFM Naxx 10 Need 1 Tank DK/Prot Warr/Bear 1 Shaman DPS and Spriest /w gs spec Key Res", -- [1]
+			"Bullkathos", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Bullkathos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			392, -- [11]
+			"0x0000000000006A0B", -- [12]
+			0, -- [13]
+			[51] = 1718714827,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bullkathos",
+		}, -- [8]
+		{
+			"LFM |cffffff00|Hquest:12868:78|h[Sirana Iceshriek]|h|r", -- [1]
+			"Tarut", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Tarut", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			400, -- [11]
+			"0x000000000000F260", -- [12]
+			0, -- [13]
+			[51] = 1718714833,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Tarut",
+		}, -- [9]
+		{
+			"wts |cffffd000|Htrade:45363:450:450:50FF:g////73Jt92////R8/nx/fh+/j+/Fx/Pw+/x4/vE+////YswAQo4AE/////PAIY///////////e|h[Inscription]|h|r", -- [1]
+			"Law", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Law", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			414, -- [11]
+			"0x00000000000050FF", -- [12]
+			0, -- [13]
+			[51] = 1718714846,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Law",
+		}, -- [10]
+		{
+			"LF3M VOA 10 CLASSRUN. NEED 1 TANK 1 HEALER 1 DPS (DRUID, PALA, HUNTER)", -- [1]
+			"Annakarin", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Annakarin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			423, -- [11]
+			"0x000000000000E069", -- [12]
+			0, -- [13]
+			[51] = 1718714852,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Annakarin",
+		}, -- [11]
+		{
+			" Hey dadi Im in org waitin 4 you , ive goot oodles of big boy studels 4 good little noodles! and portals to here , there , anywhere , idc <3 . i adore you and cant wait to accept your 5 g tip , is tht a strudel in ur pocket? or r u just happy 2 c me?", -- [1]
+			"Tiktokthot", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Tiktokthot", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			435, -- [11]
+			"0x00000000000109C2", -- [12]
+			0, -- [13]
+			[51] = 1718714860,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Tiktokthot",
+		}, -- [12]
+		{
+			"WTS |cffa335ee|Hitem:41257:0:0:0:0:0:0:0:80|h[Titansteel Destroyer]|h|r", -- [1]
+			"Voidhealer", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Voidhealer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			438, -- [11]
+			"0x000000000000533F", -- [12]
+			0, -- [13]
+			[51] = 1718714862,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Voidhealer",
+		}, -- [13]
+		{
+			"welcome", -- [1]
+			"Fishbrotwo", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -52,33 +268,555 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			181, -- [11]
-			"0x0000000000003315", -- [12]
+			439, -- [11]
+			"0x000000000000BEE5", -- [12]
 			0, -- [13]
-			[51] = 1718661266,
+			[51] = 1718714862,
 			[50] = "CHAT_MSG_GUILD",
-			[52] = "Manalust",
-		}, -- [2]
+			[52] = "Fishbrotwo",
+		}, -- [14]
 		{
-			"what's even the point in banning GDKP? if you dont like it, simply join anoter pug, or pug something yourself", -- [1]
-			"Straker", -- [2]
+			"(Abandoned Wolf Pack) semi-hc Eu guild currently recruiting for our 10 man ascended core team raid time 19:00-23:00 ST wed/thurs currently need a bommie.", -- [1]
+			"Sanshiro", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Straker", -- [5]
+			"Sanshiro", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			182, -- [11]
-			"0x0000000000002CB2", -- [12]
+			443, -- [11]
+			"0x000000000000666A", -- [12]
 			0, -- [13]
-			[51] = 1718661267,
+			[51] = 1718714865,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Straker",
-		}, -- [3]
+			[52] = "Sanshiro",
+		}, -- [15]
 		{
-			"ROFL Server is going to ban GDKP, or even asking if it should be? Because a bunch of lazy, poor players dont' like something it's bad? Talk about muh toxic.", -- [1]
+			"hey", -- [1]
+			"Lyndaria", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			447, -- [11]
+			"0x000000000000BF7E", -- [12]
+			0, -- [13]
+			[51] = 1718714867,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Lyndaria",
+		}, -- [16]
+		{
+			"Yes we full clear all content", -- [1]
+			"Fishbrotwo", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			448, -- [11]
+			"0x000000000000BEE5", -- [12]
+			0, -- [13]
+			[51] = 1718714868,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbrotwo",
+		}, -- [17]
+		{
+			"any naxx 25 ?", -- [1]
+			"Notorious", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Notorious", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			453, -- [11]
+			"0x00000000000070EE", -- [12]
+			0, -- [13]
+			[51] = 1718714871,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Notorious",
+		}, -- [18]
+		{
+			"VOA 10 LF PALA TANK, RESTO DRUID, AND HUNT", -- [1]
+			"Saulgoodmon", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Saulgoodmon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			455, -- [11]
+			"0x0000000000002B88", -- [12]
+			0, -- [13]
+			[51] = 1718714872,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Saulgoodmon",
+		}, -- [19]
+		{
+			"3,6k gs D priest and 3,2k gs F mage LFG NAXX 10", -- [1]
+			"Stormtrooper", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Stormtrooper", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			458, -- [11]
+			"0x00000000000037FC", -- [12]
+			0, -- [13]
+			[51] = 1718714875,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Stormtrooper",
+		}, -- [20]
+		{
+			"Hunter 3,5k gs gems and enchanted LFG OS / EOE ", -- [1]
+			"Kasspa", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Kasspa", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			461, -- [11]
+			"0x0000000000001FF5", -- [12]
+			0, -- [13]
+			[51] = 1718714876,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Kasspa",
+		}, -- [21]
+		{
+			"LFG Zul'Drak Arena", -- [1]
+			"Mashadar", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Mashadar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			469, -- [11]
+			"0x0000000000006B55", -- [12]
+			0, -- [13]
+			[51] = 1718714883,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Mashadar",
+		}, -- [22]
+		{
+			"wts valor bracers", -- [1]
+			"Galico", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Galico", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			475, -- [11]
+			"0x000000000000616D", -- [12]
+			0, -- [13]
+			[51] = 1718714887,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Galico",
+		}, -- [23]
+		{
+			"WTS |cffffd000|Henchant:55208|h[Mining: Smelt Titansteel]|h|r cd 80g", -- [1]
+			"Zbiracica", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Zbiracica", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			479, -- [11]
+			"0x000000000000DFD7", -- [12]
+			0, -- [13]
+			[51] = 1718714889,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Zbiracica",
+		}, -- [24]
+		{
+			"LFM Naxx 10 Need 1 Tank DK/Prot Warr/Bear 1 Shaman DPS and Spriest /w gs spec Key Res", -- [1]
+			"Bullkathos", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Bullkathos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			482, -- [11]
+			"0x0000000000006A0B", -- [12]
+			0, -- [13]
+			[51] = 1718714890,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bullkathos",
+		}, -- [25]
+		{
+			"WTS Valor Bracers", -- [1]
+			"Przyczepa", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Przyczepa", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			489, -- [11]
+			"0x0000000000007313", -- [12]
+			0, -- [13]
+			[51] = 1718714895,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Przyczepa",
+		}, -- [26]
+		{
+			"Ideally you have 3.7k gs going into naxx but we don't have minimum requirements. If the group is good enough we can take anyone, if not we filter based on necessity", -- [1]
+			"Fishbrotwo", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			493, -- [11]
+			"0x000000000000BEE5", -- [12]
+			0, -- [13]
+			[51] = 1718714896,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbrotwo",
+		}, -- [27]
+		{
+			"Hey there, are you serious about raiding with the guild? Are you semi-hc and looking to raid consistently, as a filler or core member, or are you just a casual 80 playin about?", -- [1]
+			"Fishbrotwo", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			504, -- [11]
+			"0x000000000000BEE5", -- [12]
+			0, -- [13]
+			[51] = 1718714906,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbrotwo",
+		}, -- [28]
+		{
+			"WTS VALOR BRACERS", -- [1]
+			"Nofi", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Nofi", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			506, -- [11]
+			"0x000000000000A19F", -- [12]
+			0, -- [13]
+			[51] = 1718714907,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nofi",
+		}, -- [29]
+		{
+			"WTS |cffffffff|Hitem:39001:0:0:0:0:0:0:0:80|h[Scroll of Enchant Cloak - Mighty Armor]|h|r", -- [1]
+			"Salamander", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Salamander", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			509, -- [11]
+			"0x000000000000982F", -- [12]
+			0, -- [13]
+			[51] = 1718714908,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Salamander",
+		}, -- [30]
+		{
+			"welcome", -- [1]
+			"Catgg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			512, -- [11]
+			"0x0000000000002D47", -- [12]
+			0, -- [13]
+			[51] = 1718714911,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Catgg",
+		}, -- [31]
+		{
+			"LF VOA 10 NEED HUNTER AND WARRIOR TANK", -- [1]
+			"Bakaprase", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Bakaprase", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			514, -- [11]
+			"0x000000000000F5E4", -- [12]
+			0, -- [13]
+			[51] = 1718714911,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bakaprase",
+		}, -- [32]
+		{
+			"^ wisper message I'm spamming to our guild members", -- [1]
+			"Fishbrotwo", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			517, -- [11]
+			"0x000000000000BEE5", -- [12]
+			0, -- [13]
+			[51] = 1718714913,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbrotwo",
+		}, -- [33]
+		{
+			"Wisper me your answer", -- [1]
+			"Fishbrotwo", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			522, -- [11]
+			"0x000000000000BEE5", -- [12]
+			0, -- [13]
+			[51] = 1718714917,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbrotwo",
+		}, -- [34]
+		{
+			"WTS |cffffd000|Henchant:55369|h[Blacksmithing: Titansteel Destroyer]|h|r", -- [1]
+			"Voidhealer", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Voidhealer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			523, -- [11]
+			"0x000000000000533F", -- [12]
+			0, -- [13]
+			[51] = 1718714917,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Voidhealer",
+		}, -- [35]
+		{
+			"LFM voa 10 classrun! /w me with spec and gs! Still need warrior tank and hunter!", -- [1]
+			"Saskia", -- [2]
+			"", -- [3]
+			"1. general - dalaran", -- [4]
+			"Saskia", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"general - dalaran", -- [9]
+			0, -- [10]
+			525, -- [11]
+			"0x00000000000026A7", -- [12]
+			0, -- [13]
+			[51] = 1718714918,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Saskia",
+		}, -- [36]
+		{
+			"if u have whitemane+ how can u get multi-spec ?", -- [1]
+			"Wawa", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Wawa", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			534, -- [11]
+			"0x000000000000220A", -- [12]
+			0, -- [13]
+			[51] = 1718714926,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Wawa",
+		}, -- [37]
+		{
+			"if i have fixed my mana problems i will looking forward healing in raids", -- [1]
+			"Wotan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			538, -- [11]
+			"0x0000000000008C53", -- [12]
+			0, -- [13]
+			[51] = 1718714926,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Wotan",
+		}, -- [38]
+		{
+			"3,6k gs D priest and 3,2k gs F mage LFG NAXX 10", -- [1]
+			"Stormtrooper", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Stormtrooper", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			541, -- [11]
+			"0x00000000000037FC", -- [12]
+			0, -- [13]
+			[51] = 1718714932,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Stormtrooper",
+		}, -- [39]
+		{
+			"LFG Zul'Drak Arena", -- [1]
+			"Mashadar", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Mashadar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			544, -- [11]
+			"0x0000000000006B55", -- [12]
+			0, -- [13]
+			[51] = 1718714935,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Mashadar",
+		}, -- [40]
+		{
+			"LFM Naxx 10 Need 1 Tank DK/Prot Warr/Bear 1 Shaman DPS and Spriest /w gs spec Key Res", -- [1]
+			"Bullkathos", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Bullkathos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			547, -- [11]
+			"0x0000000000006A0B", -- [12]
+			0, -- [13]
+			[51] = 1718714938,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bullkathos",
+		}, -- [41]
+		{
+			"GERMAN GUILD <DRUCKWELLE> is looking for active, friendly and capable players. We focus on PvE and are therefore always looking for capable players who can play their class. If you are interested or have further questions w/me. (Only German)", -- [1]
+			"Seranoz", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Seranoz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			553, -- [11]
+			"0x000000000000004A", -- [12]
+			0, -- [13]
+			[51] = 1718714948,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Seranoz",
+		}, -- [42]
+		{
+			"LF2M VOA 10 CLASSRUN. NEED 1 TANK 1 DPS (PALA, HUNTER)", -- [1]
+			"Annakarin", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Annakarin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			554, -- [11]
+			"0x000000000000E069", -- [12]
+			0, -- [13]
+			[51] = 1718714948,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Annakarin",
+		}, -- [43]
+		{
+			"get whitemane+ to get more white", -- [1]
+			"Bussyenjoyer", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Bussyenjoyer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			556, -- [11]
+			"0x0000000000010CE1", -- [12]
+			0, -- [13]
+			[51] = 1718714950,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bussyenjoyer",
+		}, -- [44]
+		{
+			"Reported.", -- [1]
 			"Antik", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
@@ -88,1617 +826,663 @@ ElvCharacterDB = {
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			190, -- [11]
+			558, -- [11]
 			"0x0000000000001735", -- [12]
 			0, -- [13]
-			[51] = 1718661276,
+			[51] = 1718714952,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Antik",
-		}, -- [4]
-		{
-			"{square} LF Healer for RDF lvl 62 - 71 One run or more :) {square} Big pulls + free potions /w me ", -- [1]
-			"Bulevardier", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Bulevardier", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			192, -- [11]
-			"0x000000000000B396", -- [12]
-			0, -- [13]
-			[51] = 1718661279,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bulevardier",
-		}, -- [5]
-		{
-			"specially with pugs lol", -- [1]
-			"Manalust", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			195, -- [11]
-			"0x0000000000003315", -- [12]
-			0, -- [13]
-			[51] = 1718661284,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Manalust",
-		}, -- [6]
-		{
-			"GERMAN GUILD <DRUCKWELLE> is looking for active, friendly and capable players. We focus on PvE and are therefore always looking for capable players who can play their class. If you are interested or have further questions w/me. (Only German)", -- [1]
-			"Nethalya", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Nethalya", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			198, -- [11]
-			"0x000000000000766E", -- [12]
-			0, -- [13]
-			[51] = 1718661289,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nethalya",
-		}, -- [7]
-		{
-			"but cant u pay to buy coins then sell them to other on the site?", -- [1]
-			"Oldmandaro", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Oldmandaro", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			199, -- [11]
-			"0x0000000000008C22", -- [12]
-			0, -- [13]
-			[51] = 1718661289,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Oldmandaro",
-		}, -- [8]
-		{
-			"It existed in the retail version as well,shut up about it.", -- [1]
-			"Heatbast", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Heatbast", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			203, -- [11]
-			"0x000000000000AD8C", -- [12]
-			0, -- [13]
-			[51] = 1718661294,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heatbast",
-		}, -- [9]
-		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|rover C.O.D for 10gold per stack", -- [1]
-			"Sliced", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Sliced", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			204, -- [11]
-			"0x000000000000E9F3", -- [12]
-			0, -- [13]
-			[51] = 1718661294,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Sliced",
-		}, -- [10]
-		{
-			" |cffffd000|Htrade:28675:450:450:2FDD:2/tH0B/HdFN/OAMFAEALrAAAu/K/oAC/7+/fUs7v0/9v|h[Potion Master]|h|rLFW", -- [1]
-			"Lewdrider", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Lewdrider", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			207, -- [11]
-			"0x0000000000002FDD", -- [12]
-			0, -- [13]
-			[51] = 1718661299,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Lewdrider",
-		}, -- [11]
-		{
-			"GDKP = Bad! 50 DKP minus to you Straker", -- [1]
-			"Badrat-HC", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Badrat", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			208, -- [11]
-			"0x0000000000010C80", -- [12]
-			0, -- [13]
-			[51] = 1718661300,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Badrat-HC",
-		}, -- [12]
-		{
-			" <DZ BROTHERS> English speaking guild recruting for its 25 man Progress SUNWELL/NAXX Recruting TANKS / HEALERS - DPS <Mages- Priests SP/DP -LOCKS - ROUGES - DK > Rest are welcomed /w for more info", -- [1]
-			"Vaiprix", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Vaiprix", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			211, -- [11]
-			"0x0000000000002AC9", -- [12]
-			0, -- [13]
-			[51] = 1718661302,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Vaiprix",
-		}, -- [13]
-		{
-			"nope no one did it back there", -- [1]
-			"Kiske", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Kiske", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			212, -- [11]
-			"0x000000000000941F", -- [12]
-			0, -- [13]
-			[51] = 1718661305,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Kiske",
-		}, -- [14]
-		{
-			"[RU] Semi-hardcore PVE guild <Skill Issue> LF raiders, prio rdru, rsham, hpal, mage, wlock. 2 RT weekly 20.30-24.00 msk. Loot council. PM for more info.", -- [1]
-			"Trovi", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Trovi", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			213, -- [11]
-			"0x0000000000002757", -- [12]
-			0, -- [13]
-			[51] = 1718661305,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Trovi",
-		}, -- [15]
-		{
-			"go vote", -- [1]
-			"Rabroub", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Rabroub", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			214, -- [11]
-			"0x0000000000000C3C", -- [12]
-			0, -- [13]
-			[51] = 1718661305,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rabroub",
-		}, -- [16]
-		{
-			"<Bogos binted >an Eng Speaking PVE guild is Recruiting all players willing to do PVE content and !@#$ post. non PVE players are also welcome /w Me for an inv or access this discord link https://discord.gg/NtgeJq3mhE (not scam center link)", -- [1]
-			"Executus", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Executus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			215, -- [11]
-			"0x000000000000F1AD", -- [12]
-			0, -- [13]
-			[51] = 1718661306,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Executus",
-		}, -- [17]
-		{
-			"need boomie and spriest for os 25 1 drake", -- [1]
-			"Kolarko", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Kolarko", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			216, -- [11]
-			"0x0000000000008DE7", -- [12]
-			0, -- [13]
-			[51] = 1718661309,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Kolarko",
-		}, -- [18]
-		{
-			"<ImPact> Spanish speaking Guild looking for members High prio: Feral, any experienced player will be considered. Raid schedule : Wed/Thurs/Fri 21-24ST.", -- [1]
-			"Obudin", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Obudin", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			217, -- [11]
-			"0x0000000000000709", -- [12]
-			0, -- [13]
-			[51] = 1718661311,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Obudin",
-		}, -- [19]
-		{
-			"say no to GDKP!", -- [1]
-			"Minthe", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Minthe", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			218, -- [11]
-			"0x000000000000A723", -- [12]
-			0, -- [13]
-			[51] = 1718661314,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Minthe",
-		}, -- [20]
-		{
-			"or play the game and get your %^&* rather than pay to win", -- [1]
-			"Cain", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Cain", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			220, -- [11]
-			"0x00000000000087A1", -- [12]
-			0, -- [13]
-			[51] = 1718661315,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Cain",
-		}, -- [21]
-		{
-			"WTS |cffffffff|Hitem:43013:0:0:0:0:0:0:0:80|h[Chilled Meat]|h|r GOT A TONNE", -- [1]
-			"Czech", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Czech", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			221, -- [11]
-			"0x0000000000005964", -- [12]
-			0, -- [13]
-			[51] = 1718661316,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Czech",
-		}, -- [22]
-		{
-			"NEED 2DPS PREF BOOMY AND EL SHAMAN FOR OS 25 1DRAKE ", -- [1]
-			"Hankamagus", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Hankamagus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			222, -- [11]
-			"0x0000000000008542", -- [12]
-			0, -- [13]
-			[51] = 1718661316,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Hankamagus",
-		}, -- [23]
-		{
-			"why not join a guild run though, not being in the core does not mean you wont get invited", -- [1]
-			"Manalust", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			223, -- [11]
-			"0x0000000000003315", -- [12]
-			0, -- [13]
-			[51] = 1718661321,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Manalust",
-		}, -- [24]
-		{
-			"WTS |cffffffff|Hitem:36903:0:0:0:0:0:0:0:80|h[Adder's Tongue]|h|r |cff1eff00|Hitem:35625:0:0:0:0:0:0:0:80|h[Eternal Life]|h|r", -- [1]
-			"Keria", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Keria", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			225, -- [11]
-			"0x0000000000003958", -- [12]
-			0, -- [13]
-			[51] = 1718661324,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Keria",
-		}, -- [25]
-		{
-			"No GDKP", -- [1]
-			"Badrat-HC", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Badrat", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			227, -- [11]
-			"0x0000000000010C80", -- [12]
-			0, -- [13]
-			[51] = 1718661332,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Badrat-HC",
-		}, -- [26]
-		{
-			"people are afraid of the rolls haha they need to pay 100k g for a trinket haha", -- [1]
-			"Kiske", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Kiske", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			228, -- [11]
-			"0x000000000000941F", -- [12]
-			0, -- [13]
-			[51] = 1718661339,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Kiske",
-		}, -- [27]
-		{
-			"WTS |cffa335ee|Hitem:43573:0:0:0:0:0:0:0:80|h[Tears of Bitter Anguish]|h|r", -- [1]
-			"Zagorka", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Zagorka", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			229, -- [11]
-			"0x0000000000002962", -- [12]
-			0, -- [13]
-			[51] = 1718661340,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zagorka",
-		}, -- [28]
-		{
-			"Guild Latin@ < Disbanded > Is looking for exceptional, class-dominant players for our roster. High Prio: (Warlock,Rshamy,Dboomie) Schedule: SA 02:00 ST - Progress: Naxx 10/25 [15/15] - EoE 10/25 [1/1] - OS 10/25 3 Drake [4/4] +Info /w ", -- [1]
-			"Turromantica", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Turromantica", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			230, -- [11]
-			"0x000000000000DE49", -- [12]
-			0, -- [13]
-			[51] = 1718661341,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Turromantica",
-		}, -- [29]
-		{
-			"Literally the premium store,just ignore the GDKP system and go back to doing whatever the hell you were.", -- [1]
-			"Heatbast", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Heatbast", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			231, -- [11]
-			"0x000000000000AD8C", -- [12]
-			0, -- [13]
-			[51] = 1718661342,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heatbast",
-		}, -- [30]
-		{
-			"WTB Valor Bracers - PST Price", -- [1]
-			"Missusclean", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Missusclean", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			232, -- [11]
-			"0x0000000000003F60", -- [12]
-			0, -- [13]
-			[51] = 1718661343,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Missusclean",
-		}, -- [31]
-		{
-			"SURV HUNTER 3.7K GS LF NAXX25/EOE/OS PM", -- [1]
-			"Akkash", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Akkash", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			233, -- [11]
-			"0x000000000000634F", -- [12]
-			0, -- [13]
-			[51] = 1718661344,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Akkash",
-		}, -- [32]
-		{
-			"Gdkp are for low IQ ppl", -- [1]
-			"Ayalah", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Ayalah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			234, -- [11]
-			"0x000000000000FEA5", -- [12]
-			0, -- [13]
-			[51] = 1718661346,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ayalah",
-		}, -- [33]
-		{
-			"#noGDKP", -- [1]
-			"Athunder", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Athunder", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			235, -- [11]
-			"0x000000000000B551", -- [12]
-			0, -- [13]
-			[51] = 1718661351,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Athunder",
-		}, -- [34]
-		{
-			"<Omnipotent> Only Eng in Gchat, Doing 2 drakes, Ascended, Sunwell, etc, Led by 16 yrs of WOTLK exp, Disc: https://discord.gg/hSgYPPvCfb Loot: Council, Raid Time: 7pm server all week, we're filling out our Semi-hc roster now for fast fun raids", -- [1]
-			"Manalust", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Manalust", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			237, -- [11]
-			"0x0000000000003315", -- [12]
-			0, -- [13]
-			[51] = 1718661354,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Manalust",
-		}, -- [35]
-		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|rover C.O.D for 10gold per stack", -- [1]
-			"Sliced", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Sliced", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			238, -- [11]
-			"0x000000000000E9F3", -- [12]
-			0, -- [13]
-			[51] = 1718661354,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Sliced",
-		}, -- [36]
-		{
-			"|Hplayer:Benks|h[Benks]|h has earned the achievement |cffffff00|Hachievement:775:000000000000BDCE:1:6:17:24:4294967295:4294967295:4294967295:4294967295|h[Explore Burning Steppes]|h|r!", -- [1]
-			"Benks", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Benks", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			239, -- [11]
-			"0x000000000000BDCE", -- [12]
-			0, -- [13]
-			[51] = 1718661357,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-			[52] = "Benks",
-		}, -- [37]
-		{
-			"there s a vote on the discord", -- [1]
-			"Cain", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Cain", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			241, -- [11]
-			"0x00000000000087A1", -- [12]
-			0, -- [13]
-			[51] = 1718661364,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Cain",
-		}, -- [38]
-		{
-			"like why people want to do GDKP here if people are doing BoE res for Naxx normal? like wtf come on", -- [1]
-			"Badrat-HC", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Badrat", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			243, -- [11]
-			"0x0000000000010C80", -- [12]
-			0, -- [13]
-			[51] = 1718661367,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Badrat-HC",
-		}, -- [39]
-		{
-			"be real", -- [1]
-			"Badrat-HC", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Badrat", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			247, -- [11]
-			"0x0000000000010C80", -- [12]
-			0, -- [13]
-			[51] = 1718661377,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Badrat-HC",
-		}, -- [40]
-		{
-			"<Bogos binted >an Eng Speaking PVE guild is Recruiting all players willing to do PVE content and !@#$ post. non PVE players are also welcome /w Me for an inv or access this discord link https://discord.gg/NtgeJq3mhE (not scam center link)", -- [1]
-			"Executus", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Executus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			250, -- [11]
-			"0x000000000000F1AD", -- [12]
-			0, -- [13]
-			[51] = 1718661381,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Executus",
-		}, -- [41]
-		{
-			"<Azure Death Sect> English speaking Semi-hc Guild is recruiting experienced and serious wotlk players for its core team. Raid times: Wed 8pm ST. Sund 9pm ST /w Daigo for more info!", -- [1]
-			"Daigo", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Daigo", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			252, -- [11]
-			"0x0000000000000073", -- [12]
-			0, -- [13]
-			[51] = 1718661381,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Daigo",
-		}, -- [42]
-		{
-			"WTS |cffa335ee|Hitem:40305:0:0:0:0:0:0:0:80|h[Spaulders of Egotism]|h|r 2.5k", -- [1]
-			"Finitejest", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Finitejest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			253, -- [11]
-			"0x000000000000A598", -- [12]
-			0, -- [13]
-			[51] = 1718661385,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Finitejest",
-		}, -- [43]
-		{
-			"[PL] <Fade> Polish speaking guild is looking for experienced players to complete our 25 HC group. Recruitment is open to everyone! (especially rdudu, fdk)", -- [1]
-			"Aga", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Aga", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			254, -- [11]
-			"0x00000000000028F4", -- [12]
-			0, -- [13]
-			[51] = 1718661398,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Aga",
-		}, -- [44]
-		{
-			"{square} LF Healer for RDF lvl 62 - 71 One run or more :) {square} Big pulls + free potions /w me ", -- [1]
-			"Bulevardier", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Bulevardier", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			255, -- [11]
-			"0x000000000000B396", -- [12]
-			0, -- [13]
-			[51] = 1718661398,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bulevardier",
 		}, -- [45]
 		{
-			"LFM GKDP Oculus Need big pumper dps", -- [1]
-			"Rajaojetes", -- [2]
+			"\"Live to Die\" is a Balkan guild recruiting social and chill people for pvp, dungeons and clearing of raiding content. Everyone is welcome pst for inv", -- [1]
+			"Rocknpally", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Rajaojetes", -- [5]
+			"Rocknpally", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			257, -- [11]
-			"0x000000000000ECE7", -- [12]
+			561, -- [11]
+			"0x0000000000007A9D", -- [12]
 			0, -- [13]
-			[51] = 1718661407,
+			[51] = 1718714956,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rajaojetes",
+			[52] = "Rocknpally",
 		}, -- [46]
 		{
-			"<ImPact> Spanish speaking Guild looking for members High prio: Feral, any experienced player will be considered. Raid schedule : Wed/Thurs/Fri 21-24ST.", -- [1]
-			"Obudin", -- [2]
+			"LFM voa 10 classrun! just need a hunter!", -- [1]
+			"Saskia", -- [2]
 			"", -- [3]
-			"6. worldchat", -- [4]
-			"Obudin", -- [5]
+			"1. general - dalaran", -- [4]
+			"Saskia", -- [5]
 			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"general - dalaran", -- [9]
 			0, -- [10]
-			258, -- [11]
-			"0x0000000000000709", -- [12]
+			564, -- [11]
+			"0x00000000000026A7", -- [12]
 			0, -- [13]
-			[51] = 1718661409,
+			[51] = 1718714960,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Obudin",
+			[52] = "Saskia",
 		}, -- [47]
 		{
-			"WTSS |cffa335ee|Hitem:43573:0:0:0:0:0:0:0:80|h[Tears of Bitter Anguish]|h|r", -- [1]
-			"Zagorka", -- [2]
+			" Hey dadi Im in org waitin 4 you , ive goot oodles of big boy studels 4 good little noodles! and portals to here , there , anywhere , idc <3 . i adore you and cant wait to accept your 5 g tip , is tht a strudel in ur pocket? or r u just happy 2 c me?", -- [1]
+			"Tiktokthot", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Zagorka", -- [5]
-			"DND", -- [6]
+			"Tiktokthot", -- [5]
+			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			259, -- [11]
-			"0x0000000000002962", -- [12]
+			565, -- [11]
+			"0x00000000000109C2", -- [12]
 			0, -- [13]
-			[51] = 1718661414,
+			[51] = 1718714960,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zagorka",
+			[52] = "Tiktokthot",
 		}, -- [48]
 		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|rover C.O.D for 10gold per stack", -- [1]
-			"Sliced", -- [2]
+			"LF VOA 10 NEED HUNTER SHAMAN and warrior tank", -- [1]
+			"Bakaprase", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Sliced", -- [5]
-			"AFK", -- [6]
+			"Bakaprase", -- [5]
+			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			260, -- [11]
-			"0x000000000000E9F3", -- [12]
+			569, -- [11]
+			"0x000000000000F5E4", -- [12]
 			0, -- [13]
-			[51] = 1718661414,
+			[51] = 1718714966,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Sliced",
+			[52] = "Bakaprase",
 		}, -- [49]
 		{
-			"i was in a guild and they're doing naxx25 and they just heading to the instance and give all their friends +50 gdkp just like that ", -- [1]
-			"Athunder", -- [2]
+			"WTS |cffa335ee|Hitem:41257:0:0:0:0:0:0:0:80|h[Titansteel Destroyer]|h|r", -- [1]
+			"Voidhealer", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Athunder", -- [5]
+			"Voidhealer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			261, -- [11]
-			"0x000000000000B551", -- [12]
+			570, -- [11]
+			"0x000000000000533F", -- [12]
 			0, -- [13]
-			[51] = 1718661418,
+			[51] = 1718714970,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Athunder",
+			[52] = "Voidhealer",
 		}, -- [50]
 		{
-			"what means GDKP ?", -- [1]
-			"Aubergine", -- [2]
+			"asd", -- [1]
+			"Valkiriya", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Aubergine", -- [5]
+			"Valkiriya", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			263, -- [11]
-			"0x000000000000B167", -- [12]
+			572, -- [11]
+			"0x0000000000010E2C", -- [12]
 			0, -- [13]
-			[51] = 1718661428,
+			[51] = 1718714980,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Aubergine",
+			[52] = "Valkiriya",
 		}, -- [51]
 		{
-			"its means you bid with gold for items on raid", -- [1]
-			"Shanksy", -- [2]
+			"WTS |cff0070dd|Hitem:13137:0:0:0:0:0:0:0:45|h[Ironweaver]|h|r", -- [1]
+			"Oddly", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Shanksy", -- [5]
+			"Oddly", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			264, -- [11]
-			"0x000000000000773B", -- [12]
+			573, -- [11]
+			"0x0000000000010213", -- [12]
 			0, -- [13]
-			[51] = 1718661444,
+			[51] = 1718714981,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shanksy",
+			[52] = "Oddly",
 		}, -- [52]
 		{
-			" |cffffd000|Htrade:28675:450:450:2FDD:2/tH0B/HdFN/OAMFAEALrAAAu/K/oAC/7+/fUs7v0/9v|h[Potion Master]|h|rLFW", -- [1]
-			"Lewdrider", -- [2]
+			"LFM Naxx 10 Need 1 Tank DK/Prot Warr/Bear 1 Shaman DPS and Spriest /w gs spec Key Res", -- [1]
+			"Bullkathos", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Lewdrider", -- [5]
+			"Bullkathos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			265, -- [11]
-			"0x0000000000002FDD", -- [12]
+			574, -- [11]
+			"0x0000000000006A0B", -- [12]
 			0, -- [13]
-			[51] = 1718661445,
+			[51] = 1718715001,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Lewdrider",
+			[52] = "Bullkathos",
 		}, -- [53]
 		{
-			"WTB Valor Bracers - PST Price", -- [1]
-			"Missusclean", -- [2]
+			"LF VOA 10 NEED hunter and warrior tank", -- [1]
+			"Bakaprase", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Missusclean", -- [5]
+			"Bakaprase", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			266, -- [11]
-			"0x0000000000003F60", -- [12]
+			578, -- [11]
+			"0x000000000000F5E4", -- [12]
 			0, -- [13]
-			[51] = 1718661445,
+			[51] = 1718715006,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Missusclean",
+			[52] = "Bakaprase",
 		}, -- [54]
 		{
-			"greedy dicks kill people", -- [1]
-			"Dreadless", -- [2]
+			"LFM VoA 18 need -> tank druid/war + dps sham (enha/elemental), rogue", -- [1]
+			"Hello", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Dreadless", -- [5]
+			"Hello", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			267, -- [11]
-			"0x000000000000105D", -- [12]
+			579, -- [11]
+			"0x0000000000002EE2", -- [12]
 			0, -- [13]
-			[51] = 1718661448,
+			[51] = 1718715007,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Dreadless",
+			[52] = "Hello",
 		}, -- [55]
 		{
-			"50 DKP minus to Straker", -- [1]
-			"Badrat-HC", -- [2]
+			"LFG Zul'Drak Arena", -- [1]
+			"Mashadar", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Badrat", -- [5]
+			"Mashadar", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			268, -- [11]
-			"0x0000000000010C80", -- [12]
+			580, -- [11]
+			"0x0000000000006B55", -- [12]
 			0, -- [13]
-			[51] = 1718661449,
+			[51] = 1718715007,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Badrat-HC",
+			[52] = "Mashadar",
 		}, -- [56]
 		{
-			"WTS |cff0070dd|Hitem:44275:0:0:0:0:0:0:0:80|h[Eight of Nobles]|h|r |cff0070dd|Hitem:44269:0:0:0:0:0:0:0:80|h[Two of Nobles]|h|r", -- [1]
-			"Rengar", -- [2]
+			"Guild run Need 1 Hpal For tonight 20:30 ST for Naxx 25 /W", -- [1]
+			"Auura", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Rengar", -- [5]
+			"Auura", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			270, -- [11]
-			"0x0000000000004782", -- [12]
+			582, -- [11]
+			"0x00000000000026C9", -- [12]
 			0, -- [13]
-			[51] = 1718661457,
+			[51] = 1718715009,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rengar",
+			[52] = "Auura",
 		}, -- [57]
 		{
-			"bruh leave gdkp alone", -- [1]
-			"Stitou", -- [2]
+			"LF second home Guild", -- [1]
+			"Rustaghh", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Stitou", -- [5]
+			"Rustaghh", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			271, -- [11]
-			"0x0000000000005AD8", -- [12]
+			585, -- [11]
+			"0x000000000001146D", -- [12]
 			0, -- [13]
-			[51] = 1718661460,
+			[51] = 1718715012,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Stitou",
+			[52] = "Rustaghh",
 		}, -- [58]
 		{
-			"WTS |cffffffff|Hitem:36903:0:0:0:0:0:0:0:80|h[Adder's Tongue]|h|r |cff1eff00|Hitem:35625:0:0:0:0:0:0:0:80|h[Eternal Life]|h|r", -- [1]
-			"Keria", -- [2]
+			"wts valor bracers", -- [1]
+			"Galico", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Keria", -- [5]
+			"Galico", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			273, -- [11]
-			"0x0000000000003958", -- [12]
+			596, -- [11]
+			"0x000000000000616D", -- [12]
 			0, -- [13]
-			[51] = 1718661463,
+			[51] = 1718715022,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Keria",
+			[52] = "Galico",
 		}, -- [59]
 		{
-			"|Hplayer:Aranel|h[Aranel]|h has earned the achievement |cffffff00|Hachievement:564:000000000000998F:1:6:17:24:4294967295:4294967295:4294967295:4294967295|h[The Construct Quarter (10 player)]|h|r!", -- [1]
-			"Aranel", -- [2]
+			"LFM OS 25 2D !! LF 1 HEAL ONLY !! 3k4 gs ++ gemmes ++ enchant !! |cffffff00|Hachievement:2050:000000000000051F:1:6:14:24:4294967295:4294967295:4294967295:4294967295|h[Twilight Duo (10 player)]|h|r", -- [1]
+			"Lyca", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Lyca", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			597, -- [11]
+			"0x000000000000051F", -- [12]
+			0, -- [13]
+			[51] = 1718715022,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Lyca",
+		}, -- [60]
+		{
+			"WTS VALOR BRACERS", -- [1]
+			"Nofi", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Nofi", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			601, -- [11]
+			"0x000000000000A19F", -- [12]
+			0, -- [13]
+			[51] = 1718715027,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nofi",
+		}, -- [61]
+		{
+			"LF VOA 10 NEED hunter,shaman and warrior tank", -- [1]
+			"Bakaprase", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Bakaprase", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			603, -- [11]
+			"0x000000000000F5E4", -- [12]
+			0, -- [13]
+			[51] = 1718715029,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bakaprase",
+		}, -- [62]
+		{
+			"|Hplayer:Raigaster|h[Raigaster]|h has earned the achievement |cffffff00|Hachievement:3840:000000000000486A:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[50 Dungeon & Raid Emblems]|h|r!", -- [1]
+			"Raigaster", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Aranel", -- [5]
+			"Raigaster", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			274, -- [11]
-			"0x000000000000998F", -- [12]
+			604, -- [11]
+			"0x000000000000486A", -- [12]
 			0, -- [13]
-			[51] = 1718661464,
+			[51] = 1718715036,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-			[52] = "Aranel",
-		}, -- [60]
+			[52] = "Raigaster",
+		}, -- [63]
 		{
-			"Guild <Knights UA> invites people for PVE content and pleasant communication+++", -- [1]
-			"Rexxar", -- [2]
+			"Hey there, are you serious about raiding with the guild? Are you semi-hc and looking to raid consistently, as a filler or core member, or are you just a casual 80 playin about?", -- [1]
+			"Fishbrotwo", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fishbrotwo", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			605, -- [11]
+			"0x000000000000BEE5", -- [12]
+			0, -- [13]
+			[51] = 1718715037,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "Fishbrotwo",
+		}, -- [64]
+		{
+			"3,6k gs D priest and 3,2k gs F mage LFG NAXX 10 or VOA 10", -- [1]
+			"Stormtrooper", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Rexxar", -- [5]
+			"Stormtrooper", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			277, -- [11]
-			"0x00000000000013E8", -- [12]
+			607, -- [11]
+			"0x00000000000037FC", -- [12]
 			0, -- [13]
-			[51] = 1718661472,
+			[51] = 1718715042,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rexxar",
-		}, -- [61]
+			[52] = "Stormtrooper",
+		}, -- [65]
 		{
-			"<Omnipotent> Only Eng in Gchat, Doing 2 drakes, Ascended, Sunwell, etc, Led by 16 yrs of WOTLK exp, Disc: https://discord.gg/hSgYPPvCfb Loot: Council, Raid Time: 7pm server all week, we're filling out our Semi-hc roster now for fast fun raids", -- [1]
-			"Manalust", -- [2]
+			"LF1M VOA 10 NEED HUNTER /w GS", -- [1]
+			"Annakarin", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Manalust", -- [5]
+			"Annakarin", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			278, -- [11]
-			"0x0000000000003315", -- [12]
+			609, -- [11]
+			"0x000000000000E069", -- [12]
 			0, -- [13]
-			[51] = 1718661474,
+			[51] = 1718715047,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Manalust",
-		}, -- [62]
+			[52] = "Annakarin",
+		}, -- [66]
 		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|rover C.O.D for 10gold per stack", -- [1]
-			"Sliced", -- [2]
+			"LF PVE GUILd", -- [1]
+			"Erong", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Sliced", -- [5]
+			"Erong", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			610, -- [11]
+			"0x000000000001043D", -- [12]
+			0, -- [13]
+			[51] = 1718715047,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Erong",
+		}, -- [67]
+		{
+			"LFM voa 10 classrun! just need a hunter!", -- [1]
+			"Saskia", -- [2]
+			"", -- [3]
+			"1. general - dalaran", -- [4]
+			"Saskia", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"general - dalaran", -- [9]
+			0, -- [10]
+			612, -- [11]
+			"0x00000000000026A7", -- [12]
+			0, -- [13]
+			[51] = 1718715053,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Saskia",
+		}, -- [68]
+		{
+			" Hey dadi Im in org waitin 4 you , ive goot oodles of big boy studels 4 good little noodles! and portals to here , there , anywhere , idc <3 . i adore you and cant wait to accept your 5 g tip , is tht a strudel in ur pocket? or r u just happy 2 c me?", -- [1]
+			"Tiktokthot", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Tiktokthot", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			614, -- [11]
+			"0x00000000000109C2", -- [12]
+			0, -- [13]
+			[51] = 1718715060,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Tiktokthot",
+		}, -- [69]
+		{
+			"LFM sunwell 25 need 1healer shaman (hunter mage cat fwar ele ) me gs class ", -- [1]
+			"Xyzz", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Xyzz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			616, -- [11]
+			"0x000000000000447B", -- [12]
+			0, -- [13]
+			[51] = 1718715064,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Xyzz",
+		}, -- [70]
+		{
+			"LFM VoA 18 last spots dps sham + tank (warrior/druid)", -- [1]
+			"Hello", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Hello", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			617, -- [11]
+			"0x0000000000002EE2", -- [12]
+			0, -- [13]
+			[51] = 1718715066,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Hello",
+		}, -- [71]
+		{
+			"|Hplayer:Lyndaria|h[Lyndaria]|h has earned the achievement |cffffff00|Hachievement:1864:000000000000BF7E:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[What the Eck?]|h|r!", -- [1]
+			"Lyndaria", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lyndaria", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			618, -- [11]
+			"0x000000000000BF7E", -- [12]
+			0, -- [13]
+			[51] = 1718715073,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "Lyndaria",
+		}, -- [72]
+		{
+			"LF VOA 10 NEED hunter and warrior tank", -- [1]
+			"Bakaprase", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Bakaprase", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			619, -- [11]
+			"0x000000000000F5E4", -- [12]
+			0, -- [13]
+			[51] = 1718715076,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bakaprase",
+		}, -- [73]
+		{
+			"LFM Naxx 10 Full clear only key ress Need Shaman DPS and OT Warr/Bear Pref. /w gs spec", -- [1]
+			"Bullkathos", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Bullkathos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			620, -- [11]
+			"0x0000000000006A0B", -- [12]
+			0, -- [13]
+			[51] = 1718715078,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bullkathos",
+		}, -- [74]
+		{
+			"LF1M VOA 10 NEED HUNTER /w GS", -- [1]
+			"Annakarin", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Annakarin", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			621, -- [11]
+			"0x000000000000E069", -- [12]
+			0, -- [13]
+			[51] = 1718715078,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Annakarin",
+		}, -- [75]
+		{
+			"Ppal 3.7 LF VOA 10/25", -- [1]
+			"Wish", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Wish", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			623, -- [11]
+			"0x00000000000014F3", -- [12]
+			0, -- [13]
+			[51] = 1718715098,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Wish",
+		}, -- [76]
+		{
+			"Guild run Need 1 Hpal For tonight 20:30 ST for Naxx 25 /W", -- [1]
+			"Auura", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Auura", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			624, -- [11]
+			"0x00000000000026C9", -- [12]
+			0, -- [13]
+			[51] = 1718715098,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Auura",
+		}, -- [77]
+		{
+			"wts |cffffd000|Htrade:51313:424:450:616D:47Kbb6a8f5Z7msynvLJPAAAAAAGABsAAwXzC807vyLVtHg/HAAD|h[Enchanting]|h|r", -- [1]
+			"Galico", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Galico", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			625, -- [11]
+			"0x000000000000616D", -- [12]
+			0, -- [13]
+			[51] = 1718715099,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Galico",
+		}, -- [78]
+		{
+			"i need raid that gona do OS or EOE combat rogue 3.8 gear score ", -- [1]
+			"Yabai", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Yabai", -- [5]
 			"AFK", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			279, -- [11]
-			"0x000000000000E9F3", -- [12]
-			0, -- [13]
-			[51] = 1718661474,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Sliced",
-		}, -- [63]
-		{
-			"75% say no to GDKP", -- [1]
-			"Missusclean", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Missusclean", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			280, -- [11]
-			"0x0000000000003F60", -- [12]
-			0, -- [13]
-			[51] = 1718661475,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Missusclean",
-		}, -- [64]
-		{
-			"Guild Latin@ < Disbanded > Is looking for exceptional, class-dominant players for our roster. High Prio: (Warlock,Rshamy,Dboomie) Schedule: SA 02:00 ST - Progress: Naxx 10/25 [15/15] - EoE 10/25 [1/1] - OS 10/25 3 Drake [4/4] +Info /w ", -- [1]
-			"Turromantica", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Turromantica", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			282, -- [11]
-			"0x000000000000DE49", -- [12]
-			0, -- [13]
-			[51] = 1718661489,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Turromantica",
-		}, -- [65]
-		{
-			"WTS |cffffffff|Hitem:43013:0:0:0:0:0:0:0:80|h[Chilled Meat]|h|r GOT A TONNE", -- [1]
-			"Czech", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Czech", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			283, -- [11]
-			"0x0000000000005964", -- [12]
-			0, -- [13]
-			[51] = 1718661489,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Czech",
-		}, -- [66]
-		{
-			"if u dont like it just dont play it -_-", -- [1]
-			"Stitou", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Stitou", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			284, -- [11]
-			"0x0000000000005AD8", -- [12]
-			0, -- [13]
-			[51] = 1718661492,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Stitou",
-		}, -- [67]
-		{
-			"nono", -- [1]
-			"Kiske", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Kiske", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			285, -- [11]
-			"0x000000000000941F", -- [12]
-			0, -- [13]
-			[51] = 1718661495,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Kiske",
-		}, -- [68]
-		{
-			"STOP THE COUNT!!!!", -- [1]
-			"Coco", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Coco", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			287, -- [11]
-			"0x0000000000010020", -- [12]
-			0, -- [13]
-			[51] = 1718661495,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Coco",
-		}, -- [69]
-		{
-			"VOA raid group 25 or 10 gear score 3.8 k combat rogue ", -- [1]
-			"Yabai", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Yabai", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			288, -- [11]
+			627, -- [11]
 			"0x000000000000178C", -- [12]
 			0, -- [13]
-			[51] = 1718661496,
+			[51] = 1718715101,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Yabai",
-		}, -- [70]
-		{
-			"and in the first boss some items drops and the guilds friend were just spending these free 50 points and everyone else just had 10 for the boss kill ", -- [1]
-			"Athunder", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Athunder", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			290, -- [11]
-			"0x000000000000B551", -- [12]
-			0, -- [13]
-			[51] = 1718661498,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Athunder",
-		}, -- [71]
-		{
-			"no GDKP ", -- [1]
-			"Badrat-HC", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Badrat", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			291, -- [11]
-			"0x0000000000010C80", -- [12]
-			0, -- [13]
-			[51] = 1718661502,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Badrat-HC",
-		}, -- [72]
-		{
-			"always the poor ruining fun for the rest of us", -- [1]
-			"Gatonso", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Gatonso", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			292, -- [11]
-			"0x0000000000006AF6", -- [12]
-			0, -- [13]
-			[51] = 1718661502,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Gatonso",
-		}, -- [73]
-		{
-			"IF you dont like it without the gdkp dont play it", -- [1]
-			"Kiske", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Kiske", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			293, -- [11]
-			"0x000000000000941F", -- [12]
-			0, -- [13]
-			[51] = 1718661503,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Kiske",
-		}, -- [74]
-		{
-			"LFG VOA - disc priest", -- [1]
-			"Sciddy", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Sciddy", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			294, -- [11]
-			"0x0000000000003AE8", -- [12]
-			0, -- [13]
-			[51] = 1718661504,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Sciddy",
-		}, -- [75]
-		{
-			"[PL] <Fade> Polish speaking guild is looking for experienced players to complete our 25 HC group. Recruitment is open to everyone! (especially rdudu, fdk)", -- [1]
-			"Aga", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Aga", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			295, -- [11]
-			"0x00000000000028F4", -- [12]
-			0, -- [13]
-			[51] = 1718661505,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Aga",
-		}, -- [76]
-		{
-			"WTS |cff0070dd|Hitem:44275:0:0:0:0:0:0:0:80|h[Eight of Nobles]|h|r |cff0070dd|Hitem:44269:0:0:0:0:0:0:0:80|h[Two of Nobles]|h|r", -- [1]
-			"Rengar", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Rengar", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			296, -- [11]
-			"0x0000000000004782", -- [12]
-			0, -- [13]
-			[51] = 1718661506,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rengar",
-		}, -- [77]
-		{
-			"<ImPact> Spanish speaking Guild looking for members High prio: Feral, any experienced player will be considered. Raid schedule : Wed/Thurs/Fri 21-24ST.", -- [1]
-			"Obudin", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Obudin", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			297, -- [11]
-			"0x0000000000000709", -- [12]
-			0, -- [13]
-			[51] = 1718661507,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Obudin",
-		}, -- [78]
-		{
-			"almost 80% voted no ", -- [1]
-			"Badrat-HC", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Badrat", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			298, -- [11]
-			"0x0000000000010C80", -- [12]
-			0, -- [13]
-			[51] = 1718661512,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Badrat-HC",
 		}, -- [79]
 		{
-			"GDKP brings more gold farmer bots to the game", -- [1]
-			"Manalust", -- [2]
+			"LF second home Guild", -- [1]
+			"Rustaghh", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Manalust", -- [5]
+			"Rustaghh", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			299, -- [11]
-			"0x0000000000003315", -- [12]
+			640, -- [11]
+			"0x000000000001146D", -- [12]
 			0, -- [13]
-			[51] = 1718661517,
+			[51] = 1718715218,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Manalust",
+			[52] = "Rustaghh",
 		}, -- [80]
 		{
-			"\"If you don't like it, just don't play it\" Low IQ takes left and right here.", -- [1]
-			"Intolerancez", -- [2]
+			"LFM NAXX25+EOE25 need all 3.6+ today 1930ST discord FROST RES gear mandatory boe+key res sign up on disc --> https://discord.gg/fRaKm44a", -- [1]
+			"Foku", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Intolerancez", -- [5]
+			"Foku", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			300, -- [11]
-			"0x000000000000D43E", -- [12]
+			641, -- [11]
+			"0x0000000000003BA3", -- [12]
 			0, -- [13]
-			[51] = 1718661517,
+			[51] = 1718715223,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Intolerancez",
+			[52] = "Foku",
 		}, -- [81]
 		{
-			"WTB Valor Bracers - PST Price", -- [1]
-			"Missusclean", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Missusclean", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			301, -- [11]
-			"0x0000000000003F60", -- [12]
-			0, -- [13]
-			[51] = 1718661518,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Missusclean",
-		}, -- [82]
-		{
-			"WTS |cffa335ee|Hitem:43573:0:0:0:0:0:0:0:80|h[Tears of Bitter Anguish]|h|r", -- [1]
-			"Zagorka", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Zagorka", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			302, -- [11]
-			"0x0000000000002962", -- [12]
-			0, -- [13]
-			[51] = 1718661519,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zagorka",
-		}, -- [83]
-		{
-			"gdkp stinks", -- [1]
-			"Samyueru", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Samyueru", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			303, -- [11]
-			"0x0000000000000F2F", -- [12]
-			0, -- [13]
-			[51] = 1718661520,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Samyueru",
-		}, -- [84]
-		{
-			"what are we voting for..", -- [1]
-			"Evrac", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Evrac", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			304, -- [11]
-			"0x00000000000015A1", -- [12]
-			0, -- [13]
-			[51] = 1718661523,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Evrac",
-		}, -- [85]
-		{
-			"we don't want none of that", -- [1]
-			"Manalust", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Manalust", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			305, -- [11]
-			"0x0000000000003315", -- [12]
-			0, -- [13]
-			[51] = 1718661524,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Manalust",
-		}, -- [86]
-		{
-			"poop", -- [1]
-			"Og", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Og", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			308, -- [11]
-			"0x000000000001022B", -- [12]
-			0, -- [13]
-			[51] = 1718661527,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Og",
-		}, -- [87]
-		{
-			"please no warmane vol 2 plz", -- [1]
-			"Kiske", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Kiske", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			309, -- [11]
-			"0x000000000000941F", -- [12]
-			0, -- [13]
-			[51] = 1718661529,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Kiske",
-		}, -- [88]
-		{
-			"stinks", -- [1]
-			"Og", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Og", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			310, -- [11]
-			"0x000000000001022B", -- [12]
-			0, -- [13]
-			[51] = 1718661530,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Og",
-		}, -- [89]
-		{
-			"WTS |cffa335ee|Hitem:40740:0:0:0:0:0:0:0:80|h[Envoltura del viajero astral]|h|rªºº", -- [1]
-			"Tanon", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Tanon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			311, -- [11]
-			"0x00000000000041CF", -- [12]
-			0, -- [13]
-			[51] = 1718661535,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Tanon",
-		}, -- [90]
-		{
-			"i vote yes that poop stinks", -- [1]
-			"Evrac", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Evrac", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			312, -- [11]
-			"0x00000000000015A1", -- [12]
-			0, -- [13]
-			[51] = 1718661535,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Evrac",
-		}, -- [91]
-		{
-			"The ones that benefit from GDKP are the devs,right?", -- [1]
-			"Heatbast", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Heatbast", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			320, -- [11]
-			"0x000000000000AD8C", -- [12]
-			0, -- [13]
-			[51] = 1718661535,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heatbast",
-		}, -- [92]
-		{
-			"gdkp = Deadge", -- [1]
-			"Shanksy", -- [2]
-			"", -- [3]
-			"6. worldchat", -- [4]
-			"Shanksy", -- [5]
-			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			322, -- [11]
-			"0x000000000000773B", -- [12]
-			0, -- [13]
-			[51] = 1718661536,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shanksy",
-		}, -- [93]
-		{
-			" i need VOA raid group 25 or 10 gear score 3.8 k combat rogue", -- [1]
+			"i need raid that gona do OS or EOE combat rogue 3.8 gear score ", -- [1]
 			"Yabai", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
@@ -1708,120 +1492,336 @@ ElvCharacterDB = {
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			327, -- [11]
+			642, -- [11]
 			"0x000000000000178C", -- [12]
 			0, -- [13]
-			[51] = 1718661544,
+			[51] = 1718715226,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Yabai",
+		}, -- [82]
+		{
+			"LFM Naxx 10 Full clear only key ress Need Shaman DPS and OT Warr/Bear Pref. /w gs spec", -- [1]
+			"Bullkathos", -- [2]
+			"", -- [3]
+			"2. trade - city", -- [4]
+			"Bullkathos", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"trade - city", -- [9]
+			0, -- [10]
+			644, -- [11]
+			"0x0000000000006A0B", -- [12]
+			0, -- [13]
+			[51] = 1718715229,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bullkathos",
+		}, -- [83]
+		{
+			"3,6k gs D priest and 3,2k gs F mage LFG NAXX 10 or VOA 10", -- [1]
+			"Stormtrooper", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Stormtrooper", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			646, -- [11]
+			"0x00000000000037FC", -- [12]
+			0, -- [13]
+			[51] = 1718715242,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Stormtrooper",
+		}, -- [84]
+		{
+			"LFM voa 10 classrun! just need a hunter!", -- [1]
+			"Saskia", -- [2]
+			"", -- [3]
+			"1. general - dalaran", -- [4]
+			"Saskia", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"general - dalaran", -- [9]
+			0, -- [10]
+			650, -- [11]
+			"0x00000000000026A7", -- [12]
+			0, -- [13]
+			[51] = 1718715264,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Saskia",
+		}, -- [85]
+		{
+			"mongol hun bnu", -- [1]
+			"Monmage", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Monmage", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			651, -- [11]
+			"0x000000000000E803", -- [12]
+			0, -- [13]
+			[51] = 1718715267,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Monmage",
+		}, -- [86]
+		{
+			"WTS VALOR BRACERS", -- [1]
+			"Nofi", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Nofi", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			652, -- [11]
+			"0x000000000000A19F", -- [12]
+			0, -- [13]
+			[51] = 1718715267,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nofi",
+		}, -- [87]
+		{
+			"|Hplayer:Austen|h[Austen]|h has earned the achievement |cffffff00|Hachievement:4476:0000000000008242:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r!", -- [1]
+			"Austen", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Austen", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			653, -- [11]
+			"0x0000000000008242", -- [12]
+			0, -- [13]
+			[51] = 1718715269,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "Austen",
+		}, -- [88]
+		{
+			"any guild kill patchwerk 10 ascended?", -- [1]
+			"Baulimar", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Baulimar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			663, -- [11]
+			"0x0000000000001C99", -- [12]
+			0, -- [13]
+			[51] = 1718715279,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Baulimar",
+		}, -- [89]
+		{
+			"hey kururlaiiii", -- [1]
+			"Festerlock", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Festerlock", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			664, -- [11]
+			"0x0000000000009C77", -- [12]
+			0, -- [13]
+			[51] = 1718715279,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Festerlock",
+		}, -- [90]
+		{
+			"3.8k hunter LF SWP ", -- [1]
+			"Lomatina", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Lomatina", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			665, -- [11]
+			"0x000000000000181C", -- [12]
+			0, -- [13]
+			[51] = 1718715282,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "Lomatina",
+		}, -- [91]
+		{
+			"i need raid that gona do OS or EOE combat rogue 3.8 gear score ", -- [1]
+			"Yabai", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Yabai", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			666, -- [11]
+			"0x000000000000178C", -- [12]
+			0, -- [13]
+			[51] = 1718715282,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Yabai",
+		}, -- [92]
+		{
+			"LFM Naxx 10 Last Spot Need Shaman DPS /w gs spec Key Ress", -- [1]
+			"Bullkathos", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Bullkathos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			667, -- [11]
+			"0x0000000000006A0B", -- [12]
+			0, -- [13]
+			[51] = 1718715283,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bullkathos",
+		}, -- [93]
+		{
+			"Buying Saronite ore 35g/ stack, 74+ greens 10g each COD any amount", -- [1]
+			"Barey", -- [2]
+			"", -- [3]
+			"6. worldchat", -- [4]
+			"Barey", -- [5]
+			"", -- [6]
+			0, -- [7]
+			6, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			668, -- [11]
+			"0x00000000000032DD", -- [12]
+			0, -- [13]
+			[51] = 1718715284,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Barey",
 		}, -- [94]
 		{
-			"NEED ONE DPS FOR OS 25 3,5 K GS ", -- [1]
-			"Hankamagus", -- [2]
+			"Guild run Need 1 Hpal For tonight 20:30 ST for Naxx 25 /W", -- [1]
+			"Auura", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Hankamagus", -- [5]
+			"Auura", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			328, -- [11]
-			"0x0000000000008542", -- [12]
+			670, -- [11]
+			"0x00000000000026C9", -- [12]
 			0, -- [13]
-			[51] = 1718661548,
+			[51] = 1718715286,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Hankamagus",
+			[52] = "Auura",
 		}, -- [95]
 		{
-			"doesnt gdkp just incentivze gold buying?", -- [1]
-			"Evrac", -- [2]
+			"(Abandoned Wolf Pack) semi-hc Eu guild currently recruiting for our 10 man ascended core team raid time 19:00-23:00 ST wed/thurs currently need a bommie.", -- [1]
+			"Sanshiro", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Evrac", -- [5]
+			"Sanshiro", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			329, -- [11]
-			"0x00000000000015A1", -- [12]
+			671, -- [11]
+			"0x000000000000666A", -- [12]
 			0, -- [13]
-			[51] = 1718661551,
+			[51] = 1718715288,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Evrac",
+			[52] = "Sanshiro",
 		}, -- [96]
 		{
-			"yeah dont want this to end like a p2w game either", -- [1]
-			"Gilgamesh", -- [2]
+			"LF Enchanter with Crusader enchant", -- [1]
+			"Jelemental", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Gilgamesh", -- [5]
+			"Jelemental", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			330, -- [11]
-			"0x0000000000007945", -- [12]
+			673, -- [11]
+			"0x000000000000D907", -- [12]
 			0, -- [13]
-			[51] = 1718661553,
+			[51] = 1718715293,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Gilgamesh",
+			[52] = "Jelemental",
 		}, -- [97]
 		{
-			"[RU] Semi-hardcore PVE guild <Skill Issue> LF raiders, prio rdru, rsham, hpal, mage, wlock. 2 RT weekly 20.30-24.00 msk. Loot council. PM for more info.", -- [1]
-			"Trovi", -- [2]
+			" LFM Naxx 10 Last Spot Need Shaman DPS /w gs spec Key Ress", -- [1]
+			"Bullkathos", -- [2]
 			"", -- [3]
-			"6. worldchat", -- [4]
-			"Trovi", -- [5]
+			"2. trade - city", -- [4]
+			"Bullkathos", -- [5]
 			"", -- [6]
-			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"trade - city", -- [9]
 			0, -- [10]
-			336, -- [11]
-			"0x0000000000002757", -- [12]
+			674, -- [11]
+			"0x0000000000006A0B", -- [12]
 			0, -- [13]
-			[51] = 1718661559,
+			[51] = 1718715300,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Trovi",
+			[52] = "Bullkathos",
 		}, -- [98]
 		{
-			" Evrac. It does quite a bit more than that.", -- [1]
-			"Intolerancez", -- [2]
+			"|Hplayer:Sheshin|h[Sheshin]|h has earned the achievement |cffffff00|Hachievement:1919:000000000000E285:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[On The Rocks]|h|r!", -- [1]
+			"Sheshin", -- [2]
 			"", -- [3]
-			"6. worldchat", -- [4]
-			"Intolerancez", -- [5]
+			"", -- [4]
+			"Sheshin", -- [5]
 			"", -- [6]
 			0, -- [7]
-			6, -- [8]
-			"WorldChat", -- [9]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			338, -- [11]
-			"0x000000000000D43E", -- [12]
+			675, -- [11]
+			"0x000000000000E285", -- [12]
 			0, -- [13]
-			[51] = 1718661561,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Intolerancez",
+			[51] = 1718715304,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "Sheshin",
 		}, -- [99]
 		{
-			"GDKP could cause harm because of the black market, black market is somewhat cool, it will affect server if there's gdkp", -- [1]
-			"Finitejest", -- [2]
+			"3k7 gs prot pala LF naxx 10 ascended", -- [1]
+			"Gathlock", -- [2]
 			"", -- [3]
 			"6. worldchat", -- [4]
-			"Finitejest", -- [5]
+			"Gathlock", -- [5]
 			"", -- [6]
 			0, -- [7]
 			6, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			339, -- [11]
-			"0x000000000000A598", -- [12]
+			676, -- [11]
+			"0x00000000000023DB", -- [12]
 			0, -- [13]
-			[51] = 1718661562,
+			[51] = 1718715321,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Finitejest",
+			[52] = "Gathlock",
 		}, -- [100]
 	},
 }

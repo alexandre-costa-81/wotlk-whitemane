@@ -12,19 +12,19 @@ _details_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["active_profile"] = "Queemu-Frostmourne",
+	["active_profile"] = "padrão",
 	["last_realversion"] = 12,
 	["table_instances"] = {
 	},
-	["combat_counter"] = 74,
+	["combat_counter"] = 77,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
 			["opened"] = 0,
-			["max_emote_segments"] = 3,
 			["author"] = "Details! Team",
-			["hide_on_combat"] = false,
 			["show_icon"] = 5,
+			["hide_on_combat"] = false,
+			["max_emote_segments"] = 3,
 		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
@@ -33,21 +33,21 @@ _details_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
+			["enabled"] = true,
 			["animate"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["enabled"] = true,
+			["showamount"] = false,
 		},
 	},
 	["character_data"] = {
-		["logons"] = 7,
+		["logons"] = 10,
 	},
 	["table_history"] = {
 		["tables"] = {
@@ -76,7 +76,7 @@ _details_database = {
 								["_ActorTable"] = {
 								},
 							},
-							["delay"] = 0,
+							["serial"] = "0x0000000000009271",
 							["friendlyfire_total"] = 0,
 							["total_without_pet"] = 45827.005223,
 							["total"] = 45827.005223,
@@ -84,7 +84,7 @@ _details_database = {
 							["placing"] = 1,
 							["class"] = "DRUID",
 							["damage_taken"] = 0.005223,
-							["custom"] = 0,
+							["name"] = "Queemu",
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -111,14 +111,14 @@ _details_database = {
 										["c_max"] = 1545,
 										["id"] = 48463,
 										["r_dmg"] = 1356,
-										["r_amt"] = 3,
-										["b_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
 										["c_min"] = 1545,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["spellschool"] = 64,
+										["b_dmg"] = 0,
+										["r_amt"] = 3,
 									},
 									[48468] = {
 										["c_amt"] = 0,
@@ -143,14 +143,14 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 48468,
 										["r_dmg"] = 542,
-										["r_amt"] = 1,
-										["b_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 7,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["b_dmg"] = 0,
+										["r_amt"] = 1,
 									},
 									[48461] = {
 										["c_amt"] = 2,
@@ -175,14 +175,14 @@ _details_database = {
 										["c_max"] = 5484,
 										["id"] = 48461,
 										["r_dmg"] = 6904,
-										["r_amt"] = 2,
-										["b_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
 										["c_min"] = 4407,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 6,
-										["a_dmg"] = 0,
-										["spellschool"] = 8,
+										["b_dmg"] = 0,
+										["r_amt"] = 2,
 									},
 									[48465] = {
 										["c_amt"] = 1,
@@ -207,24 +207,24 @@ _details_database = {
 										["c_max"] = 7296,
 										["id"] = 48465,
 										["r_dmg"] = 0,
-										["r_amt"] = 0,
-										["b_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
 										["c_min"] = 7296,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 64,
+										["b_dmg"] = 0,
+										["r_amt"] = 0,
 									},
 								},
 							},
-							["last_dps"] = 2182.238343952381,
 							["end_time"] = 1718660579,
-							["name"] = "Queemu",
+							["last_dps"] = 2182.238343952381,
+							["custom"] = 0,
 							["last_event"] = 1718660573,
 							["on_hold"] = false,
 							["start_time"] = 1718660552,
-							["serial"] = "0x0000000000009271",
+							["delay"] = 0,
 							["type"] = 1,
 						}, -- [1]
 					},
@@ -240,10 +240,12 @@ _details_database = {
 					["type"] = 7,
 					["_ActorTable"] = {
 						{
-							["runepower_r"] = 0.004739,
-							["runepower"] = 0.004739,
+							["flag_original"] = 1297,
+							["mana_from"] = {
+								["Queemu"] = true,
+							},
 							["group"] = true,
-							["class"] = "DRUID",
+							["mana"] = 1080.004739,
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -259,24 +261,21 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["flag_original"] = 1297,
-							["mana_from"] = {
-								["Queemu"] = true,
-							},
-							["focus"] = 0.004739,
-							["holypower_r"] = 0.004739,
-							["last_event"] = 1718660568,
-							["holypower"] = 0.004739,
+							["runepower_r"] = 0.004739,
+							["class"] = "DRUID",
 							["holypower_from"] = {
 							},
+							["holypower_r"] = 0.004739,
+							["e_energy_r"] = 0.004739,
+							["holypower"] = 0.004739,
+							["focus"] = 0.004739,
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 1080.004739,
-							["e_energy_from"] = {
-							},
-							["mana"] = 1080.004739,
-							["e_energy"] = 0.004739,
+							["e_rage"] = 0.004739,
+							["focus_r"] = 0.004739,
+							["name"] = "Queemu",
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -305,16 +304,17 @@ _details_database = {
 									},
 								},
 							},
-							["e_rage_from"] = {
+							["e_energy_from"] = {
 							},
 							["e_rage_r"] = 0.004739,
-							["name"] = "Queemu",
-							["focus_r"] = 0.004739,
+							["e_rage_from"] = {
+							},
+							["e_energy"] = 0.004739,
 							["focus_from"] = {
 							},
-							["e_energy_r"] = 0.004739,
+							["runepower"] = 0.004739,
 							["serial"] = "0x0000000000009271",
-							["e_rage"] = 0.004739,
+							["last_event"] = 1718660568,
 						}, -- [1]
 					},
 					["combatId"] = 49,
@@ -331,36 +331,36 @@ _details_database = {
 										["uptime"] = 21,
 										["activedamt"] = 0,
 										["id"] = 48463,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[48468] = {
 										["uptime"] = 12,
 										["activedamt"] = 0,
 										["id"] = 48468,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[60433] = {
 										["uptime"] = 21,
 										["activedamt"] = 0,
 										["id"] = 60433,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
@@ -376,92 +376,92 @@ _details_database = {
 										["uptime"] = 15,
 										["activedamt"] = 1,
 										["id"] = 48517,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[48421] = {
 										["uptime"] = 27,
 										["activedamt"] = 1,
 										["id"] = 48421,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[16886] = {
 										["uptime"] = 11,
 										["activedamt"] = 3,
 										["id"] = 16886,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[24858] = {
-										["uptime"] = 27,
-										["activedamt"] = 1,
-										["id"] = 24858,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									[24907] = {
-										["uptime"] = 27,
-										["activedamt"] = 1,
-										["id"] = 24907,
-										["targets"] = {
-											["type"] = 10,
-											["_ActorTable"] = {
-											},
-										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[16870] = {
 										["uptime"] = 10,
 										["activedamt"] = 2,
 										["id"] = 16870,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["counter"] = 0,
+									},
+									[24907] = {
+										["uptime"] = 27,
+										["activedamt"] = 1,
+										["id"] = 24907,
 										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
+										["counter"] = 0,
+									},
+									[24858] = {
+										["uptime"] = 27,
+										["activedamt"] = 1,
+										["id"] = 24858,
+										["actived"] = false,
+										["targets"] = {
+											["type"] = 10,
+											["_ActorTable"] = {
+											},
+										},
 										["counter"] = 0,
 									},
 								},
 							},
 							["type"] = 4,
-							["debuff_uptime_targets"] = {
+							["buff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
 							["name"] = "Queemu",
 							["last_event"] = 1718660579,
-							["debuff_uptime"] = 54,
-							["buff_uptime"] = 117,
-							["serial"] = "0x0000000000009271",
-							["buff_uptime_targets"] = {
+							["debuff_uptime_targets"] = {
 								["type"] = 6,
 								["_ActorTable"] = {
 								},
 							},
+							["buff_uptime"] = 117,
+							["serial"] = "0x0000000000009271",
+							["debuff_uptime"] = 54,
 						}, -- [1]
 					},
 					["combatId"] = 49,
@@ -485,28 +485,303 @@ _details_database = {
 				["combat_counter"] = 73,
 				["playing_solo"] = true,
 				["totals"] = {
-					45826.84730999998, -- [1]
+					45826.58638099997, -- [1]
 					0, -- [2]
 					{
-						["e_rage"] = -0.02302899999999209,
-						["mana"] = 1079.976971,
-						["runepower"] = -0.023029,
-						["e_energy"] = -0.023029,
+						["e_rage"] = -0.1190229999999921,
+						["mana"] = 1079.880977000006,
+						["runepower"] = -0.119023000000001,
+						["e_energy"] = -0.1190229999999987,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = -0.02217700000000056,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
+					["Gold Warrior"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							219, -- [3]
+							1718715244.609, -- [4]
+							0, -- [5]
+							"Green Mage", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							176, -- [3]
+							1718715246.701, -- [4]
+							0, -- [5]
+							"Green Mage", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							206, -- [3]
+							1718715249.232, -- [4]
+							0, -- [5]
+							"Green Mage", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [3]
+						{
+							true, -- [1]
+							1, -- [2]
+							193, -- [3]
+							1718715250.794, -- [4]
+							0, -- [5]
+							"Green Mage", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [4]
+						{
+							true, -- [1]
+							1, -- [2]
+							314, -- [3]
+							1718715252.699, -- [4]
+							0, -- [5]
+							"Green Warrior", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [5]
+						{
+							true, -- [1]
+							1, -- [2]
+							205, -- [3]
+							1718715252.974, -- [4]
+							0, -- [5]
+							"Green Mage", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 7,
+					},
+					["Green Warrior"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							178, -- [3]
+							1718715252.974, -- [4]
+							0, -- [5]
+							"Gold Mage", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							172, -- [3]
+							1718715254.828, -- [4]
+							0, -- [5]
+							"Gold Mage", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							171, -- [3]
+							1718715256.644, -- [4]
+							0, -- [5]
+							"Gold Mage", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [3]
+						{
+							true, -- [1]
+							1, -- [2]
+							144, -- [3]
+							1718715258.613, -- [4]
+							0, -- [5]
+							"Gold Mage", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 5,
+					},
+					["Gold Mage"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							215, -- [3]
+							1718715256.877, -- [4]
+							0, -- [5]
+							"Green Warrior", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							213, -- [3]
+							1718715258.93, -- [4]
+							0, -- [5]
+							"Green Warrior", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [2]
+						{
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 3,
+					},
+					["Green Mage"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							186, -- [3]
+							1718715245.44, -- [4]
+							0, -- [5]
+							"Gold Warrior", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							462, -- [3]
+							1718715247.434, -- [4]
+							0, -- [5]
+							"Gold Warrior", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							168, -- [3]
+							1718715249.714, -- [4]
+							0, -- [5]
+							"Gold Warrior", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							true, -- [9]
+						}, -- [3]
+						{
+						}, -- [4]
+						{
+						}, -- [5]
+						{
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						{
+						}, -- [9]
+						{
+						}, -- [10]
+						{
+						}, -- [11]
+						{
+						}, -- [12]
+						{
+						}, -- [13]
+						{
+						}, -- [14]
+						{
+						}, -- [15]
+						{
+						}, -- [16]
+						["n"] = 4,
+					},
 				},
 				["frags_need_refresh"] = false,
 				["__call"] = {
@@ -523,12 +798,12 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "18:43:00",
@@ -563,13 +838,13 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["total"] = 0.007953,
+							["class"] = "DRUID",
 							["friendlyfire_total"] = 0,
-							["damage_taken"] = 1923.007953,
+							["on_hold"] = false,
 							["total_without_pet"] = 0.007953,
 							["dps_started"] = false,
 							["type"] = 1,
-							["delay"] = 0,
+							["serial"] = "0x0000000000009271",
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
@@ -581,14 +856,14 @@ _details_database = {
 								["_ActorTable"] = {
 								},
 							},
-							["custom"] = 0,
-							["last_dps"] = 0,
 							["name"] = "Queemu",
+							["last_dps"] = 0,
+							["custom"] = 0,
 							["last_event"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 1923.007953,
 							["start_time"] = 1718637168,
-							["serial"] = "0x0000000000009271",
-							["class"] = "DRUID",
+							["delay"] = 0,
+							["total"] = 0.007953,
 						}, -- [1]
 						{
 							["flag_original"] = 1298,
@@ -603,13 +878,13 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["class"] = "DEATHKNIGHT",
+							["type"] = 1,
 							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
+							["damage_taken"] = 169.001129,
 							["total_without_pet"] = 0.001129,
 							["dps_started"] = false,
-							["type"] = 1,
-							["serial"] = "0x000000000000D35E",
+							["total"] = 0.001129,
+							["delay"] = 0,
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
@@ -621,14 +896,14 @@ _details_database = {
 								["_ActorTable"] = {
 								},
 							},
-							["name"] = "Thaemine",
-							["last_dps"] = 0,
 							["custom"] = 0,
+							["last_dps"] = 0,
+							["name"] = "Thaemine",
 							["last_event"] = 0,
-							["damage_taken"] = 169.001129,
+							["on_hold"] = false,
 							["start_time"] = 1718639329,
-							["delay"] = 0,
-							["total"] = 0.001129,
+							["serial"] = "0x000000000000D35E",
+							["class"] = "DEATHKNIGHT",
 						}, -- [2]
 					},
 					["combatId"] = 1,
@@ -643,12 +918,11 @@ _details_database = {
 					["type"] = 7,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1298,
-							["mana_from"] = {
-								["Krotus"] = true,
+							["runepower_r"] = 0.002794,
+							["holypower_from"] = {
 							},
 							["group"] = true,
-							["mana"] = 117.002794,
+							["class"] = "PALADIN",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -664,21 +938,21 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.002794,
-							["class"] = "PALADIN",
-							["holypower_from"] = {
-							},
-							["holypower_r"] = 0.002794,
-							["e_energy_r"] = 0.002794,
-							["holypower"] = 0.002794,
+							["flag_original"] = 1298,
+							["e_rage_r"] = 0.002794,
 							["focus"] = 0.002794,
+							["mana"] = 117.002794,
+							["e_energy"] = 0.002794,
+							["holypower"] = 0.002794,
+							["holypower_r"] = 0.002794,
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 117.002794,
-							["e_rage"] = 0.002794,
-							["focus_r"] = 0.002794,
-							["name"] = "Krotus",
+							["e_energy_from"] = {
+							},
+							["runepower"] = 0.002794,
+							["e_energy_r"] = 0.002794,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -707,17 +981,18 @@ _details_database = {
 									},
 								},
 							},
-							["e_energy_from"] = {
-							},
-							["e_rage_r"] = 0.002794,
+							["last_event"] = 1718639287,
 							["e_rage_from"] = {
 							},
-							["e_energy"] = 0.002794,
+							["name"] = "Krotus",
+							["focus_r"] = 0.002794,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.002794,
+							["mana_from"] = {
+								["Krotus"] = true,
+							},
 							["serial"] = "0x0000000000007129",
-							["last_event"] = 1718639287,
+							["e_rage"] = 0.002794,
 						}, -- [1]
 					},
 					["combatId"] = 1,
@@ -734,6 +1009,13 @@ _details_database = {
 							},
 							["name"] = "Queemu",
 							["last_event"] = 1718637168,
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
+							["buff_uptime"] = 18,
+							["serial"] = "0x0000000000009271",
 							["buff_uptime_spell_tables"] = {
 								["type"] = 9,
 								["_ActorTable"] = {
@@ -741,33 +1023,26 @@ _details_database = {
 										["uptime"] = 9,
 										["activedamt"] = 1,
 										["id"] = 80869,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
 									[40120] = {
 										["uptime"] = 9,
 										["activedamt"] = 1,
 										["id"] = 40120,
+										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
-										["actived"] = false,
 										["counter"] = 0,
 									},
-								},
-							},
-							["buff_uptime"] = 18,
-							["serial"] = "0x0000000000009271",
-							["buff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
 								},
 							},
 						}, -- [1]
@@ -805,15 +1080,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = -0.08625100000000052,
+						["dispell"] = -0.006631000000000054,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = -0.006631000000000054,
-						["cooldowns_defensive"] = -0.08625100000000052,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
 				["player_last_events"] = {
 					["Highbrow"] = {
@@ -962,12 +1237,12 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
+						["cooldowns_defensive"] = 0,
+						["dispell"] = 0,
 						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "12:12:48",
@@ -980,15 +1255,17 @@ _details_database = {
 				},
 				["CombatSkillCache"] = {
 				},
-				["end_time"] = 0,
+				["instance_type"] = "none",
 				["start_time"] = 1718637159,
 				["TimeData"] = {
 				},
-				["instance_type"] = "none",
+				["end_time"] = 0,
 			}, -- [2]
 		},
 	},
-	["savedbuffs"] = {
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DPS_TUNING",
+		["Mode"] = 1,
 	},
 	["combat_id"] = 49,
 	["savedStyles"] = {
@@ -1000,30 +1277,75 @@ _details_database = {
 		["where"] = 1,
 	},
 	["last_version"] = "v1.3.0",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["sub_attribute_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = true,
+			["snap"] = {
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -415.4999109256206,
+					["x"] = 719.000737693152,
+					["w"] = 467.999812071866,
+					["h"] = 190.999953154741,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
+	["last_instance_time"] = 1718658260,
+	["announce_cooldowns"] = {
+		["ignored_cooldowns"] = {
+		},
+		["enabled"] = false,
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
 	["nick_tag_cache"] = {
 		["nextreset"] = 1719932530,
-		[37963] = {
-			"Themerlin", -- [1]
-			"Interface\\AddOns\\Details_RaidInfo-Naxx\\images\\instructor", -- [2]
+		[6172] = {
+			"Lomatina", -- [1]
+			"Interface\\AddOns\\Details_RaidInfo-Naxx\\images\\patchwerk", -- [2]
 			{
 				0, -- [1]
 				1, -- [2]
 				0, -- [3]
 				1, -- [4]
 			}, -- [3]
-			"Interface\\AddOns\\Details\\images\\Weather-ArcaneStorm", -- [4]
+			"Interface\\AddOns\\Details\\images\\Weather-BurntEarth", -- [4]
 			{
-				0.129609375, -- [1]
-				1, -- [2]
+				0.087890625, -- [1]
+				0.916015625, -- [2]
 				1, -- [3]
 				0, -- [4]
 			}, -- [5]
 			{
 				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				0.8235294117647058, -- [2]
+				0.6705882352941176, -- [3]
 			}, -- [6]
-			2, -- [7]
+			3, -- [7]
 		},
 		[38413] = {
 			"Bearguy", -- [1]
@@ -1095,78 +1417,31 @@ _details_database = {
 			}, -- [6]
 			2, -- [7]
 		},
-		[6172] = {
-			"Lomatina", -- [1]
-			"Interface\\AddOns\\Details_RaidInfo-Naxx\\images\\patchwerk", -- [2]
+		[37963] = {
+			"Themerlin", -- [1]
+			"Interface\\AddOns\\Details_RaidInfo-Naxx\\images\\instructor", -- [2]
 			{
 				0, -- [1]
 				1, -- [2]
 				0, -- [3]
 				1, -- [4]
 			}, -- [3]
-			"Interface\\AddOns\\Details\\images\\Weather-BurntEarth", -- [4]
+			"Interface\\AddOns\\Details\\images\\Weather-ArcaneStorm", -- [4]
 			{
-				0.087890625, -- [1]
-				0.916015625, -- [2]
+				0.129609375, -- [1]
+				1, -- [2]
 				1, -- [3]
 				0, -- [4]
 			}, -- [5]
 			{
 				1, -- [1]
-				0.8235294117647058, -- [2]
-				0.6705882352941176, -- [3]
-			}, -- [6]
-			3, -- [7]
-		},
-	},
-	["local_instances_config"] = {
-		{
-			["segment"] = 0,
-			["sub_attribute"] = 1,
-			["sub_attribute_last"] = {
-				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				1, -- [4]
-				1, -- [5]
-			},
-			["is_open"] = true,
-			["isLocked"] = true,
-			["snap"] = {
-			},
-			["mode"] = 2,
-			["attribute"] = 1,
-			["pos"] = {
-				["normal"] = {
-					["y"] = -415.4999109256206,
-					["x"] = 719.000737693152,
-					["w"] = 467.999812071866,
-					["h"] = 190.999953154741,
-				},
-				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
-				},
-			},
-		}, -- [1]
-	},
-	["last_instance_time"] = 1718658260,
-	["announce_cooldowns"] = {
-		["enabled"] = false,
-		["ignored_cooldowns"] = {
+			}, -- [6]
+			2, -- [7]
 		},
-		["custom"] = "",
-		["channel"] = "RAID",
-	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
 	},
 	["last_instance_id"] = 534,
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DPS_TUNING",
-		["Mode"] = 1,
+	["savedbuffs"] = {
 	},
 }

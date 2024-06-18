@@ -2,6 +2,9 @@ MACRO 16777226 "GotW" INV_Misc_QuestionMark
 #showtooltip
 /cast [nomod:alt] Gift of the Wild(Rank 4);Mark of the Wild(Rank 9)
 END
+MACRO 16777232 "HT" INV_Misc_QuestionMark
+/cast [@Mouseover] Healing Touch
+END
 MACRO 16777229 "Inn" INV_Misc_QuestionMark
 #showtooltip
 /cast [@Mouseover] Innervate
@@ -45,12 +48,6 @@ END
 MACRO 16777222 "Shiftmend" INV_Misc_QuestionMark
 #showtooltip
 /cast [@Mouseover] Swiftmend
-END
-MACRO 16777230 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
-P1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-END
-MACRO 16777231 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
-NKim[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Que[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 MACRO 16777221 "WG" INV_Misc_QuestionMark
 #showtooltip

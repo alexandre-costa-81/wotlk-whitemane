@@ -11,8 +11,8 @@ FrameLevel: 8
 Anchor: CENTER
 X: 52
 Y: 80
-W: 405
-H: 240
+W: 365
+H: 200
 Frame: DecursiveMainBar
 FrameLevel: 1
 Anchor: TOP
@@ -21,7 +21,7 @@ Y: -135
 W: 80
 H: 25
 Frame: DcrMUFsContainer
-FrameLevel: 18
+FrameLevel: 17
 Anchor: CENTER
 X: -264
 Y: -121
@@ -42,14 +42,14 @@ Y: -260
 W: 32
 H: 32
 Frame: ZygorGuidesViewerFrameMaster
-FrameLevel: 11
+FrameLevel: 10
 Anchor: RIGHT
 X: -293
 Y: 227
 W: 40
 H: 40
 Frame: ZygorGuidesViewerFrame
-FrameLevel: 12
+FrameLevel: 11
 Anchor: RIGHT
 X: -73
 Y: 197

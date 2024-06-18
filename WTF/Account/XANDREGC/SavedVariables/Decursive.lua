@@ -1,7 +1,8 @@
 
 DecursiveDB = {
-	["global"] = {
-		["LastExpirationAlert"] = 1718606441,
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Default",
+		["Queemu - Frostmourne"] = "Default",
 	},
 	["class"] = {
 		["WARLOCK"] = {
@@ -27,9 +28,8 @@ DecursiveDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Queemi - Frostmourne"] = "Default",
-		["Queemu - Frostmourne"] = "Default",
+	["global"] = {
+		["LastExpirationAlert"] = 1718606441,
 	},
 	["profiles"] = {
 		["Default"] = {

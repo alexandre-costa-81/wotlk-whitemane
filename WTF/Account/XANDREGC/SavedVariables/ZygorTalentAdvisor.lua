@@ -96,6 +96,14 @@ ZygorTalentAdvisorSettings = {
 				"18:50:33> Viewer started. ---------------------------", -- [70]
 				"18:50:34> PLAYER_ALIVE", -- [71]
 				"18:58:55> PLAYER_ALIVE", -- [72]
+				"09:34:01> Viewer started. ---------------------------", -- [73]
+				"09:34:02> PLAYER_ALIVE", -- [74]
+				"09:42:02> Viewer started. ---------------------------", -- [75]
+				"09:42:03> PLAYER_ALIVE", -- [76]
+				"09:53:34> Viewer started. ---------------------------", -- [77]
+				"09:53:35> PLAYER_ALIVE", -- [78]
+				"09:53:35> > PET_TALENT_UPDATE (points: 0, talents not ready)", -- [79]
+				"09:53:35> < No pet build", -- [80]
 			},
 		},
 	},
