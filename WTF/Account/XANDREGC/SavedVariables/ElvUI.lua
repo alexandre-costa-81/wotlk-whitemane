@@ -3,11 +3,15 @@ ElvDB = {
 	["profileKeys"] = {
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
 		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemu - Frostmourne",
+		["Kimitress - Frostmourne"] = "Queemu - Frostmourne",
 	},
 	["gold"] = {
 		["Frostmourne"] = {
 			["Queemu"] = 6923283,
 			["Queemi"] = 135709,
+			["Queemificina"] = 308061,
+			["Kimitress"] = 249130,
 		},
 	},
 	["namespaces"] = {
@@ -18,6 +22,8 @@ ElvDB = {
 		["Frostmourne"] = {
 			["Queemu"] = "DRUID",
 			["Queemi"] = "WARLOCK",
+			["Queemificina"] = "DEATHKNIGHT",
+			["Kimitress"] = "HUNTER",
 		},
 	},
 	["global"] = {
@@ -200,37 +206,22 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["player"] = {
-						["debuffs"] = {
-							["perrow"] = 7,
-						},
-						["power"] = {
-							["attachTextTo"] = "InfoPanel",
-							["height"] = 22,
-						},
-						["disableMouseoverGlow"] = true,
-						["infoPanel"] = {
-							["enable"] = true,
-						},
+					["party"] = {
+						["height"] = 74,
 						["health"] = {
-							["attachTextTo"] = "InfoPanel",
 							["frequentUpdates"] = true,
 						},
-						["castbar"] = {
-							["height"] = 40,
-							["insideInfoPanel"] = false,
-							["width"] = 407,
+						["power"] = {
+							["height"] = 13,
 						},
-						["height"] = 82,
-						["buffs"] = {
-							["perrow"] = 7,
+						["enable"] = false,
+						["healPrediction"] = {
+							["enable"] = true,
 						},
-						["classbar"] = {
-							["height"] = 14,
+						["rdebuffs"] = {
+							["font"] = "PT Sans Narrow",
 						},
-						["aurabar"] = {
-							["height"] = 26,
-						},
+						["width"] = 231,
 					},
 					["raid40"] = {
 						["enable"] = false,
@@ -318,23 +309,6 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["party"] = {
-						["height"] = 74,
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-						["power"] = {
-							["height"] = 13,
-						},
-						["enable"] = false,
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["rdebuffs"] = {
-							["font"] = "PT Sans Narrow",
-						},
-						["width"] = 231,
-					},
 					["boss"] = {
 						["infoPanel"] = {
 							["height"] = 17,
@@ -362,6 +336,38 @@ ElvDB = {
 							["width"] = 45,
 						},
 						["width"] = 246,
+					},
+					["player"] = {
+						["debuffs"] = {
+							["perrow"] = 7,
+						},
+						["power"] = {
+							["attachTextTo"] = "InfoPanel",
+							["height"] = 22,
+						},
+						["disableMouseoverGlow"] = true,
+						["infoPanel"] = {
+							["enable"] = true,
+						},
+						["health"] = {
+							["attachTextTo"] = "InfoPanel",
+							["frequentUpdates"] = true,
+						},
+						["castbar"] = {
+							["height"] = 40,
+							["insideInfoPanel"] = false,
+							["width"] = 407,
+						},
+						["height"] = 82,
+						["buffs"] = {
+							["perrow"] = 7,
+						},
+						["classbar"] = {
+							["height"] = 14,
+						},
+						["aurabar"] = {
+							["height"] = 26,
+						},
 					},
 				},
 			},
@@ -583,21 +589,32 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["party"] = {
-						["healPrediction"] = {
-							["enable"] = true,
+					["boss"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = -16,
+							["numrows"] = 1,
+							["maxDuration"] = 300,
 						},
-						["height"] = 74,
-						["enable"] = false,
-						["rdebuffs"] = {
-							["font"] = "PT Sans Narrow",
+						["width"] = 246,
+						["infoPanel"] = {
+							["height"] = 17,
 						},
-						["power"] = {
-							["height"] = 13,
-						},
-						["width"] = 231,
 						["health"] = {
 							["frequentUpdates"] = true,
+						},
+						["portrait"] = {
+							["camDistanceScale"] = 2,
+							["width"] = 45,
+						},
+						["height"] = 60,
+						["buffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = 16,
+							["maxDuration"] = 300,
+						},
+						["castbar"] = {
+							["width"] = 246,
 						},
 					},
 					["raid40"] = {
@@ -662,34 +679,6 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["boss"] = {
-						["debuffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = -16,
-							["numrows"] = 1,
-							["maxDuration"] = 300,
-						},
-						["width"] = 246,
-						["infoPanel"] = {
-							["height"] = 17,
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-						["portrait"] = {
-							["camDistanceScale"] = 2,
-							["width"] = 45,
-						},
-						["height"] = 60,
-						["buffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = 16,
-							["maxDuration"] = 300,
-						},
-						["castbar"] = {
-							["width"] = 246,
-						},
-					},
 					["player"] = {
 						["debuffs"] = {
 							["perrow"] = 7,
@@ -720,6 +709,23 @@ ElvDB = {
 						["height"] = 82,
 						["buffs"] = {
 							["perrow"] = 7,
+						},
+					},
+					["party"] = {
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["height"] = 74,
+						["enable"] = false,
+						["rdebuffs"] = {
+							["font"] = "PT Sans Narrow",
+						},
+						["power"] = {
+							["height"] = 13,
+						},
+						["width"] = 231,
+						["health"] = {
+							["frequentUpdates"] = true,
 						},
 					},
 				},
@@ -782,9 +788,9 @@ ElvDB = {
 					["size"] = 220,
 				},
 				["valuecolor"] = {
-					["b"] = 0.04,
-					["g"] = 0.49,
-					["r"] = 1,
+					["b"] = 0.45,
+					["g"] = 0.83,
+					["r"] = 0.67,
 				},
 				["stickyFrames"] = 1,
 				["watchFrameHeight"] = 400,
@@ -796,12 +802,150 @@ ElvDB = {
 				["panelColorConverted"] = true,
 			},
 		},
+		["Queemificina - Frostmourne"] = {
+			["currentTutorial"] = 1,
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+			["unitframe"] = {
+				["units"] = {
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+			["hideTutorial"] = 1,
+			["chat"] = {
+				["panelColorConverted"] = true,
+			},
+		},
+		["Kimitress - Frostmourne"] = {
+			["currentTutorial"] = 1,
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+			["hideTutorial"] = 1,
+			["chat"] = {
+				["panelColorConverted"] = true,
+			},
+			["unitframe"] = {
+				["units"] = {
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+		},
 	},
 }
 ElvPrivateDB = {
 	["profileKeys"] = {
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
 		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
+		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["profiles"] = {
 		["Queemi - Frostmourne"] = {
@@ -809,6 +953,12 @@ ElvPrivateDB = {
 		},
 		["Queemu - Frostmourne"] = {
 			["theme"] = "class",
+			["install_complete"] = "6.09",
+		},
+		["Queemificina - Frostmourne"] = {
+			["install_complete"] = "6.09",
+		},
+		["Kimitress - Frostmourne"] = {
 			["install_complete"] = "6.09",
 		},
 	},

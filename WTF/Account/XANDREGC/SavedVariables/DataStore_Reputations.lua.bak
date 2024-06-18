@@ -1,0 +1,28 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Queemi"] = {
+				["lastUpdate"] = 1718680275,
+				["Factions"] = {
+					["Undercity"] = "9000|21000|13328",
+					["Gadgetzan"] = "3000|9000|6308",
+					["Bloodsail Buccaneers"] = "-42000|-6000|-16757",
+					["Cenarion Circle"] = "3000|9000|5346",
+					["Ratchet"] = "3000|9000|7878",
+					["The Scryers"] = "0|3000|0",
+					["Everlook"] = "3000|9000|6308",
+					["Darkspear Trolls"] = "9000|21000|9193",
+					["Thrallmar"] = "3000|9000|6945",
+					["Silvermoon City"] = "9000|21000|9851",
+					["Booty Bay"] = "9000|21000|10142",
+					["Thunder Bluff"] = "9000|21000|9346",
+					["Orgrimmar"] = "9000|21000|15237",
+				},
+			},
+		},
+	},
+}

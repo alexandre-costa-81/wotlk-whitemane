@@ -1,0 +1,45 @@
+
+BeanCounterDB = {
+	["Frostmourne"] = {
+		["Queemi"] = {
+			["vendorsell"] = {
+			},
+			["postedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["failedBidsNeutral"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 135709,
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["failedBids"] = {
+			},
+			["version"] = 2.12,
+			["faction"] = "Horde",
+			["completedBidsBuyouts"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["mailbox"] = {
+			},
+		},
+	},
+	["ItemIDArray"] = {
+	},
+	["settings"] = {
+		["profile.Default"] = {
+			["configator.left"] = 560.0000426736374,
+			["configator.top"] = 764.9999601302394,
+		},
+	},
+}
+BeanCounterAccountDB = nil

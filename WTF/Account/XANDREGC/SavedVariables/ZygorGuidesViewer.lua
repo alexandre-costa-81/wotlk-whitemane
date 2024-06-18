@@ -42,111 +42,8 @@ ZygorGuidesViewerSettings = {
 			["maint_fetchitemdata"] = true,
 		},
 		["Queemu - Frostmourne"] = {
-			["maint_fetchquestdata"] = true,
-			["guidename"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
-			["debuglog"] = {
-				"18:45:34> 258 Inscription recipes found", -- [1]
-				"18:50:33> Viewer started. ---------------------------", -- [2]
-				"18:50:34> PLAYER_ENTERING_WORLD (dead?)", -- [3]
-				"18:50:34> PLAYER_ALIVE (dead?)", -- [4]
-				"18:50:34> CacheQuestLog cached 0 quests", -- [5]
-				"18:50:34> Got completed quests list", -- [6]
-				"18:50:34> CacheQuestLog cached 0 quests", -- [7]
-				"18:50:34> CacheQuestLog cached 7 quests", -- [8]
-				"18:50:34> New Quest: Cleansing Drak'Tharon id 12238", -- [9]
-				"18:50:34> New Quest: Containment id 13159", -- [10]
-				"18:50:34> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [11]
-				"18:50:34> New Quest: Stop the Siege id 13185", -- [12]
-				"18:50:34> New Quest: Toppling the Towers id 13539", -- [13]
-				"18:50:34> New Quest: Victory in Wintergrasp id 13183", -- [14]
-				"18:50:34> New Quest: The Champion's Call! id 12974", -- [15]
-				"18:50:34> ZONE_CHANGED_NEW_AREA (dead?)", -- [16]
-				"18:50:34> CacheQuestLog cached 7 quests", -- [17]
-				"18:50:34> Guides loaded. -----", -- [18]
-				"18:50:34> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [19]
-				"18:50:34> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [20]
-				"18:50:34> FocusStep 1", -- [21]
-				"18:55:54> 258 Inscription recipes found", -- [22]
-				"18:58:55> PLAYER_ENTERING_WORLD (dead?)", -- [23]
-				"18:58:55> PLAYER_ALIVE (dead?)", -- [24]
-				"18:58:55> CacheQuestLog cached 7 quests", -- [25]
-				"18:58:55> CacheQuestLog cached 7 quests", -- [26]
-				"18:58:55> ZONE_CHANGED_NEW_AREA (dead?)", -- [27]
-				"18:58:55> CacheQuestLog cached 7 quests", -- [28]
-				"09:34:01> Viewer started. ---------------------------", -- [29]
-				"09:34:02> PLAYER_ENTERING_WORLD (dead?)", -- [30]
-				"09:34:02> PLAYER_ALIVE (dead?)", -- [31]
-				"09:34:02> CacheQuestLog cached 0 quests", -- [32]
-				"09:34:03> Got completed quests list", -- [33]
-				"09:34:03> CacheQuestLog cached 0 quests", -- [34]
-				"09:34:03> CacheQuestLog cached 9 quests", -- [35]
-				"09:34:03> New Quest: Cleansing Drak'Tharon id 12238", -- [36]
-				"09:34:03> New Quest: Containment id 13159", -- [37]
-				"09:34:03> New Quest: Disarmament id 13206", -- [38]
-				"09:34:03> New Quest: Ingvar Must Die! id 11262", -- [39]
-				"09:34:03> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [40]
-				"09:34:03> New Quest: Stop the Siege id 13185", -- [41]
-				"09:34:03> New Quest: Toppling the Towers id 13539", -- [42]
-				"09:34:03> New Quest: Victory in Wintergrasp id 13183", -- [43]
-				"09:34:03> New Quest: The Champion's Call! id 12974", -- [44]
-				"09:34:03> ZONE_CHANGED_NEW_AREA (dead?)", -- [45]
-				"09:34:04> CacheQuestLog cached 9 quests", -- [46]
-				"09:34:05> Guides loaded. -----", -- [47]
-				"09:34:05> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [48]
-				"09:34:05> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [49]
-				"09:34:05> FocusStep 1", -- [50]
-				"09:42:02> Viewer started. ---------------------------", -- [51]
-				"09:42:03> PLAYER_ENTERING_WORLD (dead?)", -- [52]
-				"09:42:03> PLAYER_ALIVE (dead?)", -- [53]
-				"09:42:03> CacheQuestLog cached 0 quests", -- [54]
-				"09:42:04> Got completed quests list", -- [55]
-				"09:42:04> CacheQuestLog cached 9 quests", -- [56]
-				"09:42:04> New Quest: Cleansing Drak'Tharon id 12238", -- [57]
-				"09:42:04> New Quest: Containment id 13159", -- [58]
-				"09:42:04> New Quest: Disarmament id 13206", -- [59]
-				"09:42:04> New Quest: Ingvar Must Die! id 11262", -- [60]
-				"09:42:04> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [61]
-				"09:42:04> New Quest: Stop the Siege id 13185", -- [62]
-				"09:42:04> New Quest: Toppling the Towers id 13539", -- [63]
-				"09:42:04> New Quest: Victory in Wintergrasp id 13183", -- [64]
-				"09:42:04> New Quest: The Champion's Call! id 12974", -- [65]
-				"09:42:04> CacheQuestLog cached 9 quests", -- [66]
-				"09:42:05> ZONE_CHANGED_NEW_AREA (dead?)", -- [67]
-				"09:42:08> Guides loaded. -----", -- [68]
-				"09:42:08> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [69]
-				"09:42:08> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [70]
-				"09:42:08> FocusStep 1", -- [71]
-				"09:53:34> Viewer started. ---------------------------", -- [72]
-				"09:53:35> PLAYER_ENTERING_WORLD (dead?)", -- [73]
-				"09:53:35> PLAYER_ALIVE (dead?)", -- [74]
-				"09:53:35> CacheQuestLog cached 9 quests", -- [75]
-				"09:53:35> New Quest: Cleansing Drak'Tharon id 12238", -- [76]
-				"09:53:35> New Quest: Containment id 13159", -- [77]
-				"09:53:35> New Quest: Disarmament id 13206", -- [78]
-				"09:53:35> New Quest: Ingvar Must Die! id 11262", -- [79]
-				"09:53:35> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [80]
-				"09:53:35> New Quest: Stop the Siege id 13185", -- [81]
-				"09:53:35> New Quest: Toppling the Towers id 13539", -- [82]
-				"09:53:35> New Quest: Victory in Wintergrasp id 13183", -- [83]
-				"09:53:35> New Quest: The Champion's Call! id 12974", -- [84]
-				"09:53:35> Got completed quests list", -- [85]
-				"09:53:35> CacheQuestLog cached 9 quests", -- [86]
-				"09:53:35> CacheQuestLog cached 9 quests", -- [87]
-				"09:53:36> ZONE_CHANGED_NEW_AREA (dead?)", -- [88]
-				"09:53:37> Guides loaded. -----", -- [89]
-				"09:53:37> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [90]
-				"09:53:37> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [91]
-				"09:53:37> FocusStep 1", -- [92]
-				"09:54:38> GetQuestId: id of quest 'Containment' = 13159", -- [93]
-				"09:54:38> Completed Quest: Containment, id: 13159", -- [94]
-				"09:54:38> CacheQuestLog cached 8 quests", -- [95]
-				"09:54:38> Lost Quest: Containment, id: 13159, complete: true", -- [96]
-				"09:54:52> CacheQuestLog cached 8 quests", -- [97]
-				"09:54:52> CacheQuestLog cached 9 quests", -- [98]
-				"09:54:52> New Quest: Proof of Demise: Cyanigosa id 13256", -- [99]
-				"09:54:53> CacheQuestLog cached 9 quests", -- [100]
-			},
 			["maint_fetchitemdata"] = true,
+			["guidename"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
 			["guides_history"] = {
 				{
 					["short"] = "Tauren (1-13)",
@@ -414,14 +311,214 @@ ZygorGuidesViewerSettings = {
 				[57277] = true,
 				[57703] = true,
 			},
+			["maint_fetchquestdata"] = true,
 			["taxis"] = {
 			},
+			["debuglog"] = {
+				"18:45:34> 258 Inscription recipes found", -- [1]
+				"18:50:33> Viewer started. ---------------------------", -- [2]
+				"18:50:34> PLAYER_ENTERING_WORLD (dead?)", -- [3]
+				"18:50:34> PLAYER_ALIVE (dead?)", -- [4]
+				"18:50:34> CacheQuestLog cached 0 quests", -- [5]
+				"18:50:34> Got completed quests list", -- [6]
+				"18:50:34> CacheQuestLog cached 0 quests", -- [7]
+				"18:50:34> CacheQuestLog cached 7 quests", -- [8]
+				"18:50:34> New Quest: Cleansing Drak'Tharon id 12238", -- [9]
+				"18:50:34> New Quest: Containment id 13159", -- [10]
+				"18:50:34> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [11]
+				"18:50:34> New Quest: Stop the Siege id 13185", -- [12]
+				"18:50:34> New Quest: Toppling the Towers id 13539", -- [13]
+				"18:50:34> New Quest: Victory in Wintergrasp id 13183", -- [14]
+				"18:50:34> New Quest: The Champion's Call! id 12974", -- [15]
+				"18:50:34> ZONE_CHANGED_NEW_AREA (dead?)", -- [16]
+				"18:50:34> CacheQuestLog cached 7 quests", -- [17]
+				"18:50:34> Guides loaded. -----", -- [18]
+				"18:50:34> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [19]
+				"18:50:34> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [20]
+				"18:50:34> FocusStep 1", -- [21]
+				"18:55:54> 258 Inscription recipes found", -- [22]
+				"18:58:55> PLAYER_ENTERING_WORLD (dead?)", -- [23]
+				"18:58:55> PLAYER_ALIVE (dead?)", -- [24]
+				"18:58:55> CacheQuestLog cached 7 quests", -- [25]
+				"18:58:55> CacheQuestLog cached 7 quests", -- [26]
+				"18:58:55> ZONE_CHANGED_NEW_AREA (dead?)", -- [27]
+				"18:58:55> CacheQuestLog cached 7 quests", -- [28]
+				"09:34:01> Viewer started. ---------------------------", -- [29]
+				"09:34:02> PLAYER_ENTERING_WORLD (dead?)", -- [30]
+				"09:34:02> PLAYER_ALIVE (dead?)", -- [31]
+				"09:34:02> CacheQuestLog cached 0 quests", -- [32]
+				"09:34:03> Got completed quests list", -- [33]
+				"09:34:03> CacheQuestLog cached 0 quests", -- [34]
+				"09:34:03> CacheQuestLog cached 9 quests", -- [35]
+				"09:34:03> New Quest: Cleansing Drak'Tharon id 12238", -- [36]
+				"09:34:03> New Quest: Containment id 13159", -- [37]
+				"09:34:03> New Quest: Disarmament id 13206", -- [38]
+				"09:34:03> New Quest: Ingvar Must Die! id 11262", -- [39]
+				"09:34:03> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [40]
+				"09:34:03> New Quest: Stop the Siege id 13185", -- [41]
+				"09:34:03> New Quest: Toppling the Towers id 13539", -- [42]
+				"09:34:03> New Quest: Victory in Wintergrasp id 13183", -- [43]
+				"09:34:03> New Quest: The Champion's Call! id 12974", -- [44]
+				"09:34:03> ZONE_CHANGED_NEW_AREA (dead?)", -- [45]
+				"09:34:04> CacheQuestLog cached 9 quests", -- [46]
+				"09:34:05> Guides loaded. -----", -- [47]
+				"09:34:05> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [48]
+				"09:34:05> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [49]
+				"09:34:05> FocusStep 1", -- [50]
+				"09:42:02> Viewer started. ---------------------------", -- [51]
+				"09:42:03> PLAYER_ENTERING_WORLD (dead?)", -- [52]
+				"09:42:03> PLAYER_ALIVE (dead?)", -- [53]
+				"09:42:03> CacheQuestLog cached 0 quests", -- [54]
+				"09:42:04> Got completed quests list", -- [55]
+				"09:42:04> CacheQuestLog cached 9 quests", -- [56]
+				"09:42:04> New Quest: Cleansing Drak'Tharon id 12238", -- [57]
+				"09:42:04> New Quest: Containment id 13159", -- [58]
+				"09:42:04> New Quest: Disarmament id 13206", -- [59]
+				"09:42:04> New Quest: Ingvar Must Die! id 11262", -- [60]
+				"09:42:04> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [61]
+				"09:42:04> New Quest: Stop the Siege id 13185", -- [62]
+				"09:42:04> New Quest: Toppling the Towers id 13539", -- [63]
+				"09:42:04> New Quest: Victory in Wintergrasp id 13183", -- [64]
+				"09:42:04> New Quest: The Champion's Call! id 12974", -- [65]
+				"09:42:04> CacheQuestLog cached 9 quests", -- [66]
+				"09:42:05> ZONE_CHANGED_NEW_AREA (dead?)", -- [67]
+				"09:42:08> Guides loaded. -----", -- [68]
+				"09:42:08> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [69]
+				"09:42:08> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [70]
+				"09:42:08> FocusStep 1", -- [71]
+				"09:53:34> Viewer started. ---------------------------", -- [72]
+				"09:53:35> PLAYER_ENTERING_WORLD (dead?)", -- [73]
+				"09:53:35> PLAYER_ALIVE (dead?)", -- [74]
+				"09:53:35> CacheQuestLog cached 9 quests", -- [75]
+				"09:53:35> New Quest: Cleansing Drak'Tharon id 12238", -- [76]
+				"09:53:35> New Quest: Containment id 13159", -- [77]
+				"09:53:35> New Quest: Disarmament id 13206", -- [78]
+				"09:53:35> New Quest: Ingvar Must Die! id 11262", -- [79]
+				"09:53:35> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [80]
+				"09:53:35> New Quest: Stop the Siege id 13185", -- [81]
+				"09:53:35> New Quest: Toppling the Towers id 13539", -- [82]
+				"09:53:35> New Quest: Victory in Wintergrasp id 13183", -- [83]
+				"09:53:35> New Quest: The Champion's Call! id 12974", -- [84]
+				"09:53:35> Got completed quests list", -- [85]
+				"09:53:35> CacheQuestLog cached 9 quests", -- [86]
+				"09:53:35> CacheQuestLog cached 9 quests", -- [87]
+				"09:53:36> ZONE_CHANGED_NEW_AREA (dead?)", -- [88]
+				"09:53:37> Guides loaded. -----", -- [89]
+				"09:53:37> SetGuide Zygor's Horde Leveling Guides\\Tauren (1-13) (1", -- [90]
+				"09:53:37> Guide loaded: Zygor's Horde Leveling Guides\\Tauren (1-13)", -- [91]
+				"09:53:37> FocusStep 1", -- [92]
+				"09:54:38> GetQuestId: id of quest 'Containment' = 13159", -- [93]
+				"09:54:38> Completed Quest: Containment, id: 13159", -- [94]
+				"09:54:38> CacheQuestLog cached 8 quests", -- [95]
+				"09:54:38> Lost Quest: Containment, id: 13159, complete: true", -- [96]
+				"09:54:52> CacheQuestLog cached 8 quests", -- [97]
+				"09:54:52> CacheQuestLog cached 9 quests", -- [98]
+				"09:54:52> New Quest: Proof of Demise: Cyanigosa id 13256", -- [99]
+				"09:54:53> CacheQuestLog cached 9 quests", -- [100]
+			},
 			["starting"] = false,
+		},
+		["Queemificina - Frostmourne"] = {
+			["starting"] = false,
+			["guides_history"] = {
+				{
+					["short"] = "Death Knight (55-60)",
+					["full"] = "Zygor's Horde Leveling Guides\\Death Knight (55-60)",
+					["step"] = 1,
+				}, -- [1]
+			},
+			["guidename"] = "Zygor's Horde Leveling Guides\\Death Knight (55-60)",
+			["maint_fetchquestdata"] = true,
+			["taxis"] = {
+			},
+			["debuglog"] = {
+				"11:39:32> Viewer started. ---------------------------", -- [1]
+				"11:39:33> PLAYER_ENTERING_WORLD (dead?)", -- [2]
+				"11:39:33> PLAYER_ALIVE (dead?)", -- [3]
+				"11:39:33> CacheQuestLog cached 0 quests", -- [4]
+				"11:39:33> Got completed quests list", -- [5]
+				"11:39:33> CacheQuestLog cached 0 quests", -- [6]
+				"11:39:33> CacheQuestLog cached 0 quests", -- [7]
+				"11:39:34> ZONE_CHANGED_NEW_AREA (dead?)", -- [8]
+				"11:39:34> Guides loaded. -----", -- [9]
+				"11:39:34> SetGuide Zygor's Horde Leveling Guides\\Death Knight (55-60) (1", -- [10]
+				"11:39:34> Guide loaded: Zygor's Horde Leveling Guides\\Death Knight (55-60)", -- [11]
+				"11:39:34> FocusStep 1", -- [12]
+				"11:39:34> frameNeedsUpdating, so updating.", -- [13]
+				"11:39:42> Viewer started. ---------------------------", -- [14]
+				"11:39:42> PLAYER_ENTERING_WORLD (dead?)", -- [15]
+				"11:39:42> Got completed quests list", -- [16]
+				"11:39:42> CacheQuestLog cached 0 quests", -- [17]
+				"11:39:42> CacheQuestLog cached 0 quests", -- [18]
+				"11:39:43> Got completed quests list", -- [19]
+				"11:39:43> Guides loaded. -----", -- [20]
+				"11:39:43> SetGuide Zygor's Horde Leveling Guides\\Death Knight (55-60) (1", -- [21]
+				"11:39:43> Guide loaded: Zygor's Horde Leveling Guides\\Death Knight (55-60)", -- [22]
+				"11:39:43> FocusStep 1", -- [23]
+				"11:39:43> Translated: accept/turnin In Service Of The Lich King", -- [24]
+				"11:39:43> frameNeedsUpdating, so updating.", -- [25]
+				"11:40:09> Hiding arrow with guide", -- [26]
+			},
+			["maint_fetchitemdata"] = true,
+		},
+		["Kimitress - Frostmourne"] = {
+			["starting"] = false,
+			["guidename"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
+			["debuglog"] = {
+				"11:40:30> Viewer started. ---------------------------", -- [1]
+				"11:40:30> PLAYER_ENTERING_WORLD (dead?)", -- [2]
+				"11:40:30> PLAYER_ALIVE (dead?)", -- [3]
+				"11:40:30> CacheQuestLog cached 0 quests", -- [4]
+				"11:40:31> Got completed quests list", -- [5]
+				"11:40:31> CacheQuestLog cached 0 quests", -- [6]
+				"11:40:31> CacheQuestLog cached 1 quests", -- [7]
+				"11:40:31> New Quest: Report to Sen'jin Village id 805", -- [8]
+				"11:40:31> ZONE_CHANGED_NEW_AREA (dead?)", -- [9]
+				"11:40:31> Guides loaded. -----", -- [10]
+				"11:40:31> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (1", -- [11]
+				"11:40:31> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [12]
+				"11:40:31> FocusStep 1", -- [13]
+				"11:40:31> frameNeedsUpdating, so updating.", -- [14]
+				"11:40:39> Viewer started. ---------------------------", -- [15]
+				"11:40:39> PLAYER_ENTERING_WORLD (dead?)", -- [16]
+				"11:40:39> Got completed quests list", -- [17]
+				"11:40:39> CacheQuestLog cached 1 quests", -- [18]
+				"11:40:39> New Quest: Report to Sen'jin Village id 805", -- [19]
+				"11:40:39> CacheQuestLog cached 1 quests", -- [20]
+				"11:40:39> CacheQuestLog cached 1 quests", -- [21]
+				"11:40:40> Got completed quests list", -- [22]
+				"11:40:40> Guides loaded. -----", -- [23]
+				"11:40:40> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (1", -- [24]
+				"11:40:40> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [25]
+				"11:40:40> FocusStep 1", -- [26]
+				"11:40:40> Translated: accept/turnin Your Place In The World", -- [27]
+				"11:40:40> frameNeedsUpdating, so updating.", -- [28]
+				"11:41:48> Hiding arrow with guide", -- [29]
+				"11:47:01> 3 Mining recipes found", -- [30]
+			},
+			["RecipesKnown"] = {
+				[2657] = true,
+				[3304] = true,
+				[2659] = true,
+			},
+			["guides_history"] = {
+				{
+					["short"] = "Orc (1-13)",
+					["full"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
+					["step"] = 1,
+				}, -- [1]
+			},
+			["maint_fetchquestdata"] = true,
+			["taxis"] = {
+			},
+			["maint_fetchitemdata"] = true,
 		},
 	},
 	["profileKeys"] = {
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
 		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
+		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["profiles"] = {
 		["Queemi - Frostmourne"] = {
@@ -432,6 +529,16 @@ ZygorGuidesViewerSettings = {
 			["visible"] = false,
 			["arrowcam"] = false,
 			["arrowsmooth"] = true,
+		},
+		["Queemificina - Frostmourne"] = {
+			["arrowsmooth"] = true,
+			["arrowcam"] = false,
+			["visible"] = false,
+		},
+		["Kimitress - Frostmourne"] = {
+			["arrowsmooth"] = true,
+			["arrowcam"] = false,
+			["visible"] = false,
 		},
 	},
 }

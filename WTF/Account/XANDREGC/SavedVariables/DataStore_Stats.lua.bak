@@ -1,0 +1,24 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Queemi"] = {
+				["lastUpdate"] = 1718680275,
+				["Stats"] = {
+					["Ranged"] = "87-160|1.6000000759959|45|0|4.6529998779297",
+					["Spell"] = "124|124|0|5.4121999740601|0|121",
+					["Melee"] = "155-235|3.4000001614913|37|0|4.6529998779297|0",
+					["MaxPower"] = "0|5749",
+					["PVP"] = "0|0|0|0",
+					["HealthMax"] = 3973,
+					["Resistances"] = "0|0|0|0|0|0",
+					["Base"] = "47|55|183|269|248|566",
+					["Defense"] = "566|319|4.2315955162048|0|0|0",
+				},
+			},
+		},
+	},
+}

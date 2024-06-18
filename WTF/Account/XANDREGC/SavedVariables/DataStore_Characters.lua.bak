@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Queemi"] = {
+				["XPMax"] = 475000,
+				["played"] = 100314,
+				["guildRankName"] = "Initiate",
+				["isResting"] = 1,
+				["lastUpdate"] = 1718680334,
+				["class"] = "Warlock",
+				["race"] = "Undead",
+				["level"] = 65,
+				["XP"] = 333489,
+				["RestXP"] = 291104,
+				["money"] = 135709,
+				["gender"] = 3,
+				["subZone"] = "Bank",
+				["zone"] = "Shattrath City",
+				["guildRankIndex"] = 4,
+				["name"] = "Queemi",
+				["faction"] = "Horde",
+				["englishRace"] = "Scourge",
+				["guildName"] = "TorosNegros",
+				["lastLogoutTimestamp"] = 1718680334,
+				["englishClass"] = "WARLOCK",
+			},
+		},
+	},
+}

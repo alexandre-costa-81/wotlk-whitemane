@@ -11,7 +11,11 @@ PawnCommon = {
 	["Scales"] = {
 		["\"Wowhead\":ShamanEnhancement"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -28,7 +32,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":DeathKnightUnholyDps"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -45,7 +53,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":DeathKnightFrostDps"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -62,7 +74,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":WarriorArms"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -79,7 +95,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":WarlockDestruction"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 					["Visible"] = true,
@@ -97,7 +117,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":PaladinTank"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -114,7 +138,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":HunterBeastMastery"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -131,7 +159,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":PaladinHoly"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -148,7 +180,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":RogueCombat"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -165,7 +201,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":PriestDiscipline"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -182,7 +222,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":DeathKnightBloodTank"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -199,7 +243,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":MageFrost"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -216,7 +264,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":ShamanRestoration"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -233,7 +285,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":MageFire"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -250,7 +306,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":WarriorFury"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -267,7 +327,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":DeathKnightBloodDps"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -284,7 +348,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":WarlockDemonology"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 					["Visible"] = true,
@@ -302,8 +370,12 @@ PawnCommon = {
 		},
 		["\"Wowhead\":DruidRestoration"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
 					["Visible"] = true,
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -320,7 +392,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":RogueSubtlety"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -337,7 +413,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":HunterMarksman"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -354,7 +434,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":DeathKnightFrostTank"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -371,7 +455,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":ShamanElemental"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -388,7 +476,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":PaladinRetribution"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -405,7 +497,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":MageArcane"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -422,8 +518,12 @@ PawnCommon = {
 		},
 		["\"Wowhead\":DruidFeralDps"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
 					["Visible"] = true,
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -440,7 +540,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":WarriorTank"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -457,7 +561,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":RogueAssassination"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -474,8 +582,12 @@ PawnCommon = {
 		},
 		["\"Wowhead\":DruidBalance"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
 					["Visible"] = true,
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -492,7 +604,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":PriestShadow"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -509,7 +625,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":HunterSurvival"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -526,7 +646,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":WarlockAffliction"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 					["Visible"] = true,
@@ -544,7 +668,11 @@ PawnCommon = {
 		},
 		["\"Wowhead\":PriestHoly"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -561,8 +689,12 @@ PawnCommon = {
 		},
 		["\"Wowhead\":DruidFeralTank"] = {
 			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
 				["Queemu-Frostmourne"] = {
 					["Visible"] = true,
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},

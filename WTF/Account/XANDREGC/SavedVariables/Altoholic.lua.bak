@@ -1,0 +1,15 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Queemi"] = {
+				["Friends"] = {
+					"Kimi", -- [1]
+				},
+			},
+		},
+	},
+}

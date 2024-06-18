@@ -3,17 +3,19 @@ DecursiveDB = {
 	["profileKeys"] = {
 		["Queemi - Frostmourne"] = "Default",
 		["Queemu - Frostmourne"] = "Default",
+		["Queemificina - Frostmourne"] = "Default",
+		["Kimitress - Frostmourne"] = "Default",
 	},
 	["class"] = {
-		["WARLOCK"] = {
+		["DEATHKNIGHT"] = {
 			["CureOrder"] = {
-				-13, -- [1]
-				-12, -- [2]
+				-12, -- [1]
+				-11, -- [2]
 				nil, -- [3]
-				-14, -- [4]
-				[32] = 1,
-				[16] = -16,
-				[8] = -15,
+				-13, -- [4]
+				[32] = -16,
+				[16] = -15,
+				[8] = -14,
 			},
 		},
 		["DRUID"] = {
@@ -25,6 +27,28 @@ DecursiveDB = {
 				[32] = 3,
 				[16] = -16,
 				[8] = 2,
+			},
+		},
+		["WARLOCK"] = {
+			["CureOrder"] = {
+				-13, -- [1]
+				-12, -- [2]
+				nil, -- [3]
+				-14, -- [4]
+				[32] = 1,
+				[16] = -16,
+				[8] = -15,
+			},
+		},
+		["HUNTER"] = {
+			["CureOrder"] = {
+				-12, -- [1]
+				-11, -- [2]
+				nil, -- [3]
+				-13, -- [4]
+				[32] = -16,
+				[16] = -15,
+				[8] = -14,
 			},
 		},
 	},

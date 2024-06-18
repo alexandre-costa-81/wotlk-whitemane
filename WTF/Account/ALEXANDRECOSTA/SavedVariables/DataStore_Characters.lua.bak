@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Kimi - Frostmourne"] = "Kimi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Kimi"] = {
+				["XPMax"] = 0,
+				["played"] = 321276,
+				["guildRankName"] = "Initiate",
+				["isResting"] = 1,
+				["lastUpdate"] = 1718680053,
+				["class"] = "Paladin",
+				["race"] = "Undead",
+				["level"] = 80,
+				["XP"] = 53115,
+				["RestXP"] = 0,
+				["money"] = 39734826,
+				["gender"] = 2,
+				["subZone"] = "Freewind Post",
+				["zone"] = "Thousand Needles",
+				["guildRankIndex"] = 9,
+				["name"] = "Kimi",
+				["faction"] = "Horde",
+				["englishRace"] = "Scourge",
+				["guildName"] = "Omnipotent",
+				["lastLogoutTimestamp"] = 1718680053,
+				["englishClass"] = "PALADIN",
+			},
+		},
+	},
+}

@@ -1,0 +1,15 @@
+Version: 1
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 200
+Frame: ZygorGuidesViewerFrame
+FrameLevel: 13
+Anchor: CENTER
+X: 110
+Y: -40
+W: 260
+H: 120

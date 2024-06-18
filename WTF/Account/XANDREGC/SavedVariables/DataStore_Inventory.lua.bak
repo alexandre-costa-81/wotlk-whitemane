@@ -1,0 +1,42 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Queemi"] = {
+				["Inventory"] = {
+					"|cff1eff00|Hitem:24609:0:0:0:0:0:-36:41:65|h[Laughing Skull Cap of the Sorcerer]|h|r", -- [1]
+					5003, -- [2]
+					"|cff1eff00|Hitem:14273:0:0:0:0:0:781:0:65|h[Gaea's Amice of the Owl]|h|r", -- [3]
+					4334, -- [4]
+					29926, -- [5]
+					14414, -- [6]
+					11911, -- [7]
+					"|cff1eff00|Hitem:11908:66:0:0:0:0:0:0:65|h[Archaeologist's Quarry Boots]|h|r", -- [8]
+					"|cff0070dd|Hitem:13106:724:0:0:0:0:0:0:65|h[Glowing Magical Bracelets]|h|r", -- [9]
+					4121, -- [10]
+					5351, -- [11]
+					5313, -- [12]
+					nil, -- [13]
+					nil, -- [14]
+					6424, -- [15]
+					29910, -- [16]
+					[18] = 29915,
+				},
+				["averageItemLvl"] = 50.64285714285715,
+				["lastUpdate"] = 1718680275,
+			},
+		},
+		["Guilds"] = {
+			["Default.Frostmourne.TorosNegros"] = {
+				["Members"] = {
+					["Queemi"] = {
+						["averageItemLvl"] = 50,
+					},
+				},
+			},
+		},
+	},
+}

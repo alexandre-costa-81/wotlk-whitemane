@@ -1,0 +1,85 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Kimi - Frostmourne"] = "Kimi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Kimi"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["isSecondary"] = true,
+						["FullLink"] = "|cffffd000|Htrade:2550:1:75:46C2:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cooking]|h|r",
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+					},
+					["Jewelcrafting"] = {
+						["NumCrafts"] = 27,
+						["isPrimary"] = true,
+						["FullLink"] = "|cffffd000|Htrade:25230:121:150:46C2:+f6BAAAAAwDAAAAAAAAAAAAAgfAAgJBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Jewelcrafting]|h|r",
+						["Crafts"] = {
+							"0|Consumable", -- [1]
+							"2|32807", -- [2]
+							"4|32801", -- [3]
+							"4|32259", -- [4]
+							"0|Cloth", -- [5]
+							"1|25321", -- [6]
+							"0|Miscellaneous", -- [7]
+							"1|25610", -- [8]
+							"1|25498", -- [9]
+							"1|36524", -- [10]
+							"1|25318", -- [11]
+							"2|25305", -- [12]
+							"2|38175", -- [13]
+							"2|25317", -- [14]
+							"3|36523", -- [15]
+							"3|25287", -- [16]
+							"3|37818", -- [17]
+							"4|25284", -- [18]
+							"4|25280", -- [19]
+							"4|25490", -- [20]
+							"4|26927", -- [21]
+							"4|25283", -- [22]
+							"4|26928", -- [23]
+							"4|32178", -- [24]
+							"4|32179", -- [25]
+							"4|26926", -- [26]
+							"4|25493", -- [27]
+							"4|26925", -- [28]
+							"0|Jewelcrafting", -- [29]
+							"4|25278", -- [30]
+							"4|25255", -- [31]
+						},
+					},
+					["Mining"] = {
+						["isPrimary"] = true,
+					},
+					["First Aid"] = {
+						["isSecondary"] = true,
+						["FullLink"] = "|cffffd000|Htrade:45542:400:450:46C2:8LPfAA|h[First Aid]|h|r",
+					},
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
+				},
+				["lastUpdate"] = 1718680005,
+			},
+		},
+		["Guilds"] = {
+			["Default.Frostmourne.Omnipotent"] = {
+				["Members"] = {
+					["Kimi"] = {
+						["Professions"] = {
+							25229, -- [1]
+							2575, -- [2]
+							2550, -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1718679284,
+					},
+				},
+			},
+		},
+	},
+}

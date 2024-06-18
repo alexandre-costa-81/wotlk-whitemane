@@ -1,0 +1,40 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Frostmourne.Queemi"] = {
+				["Professions"] = {
+					["Tailoring"] = {
+						["isPrimary"] = true,
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+					},
+					["First Aid"] = {
+						["isSecondary"] = true,
+					},
+					["Enchanting"] = {
+						["isPrimary"] = true,
+					},
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.Frostmourne.TorosNegros"] = {
+				["Members"] = {
+					["Queemi"] = {
+						["Professions"] = {
+							3908, -- [1]
+							7411, -- [2]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1718680282,
+					},
+				},
+			},
+		},
+	},
+}

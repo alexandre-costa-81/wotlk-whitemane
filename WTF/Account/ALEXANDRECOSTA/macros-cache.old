@@ -1,0 +1,7 @@
+MACRO 2 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Cleanse;  [target=mouseover,exists,mod:ctrl] Cleanse; [target=mouseover,exists,mod:shift] Cleanse
+END
+MACRO 1 "Mount" INV_Misc_QuestionMark
+/cast [flyable] Tawny Wind Rider;Summon Charger
+END

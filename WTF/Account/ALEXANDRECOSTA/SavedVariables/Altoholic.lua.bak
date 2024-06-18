@@ -1,0 +1,24 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Kimi - Frostmourne"] = "Kimi - Frostmourne",
+	},
+	["global"] = {
+		["options"] = {
+			["Lola"] = "V33ORFJ07CNF18S@PVXR",
+			["ShowMinimap"] = 0,
+		},
+		["Characters"] = {
+			["Default.Frostmourne.Kimi"] = {
+				["Friends"] = {
+					"Borntoslay", -- [1]
+					"Hrissa", -- [2]
+					"Ilumi", -- [3]
+					"Queemi", -- [4]
+					"Queemificina", -- [5]
+					"Queemu", -- [6]
+				},
+			},
+		},
+	},
+}
