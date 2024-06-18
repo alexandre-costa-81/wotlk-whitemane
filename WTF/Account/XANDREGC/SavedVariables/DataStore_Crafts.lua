@@ -1,9 +1,9 @@
 
 DataStore_CraftsDB = {
 	["profileKeys"] = {
-		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["global"] = {
@@ -13,10 +13,7 @@ DataStore_CraftsDB = {
 					["Inscription"] = {
 						["NumCrafts"] = 188,
 						["isPrimary"] = true,
-						["Cooldowns"] = {
-							"Northrend Inscription Research|71956.06641773|1718708605", -- [1]
-							"Minor Inscription Research|71979.503418843|1718708605", -- [2]
-						},
+						["FullLink"] = "|cffffd000|Htrade:45363:443:450:9271:g////7HJp9w////g9/Dz/Ph+/L+/F6/PA+/Rx/Pg+////EFsTUEAJg/////PCAaJA+DAAQAAAge|h[Inscription]|h|r",
 						["Crafts"] = {
 							"3|61177", -- [1]
 							"3|59497", -- [2]
@@ -207,7 +204,10 @@ DataStore_CraftsDB = {
 							"4|59339", -- [187]
 							"4|57226", -- [188]
 						},
-						["FullLink"] = "|cffffd000|Htrade:45363:443:450:9271:g////7HJp9w////g9/Dz/Ph+/L+/F6/PA+/Rx/Pg+////EFsTUEAJg/////PCAaJA+DAAQAAAge|h[Inscription]|h|r",
+						["Cooldowns"] = {
+							"Northrend Inscription Research|71956.06641773|1718708605", -- [1]
+							"Minor Inscription Research|71979.503418843|1718708605", -- [2]
+						},
 					},
 					["Riding"] = {
 						["isSecondary"] = true,
@@ -223,10 +223,10 @@ DataStore_CraftsDB = {
 					["Tailoring"] = {
 						["isPrimary"] = true,
 					},
-					["Riding"] = {
+					["First Aid"] = {
 						["isSecondary"] = true,
 					},
-					["First Aid"] = {
+					["Riding"] = {
 						["isSecondary"] = true,
 					},
 					["Enchanting"] = {
@@ -240,16 +240,22 @@ DataStore_CraftsDB = {
 						["isPrimary"] = true,
 					},
 					["Mining"] = {
-						["NumCrafts"] = 3,
-						["isPrimary"] = true,
+						["NumCrafts"] = 8,
 						["Crafts"] = {
-							"3|2659", -- [1]
-							"4|3304", -- [2]
-							"4|2657", -- [3]
+							"0|Metal & Stone", -- [1]
+							"3|10097", -- [2]
+							"4|3308", -- [3]
+							"4|3569", -- [4]
+							"4|3307", -- [5]
+							"4|2658", -- [6]
+							"4|2659", -- [7]
+							"4|3304", -- [8]
+							"4|2657", -- [9]
 						},
+						["isPrimary"] = true,
 					},
 				},
-				["lastUpdate"] = 1718722021,
+				["lastUpdate"] = 1718728615,
 			},
 			["Default.Frostmourne.Queemificina"] = {
 				["Professions"] = {
@@ -274,7 +280,7 @@ DataStore_CraftsDB = {
 							2575, -- [2]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1718721646,
+						["lastUpdate"] = 1718727517,
 					},
 				},
 			},

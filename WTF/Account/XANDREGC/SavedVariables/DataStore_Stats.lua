@@ -1,9 +1,9 @@
 
 DataStore_StatsDB = {
 	["profileKeys"] = {
-		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["global"] = {
@@ -19,10 +19,10 @@ DataStore_StatsDB = {
 					["HealthMax"] = 14557,
 					["Arena2"] = "2vs2|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
 					["Resistances"] = "75|75|75|75|75|75",
+					["Defense"] = "2550|400|8.5940475463867|0|0|0",
+					["Base"] = "162|143|695|796|669|2550",
 					["Arena5"] = "SoloQueue|5|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
 					["Arena3"] = "3vs3|3|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
-					["Base"] = "162|143|695|796|669|2550",
-					["Defense"] = "2550|400|8.5940475463867|0|0|0",
 				},
 			},
 			["Default.Frostmourne.Queemi"] = {
@@ -40,20 +40,20 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Frostmourne.Kimitress"] = {
-				["lastUpdate"] = 1718721981,
+				["lastUpdate"] = 1718728629,
 				["Stats"] = {
 					["Ranged"] = "18-24|1.9990000949474|43|0|6.015200138092",
 					["Spell"] = "0|0|0|4.8317999839783|0|17",
 					["Melee"] = "19-24|3.1000001472421|60|0|5.015200138092|0",
 					["MaxPower"] = "0|256",
 					["PVP"] = "0|0|0|0",
-					["HealthMax"] = 269,
+					["Arena5"] = "SoloQueue|5|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
+					["HealthMax"] = 289,
 					["Arena2"] = "2vs2|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
 					["Resistances"] = "0|0|0|0|0|0",
-					["Arena5"] = "SoloQueue|5|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
-					["Arena3"] = "3vs3|3|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
-					["Base"] = "27|33|34|22|30|131",
 					["Defense"] = "131|50|2.2321715354919|5|0|0",
+					["Base"] = "27|33|36|22|30|131",
+					["Arena3"] = "3vs3|3|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
 				},
 			},
 			["Default.Frostmourne.Queemificina"] = {

@@ -1,7 +1,7 @@
 
 DecursiveDB = {
-	["global"] = {
-		["LastExpirationAlert"] = 1718638461,
+	["profileKeys"] = {
+		["Kimi - Frostmourne"] = "Default",
 	},
 	["class"] = {
 		["PALADIN"] = {
@@ -16,8 +16,8 @@ DecursiveDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Kimi - Frostmourne"] = "Default",
+	["global"] = {
+		["LastExpirationAlert"] = 1718638461,
 	},
 	["profiles"] = {
 		["Default"] = {

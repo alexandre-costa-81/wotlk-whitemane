@@ -16,15 +16,15 @@ _details_database = {
 	["last_realversion"] = 12,
 	["table_instances"] = {
 	},
-	["combat_counter"] = 39,
+	["combat_counter"] = 40,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
 			["enabled"] = true,
 			["opened"] = 0,
-			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
 			["show_icon"] = 5,
 			["hide_on_combat"] = false,
-			["author"] = "Details! Team",
+			["max_emote_segments"] = 3,
 		},
 		["DETAILS_PLUGIN_DPS_TUNING"] = {
 			["enabled"] = true,
@@ -33,28 +33,27 @@ _details_database = {
 		},
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
+			["enabled"] = true,
 			["animate"] = false,
-			["showamount"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["enabled"] = true,
+			["showamount"] = false,
 		},
 	},
 	["character_data"] = {
-		["logons"] = 5,
+		["logons"] = 6,
 	},
 	["table_history"] = {
 		["tables"] = {
 			{
 				{
 					["type"] = 2,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -67,10 +66,10 @@ _details_database = {
 								["Bael'dun Excavator"] = true,
 								["Ornery Plainstrider"] = true,
 								["[*] FALLING"] = true,
-								["Bael'dun Soldier"] = true,
+								["Witchwing Slayer"] = true,
 								["Hecklefang Snarler"] = true,
 								["Razormane Warfrenzy"] = true,
-								["Witchwing Slayer"] = true,
+								["Bael'dun Soldier"] = true,
 							},
 							["targets"] = {
 								["type"] = 6,
@@ -85,22 +84,22 @@ _details_database = {
 									}, -- [2]
 								},
 							},
-							["name"] = "Kimi",
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["placing"] = 1,
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 3161.006898,
-							["serial"] = "0x00000000000046C2",
-							["dps_started"] = false,
-							["type"] = 1,
-							["class"] = "PALADIN",
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
+							["delay"] = 0,
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 3161.006898,
+							["total"] = 3161.006898,
+							["dps_started"] = false,
+							["placing"] = 1,
+							["class"] = "PALADIN",
+							["damage_taken"] = 13041.006898,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -131,43 +130,43 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 								},
 							},
-							["end_time"] = 1718723810,
 							["last_dps"] = 451.572414,
-							["custom"] = 0,
+							["end_time"] = 1718723810,
+							["name"] = "Kimi",
 							["last_event"] = 1718723810,
-							["damage_taken"] = 13041.006898,
+							["on_hold"] = false,
 							["start_time"] = 1718723804,
-							["delay"] = 0,
-							["total"] = 3161.006898,
+							["serial"] = "0x00000000000046C2",
+							["type"] = 1,
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [1]
 				{
 					["type"] = 3,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
+					["combatId"] = 17,
 				}, -- [2]
 				{
 					["type"] = 7,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1298,
-							["focus"] = 0.007575,
+							["runepower_r"] = 0.007575,
+							["runepower"] = 0.007575,
 							["group"] = true,
-							["holypower_r"] = 0.007575,
+							["class"] = "WARRIOR",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -183,22 +182,22 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.007575,
-							["e_energy_r"] = 0.007575,
-							["holypower_from"] = {
+							["flag_original"] = 1298,
+							["mana_from"] = {
 							},
-							["e_rage_r"] = 22.007575,
-							["mana"] = 0.007575,
+							["focus"] = 0.007575,
+							["holypower_r"] = 0.007575,
+							["last_event"] = 1718724572,
 							["holypower"] = 0.007575,
-							["e_energy_from"] = {
+							["holypower_from"] = {
 							},
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.007575,
 							["e_rage"] = 22.007575,
-							["class"] = "WARRIOR",
-							["name"] = "Legionario",
+							["mana"] = 0.007575,
+							["e_energy"] = 0.007575,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -250,24 +249,24 @@ _details_database = {
 									},
 								},
 							},
-							["focus_r"] = 0.007575,
-							["mana_from"] = {
-							},
 							["e_rage_from"] = {
 								["Legionario"] = true,
 							},
-							["e_energy"] = 0.007575,
+							["e_rage_r"] = 22.007575,
+							["name"] = "Legionario",
+							["focus_r"] = 0.007575,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.007575,
+							["e_energy_r"] = 0.007575,
 							["serial"] = "0x000000000000958E",
-							["last_event"] = 1718724572,
+							["e_energy_from"] = {
+							},
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [3]
 				{
 					["type"] = 9,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -275,11 +274,6 @@ _details_database = {
 							["group"] = true,
 							["class"] = "PALADIN",
 							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
 							},
 							["name"] = "Kimi",
 							["last_event"] = 1718726245,
@@ -290,74 +284,79 @@ _details_database = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
 										["id"] = 34767,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[32223] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 32223,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[57819] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 57819,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20375] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 20375,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[48934] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 48934,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
 							["buff_uptime"] = 28,
 							["serial"] = "0x00000000000046C2",
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [4]
 				{
 					["_NameIndexTable"] = {
 					},
 					["type"] = 2,
-					["creation_func"] = nil --[[ skipped inline function ]],
 					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
@@ -385,15 +384,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = -0.006815999999999933,
-						["interrupt"] = 0,
-						["dispell"] = -0.007611000000000034,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = -0.007611000000000034,
+						["cooldowns_defensive"] = -0.006815999999999933,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -412,32 +411,32 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "12:57:26",
 				["combat_id"] = 17,
 				["resincked"] = true,
+				["hasSaved"] = true,
 				["frags"] = {
 					["Bristleback Thornweaver"] = 1,
 				},
-				["instance_type"] = "none",
 				["CombatSkillCache"] = {
 				},
 				["end_time"] = 1718723810,
 				["start_time"] = 1718723803,
 				["TimeData"] = {
 				},
+				["instance_type"] = "none",
 			}, -- [1]
 			{
 				{
 					["type"] = 2,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -450,10 +449,10 @@ _details_database = {
 								["Bael'dun Excavator"] = true,
 								["Ornery Plainstrider"] = true,
 								["[*] FALLING"] = true,
-								["Bael'dun Soldier"] = true,
+								["Witchwing Slayer"] = true,
 								["Hecklefang Snarler"] = true,
 								["Razormane Warfrenzy"] = true,
-								["Witchwing Slayer"] = true,
+								["Bael'dun Soldier"] = true,
 							},
 							["targets"] = {
 								["type"] = 6,
@@ -468,22 +467,22 @@ _details_database = {
 									}, -- [2]
 								},
 							},
-							["name"] = "Kimi",
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["placing"] = 1,
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 3161.006898,
-							["serial"] = "0x00000000000046C2",
-							["dps_started"] = false,
-							["type"] = 1,
-							["class"] = "PALADIN",
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 3161.006898,
+							["total"] = 3161.006898,
+							["dps_started"] = false,
+							["placing"] = 1,
+							["class"] = "PALADIN",
+							["damage_taken"] = 13041.006898,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -514,43 +513,43 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 								},
 							},
-							["end_time"] = 1718723810,
 							["last_dps"] = 451.572414,
-							["custom"] = 0,
+							["end_time"] = 1718723810,
+							["name"] = "Kimi",
 							["last_event"] = 1718723810,
-							["damage_taken"] = 13041.006898,
+							["on_hold"] = false,
 							["start_time"] = 1718723804,
-							["delay"] = 0,
-							["total"] = 3161.006898,
+							["serial"] = "0x00000000000046C2",
+							["type"] = 1,
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [1]
 				{
 					["type"] = 3,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
+					["combatId"] = 17,
 				}, -- [2]
 				{
 					["type"] = 7,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1298,
-							["focus"] = 0.007575,
+							["runepower_r"] = 0.007575,
+							["runepower"] = 0.007575,
 							["group"] = true,
-							["holypower_r"] = 0.007575,
+							["class"] = "WARRIOR",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -566,22 +565,22 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.007575,
-							["e_energy_r"] = 0.007575,
-							["holypower_from"] = {
+							["flag_original"] = 1298,
+							["mana_from"] = {
 							},
-							["e_rage_r"] = 22.007575,
-							["mana"] = 0.007575,
+							["focus"] = 0.007575,
+							["holypower_r"] = 0.007575,
+							["last_event"] = 1718724572,
 							["holypower"] = 0.007575,
-							["e_energy_from"] = {
+							["holypower_from"] = {
 							},
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.007575,
 							["e_rage"] = 22.007575,
-							["class"] = "WARRIOR",
-							["name"] = "Legionario",
+							["mana"] = 0.007575,
+							["e_energy"] = 0.007575,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -633,24 +632,24 @@ _details_database = {
 									},
 								},
 							},
-							["focus_r"] = 0.007575,
-							["mana_from"] = {
-							},
 							["e_rage_from"] = {
 								["Legionario"] = true,
 							},
-							["e_energy"] = 0.007575,
+							["e_rage_r"] = 22.007575,
+							["name"] = "Legionario",
+							["focus_r"] = 0.007575,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.007575,
+							["e_energy_r"] = 0.007575,
 							["serial"] = "0x000000000000958E",
-							["last_event"] = 1718724572,
+							["e_energy_from"] = {
+							},
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [3]
 				{
 					["type"] = 9,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -658,11 +657,6 @@ _details_database = {
 							["group"] = true,
 							["class"] = "PALADIN",
 							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
 							},
 							["name"] = "Kimi",
 							["last_event"] = 1718726245,
@@ -673,74 +667,79 @@ _details_database = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
 										["id"] = 34767,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[32223] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 32223,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[57819] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 57819,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20375] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 20375,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[48934] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 48934,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
 							["buff_uptime"] = 28,
 							["serial"] = "0x00000000000046C2",
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [4]
 				{
 					["_NameIndexTable"] = {
 					},
 					["type"] = 2,
-					["creation_func"] = nil --[[ skipped inline function ]],
 					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
@@ -768,15 +767,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = -0.006815999999999933,
-						["interrupt"] = 0,
-						["dispell"] = -0.007611000000000034,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = -0.007611000000000034,
+						["cooldowns_defensive"] = -0.006815999999999933,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -795,32 +794,32 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "12:57:26",
 				["combat_id"] = 17,
 				["resincked"] = true,
+				["hasSaved"] = true,
 				["frags"] = {
 					["Bristleback Thornweaver"] = 1,
 				},
-				["instance_type"] = "none",
 				["CombatSkillCache"] = {
 				},
 				["end_time"] = 1718723810,
 				["start_time"] = 1718723803,
 				["TimeData"] = {
 				},
+				["instance_type"] = "none",
 			}, -- [2]
 			{
 				{
 					["type"] = 2,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -833,10 +832,10 @@ _details_database = {
 								["Bael'dun Excavator"] = true,
 								["Ornery Plainstrider"] = true,
 								["[*] FALLING"] = true,
-								["Bael'dun Soldier"] = true,
+								["Witchwing Slayer"] = true,
 								["Hecklefang Snarler"] = true,
 								["Razormane Warfrenzy"] = true,
-								["Witchwing Slayer"] = true,
+								["Bael'dun Soldier"] = true,
 							},
 							["targets"] = {
 								["type"] = 6,
@@ -851,22 +850,22 @@ _details_database = {
 									}, -- [2]
 								},
 							},
-							["name"] = "Kimi",
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["placing"] = 1,
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 3161.006898,
-							["serial"] = "0x00000000000046C2",
-							["dps_started"] = false,
-							["type"] = 1,
-							["class"] = "PALADIN",
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 3161.006898,
+							["total"] = 3161.006898,
+							["dps_started"] = false,
+							["placing"] = 1,
+							["class"] = "PALADIN",
+							["damage_taken"] = 13041.006898,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -897,43 +896,43 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 								},
 							},
-							["end_time"] = 1718723810,
 							["last_dps"] = 451.572414,
-							["custom"] = 0,
+							["end_time"] = 1718723810,
+							["name"] = "Kimi",
 							["last_event"] = 1718723810,
-							["damage_taken"] = 13041.006898,
+							["on_hold"] = false,
 							["start_time"] = 1718723804,
-							["delay"] = 0,
-							["total"] = 3161.006898,
+							["serial"] = "0x00000000000046C2",
+							["type"] = 1,
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [1]
 				{
 					["type"] = 3,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
+					["combatId"] = 17,
 				}, -- [2]
 				{
 					["type"] = 7,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1298,
-							["focus"] = 0.007575,
+							["runepower_r"] = 0.007575,
+							["runepower"] = 0.007575,
 							["group"] = true,
-							["holypower_r"] = 0.007575,
+							["class"] = "WARRIOR",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -949,22 +948,22 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.007575,
-							["e_energy_r"] = 0.007575,
-							["holypower_from"] = {
+							["flag_original"] = 1298,
+							["mana_from"] = {
 							},
-							["e_rage_r"] = 22.007575,
-							["mana"] = 0.007575,
+							["focus"] = 0.007575,
+							["holypower_r"] = 0.007575,
+							["last_event"] = 1718724572,
 							["holypower"] = 0.007575,
-							["e_energy_from"] = {
+							["holypower_from"] = {
 							},
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.007575,
 							["e_rage"] = 22.007575,
-							["class"] = "WARRIOR",
-							["name"] = "Legionario",
+							["mana"] = 0.007575,
+							["e_energy"] = 0.007575,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -1016,24 +1015,24 @@ _details_database = {
 									},
 								},
 							},
-							["focus_r"] = 0.007575,
-							["mana_from"] = {
-							},
 							["e_rage_from"] = {
 								["Legionario"] = true,
 							},
-							["e_energy"] = 0.007575,
+							["e_rage_r"] = 22.007575,
+							["name"] = "Legionario",
+							["focus_r"] = 0.007575,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.007575,
+							["e_energy_r"] = 0.007575,
 							["serial"] = "0x000000000000958E",
-							["last_event"] = 1718724572,
+							["e_energy_from"] = {
+							},
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [3]
 				{
 					["type"] = 9,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -1041,11 +1040,6 @@ _details_database = {
 							["group"] = true,
 							["class"] = "PALADIN",
 							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
 							},
 							["name"] = "Kimi",
 							["last_event"] = 1718726245,
@@ -1056,74 +1050,79 @@ _details_database = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
 										["id"] = 34767,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[32223] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 32223,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[57819] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 57819,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20375] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 20375,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[48934] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 48934,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
 							["buff_uptime"] = 28,
 							["serial"] = "0x00000000000046C2",
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [4]
 				{
 					["_NameIndexTable"] = {
 					},
 					["type"] = 2,
-					["creation_func"] = nil --[[ skipped inline function ]],
 					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
@@ -1151,15 +1150,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = -0.006815999999999933,
-						["interrupt"] = 0,
-						["dispell"] = -0.007611000000000034,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = -0.007611000000000034,
+						["cooldowns_defensive"] = -0.006815999999999933,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1178,32 +1177,32 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "12:57:26",
 				["combat_id"] = 17,
 				["resincked"] = true,
+				["hasSaved"] = true,
 				["frags"] = {
 					["Bristleback Thornweaver"] = 1,
 				},
-				["instance_type"] = "none",
 				["CombatSkillCache"] = {
 				},
 				["end_time"] = 1718723810,
 				["start_time"] = 1718723803,
 				["TimeData"] = {
 				},
+				["instance_type"] = "none",
 			}, -- [3]
 			{
 				{
 					["type"] = 2,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1216,10 +1215,10 @@ _details_database = {
 								["Bael'dun Excavator"] = true,
 								["Ornery Plainstrider"] = true,
 								["[*] FALLING"] = true,
-								["Bael'dun Soldier"] = true,
+								["Witchwing Slayer"] = true,
 								["Hecklefang Snarler"] = true,
 								["Razormane Warfrenzy"] = true,
-								["Witchwing Slayer"] = true,
+								["Bael'dun Soldier"] = true,
 							},
 							["targets"] = {
 								["type"] = 6,
@@ -1234,22 +1233,22 @@ _details_database = {
 									}, -- [2]
 								},
 							},
-							["name"] = "Kimi",
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["placing"] = 1,
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 3161.006898,
-							["serial"] = "0x00000000000046C2",
-							["dps_started"] = false,
-							["type"] = 1,
-							["class"] = "PALADIN",
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 3161.006898,
+							["total"] = 3161.006898,
+							["dps_started"] = false,
+							["placing"] = 1,
+							["class"] = "PALADIN",
+							["damage_taken"] = 13041.006898,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -1280,43 +1279,43 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 								},
 							},
-							["end_time"] = 1718723810,
 							["last_dps"] = 451.572414,
-							["custom"] = 0,
+							["end_time"] = 1718723810,
+							["name"] = "Kimi",
 							["last_event"] = 1718723810,
-							["damage_taken"] = 13041.006898,
+							["on_hold"] = false,
 							["start_time"] = 1718723804,
-							["delay"] = 0,
-							["total"] = 3161.006898,
+							["serial"] = "0x00000000000046C2",
+							["type"] = 1,
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [1]
 				{
 					["type"] = 3,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
+					["combatId"] = 17,
 				}, -- [2]
 				{
 					["type"] = 7,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1298,
-							["focus"] = 0.007575,
+							["runepower_r"] = 0.007575,
+							["runepower"] = 0.007575,
 							["group"] = true,
-							["holypower_r"] = 0.007575,
+							["class"] = "WARRIOR",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -1332,22 +1331,22 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.007575,
-							["e_energy_r"] = 0.007575,
-							["holypower_from"] = {
+							["flag_original"] = 1298,
+							["mana_from"] = {
 							},
-							["e_rage_r"] = 22.007575,
-							["mana"] = 0.007575,
+							["focus"] = 0.007575,
+							["holypower_r"] = 0.007575,
+							["last_event"] = 1718724572,
 							["holypower"] = 0.007575,
-							["e_energy_from"] = {
+							["holypower_from"] = {
 							},
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.007575,
 							["e_rage"] = 22.007575,
-							["class"] = "WARRIOR",
-							["name"] = "Legionario",
+							["mana"] = 0.007575,
+							["e_energy"] = 0.007575,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -1399,24 +1398,24 @@ _details_database = {
 									},
 								},
 							},
-							["focus_r"] = 0.007575,
-							["mana_from"] = {
-							},
 							["e_rage_from"] = {
 								["Legionario"] = true,
 							},
-							["e_energy"] = 0.007575,
+							["e_rage_r"] = 22.007575,
+							["name"] = "Legionario",
+							["focus_r"] = 0.007575,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.007575,
+							["e_energy_r"] = 0.007575,
 							["serial"] = "0x000000000000958E",
-							["last_event"] = 1718724572,
+							["e_energy_from"] = {
+							},
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [3]
 				{
 					["type"] = 9,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -1424,11 +1423,6 @@ _details_database = {
 							["group"] = true,
 							["class"] = "PALADIN",
 							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
 							},
 							["name"] = "Kimi",
 							["last_event"] = 1718726245,
@@ -1439,74 +1433,79 @@ _details_database = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
 										["id"] = 34767,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[32223] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 32223,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[57819] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 57819,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20375] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 20375,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[48934] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 48934,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
 							["buff_uptime"] = 28,
 							["serial"] = "0x00000000000046C2",
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [4]
 				{
 					["_NameIndexTable"] = {
 					},
 					["type"] = 2,
-					["creation_func"] = nil --[[ skipped inline function ]],
 					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
@@ -1534,15 +1533,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = -0.006815999999999933,
-						["interrupt"] = 0,
-						["dispell"] = -0.007611000000000034,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = -0.007611000000000034,
+						["cooldowns_defensive"] = -0.006815999999999933,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1561,32 +1560,32 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "12:57:26",
 				["combat_id"] = 17,
 				["resincked"] = true,
+				["hasSaved"] = true,
 				["frags"] = {
 					["Bristleback Thornweaver"] = 1,
 				},
-				["instance_type"] = "none",
 				["CombatSkillCache"] = {
 				},
 				["end_time"] = 1718723810,
 				["start_time"] = 1718723803,
 				["TimeData"] = {
 				},
+				["instance_type"] = "none",
 			}, -- [4]
 			{
 				{
 					["type"] = 2,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
@@ -1599,10 +1598,10 @@ _details_database = {
 								["Bael'dun Excavator"] = true,
 								["Ornery Plainstrider"] = true,
 								["[*] FALLING"] = true,
-								["Bael'dun Soldier"] = true,
+								["Witchwing Slayer"] = true,
 								["Hecklefang Snarler"] = true,
 								["Razormane Warfrenzy"] = true,
-								["Witchwing Slayer"] = true,
+								["Bael'dun Soldier"] = true,
 							},
 							["targets"] = {
 								["type"] = 6,
@@ -1617,22 +1616,22 @@ _details_database = {
 									}, -- [2]
 								},
 							},
-							["name"] = "Kimi",
+							["delay"] = 0,
 							["pets"] = {
 							},
-							["on_hold"] = false,
-							["placing"] = 1,
-							["friendlyfire_total"] = 0,
-							["total_without_pet"] = 3161.006898,
-							["serial"] = "0x00000000000046C2",
-							["dps_started"] = false,
-							["type"] = 1,
-							["class"] = "PALADIN",
 							["friendlyfire"] = {
 								["type"] = 5,
 								["_ActorTable"] = {
 								},
 							},
+							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 3161.006898,
+							["total"] = 3161.006898,
+							["dps_started"] = false,
+							["placing"] = 1,
+							["class"] = "PALADIN",
+							["damage_taken"] = 13041.006898,
+							["custom"] = 0,
 							["spell_tables"] = {
 								["type"] = 2,
 								["_ActorTable"] = {
@@ -1663,43 +1662,43 @@ _details_database = {
 										["c_max"] = 0,
 										["id"] = 1,
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
+										["r_amt"] = 0,
+										["b_dmg"] = 0,
 										["c_min"] = 0,
 										["successful_casted"] = 0,
 										["a_amt"] = 0,
 										["n_amt"] = 2,
-										["b_dmg"] = 0,
-										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
 									}, -- [1]
 								},
 							},
-							["end_time"] = 1718723810,
 							["last_dps"] = 451.572414,
-							["custom"] = 0,
+							["end_time"] = 1718723810,
+							["name"] = "Kimi",
 							["last_event"] = 1718723810,
-							["damage_taken"] = 13041.006898,
+							["on_hold"] = false,
 							["start_time"] = 1718723804,
-							["delay"] = 0,
-							["total"] = 3161.006898,
+							["serial"] = "0x00000000000046C2",
+							["type"] = 1,
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [1]
 				{
 					["type"] = 3,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
+					["combatId"] = 17,
 				}, -- [2]
 				{
 					["type"] = 7,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1298,
-							["focus"] = 0.007575,
+							["runepower_r"] = 0.007575,
+							["runepower"] = 0.007575,
 							["group"] = true,
-							["holypower_r"] = 0.007575,
+							["class"] = "WARRIOR",
 							["targets"] = {
 								["type"] = 8,
 								["_ActorTable"] = {
@@ -1715,22 +1714,22 @@ _details_database = {
 							},
 							["pets"] = {
 							},
-							["runepower_r"] = 0.007575,
-							["e_energy_r"] = 0.007575,
-							["holypower_from"] = {
+							["flag_original"] = 1298,
+							["mana_from"] = {
 							},
-							["e_rage_r"] = 22.007575,
-							["mana"] = 0.007575,
+							["focus"] = 0.007575,
+							["holypower_r"] = 0.007575,
+							["last_event"] = 1718724572,
 							["holypower"] = 0.007575,
-							["e_energy_from"] = {
+							["holypower_from"] = {
 							},
 							["runepower_from"] = {
 							},
 							["type"] = 3,
 							["mana_r"] = 0.007575,
 							["e_rage"] = 22.007575,
-							["class"] = "WARRIOR",
-							["name"] = "Legionario",
+							["mana"] = 0.007575,
+							["e_energy"] = 0.007575,
 							["spell_tables"] = {
 								["type"] = 7,
 								["_ActorTable"] = {
@@ -1782,24 +1781,24 @@ _details_database = {
 									},
 								},
 							},
-							["focus_r"] = 0.007575,
-							["mana_from"] = {
-							},
 							["e_rage_from"] = {
 								["Legionario"] = true,
 							},
-							["e_energy"] = 0.007575,
+							["e_rage_r"] = 22.007575,
+							["name"] = "Legionario",
+							["focus_r"] = 0.007575,
 							["focus_from"] = {
 							},
-							["runepower"] = 0.007575,
+							["e_energy_r"] = 0.007575,
 							["serial"] = "0x000000000000958E",
-							["last_event"] = 1718724572,
+							["e_energy_from"] = {
+							},
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [3]
 				{
 					["type"] = 9,
-					["combatId"] = 17,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
@@ -1807,11 +1806,6 @@ _details_database = {
 							["group"] = true,
 							["class"] = "PALADIN",
 							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-								["type"] = 6,
-								["_ActorTable"] = {
-								},
 							},
 							["name"] = "Kimi",
 							["last_event"] = 1718726245,
@@ -1822,74 +1816,79 @@ _details_database = {
 										["uptime"] = 0,
 										["activedamt"] = 0,
 										["id"] = 34767,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[32223] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 32223,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[57819] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 57819,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[20375] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 20375,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 									[48934] = {
 										["uptime"] = 7,
 										["activedamt"] = 1,
 										["id"] = 48934,
-										["actived"] = false,
 										["targets"] = {
 											["type"] = 10,
 											["_ActorTable"] = {
 											},
 										},
+										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
 							["buff_uptime"] = 28,
 							["serial"] = "0x00000000000046C2",
+							["buff_uptime_targets"] = {
+								["type"] = 6,
+								["_ActorTable"] = {
+								},
+							},
 						}, -- [1]
 					},
+					["combatId"] = 17,
 				}, -- [4]
 				{
 					["_NameIndexTable"] = {
 					},
 					["type"] = 2,
-					["creation_func"] = nil --[[ skipped inline function ]],
 					["combatId"] = 17,
 					["_ActorTable"] = {
 					},
@@ -1917,15 +1916,15 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = -0.006815999999999933,
-						["interrupt"] = 0,
-						["dispell"] = -0.007611000000000034,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = -0.007611000000000034,
+						["cooldowns_defensive"] = -0.006815999999999933,
 					}, -- [4]
-					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
 				},
 				["player_last_events"] = {
 				},
@@ -1944,31 +1943,34 @@ _details_database = {
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
 						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
 					}, -- [4]
 				},
 				["data_end"] = "12:57:26",
 				["combat_id"] = 17,
 				["resincked"] = true,
+				["hasSaved"] = true,
 				["frags"] = {
 					["Bristleback Thornweaver"] = 1,
 				},
-				["instance_type"] = "none",
 				["CombatSkillCache"] = {
 				},
 				["end_time"] = 1718723810,
 				["start_time"] = 1718723803,
 				["TimeData"] = {
 				},
+				["instance_type"] = "none",
 			}, -- [5]
 		},
 	},
-	["savedbuffs"] = {
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DPS_TUNING",
+		["Mode"] = 1,
 	},
 	["combat_id"] = 17,
 	["savedStyles"] = {
@@ -1980,78 +1982,9 @@ _details_database = {
 		["where"] = 1,
 	},
 	["last_version"] = "v1.3.0",
-	["nick_tag_cache"] = {
-		["nextreset"] = 1719934458,
-		[37963] = {
-			"Themerlin", -- [1]
-			"Interface\\AddOns\\Details_RaidInfo-Naxx\\images\\instructor", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\AddOns\\Details\\images\\Weather-ArcaneStorm", -- [4]
-			{
-				0.129609375, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			2, -- [7]
-		},
-		["last_version"] = 6,
-		[21369] = {
-			"Jarn", -- [1]
-			"Interface\\AddOns\\Details\\images\\UI-EJ-BOSS-Default", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\AddOns\\Details\\images\\Weather-ArcaneStorm", -- [4]
-			{
-				0.129609375, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			2, -- [7]
-		},
-		[10033] = {
-			"Nutellapirat", -- [1]
-			"Interface\\AddOns\\Details\\images\\UI-EJ-BOSS-Default", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\AddOns\\Details\\images\\Weather-Blizzard", -- [4]
-			{
-				0.068704154, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			2, -- [7]
-		},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
 	},
 	["local_instances_config"] = {
 		{
@@ -2088,19 +2021,86 @@ _details_database = {
 	},
 	["last_instance_time"] = 1718724560,
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["nick_tag_cache"] = {
+		["nextreset"] = 1719934458,
+		[10033] = {
+			"Nutellapirat", -- [1]
+			"Interface\\AddOns\\Details\\images\\UI-EJ-BOSS-Default", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"Interface\\AddOns\\Details\\images\\Weather-Blizzard", -- [4]
+			{
+				0.068704154, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
+		["last_version"] = 6,
+		[21369] = {
+			"Jarn", -- [1]
+			"Interface\\AddOns\\Details\\images\\UI-EJ-BOSS-Default", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"Interface\\AddOns\\Details\\images\\Weather-ArcaneStorm", -- [4]
+			{
+				0.129609375, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
+		[37963] = {
+			"Themerlin", -- [1]
+			"Interface\\AddOns\\Details_RaidInfo-Naxx\\images\\instructor", -- [2]
+			{
+				0, -- [1]
+				1, -- [2]
+				0, -- [3]
+				1, -- [4]
+			}, -- [3]
+			"Interface\\AddOns\\Details\\images\\Weather-ArcaneStorm", -- [4]
+			{
+				0.129609375, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+			}, -- [5]
+			{
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			}, -- [6]
+			2, -- [7]
+		},
 	},
 	["last_instance_id"] = 521,
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DPS_TUNING",
-		["Mode"] = 1,
+	["savedbuffs"] = {
 	},
 }

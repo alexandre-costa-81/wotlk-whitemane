@@ -9,258 +9,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"We will likely have to rely on a few pugs", -- [1]
-			"Fishbropala", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			218, -- [11]
-			"0x0000000000004AEB", -- [12]
-			0, -- [13]
-			[51] = 1718724917,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Fishbropala",
-		}, -- [1]
-		{
-			"do we know what difficulty SWP is?", -- [1]
-			"Sulthraz", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			219, -- [11]
-			"0x000000000000F941", -- [12]
-			0, -- [13]
-			[51] = 1718724920,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Sulthraz",
-		}, -- [2]
-		{
-			"but it's supposed to be super !@#$ing easy", -- [1]
-			"Fishbropala", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			220, -- [11]
-			"0x0000000000004AEB", -- [12]
-			0, -- [13]
-			[51] = 1718724926,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Fishbropala",
-		}, -- [3]
-		{
-			"|Hplayer:Chilia|h[Chilia]|h has earned the achievement |cffffff00|Hachievement:129:0000000000002DA1:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Master Fisherman]|h|r!", -- [1]
-			"Chilia", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Chilia", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			221, -- [11]
-			"0x0000000000002DA1", -- [12]
-			0, -- [13]
-			[51] = 1718724928,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-			[52] = "Chilia",
-		}, -- [4]
-		{
-			"Wdym what difficulty", -- [1]
-			"Fishbropala", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			222, -- [11]
-			"0x0000000000004AEB", -- [12]
-			0, -- [13]
-			[51] = 1718724931,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Fishbropala",
-		}, -- [5]
-		{
-			"then I may just come with my DK", -- [1]
-			"Sulthraz", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			223, -- [11]
-			"0x000000000000F941", -- [12]
-			0, -- [13]
-			[51] = 1718724935,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Sulthraz",
-		}, -- [6]
-		{
-			"its T7", -- [1]
-			"Shpura", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			224, -- [11]
-			"0x0000000000007603", -- [12]
-			0, -- [13]
-			[51] = 1718724937,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Shpura",
-		}, -- [7]
-		{
-			"It's tier 7 naxxramas unbuffed values", -- [1]
-			"Fishbropala", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			225, -- [11]
-			"0x0000000000004AEB", -- [12]
-			0, -- [13]
-			[51] = 1718724944,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Fishbropala",
-		}, -- [8]
-		{
-			"lmao ok", -- [1]
-			"Sulthraz", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			226, -- [11]
-			"0x000000000000F941", -- [12]
-			0, -- [13]
-			[51] = 1718724949,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Sulthraz",
-		}, -- [9]
-		{
-			"coming with DK then", -- [1]
-			"Sulthraz", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			227, -- [11]
-			"0x000000000000F941", -- [12]
-			0, -- [13]
-			[51] = 1718724951,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Sulthraz",
-		}, -- [10]
-		{
-			"The raid itself has hard tactics though", -- [1]
-			"Fishbropala", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			228, -- [11]
-			"0x0000000000004AEB", -- [12]
-			0, -- [13]
-			[51] = 1718724953,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Fishbropala",
-		}, -- [11]
-		{
-			"and I honestly don't know how to raid lead it", -- [1]
-			"Fishbropala", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			230, -- [11]
-			"0x0000000000004AEB", -- [12]
-			0, -- [13]
-			[51] = 1718724959,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Fishbropala",
-		}, -- [12]
-		{
-			"its easy", -- [1]
-			"Shpura", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			234, -- [11]
-			"0x0000000000007603", -- [12]
-			0, -- [13]
-			[51] = 1718724969,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Shpura",
-		}, -- [13]
-		{
-			"So we'll be going in blind unless someone can step up and RL for me", -- [1]
-			"Fishbropala", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			235, -- [11]
-			"0x0000000000004AEB", -- [12]
-			0, -- [13]
-			[51] = 1718724969,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "Fishbropala",
-		}, -- [14]
-		{
 			"Yeah the timewalking content is supposed to be very easy and puggable", -- [1]
 			"Fishbropala", -- [2]
 			"", -- [3]
@@ -277,7 +25,7 @@ ElvCharacterDB = {
 			[51] = 1718724988,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [15]
+		}, -- [1]
 		{
 			"So I have no doubt we'll steamroll it", -- [1]
 			"Fishbropala", -- [2]
@@ -295,7 +43,7 @@ ElvCharacterDB = {
 			[51] = 1718724995,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [16]
+		}, -- [2]
 		{
 			"well, I'm saying this because this DK is already geared enough for unbuffed content", -- [1]
 			"Sulthraz", -- [2]
@@ -313,7 +61,7 @@ ElvCharacterDB = {
 			[51] = 1718725024,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Sulthraz",
-		}, -- [17]
+		}, -- [3]
 		{
 			"3.2k, def capped, 26k unbuffed", -- [1]
 			"Sulthraz", -- [2]
@@ -331,7 +79,7 @@ ElvCharacterDB = {
 			[51] = 1718725048,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Sulthraz",
-		}, -- [18]
+		}, -- [4]
 		{
 			"Sounds good enough for naxx25", -- [1]
 			"Fishbropala", -- [2]
@@ -349,7 +97,7 @@ ElvCharacterDB = {
 			[51] = 1718725061,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [19]
+		}, -- [5]
 		{
 			"<Goon Squad> New Pvp/Pve Guild Focused on Helping New Players Learn How To Reach That Next Bracket. Recruiting Any Active Members <3. Pst ur raid info if ur already an established player looking to join raid or pvp teams .", -- [1]
 			"Nazdormu", -- [2]
@@ -367,7 +115,7 @@ ElvCharacterDB = {
 			[51] = 1718725062,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Nazdormu",
-		}, -- [20]
+		}, -- [6]
 		{
 			"nah", -- [1]
 			"Specialityx", -- [2]
@@ -385,7 +133,7 @@ ElvCharacterDB = {
 			[51] = 1718725071,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Specialityx",
-		}, -- [21]
+		}, -- [7]
 		{
 			"unbuffed maybe", -- [1]
 			"Sulthraz", -- [2]
@@ -403,7 +151,7 @@ ElvCharacterDB = {
 			[51] = 1718725072,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Sulthraz",
-		}, -- [22]
+		}, -- [8]
 		{
 			"its not", -- [1]
 			"Specialityx", -- [2]
@@ -421,7 +169,7 @@ ElvCharacterDB = {
 			[51] = 1718725074,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Specialityx",
-		}, -- [23]
+		}, -- [9]
 		{
 			"only for unbuffed", -- [1]
 			"Specialityx", -- [2]
@@ -439,7 +187,7 @@ ElvCharacterDB = {
 			[51] = 1718725078,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Specialityx",
-		}, -- [24]
+		}, -- [10]
 		{
 			"for buffed it's low", -- [1]
 			"Sulthraz", -- [2]
@@ -457,7 +205,7 @@ ElvCharacterDB = {
 			[51] = 1718725080,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Sulthraz",
-		}, -- [25]
+		}, -- [11]
 		{
 			"25 man is buffed health wise", -- [1]
 			"Fishbropala", -- [2]
@@ -475,7 +223,7 @@ ElvCharacterDB = {
 			[51] = 1718725085,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [26]
+		}, -- [12]
 		{
 			"Only ascended has damage values buffed", -- [1]
 			"Fishbropala", -- [2]
@@ -493,7 +241,7 @@ ElvCharacterDB = {
 			[51] = 1718725092,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [27]
+		}, -- [13]
 		{
 			"From my experiences", -- [1]
 			"Fishbropala", -- [2]
@@ -511,7 +259,7 @@ ElvCharacterDB = {
 			[51] = 1718725095,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [28]
+		}, -- [14]
 		{
 			"y", -- [1]
 			"Specialityx", -- [2]
@@ -529,7 +277,7 @@ ElvCharacterDB = {
 			[51] = 1718725098,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Specialityx",
-		}, -- [29]
+		}, -- [15]
 		{
 			"25 man just has 3x hp values", -- [1]
 			"Fishbropala", -- [2]
@@ -547,7 +295,7 @@ ElvCharacterDB = {
 			[51] = 1718725105,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [30]
+		}, -- [16]
 		{
 			"25-man takes SOOOOOOOOOOOOOO %^&*ing long to do. Bosses all have like 12.5m hp each", -- [1]
 			"Fishbropala", -- [2]
@@ -565,7 +313,7 @@ ElvCharacterDB = {
 			[51] = 1718725134,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [31]
+		}, -- [17]
 		{
 			"|Hplayer:Gluedan|h[Gluedan]|h has earned the achievement |cffffff00|Hachievement:124:0000000000002C84:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Master Cook]|h|r!", -- [1]
 			"Gluedan", -- [2]
@@ -583,7 +331,7 @@ ElvCharacterDB = {
 			[51] = 1718725170,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Gluedan",
-		}, -- [32]
+		}, -- [18]
 		{
 			"Felmyst the first Sunwell boss has 20", -- [1]
 			"Stvgg", -- [2]
@@ -601,7 +349,7 @@ ElvCharacterDB = {
 			[51] = 1718725178,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Stvgg",
-		}, -- [33]
+		}, -- [19]
 		{
 			"|Hplayer:Gonexxt|h[Gonexxt]|h has earned the achievement |cffffff00|Hachievement:2042:000000000000F248:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Shatter Resistant]|h|r!", -- [1]
 			"Gonexxt", -- [2]
@@ -619,7 +367,7 @@ ElvCharacterDB = {
 			[51] = 1718725186,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Gonexxt",
-		}, -- [34]
+		}, -- [20]
 		{
 			"He's supposed to be getting nerfed soon", -- [1]
 			"Fishbropala", -- [2]
@@ -637,7 +385,7 @@ ElvCharacterDB = {
 			[51] = 1718725194,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [35]
+		}, -- [21]
 		{
 			"YOOOOOO", -- [1]
 			"Fishbropala", -- [2]
@@ -655,7 +403,7 @@ ElvCharacterDB = {
 			[51] = 1718725207,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [36]
+		}, -- [22]
 		{
 			"Let's go", -- [1]
 			"Fishbropala", -- [2]
@@ -673,7 +421,7 @@ ElvCharacterDB = {
 			[51] = 1718725208,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [37]
+		}, -- [23]
 		{
 			"the mind control gas clouds will now do damage instead", -- [1]
 			"Manalust", -- [2]
@@ -691,7 +439,7 @@ ElvCharacterDB = {
 			[51] = 1718725210,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Manalust",
-		}, -- [38]
+		}, -- [24]
 		{
 			"We can finish our 10-man ascended run", -- [1]
 			"Fishbropala", -- [2]
@@ -709,7 +457,7 @@ ElvCharacterDB = {
 			[51] = 1718725214,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [39]
+		}, -- [25]
 		{
 			"Anyone down to do that now?", -- [1]
 			"Fishbropala", -- [2]
@@ -727,7 +475,7 @@ ElvCharacterDB = {
 			[51] = 1718725217,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [40]
+		}, -- [26]
 		{
 			"saved...", -- [1]
 			"Specialityx", -- [2]
@@ -745,7 +493,7 @@ ElvCharacterDB = {
 			[51] = 1718725223,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Specialityx",
-		}, -- [41]
+		}, -- [27]
 		{
 			"fck it", -- [1]
 			"Specialityx", -- [2]
@@ -763,7 +511,7 @@ ElvCharacterDB = {
 			[51] = 1718725224,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Specialityx",
-		}, -- [42]
+		}, -- [28]
 		{
 			"LFM Naxx10 Ascended, only construct quarters + saph/kt left need all", -- [1]
 			"Fishbropala", -- [2]
@@ -781,7 +529,7 @@ ElvCharacterDB = {
 			[51] = 1718725234,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [43]
+		}, -- [29]
 		{
 			"what does mean Extend Raid Lock?", -- [1]
 			"Stvgg", -- [2]
@@ -799,7 +547,7 @@ ElvCharacterDB = {
 			[51] = 1718725237,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Stvgg",
-		}, -- [44]
+		}, -- [30]
 		{
 			"They nerfed patchwerk", -- [1]
 			"Fishbropala", -- [2]
@@ -817,7 +565,7 @@ ElvCharacterDB = {
 			[51] = 1718725237,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [45]
+		}, -- [31]
 		{
 			"saved", -- [1]
 			"Lexx", -- [2]
@@ -835,7 +583,7 @@ ElvCharacterDB = {
 			[51] = 1718725245,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [46]
+		}, -- [32]
 		{
 			"That means you extend your save to the next week", -- [1]
 			"Fishbropala", -- [2]
@@ -853,7 +601,7 @@ ElvCharacterDB = {
 			[51] = 1718725250,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [47]
+		}, -- [33]
 		{
 			"\"Yes I want to not get any loot next week\"", -- [1]
 			"Fishbropala", -- [2]
@@ -871,7 +619,7 @@ ElvCharacterDB = {
 			[51] = 1718725257,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [48]
+		}, -- [34]
 		{
 			"Lexx 10a has a seperate save from 10 normal", -- [1]
 			"Fishbropala", -- [2]
@@ -889,7 +637,7 @@ ElvCharacterDB = {
 			[51] = 1718725286,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [49]
+		}, -- [35]
 		{
 			"and 25 normal", -- [1]
 			"Fishbropala", -- [2]
@@ -907,7 +655,7 @@ ElvCharacterDB = {
 			[51] = 1718725288,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [50]
+		}, -- [36]
 		{
 			"i tried it yesterday", -- [1]
 			"Lexx", -- [2]
@@ -925,7 +673,7 @@ ElvCharacterDB = {
 			[51] = 1718725302,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [51]
+		}, -- [37]
 		{
 			"LFM Naxx10 heroic need all (construct + KT left)", -- [1]
 			"Fishbropala", -- [2]
@@ -943,7 +691,7 @@ ElvCharacterDB = {
 			[51] = 1718725304,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [52]
+		}, -- [38]
 		{
 			"and i don t get the loot", -- [1]
 			"Lexx", -- [2]
@@ -961,7 +709,7 @@ ElvCharacterDB = {
 			[51] = 1718725306,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [53]
+		}, -- [39]
 		{
 			"rip", -- [1]
 			"Fishbropala", -- [2]
@@ -979,7 +727,7 @@ ElvCharacterDB = {
 			[51] = 1718725311,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [54]
+		}, -- [40]
 		{
 			"aslo saved", -- [1]
 			"Lexx", -- [2]
@@ -997,7 +745,7 @@ ElvCharacterDB = {
 			[51] = 1718725315,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [55]
+		}, -- [41]
 		{
 			"|Hplayer:Chilia|h[Chilia]|h has earned the achievement |cffffff00|Hachievement:1865:0000000000002DA1:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Lockdown!]|h|r!", -- [1]
 			"Chilia", -- [2]
@@ -1015,7 +763,7 @@ ElvCharacterDB = {
 			[51] = 1718725326,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Chilia",
-		}, -- [56]
+		}, -- [42]
 		{
 			"so if u want to do 10", -- [1]
 			"Lexx", -- [2]
@@ -1033,7 +781,7 @@ ElvCharacterDB = {
 			[51] = 1718725336,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [57]
+		}, -- [43]
 		{
 			"+", -- [1]
 			"Lexx", -- [2]
@@ -1051,7 +799,7 @@ ElvCharacterDB = {
 			[51] = 1718725337,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [58]
+		}, -- [44]
 		{
 			"u can t have naxx 25 id ", -- [1]
 			"Lexx", -- [2]
@@ -1069,7 +817,7 @@ ElvCharacterDB = {
 			[51] = 1718725359,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [59]
+		}, -- [45]
 		{
 			"|Hplayer:No|h[No]|h has earned the achievement |cffffff00|Hachievement:1856:0000000000003489:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Make Quick Werk Of Him (10 player)]|h|r!", -- [1]
 			"No", -- [2]
@@ -1087,7 +835,7 @@ ElvCharacterDB = {
 			[51] = 1718725363,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "No",
-		}, -- [60]
+		}, -- [46]
 		{
 			"im saved for 10, but free for 25", -- [1]
 			"Specialityx", -- [2]
@@ -1105,7 +853,7 @@ ElvCharacterDB = {
 			[51] = 1718725397,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Specialityx",
-		}, -- [61]
+		}, -- [47]
 		{
 			"LFM Naxx10 heroic need all (construct + KT left) (Heroic id is seperate from normal, our ID: \"3218\")", -- [1]
 			"Fishbropala", -- [2]
@@ -1123,7 +871,7 @@ ElvCharacterDB = {
 			[51] = 1718725516,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [62]
+		}, -- [48]
 		{
 			"Lexx it's a seperate id", -- [1]
 			"Fishbropala", -- [2]
@@ -1141,7 +889,7 @@ ElvCharacterDB = {
 			[51] = 1718725531,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [63]
+		}, -- [49]
 		{
 			"it is seperate id indeed", -- [1]
 			"Lexx", -- [2]
@@ -1159,7 +907,7 @@ ElvCharacterDB = {
 			[51] = 1718725539,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [64]
+		}, -- [50]
 		{
 			"I got 10 ascended loot and 25man loot", -- [1]
 			"Fishbropala", -- [2]
@@ -1177,7 +925,7 @@ ElvCharacterDB = {
 			[51] = 1718725540,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [65]
+		}, -- [51]
 		{
 			"u can kill the boss", -- [1]
 			"Lexx", -- [2]
@@ -1195,7 +943,7 @@ ElvCharacterDB = {
 			[51] = 1718725542,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [66]
+		}, -- [52]
 		{
 			"but u can t loot the 213 ilvls if u have 25 naxx id", -- [1]
 			"Lexx", -- [2]
@@ -1213,7 +961,7 @@ ElvCharacterDB = {
 			[51] = 1718725557,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [67]
+		}, -- [53]
 		{
 			"happened to me yesterday ", -- [1]
 			"Lexx", -- [2]
@@ -1231,7 +979,7 @@ ElvCharacterDB = {
 			[51] = 1718725565,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [68]
+		}, -- [54]
 		{
 			"I know something you don't know :)", -- [1]
 			"Fishbropala", -- [2]
@@ -1249,7 +997,7 @@ ElvCharacterDB = {
 			[51] = 1718725566,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [69]
+		}, -- [55]
 		{
 			"with a pug", -- [1]
 			"Lexx", -- [2]
@@ -1267,7 +1015,7 @@ ElvCharacterDB = {
 			[51] = 1718725569,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [70]
+		}, -- [56]
 		{
 			"LF group to farm dungeons [dps]", -- [1]
 			"Hornyfrost", -- [2]
@@ -1285,7 +1033,7 @@ ElvCharacterDB = {
 			[51] = 1718725574,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Hornyfrost",
-		}, -- [71]
+		}, -- [57]
 		{
 			"u might know better, i've said my thought", -- [1]
 			"Lexx", -- [2]
@@ -1303,7 +1051,7 @@ ElvCharacterDB = {
 			[51] = 1718725618,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Lexx",
-		}, -- [72]
+		}, -- [58]
 		{
 			"did anyone see the night elves elites?", -- [1]
 			"Speedrunhc-HC", -- [2]
@@ -1321,7 +1069,7 @@ ElvCharacterDB = {
 			[51] = 1718725739,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Speedrunhc-HC",
-		}, -- [73]
+		}, -- [59]
 		{
 			"|Hplayer:Gonexxt|h[Gonexxt]|h has earned the achievement |cffffff00|Hachievement:1867:000000000000F248:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Timely Death]|h|r!", -- [1]
 			"Gonexxt", -- [2]
@@ -1339,7 +1087,7 @@ ElvCharacterDB = {
 			[51] = 1718725742,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Gonexxt",
-		}, -- [74]
+		}, -- [60]
 		{
 			"Sorry", -- [1]
 			"Fishbropala", -- [2]
@@ -1357,7 +1105,7 @@ ElvCharacterDB = {
 			[51] = 1718725748,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [75]
+		}, -- [61]
 		{
 			"had to afk", -- [1]
 			"Fishbropala", -- [2]
@@ -1375,7 +1123,7 @@ ElvCharacterDB = {
 			[51] = 1718725750,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [76]
+		}, -- [62]
 		{
 			"|Hplayer:Divine|h[Divine]|h has earned the achievement |cffffff00|Hachievement:1721:00000000000045FE:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Archavon the Stone Watcher (25 player)]|h|r!", -- [1]
 			"Divine", -- [2]
@@ -1393,7 +1141,7 @@ ElvCharacterDB = {
 			[51] = 1718725756,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Divine",
-		}, -- [77]
+		}, -- [63]
 		{
 			"LF1M DPS NAXX 10 @ Heigan, Loatheb, Sapph and KT left", -- [1]
 			"Melt", -- [2]
@@ -1411,7 +1159,7 @@ ElvCharacterDB = {
 			[51] = 1718725800,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Melt",
-		}, -- [78]
+		}, -- [64]
 		{
 			"tldr you can get 10a loot and 25 loot in one week", -- [1]
 			"Fishbropala", -- [2]
@@ -1429,7 +1177,7 @@ ElvCharacterDB = {
 			[51] = 1718725812,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Fishbropala",
-		}, -- [79]
+		}, -- [65]
 		{
 			"any night elves elites around?", -- [1]
 			"Speedrunhc-HC", -- [2]
@@ -1447,7 +1195,7 @@ ElvCharacterDB = {
 			[51] = 1718725823,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Speedrunhc-HC",
-		}, -- [80]
+		}, -- [66]
 		{
 			"|Hplayer:Shpura|h[Shpura]|h has earned the achievement |cffffff00|Hachievement:562:0000000000007603:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[The Arachnid Quarter (10 player)]|h|r!", -- [1]
 			"Shpura", -- [2]
@@ -1465,7 +1213,7 @@ ElvCharacterDB = {
 			[51] = 1718725978,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Shpura",
-		}, -- [81]
+		}, -- [67]
 		{
 			"|Hplayer:Shpura|h[Shpura]|h has earned the achievement |cffffff00|Hachievement:1858:0000000000007603:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Arachnophobia (10 player)]|h|r!", -- [1]
 			"Shpura", -- [2]
@@ -1483,7 +1231,7 @@ ElvCharacterDB = {
 			[51] = 1718725978,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Shpura",
-		}, -- [82]
+		}, -- [68]
 		{
 			"|Hplayer:Uroxxar|h[Uroxxar]|h has earned the achievement |cffffff00|Hachievement:562:0000000000008EC0:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[The Arachnid Quarter (10 player)]|h|r!", -- [1]
 			"Uroxxar", -- [2]
@@ -1501,7 +1249,7 @@ ElvCharacterDB = {
 			[51] = 1718725978,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Uroxxar",
-		}, -- [83]
+		}, -- [69]
 		{
 			"|Hplayer:Uroxxar|h[Uroxxar]|h has earned the achievement |cffffff00|Hachievement:1858:0000000000008EC0:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Arachnophobia (10 player)]|h|r!", -- [1]
 			"Uroxxar", -- [2]
@@ -1519,7 +1267,7 @@ ElvCharacterDB = {
 			[51] = 1718725978,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Uroxxar",
-		}, -- [84]
+		}, -- [70]
 		{
 			"LF tailoring with frost resi set", -- [1]
 			"Andreadipre", -- [2]
@@ -1537,7 +1285,7 @@ ElvCharacterDB = {
 			[51] = 1718726189,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Andreadipre",
-		}, -- [85]
+		}, -- [71]
 		{
 			"lfm OS 10 1-OT--4DPS mini gs 3.5", -- [1]
 			"Tip", -- [2]
@@ -1555,7 +1303,7 @@ ElvCharacterDB = {
 			[51] = 1718726524,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Tip",
-		}, -- [86]
+		}, -- [72]
 		{
 			"|Hplayer:Mokhla|h[Mokhla]|h has earned the achievement |cffffff00|Hachievement:3839:000000000000A55C:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[25 Dungeon & Raid Emblems]|h|r!", -- [1]
 			"Mokhla", -- [2]
@@ -1573,7 +1321,7 @@ ElvCharacterDB = {
 			[51] = 1718726566,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Mokhla",
-		}, -- [87]
+		}, -- [73]
 		{
 			"|Hplayer:No|h[No]|h has earned the achievement |cffffff00|Hachievement:564:0000000000003489:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[The Construct Quarter (10 player)]|h|r!", -- [1]
 			"No", -- [2]
@@ -1591,7 +1339,7 @@ ElvCharacterDB = {
 			[51] = 1718726576,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "No",
-		}, -- [88]
+		}, -- [74]
 		{
 			"|Hplayer:Shpura|h[Shpura]|h has earned the achievement |cffffff00|Hachievement:1856:0000000000007603:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Make Quick Werk Of Him (10 player)]|h|r!", -- [1]
 			"Shpura", -- [2]
@@ -1609,7 +1357,7 @@ ElvCharacterDB = {
 			[51] = 1718726600,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Shpura",
-		}, -- [89]
+		}, -- [75]
 		{
 			"|Hplayer:Uroxxar|h[Uroxxar]|h has earned the achievement |cffffff00|Hachievement:1856:0000000000008EC0:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Make Quick Werk Of Him (10 player)]|h|r!", -- [1]
 			"Uroxxar", -- [2]
@@ -1627,7 +1375,7 @@ ElvCharacterDB = {
 			[51] = 1718726600,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "Uroxxar",
-		}, -- [90]
+		}, -- [76]
 		{
 			"this druid has 25k health in cat", -- [1]
 			"Daddybeefus", -- [2]
@@ -1645,7 +1393,7 @@ ElvCharacterDB = {
 			[51] = 1718726707,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Daddybeefus",
-		}, -- [91]
+		}, -- [77]
 		{
 			"chomky boi", -- [1]
 			"Sulthraz", -- [2]
@@ -1663,7 +1411,7 @@ ElvCharacterDB = {
 			[51] = 1718726717,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Sulthraz",
-		}, -- [92]
+		}, -- [78]
 		{
 			"in this bg", -- [1]
 			"Daddybeefus", -- [2]
@@ -1681,7 +1429,7 @@ ElvCharacterDB = {
 			[51] = 1718726720,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "Daddybeefus",
-		}, -- [93]
+		}, -- [79]
 		{
 			"lfm OS 10 last 2DPS mini gs 3.5", -- [1]
 			"Tip", -- [2]
@@ -1699,7 +1447,7 @@ ElvCharacterDB = {
 			[51] = 1718726777,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Tip",
-		}, -- [94]
+		}, -- [80]
 		{
 			"do ppl use this chat or?", -- [1]
 			"Andreadipre", -- [2]
@@ -1717,7 +1465,7 @@ ElvCharacterDB = {
 			[51] = 1718726827,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Andreadipre",
-		}, -- [95]
+		}, -- [81]
 		{
 			"no", -- [1]
 			"Bdubz", -- [2]
@@ -1735,7 +1483,7 @@ ElvCharacterDB = {
 			[51] = 1718726844,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Bdubz",
-		}, -- [96]
+		}, -- [82]
 		{
 			"what is the \"global\" most used chat then?", -- [1]
 			"Andreadipre", -- [2]
@@ -1753,7 +1501,7 @@ ElvCharacterDB = {
 			[51] = 1718726859,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Andreadipre",
-		}, -- [97]
+		}, -- [83]
 		{
 			"worldchat", -- [1]
 			"Bdubz", -- [2]
@@ -1771,7 +1519,7 @@ ElvCharacterDB = {
 			[51] = 1718726866,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Bdubz",
-		}, -- [98]
+		}, -- [84]
 		{
 			"|Hplayer:No|h[No]|h has earned the achievement |cffffff00|Hachievement:572:0000000000003489:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Sapphiron's Demise (10 player)]|h|r!", -- [1]
 			"No", -- [2]
@@ -1789,7 +1537,7 @@ ElvCharacterDB = {
 			[51] = 1718726866,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "No",
-		}, -- [99]
+		}, -- [85]
 		{
 			"thanks brother", -- [1]
 			"Andreadipre", -- [2]
@@ -1807,6 +1555,258 @@ ElvCharacterDB = {
 			[51] = 1718726883,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Andreadipre",
+		}, -- [86]
+		{
+			"anyone buying 74+ greens?", -- [1]
+			"Hardpeach", -- [2]
+			"", -- [3]
+			"7. world", -- [4]
+			"Hardpeach", -- [5]
+			"", -- [6]
+			0, -- [7]
+			7, -- [8]
+			"world", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"0x000000000000259A", -- [12]
+			0, -- [13]
+			[51] = 1718727202,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Hardpeach",
+		}, -- [87]
+		{
+			"oh !@#$", -- [1]
+			"Fishbropala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			40, -- [11]
+			"0x0000000000004AEB", -- [12]
+			0, -- [13]
+			[51] = 1718727332,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbropala",
+		}, -- [88]
+		{
+			"I been afk with outland orcs hitting me for a while", -- [1]
+			"Fishbropala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			41, -- [11]
+			"0x0000000000004AEB", -- [12]
+			0, -- [13]
+			[51] = 1718727340,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbropala",
+		}, -- [89]
+		{
+			"They're literally killing themselves", -- [1]
+			"Fishbropala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"0x0000000000004AEB", -- [12]
+			0, -- [13]
+			[51] = 1718727350,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbropala",
+		}, -- [90]
+		{
+			"you always go AFK on a fly mount high above ground", -- [1]
+			"Sulthraz", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"0x000000000000F941", -- [12]
+			0, -- [13]
+			[51] = 1718727368,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Sulthraz",
+		}, -- [91]
+		{
+			"nah", -- [1]
+			"Fishbropala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			44, -- [11]
+			"0x0000000000004AEB", -- [12]
+			0, -- [13]
+			[51] = 1718727375,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbropala",
+		}, -- [92]
+		{
+			"I'm gigachad tank", -- [1]
+			"Fishbropala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			45, -- [11]
+			"0x0000000000004AEB", -- [12]
+			0, -- [13]
+			[51] = 1718727379,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbropala",
+		}, -- [93]
+		{
+			"free HK", -- [1]
+			"Sulthraz", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"0x000000000000F941", -- [12]
+			0, -- [13]
+			[51] = 1718727382,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Sulthraz",
+		}, -- [94]
+		{
+			"and I have \"stop hitting yourself\" aura ", -- [1]
+			"Fishbropala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"0x0000000000004AEB", -- [12]
+			0, -- [13]
+			[51] = 1718727388,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbropala",
+		}, -- [95]
+		{
+			"|Hplayer:Sulthraz|h[Sulthraz]|h has earned the achievement |cffffff00|Hachievement:116:000000000000F941:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Professional Journeyman]|h|r!", -- [1]
+			"Sulthraz", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sulthraz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			48, -- [11]
+			"0x000000000000F941", -- [12]
+			0, -- [13]
+			[51] = 1718727391,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "Sulthraz",
+		}, -- [96]
+		{
+			" |cff71d5ff|Hspell:54043|h[Retribution Aura]|h|r op op", -- [1]
+			"Fishbropala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"0x0000000000004AEB", -- [12]
+			0, -- [13]
+			[51] = 1718727391,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "Fishbropala",
+		}, -- [97]
+		{
+			"|Hplayer:Mokhla|h[Mokhla]|h has earned the achievement |cffffff00|Hachievement:478:000000000000A55C:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[The Nexus]|h|r!", -- [1]
+			"Mokhla", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mokhla", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			50, -- [11]
+			"0x000000000000A55C", -- [12]
+			0, -- [13]
+			[51] = 1718727392,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "Mokhla",
+		}, -- [98]
+		{
+			"|Hplayer:Mokhla|h[Mokhla]|h has earned the achievement |cffffff00|Hachievement:490:000000000000A55C:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Nexus]|h|r!", -- [1]
+			"Mokhla", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mokhla", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			51, -- [11]
+			"0x000000000000A55C", -- [12]
+			0, -- [13]
+			[51] = 1718727392,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "Mokhla",
+		}, -- [99]
+		{
+			"|Hplayer:Mokhla|h[Mokhla]|h has earned the achievement |cffffff00|Hachievement:558:000000000000A55C:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Greedy]|h|r!", -- [1]
+			"Mokhla", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mokhla", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			52, -- [11]
+			"0x000000000000A55C", -- [12]
+			0, -- [13]
+			[51] = 1718727409,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "Mokhla",
 		}, -- [100]
 	},
 }

@@ -27,7 +27,7 @@ DataStore_InventoryDB = {
 					[19] = 43154,
 				},
 				["averageItemLvl"] = 191.5625,
-				["lastUpdate"] = 1718726802,
+				["lastUpdate"] = 1718727401,
 			},
 		},
 		["Guilds"] = {
@@ -36,14 +36,14 @@ DataStore_InventoryDB = {
 					["Kimi"] = {
 						["averageItemLvl"] = 191,
 					},
-					["Manalust"] = {
-						["averageItemLvl"] = 133,
+					["Cetrin"] = {
+						["averageItemLvl"] = 199,
 					},
 					["Bankchar"] = {
 						["averageItemLvl"] = 65,
 					},
-					["Cetrin"] = {
-						["averageItemLvl"] = 199,
+					["Manalust"] = {
+						["averageItemLvl"] = 133,
 					},
 					["Lynya"] = {
 						["averageItemLvl"] = 189,

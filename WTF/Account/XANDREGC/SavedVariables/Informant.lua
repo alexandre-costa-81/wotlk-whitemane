@@ -8,4 +8,5 @@ InformantConfig = {
 		["x"] = 959.9998730732835,
 	},
 }
-InformantLocalUpdates = nil
+InformantLocalUpdates = {
+}

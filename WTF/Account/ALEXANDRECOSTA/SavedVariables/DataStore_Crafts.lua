@@ -11,8 +11,11 @@ DataStore_CraftsDB = {
 						["FullLink"] = "|cffffd000|Htrade:2550:1:75:46C2:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cooking]|h|r",
 						["isSecondary"] = true,
 					},
+					["Riding"] = {
+						["isSecondary"] = true,
+					},
 					["Jewelcrafting"] = {
-						["FullLink"] = "|cffffd000|Htrade:25230:149:150:46C2:+/6BAAAAAwDAAAAAAAAAAAAAgfAAgJBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Jewelcrafting]|h|r",
+						["FullLink"] = "|cffffd000|Htrade:28894:153:225:46C2:8/6FAAAAAwHAAAAAAAAAAAAAgfAAgJBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Jewelcrafting]|h|r",
 						["isPrimary"] = true,
 						["Crafts"] = {
 							"0|Consumable", -- [1]
@@ -20,46 +23,40 @@ DataStore_CraftsDB = {
 							"4|32801", -- [3]
 							"4|32259", -- [4]
 							"0|Cloth", -- [5]
-							"1|25321", -- [6]
+							"2|25321", -- [6]
 							"0|Miscellaneous", -- [7]
-							"1|25610", -- [8]
-							"2|25339", -- [9]
-							"2|25498", -- [10]
-							"2|36524", -- [11]
-							"3|25318", -- [12]
-							"3|25305", -- [13]
-							"4|38175", -- [14]
-							"4|25317", -- [15]
-							"4|36523", -- [16]
-							"4|25287", -- [17]
-							"4|37818", -- [18]
-							"4|25284", -- [19]
-							"4|25280", -- [20]
-							"4|25490", -- [21]
-							"4|26927", -- [22]
-							"4|25283", -- [23]
-							"4|26928", -- [24]
-							"4|32178", -- [25]
-							"4|32179", -- [26]
-							"4|26926", -- [27]
-							"4|25493", -- [28]
-							"4|26925", -- [29]
-							"0|Jewelcrafting", -- [30]
-							"4|25278", -- [31]
-							"4|25255", -- [32]
+							"1|25613", -- [8]
+							"2|25610", -- [9]
+							"2|25339", -- [10]
+							"2|25498", -- [11]
+							"3|36524", -- [12]
+							"3|25318", -- [13]
+							"4|25305", -- [14]
+							"4|38175", -- [15]
+							"4|25317", -- [16]
+							"4|36523", -- [17]
+							"4|25287", -- [18]
+							"4|37818", -- [19]
+							"4|25284", -- [20]
+							"4|25280", -- [21]
+							"4|25490", -- [22]
+							"4|26927", -- [23]
+							"4|25283", -- [24]
+							"4|26928", -- [25]
+							"4|32178", -- [26]
+							"4|32179", -- [27]
+							"4|26926", -- [28]
+							"4|25493", -- [29]
+							"4|26925", -- [30]
+							"0|Jewelcrafting", -- [31]
+							"4|25278", -- [32]
+							"4|25255", -- [33]
 						},
-						["NumCrafts"] = 28,
-					},
-					["First Aid"] = {
-						["FullLink"] = "|cffffd000|Htrade:45542:400:450:46C2:8LPfAA|h[First Aid]|h|r",
-						["isSecondary"] = true,
-					},
-					["Fishing"] = {
-						["isSecondary"] = true,
+						["NumCrafts"] = 29,
 					},
 					["Mining"] = {
-						["NumCrafts"] = 7,
 						["isPrimary"] = true,
+						["NumCrafts"] = 7,
 						["Crafts"] = {
 							"4|10097", -- [1]
 							"4|3308", -- [2]
@@ -70,11 +67,15 @@ DataStore_CraftsDB = {
 							"4|3304", -- [7]
 						},
 					},
-					["Riding"] = {
+					["First Aid"] = {
+						["FullLink"] = "|cffffd000|Htrade:45542:400:450:46C2:8LPfAA|h[First Aid]|h|r",
+						["isSecondary"] = true,
+					},
+					["Fishing"] = {
 						["isSecondary"] = true,
 					},
 				},
-				["lastUpdate"] = 1718726693,
+				["lastUpdate"] = 1718727281,
 			},
 		},
 		["Guilds"] = {
@@ -89,14 +90,13 @@ DataStore_CraftsDB = {
 						["Version"] = 12340,
 						["lastUpdate"] = 1718721543,
 					},
-					["Manalust"] = {
+					["Cetrin"] = {
 						["Professions"] = {
-							"|cffffd000|Htrade:9785:235:300:3315:2/+2eEnCrecA/FoJ4zA2gAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAw//H|h[Blacksmithing]|h|r", -- [1]
-							2575, -- [2]
-							"|cffffd000|Htrade:18260:261:300:3315:G0KAOchA8NODvAAQAAAAAAAAAAABUKA|h[Cooking]|h|r", -- [3]
+							"|cffffd000|Htrade:51309:441:450:7F4B:4r89OgwAwcCAOeAQgIgAAwhAwAAABAAAIAAAAYFAQHAIAAAAAAAAAAAAGjEBAAOiACAFAAAAAA|h[Tailoring]|h|r", -- [1]
+							"|cffffd000|Htrade:51313:460:460:7F4B:47aLIwJQECiCBAABDFACAAAAAACAAIAAQRAAAw7vyZVvH0//IkT|h[Enchanting]|h|r", -- [2]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1718722169,
+						["lastUpdate"] = 1718721542,
 					},
 					["Bankchar"] = {
 						["Professions"] = {
@@ -105,13 +105,14 @@ DataStore_CraftsDB = {
 						["Version"] = 12340,
 						["lastUpdate"] = 1718721542,
 					},
-					["Cetrin"] = {
+					["Manalust"] = {
 						["Professions"] = {
-							"|cffffd000|Htrade:51309:441:450:7F4B:4r89OgwAwcCAOeAQgIgAAwhAwAAABAAAIAAAAYFAQHAIAAAAAAAAAAAAGjEBAAOiACAFAAAAAA|h[Tailoring]|h|r", -- [1]
-							"|cffffd000|Htrade:51313:460:460:7F4B:47aLIwJQECiCBAABDFACAAAAAACAAIAAQRAAAw7vyZVvH0//IkT|h[Enchanting]|h|r", -- [2]
+							"|cffffd000|Htrade:9785:235:300:3315:2/+2eEnCrecA/FoJ4zA2gAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAw//H|h[Blacksmithing]|h|r", -- [1]
+							2575, -- [2]
+							"|cffffd000|Htrade:18260:261:300:3315:G0KAOchA8NODvAAQAAAAAAAAAAABUKA|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1718721542,
+						["lastUpdate"] = 1718722169,
 					},
 					["Lynya"] = {
 						["Professions"] = {
@@ -135,12 +136,12 @@ DataStore_CraftsDB = {
 				["Members"] = {
 					["Kimi"] = {
 						["Professions"] = {
-							2575, -- [1]
-							"|cffffd000|Htrade:25230:131:150:46C2:+f6BAAAAAwDAAAAAAAAAAAAAgfAAgJBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Jewelcrafting]|h|r", -- [2]
+							"|cffffd000|Htrade:25230:149:150:46C2:+/6BAAAAAwDAAAAAAAAAAAAAgfAAgJBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Jewelcrafting]|h|r", -- [1]
+							2575, -- [2]
 							"|cffffd000|Htrade:2550:1:75:46C2:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1718723235,
+						["lastUpdate"] = 1718727118,
 					},
 					["Manalust"] = {
 						["Version"] = 12340,

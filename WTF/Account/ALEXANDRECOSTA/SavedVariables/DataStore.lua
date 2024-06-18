@@ -6,8 +6,8 @@ DataStoreDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmourne.Kimi"] = {
-				["guildName"] = "Omnipotent Prime",
 				["faction"] = "Horde",
+				["guildName"] = "Omnipotent Prime",
 			},
 		},
 		["Guilds"] = {

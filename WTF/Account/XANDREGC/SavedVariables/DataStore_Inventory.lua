@@ -1,9 +1,9 @@
 
 DataStore_InventoryDB = {
 	["profileKeys"] = {
-		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["global"] = {
@@ -58,14 +58,14 @@ DataStore_InventoryDB = {
 					[5] = 4916,
 					[16] = 5778,
 					[7] = 4921,
-					[10] = 4914,
-					[15] = 4920,
-					[18] = 2504,
-					[4] = 127,
 					[8] = 6127,
+					[4] = 127,
+					[18] = 2504,
+					[15] = 4920,
+					[10] = 4914,
 				},
 				["averageItemLvl"] = 4,
-				["lastUpdate"] = 1718721981,
+				["lastUpdate"] = 1718728629,
 			},
 			["Default.Frostmourne.Queemificina"] = {
 				["Inventory"] = {

@@ -35,6 +35,8 @@ ZygorTalentAdvisorSettings = {
 				"13:01:32> PLAYER_ALIVE", -- [30]
 				"13:02:36> PLAYER_ALIVE", -- [31]
 				"13:06:42> PLAYER_ALIVE", -- [32]
+				"13:11:50> Viewer started. ---------------------------", -- [33]
+				"13:11:50> PLAYER_ALIVE", -- [34]
 			},
 		},
 	},

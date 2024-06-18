@@ -4,491 +4,185 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"Guild run LF Hpala tonight @ 20:30 ST For Naxx 25m /W", -- [1]
-			"Frost", -- [2]
+			"ret 3.6 lf eoe 10/25", -- [1]
+			"Sicarius", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Frost", -- [5]
+			"Sicarius", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			135, -- [11]
-			"0x00000000000060FA", -- [12]
+			979, -- [11]
+			"0x00000000000030ED", -- [12]
 			0, -- [13]
-			[51] = 1718721853,
+			[51] = 1718728220,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Frost",
+			[52] = "Sicarius",
 		}, -- [1]
 		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|r over C.O.D for 6gold per stack", -- [1]
-			"Viliam", -- [2]
+			"WTB |cffa335ee|Hitem:44253:0:0:0:0:0:0:0:80|h[Naipe de la Luna Negra: Grandeza]|h|rW/Price", -- [1]
+			"Boomsteel", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Viliam", -- [5]
-			"AFK", -- [6]
+			"Boomsteel", -- [5]
+			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			138, -- [11]
-			"0x0000000000006852", -- [12]
+			980, -- [11]
+			"0x0000000000004512", -- [12]
 			0, -- [13]
-			[51] = 1718721856,
+			[51] = 1718728221,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Viliam",
+			[52] = "Boomsteel",
 		}, -- [2]
 		{
-			"WTB |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Cristal abisal]|h|r", -- [1]
-			"Vacasa", -- [2]
+			"LF 1 TANK NAXX 10 ! ", -- [1]
+			"Zectro", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Vacasa", -- [5]
+			"Zectro", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			142, -- [11]
-			"0x0000000000004448", -- [12]
+			984, -- [11]
+			"0x0000000000002725", -- [12]
 			0, -- [13]
-			[51] = 1718721864,
+			[51] = 1718728222,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Vacasa",
+			[52] = "Zectro",
 		}, -- [3]
 		{
-			"wts outland greens 10g per item", -- [1]
-			"Norie", -- [2]
+			"OS 25 0+ Drake. Soul + boe res. LF Healers & DPS. W GS+Spec", -- [1]
+			"Snacki", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Norie", -- [5]
+			"Snacki", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			144, -- [11]
-			"0x0000000000008421", -- [12]
+			985, -- [11]
+			"0x0000000000001AE8", -- [12]
 			0, -- [13]
-			[51] = 1718721867,
+			[51] = 1718728223,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Norie",
+			[52] = "Snacki",
 		}, -- [4]
 		{
-			"LFM for VoA 10 last spot for tank class run", -- [1]
-			"Gatx", -- [2]
+			"{star} Racine {star} FRENCH Guilde PVE HL Coming in construction is recruiting for its 25HC roster. We are looking for ambitious and motivated players. /w for more info", -- [1]
+			"Nawlolz", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Gatx", -- [5]
+			"Nawlolz", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			146, -- [11]
-			"0x000000000000A7E6", -- [12]
+			990, -- [11]
+			"0x0000000000002F12", -- [12]
 			0, -- [13]
-			[51] = 1718721868,
+			[51] = 1718728226,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Gatx",
+			[52] = "Nawlolz",
 		}, -- [5]
 		{
-			"LF tank voa 10 spec run last spot ", -- [1]
-			"Krallum", -- [2]
+			"OS 25 0+ Drake. Everything reserved... kekw", -- [1]
+			"Sparlexnaa", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Krallum", -- [5]
+			"Sparlexnaa", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			147, -- [11]
-			"0x0000000000008688", -- [12]
+			1003, -- [11]
+			"0x00000000000026B8", -- [12]
 			0, -- [13]
-			[51] = 1718721868,
+			[51] = 1718728243,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Krallum",
+			[52] = "Sparlexnaa",
 		}, -- [6]
 		{
-			"WTS Blue and Green Item lvl 72 to lvl 76", -- [1]
-			"Papapdol", -- [2]
+			"NAXX 10 NM FRESH RUN LF 1 TANK //NAXX 10 NM FRESH RUN LF 1 TANK //", -- [1]
+			"Bbctoz", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Papapdol", -- [5]
+			"Bbctoz", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			148, -- [11]
-			"0x0000000000006DD6", -- [12]
+			1007, -- [11]
+			"0x000000000000250F", -- [12]
 			0, -- [13]
-			[51] = 1718721869,
+			[51] = 1718728248,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Papapdol",
+			[52] = "Bbctoz",
 		}, -- [7]
 		{
-			"Need All for OS25 - 0 Drakes (Quick run before ID reset)", -- [1]
-			"Maze", -- [2]
+			"WTB valor bracers /w your price", -- [1]
+			"Pwnda", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Maze", -- [5]
+			"Pwnda", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			149, -- [11]
-			"0x0000000000004064", -- [12]
+			1008, -- [11]
+			"0x000000000000DCE2", -- [12]
 			0, -- [13]
-			[51] = 1718721869,
+			[51] = 1718728252,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Maze",
+			[52] = "Pwnda",
 		}, -- [8]
 		{
-			"LF VOA 25 NEED ALL ! ", -- [1]
-			"Zectro", -- [2]
+			"LFM NAXX25+EOE25 need dk,elem,hunter,sp 3.6+ today 1930ST discord FROST RES gear mandatory boe+key res sign up on disc --> https://discord.gg/Pku99xU8", -- [1]
+			"Foku", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Zectro", -- [5]
+			"Foku", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			152, -- [11]
-			"0x0000000000002725", -- [12]
+			1014, -- [11]
+			"0x0000000000003BA3", -- [12]
 			0, -- [13]
-			[51] = 1718721872,
+			[51] = 1718728257,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zectro",
+			[52] = "Foku",
 		}, -- [9]
 		{
-			"WTS Valor bracers ", -- [1]
-			"Seventydk", -- [2]
+			"WTT/WTS 1,2,4,6,5 of nobles for 3,8 of nobles", -- [1]
+			"Law", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Seventydk", -- [5]
+			"Law", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			157, -- [11]
-			"0x0000000000006744", -- [12]
+			1036, -- [11]
+			"0x00000000000050FF", -- [12]
 			0, -- [13]
-			[51] = 1718721879,
+			[51] = 1718728271,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Seventydk",
+			[52] = "Law",
 		}, -- [10]
-		{
-			"Your local undead LFW |cffffd000|Htrade:51311:450:450:4F64:8f6UsqMsJyjpmMHAAAEwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1ezjbP8Ts7GKnhiz8XHAA+jD8Pg/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r, providing you with cutting edge gems", -- [1]
-			"Rasse", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Rasse", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			159, -- [11]
-			"0x0000000000004F64", -- [12]
-			0, -- [13]
-			[51] = 1718721881,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rasse",
-		}, -- [11]
-		{
-			"LF ZNX", -- [1]
-			"Elwyn", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Elwyn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			160, -- [11]
-			"0x000000000000E81A", -- [12]
-			0, -- [13]
-			[51] = 1718721882,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Elwyn",
-		}, -- [12]
-		{
-			" {diamond} LFM VOA 18 /w me spec 1more DPS and tank (pref DK>Furry tank = Brown tank > PPal) {diamond} /w me for inv", -- [1]
-			"Executus", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Executus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			166, -- [11]
-			"0x000000000000F1AD", -- [12]
-			0, -- [13]
-			[51] = 1718721890,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Executus",
-		}, -- [13]
-		{
-			"Voa 18. LFM. 1x tank (war,dudu,dk) Heal (Druid) Dps (War,Enh,Balla,Cat,Priest,Mage) /w {star} 3,3k+ gs 10/18", -- [1]
-			"Truelove", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Truelove", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			167, -- [11]
-			"0x000000000000BBCB", -- [12]
-			0, -- [13]
-			[51] = 1718721892,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Truelove",
-		}, -- [14]
-		{
-			"{cross} LF2M VoA 18 SPEC RUN! Whisper with GS and SPEC! Need TANK BEAR/WARR/DK! {cross}", -- [1]
-			"Neybe", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Neybe", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			168, -- [11]
-			"0x000000000000132A", -- [12]
-			0, -- [13]
-			[51] = 1718721895,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Neybe",
-		}, -- [15]
-		{
-			"fury war 3.8k gs big pumper LF OS/EOE 10/25(2drakes)", -- [1]
-			"Soulren", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Soulren", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			180, -- [11]
-			"0x00000000000025C1", -- [12]
-			0, -- [13]
-			[51] = 1718721911,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Soulren",
-		}, -- [16]
-		{
-			"LF tank voa 10 spec run last spot ", -- [1]
-			"Krallum", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Krallum", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			185, -- [11]
-			"0x0000000000008688", -- [12]
-			0, -- [13]
-			[51] = 1718721915,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Krallum",
-		}, -- [17]
-		{
-			"<Omnipotent> Only Eng in Gchat, Doing 2 drakes, Ascended, Sunwell, etc, Led by 16 yrs of WOTLK exp, Disc: https://discord.gg/hSgYPPvCfb Loot: Council, Raid Time: 7pm server all week, we're filling out our Semi-hc roster now for fast fun raids", -- [1]
-			"Manalust", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Manalust", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			187, -- [11]
-			"0x0000000000003315", -- [12]
-			0, -- [13]
-			[51] = 1718721916,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Manalust",
-		}, -- [18]
-		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|r over C.O.D for 6gold per stack", -- [1]
-			"Viliam", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Viliam", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			188, -- [11]
-			"0x0000000000006852", -- [12]
-			0, -- [13]
-			[51] = 1718721916,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Viliam",
-		}, -- [19]
-		{
-			"1 tank ,2 healers , some dps for Sunwell 25 boe res", -- [1]
-			"Souldrainer", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Souldrainer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			190, -- [11]
-			"0x0000000000009886", -- [12]
-			0, -- [13]
-			[51] = 1718721918,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Souldrainer",
-		}, -- [20]
-		{
-			"LF VOA 25 NEED ALL ! ", -- [1]
-			"Zectro", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Zectro", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			192, -- [11]
-			"0x0000000000002725", -- [12]
-			0, -- [13]
-			[51] = 1718721920,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zectro",
-		}, -- [21]
-		{
-			"LF VOA 25 NEED ALL / ", -- [1]
-			"Bbctoz", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Bbctoz", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			196, -- [11]
-			"0x000000000000250F", -- [12]
-			0, -- [13]
-			[51] = 1718721924,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bbctoz",
-		}, -- [22]
-		{
-			"Need All for OS25 - 0 Drakes (Quick run before ID reset)", -- [1]
-			"Maze", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Maze", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			199, -- [11]
-			"0x0000000000004064", -- [12]
-			0, -- [13]
-			[51] = 1718721927,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Maze",
-		}, -- [23]
-		{
-			"Voa 18. LFM. 1x tank (war,dudu,dk) Heal (Druid) Dps (War,Enh,Balla,Cat,Priest,Mage) /w {star} 3,3k+ gs 10/18", -- [1]
-			"Truelove", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Truelove", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			206, -- [11]
-			"0x000000000000BBCB", -- [12]
-			0, -- [13]
-			[51] = 1718721937,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Truelove",
-		}, -- [24]
-		{
-			"Your local undead LFW |cffffd000|Htrade:51311:450:450:4F64:8f6UsqMsJyjpmMHAAAEwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1ezjbP8Ts7GKnhiz8XHAA+jD8Pg/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r, providing you with cutting edge gems", -- [1]
-			"Rasse", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Rasse", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			208, -- [11]
-			"0x0000000000004F64", -- [12]
-			0, -- [13]
-			[51] = 1718721939,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rasse",
-		}, -- [25]
-		{
-			"VOA 25 NEED ALL /", -- [1]
-			"Bbctoz", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Bbctoz", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			213, -- [11]
-			"0x000000000000250F", -- [12]
-			0, -- [13]
-			[51] = 1718721945,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bbctoz",
-		}, -- [26]
-		{
-			" {diamond} LFM VOA 18 /w me spec 1more DPS and tank (pref DK>Furry tank = Brown tank > PPal) {diamond} /w me for inv", -- [1]
-			"Executus", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Executus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			215, -- [11]
-			"0x000000000000F1AD", -- [12]
-			0, -- [13]
-			[51] = 1718721946,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Executus",
-		}, -- [27]
 		{
 			"[RU] Semi-hardcore PVE guild <Skill Issue> LF raiders, prio rdru, rsham, hpal, mage, wlock. 2 RT weekly 20.30-24.00 msk. Loot council. PM for more info.", -- [1]
 			"Trovi", -- [2]
@@ -500,663 +194,339 @@ ElvCharacterDB = {
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			228, -- [11]
+			1041, -- [11]
 			"0x0000000000002757", -- [12]
 			0, -- [13]
-			[51] = 1718721965,
+			[51] = 1718728275,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Trovi",
+		}, -- [11]
+		{
+			"OS 25 0+ Drake. Soul + boe res. LF Healers & DPS. W GS+Spec", -- [1]
+			"Snacki", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Snacki", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1053, -- [11]
+			"0x0000000000001AE8", -- [12]
+			0, -- [13]
+			[51] = 1718728283,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Snacki",
+		}, -- [12]
+		{
+			"LFW |cffffd000|Htrade:51313:421:450:8DAE:oSAKIQEQIgAqkkyABQADAAAAACCAAIAA6DiAB07vyJVtHg/HAAD|h[Enchanting]|h|r |cffffd000|Htrade:51309:450:450:8DAE:YgEOgAAAiAAAAaIQkCCAgAAAwAAEAAAAAAAAAoAAALAAAAAAAAAAAAAAGDHqCAu+IwvFAPAAAA|h[Tailoring]|h|r got mats", -- [1]
+			"Autismblast", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Autismblast", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1054, -- [11]
+			"0x0000000000008DAE", -- [12]
+			0, -- [13]
+			[51] = 1718728283,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Autismblast",
+		}, -- [13]
+		{
+			"WTB |cffa335ee|Hitem:44253:0:0:0:0:0:0:0:80|h[Naipe de la Luna Negra: Grandeza]|h|rW/Price", -- [1]
+			"Boomsteel", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Boomsteel", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1062, -- [11]
+			"0x0000000000004512", -- [12]
+			0, -- [13]
+			[51] = 1718728289,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Boomsteel",
+		}, -- [14]
+		{
+			"LFG Quick BWL and/or MC clears! /w Me", -- [1]
+			"Fupa", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Fupa", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1063, -- [11]
+			"0x00000000000005AF", -- [12]
+			0, -- [13]
+			[51] = 1718728289,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Fupa",
+		}, -- [15]
+		{
+			"<Legacy of the Past> I am looking for Hungarian players. Raid time: Sunday 8:30PM server time. Experience is a requirement. /W me for more information!", -- [1]
+			"Elsy", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Elsy", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1066, -- [11]
+			"0x0000000000001418", -- [12]
+			0, -- [13]
+			[51] = 1718728291,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Elsy",
+		}, -- [16]
+		{
+			"dont even compare this core to the other realms ;p", -- [1]
+			"Highbrow", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Highbrow", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1071, -- [11]
+			"0x0000000000002A26", -- [12]
+			0, -- [13]
+			[51] = 1718728295,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Highbrow",
+		}, -- [17]
+		{
+			"NAXX 10 NM FRESH RUN LF 1 TANK //NAXX 10 NM FRESH RUN LF 1 TANK //", -- [1]
+			"Bbctoz", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Bbctoz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1076, -- [11]
+			"0x000000000000250F", -- [12]
+			0, -- [13]
+			[51] = 1718728297,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bbctoz",
+		}, -- [18]
+		{
+			"[PL] <Fade> Polish speaking guild is looking for experienced players to complete our 25 HC group. We currently need rsham/rdudu and fdk but we can also consider other classes. ", -- [1]
+			"Highbrow", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Highbrow", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1077, -- [11]
+			"0x0000000000002A26", -- [12]
+			0, -- [13]
+			[51] = 1718728298,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Highbrow",
+		}, -- [19]
+		{
+			"OS 25 1d need resto shamy", -- [1]
+			"Modisarkar", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Modisarkar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1081, -- [11]
+			"0x000000000000CF17", -- [12]
+			0, -- [13]
+			[51] = 1718728299,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Modisarkar",
+		}, -- [20]
+		{
+			"WTS VALOR BRACERS", -- [1]
+			"Nofi", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Nofi", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1084, -- [11]
+			"0x000000000000A19F", -- [12]
+			0, -- [13]
+			[51] = 1718728301,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nofi",
+		}, -- [21]
+		{
+			"WTB |cff0070dd|Hitem:36918:0:0:0:0:0:0:0:80|h[Scarlet Ruby]|h|r 40g each COD as many.", -- [1]
+			"Desserts", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Desserts", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1089, -- [11]
+			"0x00000000000098B9", -- [12]
+			0, -- [13]
+			[51] = 1718728305,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Desserts",
+		}, -- [22]
+		{
+			"LF Tailor |cffffd000|Henchant:56017|h[Tailoring: Deathchill Cloak]|h|r my mats.", -- [1]
+			"Vggn", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Vggn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1098, -- [11]
+			"0x000000000000A30C", -- [12]
+			0, -- [13]
+			[51] = 1718728311,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Vggn",
+		}, -- [23]
+		{
+			"LFM NAXX 25 2 tank, 3 healer, dps(Last Run before Reset), BOE+KYE Ress!", -- [1]
+			"Misheel", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Misheel", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1099, -- [11]
+			"0x000000000000C73E", -- [12]
+			0, -- [13]
+			[51] = 1718728311,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Misheel",
+		}, -- [24]
+		{
+			"LFM SWP 25 - timewalking - on last boss - need 1 hpala 1 rdudu - starting at 19ST - boe/frags reserved", -- [1]
+			"Rayleigh", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Rayleigh", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1104, -- [11]
+			"0x000000000000A37A", -- [12]
+			0, -- [13]
+			[51] = 1718728315,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Rayleigh",
+		}, -- [25]
+		{
+			"LFM NAXX25+EOE25 need dk,elem,hunter,sp 3.6+ today 1930ST discord FROST RES gear mandatory boe+key res sign up on disc --> https://discord.gg/Pku99xU8", -- [1]
+			"Foku", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Foku", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1107, -- [11]
+			"0x0000000000003BA3", -- [12]
+			0, -- [13]
+			[51] = 1718728317,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Foku",
+		}, -- [26]
+		{
+			" {diamond} LFM Naxx 10 Norm starting 19:30 ST Must be gemmed + enchanted. LF 2 tanks 1 Healer and a x2 RDps (Mage, Spriest, or Boomy, Hunter insta inv)/w me spec and GS for discord link {cross}", -- [1]
+			"Executus", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Executus", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1120, -- [11]
+			"0x000000000000F1AD", -- [12]
+			0, -- [13]
+			[51] = 1718728328,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Executus",
+		}, -- [27]
+		{
+			"WTB Valor Bracers /w your price", -- [1]
+			"Pwnda", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Pwnda", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1125, -- [11]
+			"0x000000000000DCE2", -- [12]
+			0, -- [13]
+			[51] = 1718728331,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Pwnda",
 		}, -- [28]
 		{
-			"{cross} LF2M VoA 18 SPEC RUN! Whisper with GS and SPEC! Need TANK BEAR/WARR/DK! {cross}", -- [1]
-			"Neybe", -- [2]
+			"OS 25 0+ Drake. Soul + boe res. LF Healers & DPS. W GS+Spec", -- [1]
+			"Snacki", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Neybe", -- [5]
+			"Snacki", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			231, -- [11]
-			"0x000000000000132A", -- [12]
+			1140, -- [11]
+			"0x0000000000001AE8", -- [12]
 			0, -- [13]
-			[51] = 1718721968,
+			[51] = 1718728344,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Neybe",
+			[52] = "Snacki",
 		}, -- [29]
 		{
-			"1 tank ,2 healers , some dps for Sunwell 25 boe res", -- [1]
-			"Souldrainer", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Souldrainer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			233, -- [11]
-			"0x0000000000009886", -- [12]
-			0, -- [13]
-			[51] = 1718721976,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Souldrainer",
-		}, -- [30]
-		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|r over C.O.D for 6gold per stack", -- [1]
-			"Viliam", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Viliam", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			234, -- [11]
-			"0x0000000000006852", -- [12]
-			0, -- [13]
-			[51] = 1718721976,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Viliam",
-		}, -- [31]
-		{
-			"Voa 18. LFM. 1x tank (war,dudu,dk) Heal (Druid) Dps (War,Enh,Balla,Cat,Priest,Mage) /w {star} 3,3k+ gs 10/18", -- [1]
-			"Truelove", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Truelove", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			235, -- [11]
-			"0x000000000000BBCB", -- [12]
-			0, -- [13]
-			[51] = 1718721979,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Truelove",
-		}, -- [32]
-		{
-			"Your local undead LFW |cffffd000|Htrade:51311:450:450:4F64:8f6UsqMsJyjpmMHAAAEwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1ezjbP8Ts7GKnhiz8XHAA+jD8Pg/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r, providing you with cutting edge gems", -- [1]
-			"Rasse", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Rasse", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			241, -- [11]
-			"0x0000000000004F64", -- [12]
-			0, -- [13]
-			[51] = 1718721997,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rasse",
-		}, -- [33]
-		{
-			"LF VOA 25 NEED ALL ! ", -- [1]
-			"Zectro", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Zectro", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			244, -- [11]
-			"0x0000000000002725", -- [12]
-			0, -- [13]
-			[51] = 1718722001,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zectro",
-		}, -- [34]
-		{
-			"VOA 25 NEED ALL /", -- [1]
-			"Bbctoz", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Bbctoz", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			245, -- [11]
-			"0x000000000000250F", -- [12]
-			0, -- [13]
-			[51] = 1718722001,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bbctoz",
-		}, -- [35]
-		{
-			" |cffffd000|Htrade:51313:450:450:CF29:47K7b6a8f9Z7ms7vvLJNCAAAwBGABsAATXzC907v2bXvHk//vgT|h[Enchanting]|h|rLFW", -- [1]
-			"Midnighttale", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Midnighttale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			246, -- [11]
-			"0x000000000000CF29", -- [12]
-			0, -- [13]
-			[51] = 1718722004,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Midnighttale",
-		}, -- [36]
-		{
-			" {diamond} LFM VOA 18 /w me spec 1more DPS and tank (pref DK>Furry tank = Brown tank > PPal) {diamond} /w me for inv", -- [1]
-			"Executus", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Executus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			247, -- [11]
-			"0x000000000000F1AD", -- [12]
-			0, -- [13]
-			[51] = 1718722006,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Executus",
-		}, -- [37]
-		{
-			"|Hplayer:Luthina|h[Luthina]|h has earned the achievement |cffffff00|Hachievement:546:00000000000091DE:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Safe Deposit]|h|r!", -- [1]
-			"Luthina", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Luthina", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			248, -- [11]
-			"0x00000000000091DE", -- [12]
-			0, -- [13]
-			[51] = 1718722008,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-			[52] = "Luthina",
-		}, -- [38]
-		{
-			"1 tank ,2 healers , some dps for Sunwell 25 boe res", -- [1]
-			"Souldrainer", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Souldrainer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			249, -- [11]
-			"0x0000000000009886", -- [12]
-			0, -- [13]
-			[51] = 1718722008,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Souldrainer",
-		}, -- [39]
-		{
-			"Voa 18. LFM. Heal (Druid) Dps (War,Enh,Balla,Cat,Priest) /w {star} 3,3k+ gs 12/18", -- [1]
-			"Truelove", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Truelove", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			250, -- [11]
-			"0x000000000000BBCB", -- [12]
-			0, -- [13]
-			[51] = 1718722015,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Truelove",
-		}, -- [40]
-		{
-			"WTS Valor bracers ", -- [1]
-			"Seventydk", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Seventydk", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			253, -- [11]
-			"0x0000000000006744", -- [12]
-			0, -- [13]
-			[51] = 1718722025,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Seventydk",
-		}, -- [41]
-		{
-			"WTS |cff1eff00|Hitem:36860:0:0:0:0:0:0:0:80|h[Eternal Fire]|h|r |cff1eff00|Hitem:35622:0:0:0:0:0:0:0:80|h[Eternal Water]|h|r", -- [1]
-			"Iamgay", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Iamgay", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			254, -- [11]
-			"0x000000000000E97F", -- [12]
-			0, -- [13]
-			[51] = 1718722028,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Iamgay",
-		}, -- [42]
-		{
-			"{cross} LF2M VoA 18 SPEC RUN! Whisper with GS and SPEC! Need TANK BEAR/WARR/DK! {cross}", -- [1]
-			"Neybe", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Neybe", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			255, -- [11]
-			"0x000000000000132A", -- [12]
-			0, -- [13]
-			[51] = 1718722036,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Neybe",
-		}, -- [43]
-		{
-			"<Omnipotent> Only Eng in Gchat, Doing 2 drakes, Ascended, Sunwell, etc, Led by 16 yrs of WOTLK exp, Disc: https://discord.gg/hSgYPPvCfb Loot: Council, Raid Time: 7pm server all week, we're filling out our Semi-hc roster now for fast fun raids", -- [1]
-			"Manalust", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Manalust", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			256, -- [11]
-			"0x0000000000003315", -- [12]
-			0, -- [13]
-			[51] = 1718722036,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Manalust",
-		}, -- [44]
-		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|r over C.O.D for 6gold per stack", -- [1]
-			"Viliam", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Viliam", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			257, -- [11]
-			"0x0000000000006852", -- [12]
-			0, -- [13]
-			[51] = 1718722036,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Viliam",
-		}, -- [45]
-		{
-			"VOA 25 NEED ALL /", -- [1]
-			"Bbctoz", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Bbctoz", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			258, -- [11]
-			"0x000000000000250F", -- [12]
-			0, -- [13]
-			[51] = 1718722037,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bbctoz",
-		}, -- [46]
-		{
-			"wtb |cffffd000|Henchant:55403|h[Jewelcrafting: Trenchant Earthsiege Diamond]|h|r", -- [1]
-			"Zavetnica", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Zavetnica", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			261, -- [11]
-			"0x0000000000002E9A", -- [12]
-			0, -- [13]
-			[51] = 1718722045,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zavetnica",
-		}, -- [47]
-		{
-			"fury war 3.8k gs big pumper LF OS/EOE 10/25(2drakes)", -- [1]
-			"Soulren", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Soulren", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			263, -- [11]
-			"0x00000000000025C1", -- [12]
-			0, -- [13]
-			[51] = 1718722046,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Soulren",
-		}, -- [48]
-		{
-			"Your local undead LFW |cffffd000|Htrade:51311:450:450:4F64:8f6UsqMsJyjpmMHAAAEwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1ezjbP8Ts7GKnhiz8XHAA+jD8Pg/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r, providing you with cutting edge gems", -- [1]
-			"Rasse", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Rasse", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			266, -- [11]
-			"0x0000000000004F64", -- [12]
-			0, -- [13]
-			[51] = 1718722055,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rasse",
-		}, -- [49]
-		{
-			"Arcane mage LF OS", -- [1]
-			"Seryla", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Seryla", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			267, -- [11]
-			"0x000000000000D25B", -- [12]
-			0, -- [13]
-			[51] = 1718722062,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Seryla",
-		}, -- [50]
-		{
-			" |cffffd000|Htrade:51313:450:450:CF29:47K7b6a8f9Z7ms7vvLJNCAAAwBGABsAATXzC907v2bXvHk//vgT|h[Enchanting]|h|rLFW", -- [1]
-			"Midnighttale", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Midnighttale", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			268, -- [11]
-			"0x000000000000CF29", -- [12]
-			0, -- [13]
-			[51] = 1718722063,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Midnighttale",
-		}, -- [51]
-		{
-			"Voa 18. LFM. Heal (Druid) Dps (War,Enh,Balla,Cat,Priest) /w {star} 3,3k+ gs 12/18", -- [1]
-			"Truelove", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Truelove", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			270, -- [11]
-			"0x000000000000BBCB", -- [12]
-			0, -- [13]
-			[51] = 1718722071,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Truelove",
-		}, -- [52]
-		{
-			"LF VOA 25 NEED ALL ! ", -- [1]
-			"Zectro", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Zectro", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			271, -- [11]
-			"0x0000000000002725", -- [12]
-			0, -- [13]
-			[51] = 1718722076,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zectro",
-		}, -- [53]
-		{
-			"VOA 25 NEED ALL /", -- [1]
-			"Bbctoz", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Bbctoz", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			272, -- [11]
-			"0x000000000000250F", -- [12]
-			0, -- [13]
-			[51] = 1718722079,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bbctoz",
-		}, -- [54]
-		{
-			" {diamond} LFM VOA 18 /w me spec 1more DPS {cross} /w me for inv", -- [1]
-			"Executus", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Executus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			273, -- [11]
-			"0x000000000000F1AD", -- [12]
-			0, -- [13]
-			[51] = 1718722081,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Executus",
-		}, -- [55]
-		{
-			"bmhunter online?", -- [1]
-			"Oogagang", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Oogagang", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			275, -- [11]
-			"0x00000000000108C7", -- [12]
-			0, -- [13]
-			[51] = 1718722082,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Oogagang",
-		}, -- [56]
-		{
-			"Need All for OS25 - 0 Drakes (Quick run before ID reset)", -- [1]
-			"Maze", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Maze", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			277, -- [11]
-			"0x0000000000004064", -- [12]
-			0, -- [13]
-			[51] = 1718722083,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Maze",
-		}, -- [57]
-		{
-			"LF JC", -- [1]
-			"Teni", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Teni", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			284, -- [11]
-			"0x00000000000077E2", -- [12]
-			0, -- [13]
-			[51] = 1718722092,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Teni",
-		}, -- [58]
-		{
-			"Maze inv ", -- [1]
-			"Seryla", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Seryla", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			285, -- [11]
-			"0x000000000000D25B", -- [12]
-			0, -- [13]
-			[51] = 1718722092,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Seryla",
-		}, -- [59]
-		{
-			"VOA 25 NEED ALL /VOA 25 NEED ALL /", -- [1]
-			"Bbctoz", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Bbctoz", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			288, -- [11]
-			"0x000000000000250F", -- [12]
-			0, -- [13]
-			[51] = 1718722095,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bbctoz",
-		}, -- [60]
-		{
-			"WTB |cffffffff|Hitem:36903:0:0:0:0:0:0:0:80|h[Adder's Tongue]|h|r 70g stack |cff1eff00|Hitem:43127:0:0:0:0:0:0:0:80|h[Snowfall Ink]|h|r 300g stack", -- [1]
-			"Law", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Law", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			289, -- [11]
-			"0x00000000000050FF", -- [12]
-			0, -- [13]
-			[51] = 1718722095,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Law",
-		}, -- [61]
-		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|r over C.O.D for 6gold per stack", -- [1]
-			"Viliam", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Viliam", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			291, -- [11]
-			"0x0000000000006852", -- [12]
-			0, -- [13]
-			[51] = 1718722096,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Viliam",
-		}, -- [62]
-		{
-			"where can i level up at level 25 alliance", -- [1]
-			"Flasham", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Flasham", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			295, -- [11]
-			"0x00000000000114D3", -- [12]
-			0, -- [13]
-			[51] = 1718722101,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Flasham",
-		}, -- [63]
-		{
-			"Voa 18. LFM. Heal (Druid) Dps (War,Enh,Balla,Cat,Priest) /w {star} 3,3k+ gs 12/18", -- [1]
-			"Truelove", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Truelove", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			300, -- [11]
-			"0x000000000000BBCB", -- [12]
-			0, -- [13]
-			[51] = 1718722105,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Truelove",
-		}, -- [64]
-		{
-			"bg's", -- [1]
+			"LFM: Nagrand arena group Q", -- [1]
 			"Protted", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
@@ -1166,195 +536,699 @@ ElvCharacterDB = {
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			302, -- [11]
+			1143, -- [11]
 			"0x000000000000CF4D", -- [12]
 			0, -- [13]
-			[51] = 1718722105,
+			[51] = 1718728345,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Protted",
+		}, -- [30]
+		{
+			"{star} Racine {star} FRENCH Guilde PVE HL Coming in construction is recruiting for its 25HC roster. We are looking for ambitious and motivated players. /w for more info", -- [1]
+			"Nawlolz", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Nawlolz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1144, -- [11]
+			"0x0000000000002F12", -- [12]
+			0, -- [13]
+			[51] = 1718728346,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nawlolz",
+		}, -- [31]
+		{
+			"[DK] <Guilden> The Danish Powerhouse! is now recruiting experienced players for our core 25m raid. We aim to full clear all content while having fun and enjoying ourselves together. We raid on Wed+Sun. /w for more info [DK]", -- [1]
+			"Hybridpriest", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Hybridpriest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1155, -- [11]
+			"0x0000000000010314", -- [12]
+			0, -- [13]
+			[51] = 1718728354,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Hybridpriest",
+		}, -- [32]
+		{
+			"LF ALCHMY FLASK MASTER", -- [1]
+			"Ivar", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Ivar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1158, -- [11]
+			"0x0000000000000637", -- [12]
+			0, -- [13]
+			[51] = 1718728356,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Ivar",
+		}, -- [33]
+		{
+			"LFM NAXX25+EOE25 need dk,elem,hunter,sp 3.6+ today 1930ST discord FROST RES gear mandatory boe+key res sign up on disc --> https://discord.gg/Pku99xU8", -- [1]
+			"Foku", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Foku", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1168, -- [11]
+			"0x0000000000003BA3", -- [12]
+			0, -- [13]
+			[51] = 1718728377,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Foku",
+		}, -- [34]
+		{
+			"lf jc with |cff0070dd|Hitem:40014:0:0:0:0:0:0:0:80|h[Rigid Autumn's Glow]|h|r", -- [1]
+			"Daragoz", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Daragoz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1169, -- [11]
+			"0x0000000000007656", -- [12]
+			0, -- [13]
+			[51] = 1718728377,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Daragoz",
+		}, -- [35]
+		{
+			"WTB |cffa335ee|Hitem:44253:0:0:0:0:0:0:0:80|h[Naipe de la Luna Negra: Grandeza]|h|rW/Price", -- [1]
+			"Boomsteel", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Boomsteel", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1175, -- [11]
+			"0x0000000000004512", -- [12]
+			0, -- [13]
+			[51] = 1718728381,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Boomsteel",
+		}, -- [36]
+		{
+			" {diamond} LFM Naxx 10 Norm starting 19:30 ST Must be gemmed + enchanted. LF 2 tanks 1 Healer and a x2 RDps (Mage, Spriest, or Boomy, Hunter insta inv)/w me spec and GS for discord link {cross}", -- [1]
+			"Executus", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Executus", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1176, -- [11]
+			"0x000000000000F1AD", -- [12]
+			0, -- [13]
+			[51] = 1718728381,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Executus",
+		}, -- [37]
+		{
+			"f", -- [1]
+			"Biratio", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Biratio", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1180, -- [11]
+			"0x0000000000011589", -- [12]
+			0, -- [13]
+			[51] = 1718728382,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Biratio",
+		}, -- [38]
+		{
+			"WTT/WTS 1,2,4,6,5 of nobles for 3,8 of nobles", -- [1]
+			"Law", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Law", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1181, -- [11]
+			"0x00000000000050FF", -- [12]
+			0, -- [13]
+			[51] = 1718728383,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Law",
+		}, -- [39]
+		{
+			"<Straight Outta Westfall> [NA+EU] An English speaking Social/Casual Raiding guild, is recruiting players for our community. We are seeking chill/skilled players to RHC, Raid, or hang out. Social/Casual non-raiders, and Lowbies/Levelers are also welcome", -- [1]
+			"Insidious", -- [2]
+			"", -- [3]
+			"2. trade - city", -- [4]
+			"Insidious", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"trade - city", -- [9]
+			0, -- [10]
+			1185, -- [11]
+			"0x000000000000022D", -- [12]
+			0, -- [13]
+			[51] = 1718728385,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Insidious",
+		}, -- [40]
+		{
+			"LFW |cffffd000|Htrade:51313:421:450:8DAE:oSAKIQEQIgAqkkyABQADAAAAACCAAIAA6DiAB07vyJVtHg/HAAD|h[Enchanting]|h|r |cffffd000|Htrade:51309:450:450:8DAE:YgEOgAAAiAAAAaIQkCCAgAAAwAAEAAAAAAAAAoAAALAAAAAAAAAAAAAAGDHqCAu+IwvFAPAAAA|h[Tailoring]|h|r got mats", -- [1]
+			"Autismblast", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Autismblast", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1186, -- [11]
+			"0x0000000000008DAE", -- [12]
+			0, -- [13]
+			[51] = 1718728386,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Autismblast",
+		}, -- [41]
+		{
+			"lf tank rhc farm !", -- [1]
+			"Deterrence", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Deterrence", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1197, -- [11]
+			"0x000000000001066B", -- [12]
+			0, -- [13]
+			[51] = 1718728392,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Deterrence",
+		}, -- [42]
+		{
+			"LF Tailor |cffffd000|Henchant:56017|h[Tailoring: Deathchill Cloak]|h|r my mats.", -- [1]
+			"Vggn", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Vggn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1204, -- [11]
+			"0x000000000000A30C", -- [12]
+			0, -- [13]
+			[51] = 1718728395,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Vggn",
+		}, -- [43]
+		{
+			"WTB Northrend greens 74+ lvl 10g/piece and Frostwave cloths 4,5g per stack send by cod", -- [1]
+			"Daragoz", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Daragoz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1213, -- [11]
+			"0x0000000000007656", -- [12]
+			0, -- [13]
+			[51] = 1718728400,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Daragoz",
+		}, -- [44]
+		{
+			"OS 25 1d need resto shamy", -- [1]
+			"Modisarkar", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Modisarkar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1214, -- [11]
+			"0x000000000000CF17", -- [12]
+			0, -- [13]
+			[51] = 1718728401,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Modisarkar",
+		}, -- [45]
+		{
+			"OS 25 0+ Drake. Soul + boe res. LF Healers & DPS. W GS+Spec", -- [1]
+			"Snacki", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Snacki", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1219, -- [11]
+			"0x0000000000001AE8", -- [12]
+			0, -- [13]
+			[51] = 1718728404,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Snacki",
+		}, -- [46]
+		{
+			"lF LW with frost mail gear", -- [1]
+			"Claaw", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Claaw", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1220, -- [11]
+			"0x0000000000008B9E", -- [12]
+			0, -- [13]
+			[51] = 1718728405,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Claaw",
+		}, -- [47]
+		{
+			"3.6k Surv Hunter LF OS 10M, Naxx 10M & EoE 10/25 (Full Exp & 3D Clear)", -- [1]
+			"Ratretailer", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Ratretailer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1237, -- [11]
+			"0x0000000000007AB8", -- [12]
+			0, -- [13]
+			[51] = 1718728417,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Ratretailer",
+		}, -- [48]
+		{
+			"WTS VALOR BRACERS", -- [1]
+			"Nofi", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Nofi", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1246, -- [11]
+			"0x000000000000A19F", -- [12]
+			0, -- [13]
+			[51] = 1718728421,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nofi",
+		}, -- [49]
+		{
+			"LF alchmy ", -- [1]
+			"Ivar", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Ivar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1262, -- [11]
+			"0x0000000000000637", -- [12]
+			0, -- [13]
+			[51] = 1718728434,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Ivar",
+		}, -- [50]
+		{
+			"LFM NAXX25+EOE25 need dk,elem,hunter,sp 3.6+ today 1930ST discord FROST RES gear mandatory boe+key res sign up on disc --> https://discord.gg/Pku99xU8", -- [1]
+			"Foku", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Foku", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1267, -- [11]
+			"0x0000000000003BA3", -- [12]
+			0, -- [13]
+			[51] = 1718728437,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Foku",
+		}, -- [51]
+		{
+			"OS 25 1d need resto shamy", -- [1]
+			"Modisarkar", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Modisarkar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1270, -- [11]
+			"0x000000000000CF17", -- [12]
+			0, -- [13]
+			[51] = 1718728439,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Modisarkar",
+		}, -- [52]
+		{
+			" {diamond} LFM Naxx 10 Norm starting 19:30 ST Must be gemmed + enchanted. LF 2 tanks 1 Healer and a x2 RDps (Mage, Spriest, or Boomy, Hunter insta inv)/w me spec and GS for discord link {cross}", -- [1]
+			"Executus", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Executus", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1277, -- [11]
+			"0x000000000000F1AD", -- [12]
+			0, -- [13]
+			[51] = 1718728443,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Executus",
+		}, -- [53]
+		{
+			"LFW |cffffd000|Htrade:51313:421:450:8DAE:oSAKIQEQIgAqkkyABQADAAAAACCAAIAA6DiAB07vyJVtHg/HAAD|h[Enchanting]|h|r |cffffd000|Htrade:51309:450:450:8DAE:YgEOgAAAiAAAAaIQkCCAgAAAwAAEAAAAAAAAAoAAALAAAAAAAAAAAAAAGDHqCAu+IwvFAPAAAA|h[Tailoring]|h|r got mats", -- [1]
+			"Autismblast", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Autismblast", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1282, -- [11]
+			"0x0000000000008DAE", -- [12]
+			0, -- [13]
+			[51] = 1718728446,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Autismblast",
+		}, -- [54]
+		{
+			"wtb |cffa335ee|Hitem:44253:0:0:0:0:0:0:0:80|h[Naipe de la Luna Negra: Grandeza]|h|rW/Price", -- [1]
+			"Boomsteel", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Boomsteel", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1283, -- [11]
+			"0x0000000000004512", -- [12]
+			0, -- [13]
+			[51] = 1718728446,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Boomsteel",
+		}, -- [55]
+		{
+			"arenas solo queue count as th 10 games?", -- [1]
+			"Hairo", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Hairo", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1290, -- [11]
+			"0x000000000000734E", -- [12]
+			0, -- [13]
+			[51] = 1718728452,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Hairo",
+		}, -- [56]
+		{
+			"OS 25 0+ Drake. Soul + boe res. LF Healers & DPS. W GS+Spec", -- [1]
+			"Snacki", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Snacki", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1306, -- [11]
+			"0x0000000000001AE8", -- [12]
+			0, -- [13]
+			[51] = 1718728464,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Snacki",
+		}, -- [57]
+		{
+			"{star} Racine {star} FRENCH Guilde PVE HL Coming in construction is recruiting for its 25HC roster. We are looking for ambitious and motivated players. /w for more info", -- [1]
+			"Nawlolz", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Nawlolz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1307, -- [11]
+			"0x0000000000002F12", -- [12]
+			0, -- [13]
+			[51] = 1718728466,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nawlolz",
+		}, -- [58]
+		{
+			"WTS |cffffd000|Htrade:51302:450:450:1268:e+WFFPCtCvZYtsVAoMAAeIBCDAMAr4hAAAAAAAc8//AAAAAAEAAAAAAAAAwgA4/vK5//////f7//////z//HgAAwA05D|h[Leatherworking]|h|r", -- [1]
+			"Stormyij", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Stormyij", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1308, -- [11]
+			"0x0000000000001268", -- [12]
+			0, -- [13]
+			[51] = 1718728469,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Stormyij",
+		}, -- [59]
+		{
+			"BUYING ALL Frostweave Cloth COD 4.5g a STACK", -- [1]
+			"Anubis", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Anubis", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1309, -- [11]
+			"0x0000000000008EE1", -- [12]
+			0, -- [13]
+			[51] = 1718728471,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Anubis",
+		}, -- [60]
+		{
+			"WTT/WTS 1,2,4,6,5 of nobles for 3,8 of nobles", -- [1]
+			"Law", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Law", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1314, -- [11]
+			"0x00000000000050FF", -- [12]
+			0, -- [13]
+			[51] = 1718728481,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Law",
+		}, -- [61]
+		{
+			"can someone link athies?", -- [1]
+			"Leffe", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Leffe", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1318, -- [11]
+			"0x000000000000EC8C", -- [12]
+			0, -- [13]
+			[51] = 1718728482,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Leffe",
+		}, -- [62]
+		{
+			"@hairo i sure hope so", -- [1]
+			"Great", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Great", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1322, -- [11]
+			"0x000000000000DEEC", -- [12]
+			0, -- [13]
+			[51] = 1718728485,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Great",
+		}, -- [63]
+		{
+			"LFM SWP 25 - timewalking - on last boss - need 1 hpala 1 rdudu - starting at 19ST - boe/frags reserved", -- [1]
+			"Rayleigh", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Rayleigh", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1329, -- [11]
+			"0x000000000000A37A", -- [12]
+			0, -- [13]
+			[51] = 1718728488,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Rayleigh",
+		}, -- [64]
+		{
+			"LFM NAXX25+EOE25 need dk,elem,hunter,sp 3.6+ today 1930ST discord FROST RES gear mandatory boe+key res sign up on disc --> https://discord.gg/Pku99xU8", -- [1]
+			"Foku", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Foku", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1342, -- [11]
+			"0x0000000000003BA3", -- [12]
+			0, -- [13]
+			[51] = 1718728497,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Foku",
 		}, -- [65]
 		{
-			"Your local undead LFW |cffffd000|Htrade:51311:450:450:4F64:8f6UsqMsJyjpmMHAAAEwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1ezjbP8Ts7GKnhiz8XHAA+jD8Pg/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r, providing you with cutting edge gems", -- [1]
-			"Rasse", -- [2]
+			"wts |cff0070dd|Hitem:44274:0:0:0:0:0:0:0:80|h[Seven of Nobles]|h|r 7k", -- [1]
+			"Valanyros", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Rasse", -- [5]
+			"Valanyros", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			304, -- [11]
-			"0x0000000000004F64", -- [12]
+			1350, -- [11]
+			"0x000000000000E6E7", -- [12]
 			0, -- [13]
-			[51] = 1718722113,
+			[51] = 1718728503,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rasse",
+			[52] = "Valanyros",
 		}, -- [66]
 		{
-			" {diamond} LFM VOA 18 /w me spec 1more DPS {cross} /w me for inv", -- [1]
-			"Executus", -- [2]
+			"LF PVP GUILD", -- [1]
+			"Thuamkakpara", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Executus", -- [5]
+			"Thuamkakpara", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			310, -- [11]
-			"0x000000000000F1AD", -- [12]
+			1367, -- [11]
+			"0x000000000000E007", -- [12]
 			0, -- [13]
-			[51] = 1718722121,
+			[51] = 1718728515,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Executus",
+			[52] = "Thuamkakpara",
 		}, -- [67]
 		{
-			"Nemesis EU recruiting Gamerdads and Soccermoms for a social and casual experience. we will aim for raiding but with a mindset of Real life first and having a blast. / invite me to party for invite", -- [1]
-			"Dorah", -- [2]
+			"WTS |cffa335ee|Hitem:42987:0:0:0:0:0:0:0:80|h[Darkmoon Card: Greatness]|h|r", -- [1]
+			"Leitouzumaki", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Dorah", -- [5]
+			"Leitouzumaki", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			312, -- [11]
-			"0x00000000000004D6", -- [12]
+			1370, -- [11]
+			"0x0000000000001891", -- [12]
 			0, -- [13]
-			[51] = 1718722122,
+			[51] = 1718728517,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Dorah",
+			[52] = "Leitouzumaki",
 		}, -- [68]
 		{
-			"LF VOA 25 NEED ALL ! ", -- [1]
-			"Zectro", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Zectro", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			313, -- [11]
-			"0x0000000000002725", -- [12]
-			0, -- [13]
-			[51] = 1718722123,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zectro",
-		}, -- [69]
-		{
-			"NIKEZGHAR NA3N KOSS OMOK L9A7BA", -- [1]
-			"Cleavers", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Cleavers", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			315, -- [11]
-			"0x00000000000114A2", -- [12]
-			0, -- [13]
-			[51] = 1718722124,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Cleavers",
-		}, -- [70]
-		{
-			"<Bloodlust> Semi-hardcore Spanish speaking guild is recruiting experienced and exceptional players for our 25m raid team. Raid schedule: 03:00-06:00am (Server Time) Friday/Saturday. Loot Council. /w me for more info.", -- [1]
-			"Dkmanco", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Dkmanco", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			317, -- [11]
-			"0x000000000000FE0C", -- [12]
-			0, -- [13]
-			[51] = 1718722126,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Dkmanco",
-		}, -- [71]
-		{
-			"{cross} LF2M VoA 18 SPEC RUN! Whisper with GS and SPEC! Need TANK BEAR/WARR/DK! {cross}", -- [1]
-			"Neybe", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Neybe", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			320, -- [11]
-			"0x000000000000132A", -- [12]
-			0, -- [13]
-			[51] = 1718722129,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Neybe",
-		}, -- [72]
-		{
-			"VOA 25 NEED ALL /VOA 25 NEED ALL /", -- [1]
-			"Bbctoz", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Bbctoz", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			323, -- [11]
-			"0x000000000000250F", -- [12]
-			0, -- [13]
-			[51] = 1718722132,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bbctoz",
-		}, -- [73]
-		{
-			"1 tank ,2 healers , some dps for Sunwell 25 boe res", -- [1]
-			"Souldrainer", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Souldrainer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			333, -- [11]
-			"0x0000000000009886", -- [12]
-			0, -- [13]
-			[51] = 1718722147,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Souldrainer",
-		}, -- [74]
-		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|r over C.O.D for 6gold per stack", -- [1]
-			"Viliam", -- [2]
-			"", -- [3]
-			"5. worldchat", -- [4]
-			"Viliam", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"0x0000000000006852", -- [12]
-			0, -- [13]
-			[51] = 1718722156,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Viliam",
-		}, -- [75]
-		{
-			" {diamond} LFM VOA 18 /w me spec 1more DPS {cross} /w me for inv", -- [1]
+			" {diamond} LFM Naxx 10 Norm starting 19:30 ST Must be gemmed + enchanted. LF 2 tanks 1 Healer and a x2 RDps (Mage, Spriest, or Boomy, Hunter insta inv)/w me spec and GS for discord link {cross}", -- [1]
 			"Executus", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
@@ -1364,444 +1238,570 @@ ElvCharacterDB = {
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			336, -- [11]
+			1378, -- [11]
 			"0x000000000000F1AD", -- [12]
 			0, -- [13]
-			[51] = 1718722161,
+			[51] = 1718728522,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Executus",
+		}, -- [69]
+		{
+			"wts |cffa335ee|Hitem:1728:0:0:0:0:0:0:0:80|h[Teebu's Blazing Longsword]|h|r", -- [1]
+			"Grandik", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Grandik", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1382, -- [11]
+			"0x0000000000002B03", -- [12]
+			0, -- [13]
+			[51] = 1718728524,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Grandik",
+		}, -- [70]
+		{
+			"3.6 Hunter LF NAXX 10N", -- [1]
+			"Kaned", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Kaned", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1385, -- [11]
+			"0x000000000000D067", -- [12]
+			0, -- [13]
+			[51] = 1718728524,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Kaned",
+		}, -- [71]
+		{
+			"WTS |cffa335ee|Hitem:41168:0:0:0:0:0:0:0:80|h[Armor Plated Combat Shotgun]|h|r 3k gold", -- [1]
+			"Imagineburge", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Imagineburge", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1389, -- [11]
+			"0x000000000000AA0B", -- [12]
+			0, -- [13]
+			[51] = 1718728527,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Imagineburge",
+		}, -- [72]
+		{
+			"LFM SWP 25 - timewalking - on last boss - need 1 hpala 1 rdudu - starting at 19ST - boe/frags reserved", -- [1]
+			"Rayleigh", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Rayleigh", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1402, -- [11]
+			"0x000000000000A37A", -- [12]
+			0, -- [13]
+			[51] = 1718728537,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Rayleigh",
+		}, -- [73]
+		{
+			"LFM NAXX 25 1 healer(preffer Resto Druid or Shaman), dps (Last Run before Reset), BOE+KYE Ress!", -- [1]
+			"Misheel", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Misheel", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1405, -- [11]
+			"0x000000000000C73E", -- [12]
+			0, -- [13]
+			[51] = 1718728538,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Misheel",
+		}, -- [74]
+		{
+			"wtb |cffa335ee|Hitem:44253:0:0:0:0:0:0:0:80|h[Naipe de la Luna Negra: Grandeza]|h|rW/Price", -- [1]
+			"Boomsteel", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Boomsteel", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1406, -- [11]
+			"0x0000000000004512", -- [12]
+			0, -- [13]
+			[51] = 1718728539,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Boomsteel",
+		}, -- [75]
+		{
+			"twink 79 log bg", -- [1]
+			"Mulak", -- [2]
+			"", -- [3]
+			"5. worldchat", -- [4]
+			"Mulak", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"WorldChat", -- [9]
+			0, -- [10]
+			1415, -- [11]
+			"0x0000000000010009", -- [12]
+			0, -- [13]
+			[51] = 1718728546,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Mulak",
 		}, -- [76]
 		{
-			"WTS |cff0070dd|Hitem:44128:0:0:0:0:0:0:0:80|h[Arctic Fur]|h|r86", -- [1]
-			"Moortis", -- [2]
+			"WTS |cffa335ee|Hitem:40474:0:0:0:0:0:0:0:80|h[Surge Needle Ring]|h|r |cffa335ee|Hitem:40474:0:0:0:0:0:0:0:80|h[Surge Needle Ring]|h|r", -- [1]
+			"Missusclean", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Moortis", -- [5]
+			"Missusclean", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			338, -- [11]
-			"0x00000000000054D6", -- [12]
+			1418, -- [11]
+			"0x0000000000003F60", -- [12]
 			0, -- [13]
-			[51] = 1718722167,
+			[51] = 1718728549,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Moortis",
+			[52] = "Missusclean",
 		}, -- [77]
 		{
-			"Your local undead LFW |cffffd000|Htrade:51311:450:450:4F64:8f6UsqMsJyjpmMHAAAEwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1ezjbP8Ts7GKnhiz8XHAA+jD8Pg/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r, providing you with cutting edge gems", -- [1]
-			"Rasse", -- [2]
+			"LFM NAXX25+EOE25 need dk,elem,hunter,sp 3.6+ today 1930ST discord FROST RES gear mandatory boe+key res sign up on disc --> https://discord.gg/Pku99xU8", -- [1]
+			"Foku", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Rasse", -- [5]
+			"Foku", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			339, -- [11]
-			"0x0000000000004F64", -- [12]
+			1425, -- [11]
+			"0x0000000000003BA3", -- [12]
 			0, -- [13]
-			[51] = 1718722171,
+			[51] = 1718728557,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rasse",
+			[52] = "Foku",
 		}, -- [78]
 		{
-			"WTS |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r", -- [1]
-			"Vesta", -- [2]
+			"wts |cff0070dd|Hitem:44274:0:0:0:0:0:0:0:80|h[Seven of Nobles]|h|r 7k", -- [1]
+			"Valanyros", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Vesta", -- [5]
+			"Valanyros", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			340, -- [11]
-			"0x00000000000061FD", -- [12]
+			1426, -- [11]
+			"0x000000000000E6E7", -- [12]
 			0, -- [13]
-			[51] = 1718722172,
+			[51] = 1718728561,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Vesta",
+			[52] = "Valanyros",
 		}, -- [79]
 		{
-			"Nemesis EU recruiting Gamerdads and Soccermoms for a social and casual experience. we will aim for raiding but with a mindset of Real life first and having a blast. / invite me to party for invite", -- [1]
-			"Dorah", -- [2]
+			"WTB |cff1eff00|Hitem:35622:0:0:0:0:0:0:0:80|h[Eternal Water]|h|r DM price", -- [1]
+			"Imagineburge", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Dorah", -- [5]
+			"Imagineburge", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			341, -- [11]
-			"0x00000000000004D6", -- [12]
+			1429, -- [11]
+			"0x000000000000AA0B", -- [12]
 			0, -- [13]
-			[51] = 1718722175,
+			[51] = 1718728570,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Dorah",
+			[52] = "Imagineburge",
 		}, -- [80]
 		{
-			"wtb |cffffd000|Henchant:55403|h[Jewelcrafting: Trenchant Earthsiege Diamond]|h|r", -- [1]
-			"Zavetnica", -- [2]
+			"[RU] Semi-hardcore PVE guild <Skill Issue> LF raiders, prio rdru, rsham, hpal, mage, wlock. 2 RT weekly 20.30-24.00 msk. Loot council. PM for more info.", -- [1]
+			"Trovi", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Zavetnica", -- [5]
+			"Trovi", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			342, -- [11]
-			"0x0000000000002E9A", -- [12]
+			1439, -- [11]
+			"0x0000000000002757", -- [12]
 			0, -- [13]
-			[51] = 1718722176,
+			[51] = 1718728578,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zavetnica",
+			[52] = "Trovi",
 		}, -- [81]
 		{
-			"Voa 18. LFM. Heal (Druid) Dps (War,Enh,Balla,Cat,Priest,Rog) /w {star} 3,3k+ gs 12/18", -- [1]
-			"Truelove", -- [2]
+			"WTB |cffa335ee|Hitem:44066:0:0:0:0:0:0:0:3|h[Kharmaa's Grace]|h|r 40g send cod", -- [1]
+			"Bancuta", -- [2]
 			"", -- [3]
-			"5. worldchat", -- [4]
-			"Truelove", -- [5]
+			"2. trade - city", -- [4]
+			"Bancuta", -- [5]
 			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"WorldChat", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"trade - city", -- [9]
 			0, -- [10]
-			343, -- [11]
-			"0x000000000000BBCB", -- [12]
+			1444, -- [11]
+			"0x0000000000006B64", -- [12]
 			0, -- [13]
-			[51] = 1718722207,
+			[51] = 1718728580,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Truelove",
+			[52] = "Bancuta",
 		}, -- [82]
 		{
-			"WTB |cffffd000|Henchant:56501|h[Jewelcrafting: Titanium Spellshock Necklace]|h|r", -- [1]
-			"Teni", -- [2]
+			"LFM SWP 25 - timewalking - on last boss - need 1 hpala 1 rdudu - starting at 19ST - boe/frags reserved", -- [1]
+			"Rayleigh", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Teni", -- [5]
+			"Rayleigh", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			344, -- [11]
-			"0x00000000000077E2", -- [12]
+			1445, -- [11]
+			"0x000000000000A37A", -- [12]
 			0, -- [13]
-			[51] = 1718722216,
+			[51] = 1718728582,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Teni",
+			[52] = "Rayleigh",
 		}, -- [83]
 		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|r over C.O.D for 6gold per stack", -- [1]
-			"Viliam", -- [2]
+			"wtb |cffa335ee|Hitem:44253:0:0:0:0:0:0:0:80|h[Naipe de la Luna Negra: Grandeza]|h|rW/Price", -- [1]
+			"Boomsteel", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Viliam", -- [5]
-			"AFK", -- [6]
+			"Boomsteel", -- [5]
+			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			345, -- [11]
-			"0x0000000000006852", -- [12]
+			1448, -- [11]
+			"0x0000000000004512", -- [12]
 			0, -- [13]
-			[51] = 1718722216,
+			[51] = 1718728582,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Viliam",
+			[52] = "Boomsteel",
 		}, -- [84]
 		{
-			"2 healers , some dps for Sunwell 25 boe res", -- [1]
-			"Souldrainer", -- [2]
+			"{star} Racine {star} FRENCH Guilde PVE HL Coming in construction is recruiting for its 25HC roster. We are looking for ambitious and motivated players. /w for more info", -- [1]
+			"Nawlolz", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Souldrainer", -- [5]
+			"Nawlolz", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			346, -- [11]
-			"0x0000000000009886", -- [12]
+			1454, -- [11]
+			"0x0000000000002F12", -- [12]
 			0, -- [13]
-			[51] = 1718722219,
+			[51] = 1718728586,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Souldrainer",
+			[52] = "Nawlolz",
 		}, -- [85]
 		{
-			"LF VOA 25 NEED ALL ! ", -- [1]
-			"Zectro", -- [2]
+			"WTS |cff1eff00|Hitem:43297:0:0:0:0:0:0:0:80|h[Damaged Necklace]|h|r  6 @ 85g ea PST", -- [1]
+			"Antik", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Zectro", -- [5]
+			"Antik", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			347, -- [11]
-			"0x0000000000002725", -- [12]
+			1457, -- [11]
+			"0x0000000000001735", -- [12]
 			0, -- [13]
-			[51] = 1718722220,
+			[51] = 1718728588,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zectro",
+			[52] = "Antik",
 		}, -- [86]
 		{
-			"Your local undead LFW |cffffd000|Htrade:51311:450:450:4F64:8f6UsqMsJyjpmMHAAAEwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1ezjbP8Ts7GKnhiz8XHAA+jD8Pg/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r, providing you with cutting edge gems", -- [1]
-			"Rasse", -- [2]
+			"3.6k Surv Hunter LF OS 10M, Naxx 10M & EoE 10/25 (Full Exp & 3D Clear)", -- [1]
+			"Ratretailer", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Rasse", -- [5]
+			"Ratretailer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			348, -- [11]
-			"0x0000000000004F64", -- [12]
+			1464, -- [11]
+			"0x0000000000007AB8", -- [12]
 			0, -- [13]
-			[51] = 1718722229,
+			[51] = 1718728591,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rasse",
+			[52] = "Ratretailer",
 		}, -- [87]
 		{
-			"VOA 25 NEED 2 HEAL (PREF SHAMMY DUDU) AND 3 DPS !!!", -- [1]
-			"Bbctoz", -- [2]
+			"<Azure Death Sect> Semi-hc English speaking guild is recruiting players for its core, LF All clsses, must be experienced in wotlk and raid ready. /w Daigo!", -- [1]
+			"Daigo", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Bbctoz", -- [5]
+			"Daigo", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			349, -- [11]
-			"0x000000000000250F", -- [12]
+			1468, -- [11]
+			"0x0000000000000073", -- [12]
 			0, -- [13]
-			[51] = 1718722236,
+			[51] = 1718728592,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bbctoz",
+			[52] = "Daigo",
 		}, -- [88]
 		{
-			"if i outleveld my questing area how do i start quests in higher level area ", -- [1]
-			"Zeuths", -- [2]
+			"anyone know why |cffffffff|Hitem:13889:0:0:0:0:0:0:0:80|h[Raw Whitescale Salmon]|h|r is not fishing", -- [1]
+			"Jessicasix", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Zeuths", -- [5]
+			"Jessicasix", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			350, -- [11]
-			"0x000000000001148B", -- [12]
+			1472, -- [11]
+			"0x000000000000DE44", -- [12]
 			0, -- [13]
-			[51] = 1718722236,
+			[51] = 1718728595,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zeuths",
+			[52] = "Jessicasix",
 		}, -- [89]
 		{
-			"Voa 18. LFM. 1x Tank(dudu,dk) Heal (Druid) Dps (War,Enh,Balla,Cat,Priest,Rog) /w {star} 3,3k+ gs 12/18", -- [1]
-			"Truelove", -- [2]
+			"WTB Northrend greens 74+ lvl 10g/piece and Frostwave cloths 4,5g per stack send by cod", -- [1]
+			"Daragoz", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Truelove", -- [5]
+			"Daragoz", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			351, -- [11]
-			"0x000000000000BBCB", -- [12]
+			1480, -- [11]
+			"0x0000000000007656", -- [12]
 			0, -- [13]
-			[51] = 1718722244,
+			[51] = 1718728600,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Truelove",
+			[52] = "Daragoz",
 		}, -- [90]
 		{
-			"Will smelt Titansteel for you, your mats for 50g tip", -- [1]
-			"Alexis", -- [2]
+			"WTS |cffa335ee|Hitem:41168:0:0:0:0:0:0:0:80|h[Armor Plated Combat Shotgun]|h|r", -- [1]
+			"Lucyfeer", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Alexis", -- [5]
+			"Lucyfeer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			352, -- [11]
-			"0x0000000000008780", -- [12]
+			1481, -- [11]
+			"0x0000000000002E78", -- [12]
 			0, -- [13]
-			[51] = 1718722250,
+			[51] = 1718728601,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Alexis",
+			[52] = "Lucyfeer",
 		}, -- [91]
 		{
-			"2 healers , some dps for Sunwell 25 boe res", -- [1]
-			"Souldrainer", -- [2]
+			"WTS |cffa335ee|Hitem:40474:0:0:0:0:0:0:0:80|h[Surge Needle Ring]|h|r |cffa335ee|Hitem:40474:0:0:0:0:0:0:0:80|h[Surge Needle Ring]|h|r", -- [1]
+			"Missusclean", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Souldrainer", -- [5]
+			"Missusclean", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			354, -- [11]
-			"0x0000000000009886", -- [12]
+			1506, -- [11]
+			"0x0000000000003F60", -- [12]
 			0, -- [13]
-			[51] = 1718722267,
+			[51] = 1718728617,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Souldrainer",
+			[52] = "Missusclean",
 		}, -- [92]
 		{
-			"<Bloodlust> Semi-hardcore Spanish speaking guild is recruiting experienced and exceptional players for our 25m raid team. Raid schedule: 03:00-06:00am (Server Time) Friday/Saturday. Loot Council. /w me for more info.", -- [1]
-			"Dkmanco", -- [2]
+			"WTS |cffa335ee|Hitem:1728:0:0:0:0:0:0:0:80|h[Teebu's Blazing Longsword]|h|r", -- [1]
+			"Bitapala", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Dkmanco", -- [5]
+			"Bitapala", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			355, -- [11]
-			"0x000000000000FE0C", -- [12]
+			1509, -- [11]
+			"0x000000000000749B", -- [12]
 			0, -- [13]
-			[51] = 1718722273,
+			[51] = 1718728617,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Dkmanco",
+			[52] = "Bitapala",
 		}, -- [93]
 		{
-			"Buying any amount of |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|r over C.O.D for 6gold per stack", -- [1]
-			"Viliam", -- [2]
+			"LFM NAXX25+EOE25 need dk,elem,hunter,sp 3.6+ today 1930ST discord FROST RES gear mandatory boe+key res sign up on disc --> https://discord.gg/Pku99xU8", -- [1]
+			"Foku", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Viliam", -- [5]
-			"AFK", -- [6]
+			"Foku", -- [5]
+			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			356, -- [11]
-			"0x0000000000006852", -- [12]
+			1510, -- [11]
+			"0x0000000000003BA3", -- [12]
 			0, -- [13]
-			[51] = 1718722276,
+			[51] = 1718728617,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Viliam",
+			[52] = "Foku",
 		}, -- [94]
 		{
-			"{star} Primordial Saronite {Star} Looking for New/Experienced players to join our 25man Team we require Hunter/Shaman/Spriet Mostly Were full on Palas if ur still lvling feel free to join a Kind and Friendly Guild Raid Times 20:00 - 23:00 ST", -- [1]
-			"Bom", -- [2]
+			"|Hplayer:Greyling|h[Greyling]|h has earned the achievement |cffffff00|Hachievement:731:0000000000008D7C:1:6:18:24:4294967295:4294967295:4294967295:4294967295|h[Professional Expert]|h|r!", -- [1]
+			"Greyling", -- [2]
 			"", -- [3]
-			"1. general - orgrimmar", -- [4]
-			"Bom", -- [5]
+			"", -- [4]
+			"Greyling", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"general - orgrimmar", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			357, -- [11]
-			"0x000000000000527E", -- [12]
+			1511, -- [11]
+			"0x0000000000008D7C", -- [12]
 			0, -- [13]
-			[51] = 1718722276,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bom",
+			[51] = 1718728618,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "Greyling",
 		}, -- [95]
 		{
-			"VOA 25 NEED 2 HEAL (PREF DUDU SHAMMY)", -- [1]
-			"Bbctoz", -- [2]
+			"What is a Titansteel CD going for these days?", -- [1]
+			"Xai", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Bbctoz", -- [5]
+			"Xai", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			358, -- [11]
-			"0x000000000000250F", -- [12]
+			1520, -- [11]
+			"0x000000000000F58F", -- [12]
 			0, -- [13]
-			[51] = 1718722280,
+			[51] = 1718728623,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bbctoz",
+			[52] = "Xai",
 		}, -- [96]
 		{
-			"Your local undead LFW |cffffd000|Htrade:51311:450:450:4F64:8f6UsqMsJyjpmMHAAAEwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1ezjbP8Ts7GKnhiz8XHAA+jD8Pg/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r, providing you with cutting edge gems", -- [1]
-			"Rasse", -- [2]
+			"OS 25 1d need resto shamy", -- [1]
+			"Modisarkar", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Rasse", -- [5]
+			"Modisarkar", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			359, -- [11]
-			"0x0000000000004F64", -- [12]
+			1523, -- [11]
+			"0x000000000000CF17", -- [12]
 			0, -- [13]
-			[51] = 1718722287,
+			[51] = 1718728625,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Rasse",
+			[52] = "Modisarkar",
 		}, -- [97]
 		{
-			"VOA 25 NEED 2 HEAL (PREF DUDU SHAMMY)VOA 25 NEED 2 HEAL (PREF DUDU SHAMMY)", -- [1]
-			"Bbctoz", -- [2]
+			"LFM SWP 25 - timewalking - on last boss - need 1 hpala 1 rdudu - starting at 19ST - boe/frags reserved", -- [1]
+			"Rayleigh", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Bbctoz", -- [5]
+			"Rayleigh", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			360, -- [11]
-			"0x000000000000250F", -- [12]
+			1526, -- [11]
+			"0x000000000000A37A", -- [12]
 			0, -- [13]
-			[51] = 1718722306,
+			[51] = 1718728626,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bbctoz",
+			[52] = "Rayleigh",
 		}, -- [98]
 		{
-			"Voa 18. LFM. 1x Tank(dudu,dk) Dps (War,Enh,Feral,Priest) /w {star} 3,3k+ gs 12/18", -- [1]
-			"Truelove", -- [2]
+			"roughly 100g or so ", -- [1]
+			"Evrac", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Truelove", -- [5]
+			"Evrac", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			361, -- [11]
-			"0x000000000000BBCB", -- [12]
+			1531, -- [11]
+			"0x00000000000015A1", -- [12]
 			0, -- [13]
-			[51] = 1718722307,
+			[51] = 1718728636,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Truelove",
+			[52] = "Evrac",
 		}, -- [99]
 		{
-			"LF VOA 25 NEED ALL ! NEED SHAMAN & HEALER !", -- [1]
-			"Zectro", -- [2]
+			"LFM NAXX 25 x1 healer(pref Resto Druid or shammy) x1 tank , 8dps(Last Run before Reset), BOE+KYE Ress!", -- [1]
+			"Misheel", -- [2]
 			"", -- [3]
 			"5. worldchat", -- [4]
-			"Zectro", -- [5]
+			"Misheel", -- [5]
 			"", -- [6]
 			0, -- [7]
 			5, -- [8]
 			"WorldChat", -- [9]
 			0, -- [10]
-			362, -- [11]
-			"0x0000000000002725", -- [12]
+			1532, -- [11]
+			"0x000000000000C73E", -- [12]
 			0, -- [13]
-			[51] = 1718722316,
+			[51] = 1718728637,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zectro",
+			[52] = "Misheel",
 		}, -- [100]
 	},
 }

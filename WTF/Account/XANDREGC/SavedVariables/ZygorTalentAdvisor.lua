@@ -1,25 +1,11 @@
 
 ZygorTalentAdvisorSettings = {
 	["char"] = {
-		["Queemi - Frostmourne"] = {
+		["Queemificina - Frostmourne"] = {
 			["debuglog"] = {
-				"18:46:44> Viewer started. ---------------------------", -- [1]
-				"18:46:44> PLAYER_ALIVE", -- [2]
-				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [3]
-				"18:46:44> < ", -- [4]
-				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [5]
-				"18:46:44> < ", -- [6]
-				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [7]
-				"18:46:44> < ", -- [8]
-				"18:46:44> > PET_TALENT_UPDATE (points: 0, talents not ready)", -- [9]
-				"18:46:44> < No pet build", -- [10]
-				"18:46:54> Viewer started. ---------------------------", -- [11]
-				"18:46:55> > UNIT_PET player (type nil, talents not ready, points 0)", -- [12]
-				"18:46:55> < ", -- [13]
-				"18:46:55> > UNIT_PET player (type nil, talents not ready, points 0)", -- [14]
-				"18:46:55> < ", -- [15]
-				"18:50:24> > UNIT_PET player (type nil, talents not ready, points 0)", -- [16]
-				"18:50:24> < ", -- [17]
+				"11:39:32> Viewer started. ---------------------------", -- [1]
+				"11:39:33> PLAYER_ALIVE", -- [2]
+				"11:39:42> Viewer started. ---------------------------", -- [3]
 			},
 		},
 		["Queemu - Frostmourne"] = {
@@ -106,11 +92,25 @@ ZygorTalentAdvisorSettings = {
 				"09:53:35> < No pet build", -- [80]
 			},
 		},
-		["Queemificina - Frostmourne"] = {
+		["Queemi - Frostmourne"] = {
 			["debuglog"] = {
-				"11:39:32> Viewer started. ---------------------------", -- [1]
-				"11:39:33> PLAYER_ALIVE", -- [2]
-				"11:39:42> Viewer started. ---------------------------", -- [3]
+				"18:46:44> Viewer started. ---------------------------", -- [1]
+				"18:46:44> PLAYER_ALIVE", -- [2]
+				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [3]
+				"18:46:44> < ", -- [4]
+				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [5]
+				"18:46:44> < ", -- [6]
+				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [7]
+				"18:46:44> < ", -- [8]
+				"18:46:44> > PET_TALENT_UPDATE (points: 0, talents not ready)", -- [9]
+				"18:46:44> < No pet build", -- [10]
+				"18:46:54> Viewer started. ---------------------------", -- [11]
+				"18:46:55> > UNIT_PET player (type nil, talents not ready, points 0)", -- [12]
+				"18:46:55> < ", -- [13]
+				"18:46:55> > UNIT_PET player (type nil, talents not ready, points 0)", -- [14]
+				"18:46:55> < ", -- [15]
+				"18:50:24> > UNIT_PET player (type nil, talents not ready, points 0)", -- [16]
+				"18:50:24> < ", -- [17]
 			},
 		},
 		["Kimitress - Frostmourne"] = {
@@ -132,21 +132,33 @@ ZygorTalentAdvisorSettings = {
 				"11:40:39> < ", -- [15]
 				"11:52:00> > UNIT_PET player (type nil, talents not ready, points 0)", -- [16]
 				"11:52:00> < ", -- [17]
+				"13:18:30> Viewer started. ---------------------------", -- [18]
+				"13:18:30> PLAYER_ALIVE", -- [19]
+				"13:18:30> > UNIT_PET player (type nil, talents not ready, points 0)", -- [20]
+				"13:18:30> < ", -- [21]
+				"13:18:30> > UNIT_PET player (type Tenacity, talents not ready, points 0)", -- [22]
+				"13:18:30> < ", -- [23]
+				"13:18:30> > PET_TALENT_UPDATE (points: 0, talents not ready)", -- [24]
+				"13:18:30> < No pet build", -- [25]
+				"13:18:30> > UNIT_PET player (type Tenacity, talents not ready, points 0)", -- [26]
+				"13:18:30> < ", -- [27]
+				"13:37:18> > UNIT_PET player (type nil, talents not ready, points 0)", -- [28]
+				"13:37:18> < ", -- [29]
 			},
 		},
 	},
 	["profileKeys"] = {
-		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["profiles"] = {
-		["Queemi - Frostmourne"] = {
+		["Queemificina - Frostmourne"] = {
 		},
 		["Queemu - Frostmourne"] = {
 		},
-		["Queemificina - Frostmourne"] = {
+		["Queemi - Frostmourne"] = {
 		},
 		["Kimitress - Frostmourne"] = {
 		},

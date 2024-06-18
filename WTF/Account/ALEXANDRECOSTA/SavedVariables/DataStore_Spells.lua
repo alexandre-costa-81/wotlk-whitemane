@@ -6,7 +6,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmourne.Kimi"] = {
-				["lastUpdate"] = 1718726802,
+				["lastUpdate"] = 1718727200,
 				["Spells"] = {
 					["Protection"] = {
 						"20217|", -- [1]
@@ -129,7 +129,7 @@ DataStore_SpellsDB = {
 						"2580|", -- [8]
 						"45542|Grand Master", -- [9]
 						"7620|Apprentice", -- [10]
-						"25230|Journeyman", -- [11]
+						"28894|Expert", -- [11]
 						"3127|Passive", -- [12]
 						"31252|", -- [13]
 						"20579|Racial Passive", -- [14]

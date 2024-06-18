@@ -1,12 +1,16 @@
 
 AltoholicDB = {
 	["profileKeys"] = {
-		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["global"] = {
+		["options"] = {
+			["Lola"] = "K18GZFD37VOK18ZMYKXZ",
+			["ShowMinimap"] = 0,
+		},
 		["Characters"] = {
 			["Default.Frostmourne.Queemu"] = {
 				["Friends"] = {

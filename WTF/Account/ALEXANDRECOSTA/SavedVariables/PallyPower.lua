@@ -25,18 +25,18 @@ PallyPowerDB = {
 			["display"] = {
 				["frameLocked"] = true,
 			},
-			["disable"] = false,
 			["rf"] = false,
+			["disable"] = false,
 		},
 	},
 }
 PallyPower_Assignments = {
-	["Dierren"] = {
+	["Kimi"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
 		3, -- [4]
-		3, -- [5]
+		2, -- [5]
 		3, -- [6]
 		3, -- [7]
 		3, -- [8]
@@ -44,12 +44,12 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Kimi"] = {
+	["Dierren"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
 		3, -- [4]
-		2, -- [5]
+		3, -- [5]
 		3, -- [6]
 		3, -- [7]
 		3, -- [8]
@@ -78,8 +78,8 @@ PallyPower_NormalAssignments = {
 	},
 }
 PallyPower_AuraAssignments = {
-	["Dierren"] = 1,
 	["Kimi"] = 1,
+	["Dierren"] = 1,
 	["Norafis"] = 1,
 }
 PallyPower_SavedPresets = {

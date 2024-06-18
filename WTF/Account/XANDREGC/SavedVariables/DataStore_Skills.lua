@@ -1,9 +1,9 @@
 
 DataStore_SkillsDB = {
 	["profileKeys"] = {
-		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["global"] = {
@@ -34,10 +34,10 @@ DataStore_SkillsDB = {
 						["Two-Handed Maces"] = "385|400",
 						["Defense"] = "400|400",
 						["Unarmed"] = "385|400",
-						["Staves"] = "385|400",
+						["Daggers"] = "385|400",
 						["Maces"] = "385|400",
 						["Polearms"] = "385|400",
-						["Daggers"] = "385|400",
+						["Staves"] = "385|400",
 					},
 				},
 			},
@@ -57,8 +57,8 @@ DataStore_SkillsDB = {
 						["Enchanting"] = "167|225",
 					},
 					["Languages"] = {
-						["Language: Orcish"] = "300|300",
 						["Language: Gutterspeak"] = "300|300",
+						["Language: Orcish"] = "300|300",
 					},
 					["Armor Proficiencies"] = {
 						["Cloth"] = "1|1",
@@ -66,15 +66,15 @@ DataStore_SkillsDB = {
 					["Weapon Skills"] = {
 						["Staves"] = "315|325",
 						["Swords"] = "315|325",
-						["Daggers"] = "315|325",
-						["Wands"] = "315|325",
-						["Unarmed"] = "315|325",
 						["Defense"] = "319|325",
+						["Daggers"] = "315|325",
+						["Unarmed"] = "315|325",
+						["Wands"] = "315|325",
 					},
 				},
 			},
 			["Default.Frostmourne.Kimitress"] = {
-				["lastUpdate"] = 1718721630,
+				["lastUpdate"] = 1718728615,
 				["Skills"] = {
 					["Armor Proficiencies"] = {
 						["Cloth"] = "1|1",
@@ -86,7 +86,7 @@ DataStore_SkillsDB = {
 					},
 					["Professions"] = {
 						["Skinning"] = "1|75",
-						["Mining"] = "93|150",
+						["Mining"] = "207|150",
 					},
 					["Languages"] = {
 						["Language: Orcish"] = "300|300",
@@ -96,13 +96,13 @@ DataStore_SkillsDB = {
 						["Daggers"] = "50|50",
 						["Two-Handed Swords"] = "50|50",
 						["Thrown"] = "50|50",
-						["Swords"] = "50|50",
+						["Unarmed"] = "50|50",
 						["Staves"] = "50|50",
 						["Guns"] = "50|50",
-						["Unarmed"] = "50|50",
-						["Crossbows"] = "50|50",
-						["Axes"] = "50|50",
+						["Swords"] = "50|50",
 						["Bows"] = "50|50",
+						["Axes"] = "50|50",
+						["Crossbows"] = "50|50",
 						["Two-Handed Axes"] = "50|50",
 					},
 				},
@@ -124,14 +124,14 @@ DataStore_SkillsDB = {
 						["Blacksmithing"] = "137|225",
 					},
 					["Languages"] = {
-						["Language: Orcish"] = "300|300",
 						["Language: Thalassian"] = "300|300",
+						["Language: Orcish"] = "300|300",
 					},
 					["Armor Proficiencies"] = {
 						["Leather"] = "1|1",
-						["Cloth"] = "1|1",
-						["Plate Mail"] = "1|1",
 						["Mail"] = "1|1",
+						["Plate Mail"] = "1|1",
+						["Cloth"] = "1|1",
 					},
 					["Weapon Skills"] = {
 						["Two-Handed Maces"] = "310|315",

@@ -1,9 +1,9 @@
 
 DataStore_PetsDB = {
 	["profileKeys"] = {
-		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["global"] = {
@@ -21,7 +21,7 @@ DataStore_PetsDB = {
 				},
 			},
 			["Default.Frostmourne.Kimitress"] = {
-				["lastUpdate"] = 1718721639,
+				["lastUpdate"] = 1718727510,
 			},
 			["Default.Frostmourne.Queemificina"] = {
 				["lastUpdate"] = 1718721613,

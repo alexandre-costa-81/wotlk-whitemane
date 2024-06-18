@@ -3,7 +3,17 @@ GS_Data = {
 	["Frostmourne"] = {
 		["Players"] = {
 			["Revenger"] = {
+				["Sex"] = 1,
+				["Guild"] = "Omnipotent Prime",
+				["Level"] = 80,
+				["Date"] = 202406181746,
 				["Class"] = "PR",
+				["Average"] = 202,
+				["Location"] = "DGB",
+				["GearScore"] = 3697,
+				["Race"] = "TR",
+				["Name"] = "Revenger",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37715:0", -- [1]
 					"40680:0", -- [2]
@@ -24,23 +34,22 @@ GS_Data = {
 					"40698:0", -- [17]
 					"37177:0", -- [18]
 				},
-				["Guild"] = "Omnipotent Prime",
 				["Scanned"] = "Revenger",
-				["Date"] = 202406181746,
-				["PVP"] = 1,
-				["Average"] = 202,
 				["Spec"] = 1,
-				["GearScore"] = 3697,
-				["Race"] = "TR",
-				["Name"] = "Revenger",
-				["Faction"] = "H",
-				["Location"] = "DGB",
-				["Level"] = 80,
-				["Sex"] = 1,
+				["PVP"] = 1,
 			},
 			["Whitebull"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Sodimac Constructor",
+				["Class"] = "DR",
+				["Date"] = 202406171809,
+				["PVP"] = 1,
+				["Average"] = 200,
+				["Scanned"] = "Malaga",
+				["GearScore"] = 1691,
+				["Race"] = "TA",
+				["Name"] = "Whitebull",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37293:3818", -- [1]
 					"40679:0", -- [2]
@@ -61,22 +70,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"0:0", -- [18]
 				},
-				["Date"] = 202406171809,
-				["PVP"] = 1,
-				["Average"] = 200,
 				["Level"] = 80,
-				["GearScore"] = 1691,
-				["Race"] = "TA",
-				["Name"] = "Whitebull",
-				["Sex"] = 1,
 				["Location"] = "XXX",
-				["Scanned"] = "Malaga",
-				["Class"] = "DR",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Taurenizer"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Omnipotent",
+				["Class"] = "SH",
+				["Date"] = 202406171752,
+				["PVP"] = 1,
+				["Average"] = 186,
+				["Scanned"] = "Taurenizer",
+				["GearScore"] = 3110,
+				["Race"] = "TA",
+				["Name"] = "Taurenizer",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37857:0", -- [1]
 					"37758:0", -- [2]
@@ -97,33 +106,13 @@ GS_Data = {
 					"0:0", -- [17]
 					"40708:0", -- [18]
 				},
-				["Date"] = 202406171752,
-				["PVP"] = 1,
-				["Average"] = 186,
 				["Level"] = 80,
-				["GearScore"] = 3110,
-				["Race"] = "TA",
-				["Name"] = "Taurenizer",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Taurenizer",
-				["Class"] = "SH",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Gonexxt"] = {
-				["PVP"] = 1,
+				["Faction"] = "H",
 				["Guild"] = "Omnipotent Prime",
-				["Spec"] = 1,
-				["Date"] = 202406181657,
-				["Class"] = "DK",
-				["Average"] = 181,
-				["Scanned"] = "Gonexxt",
-				["GearScore"] = 2881,
-				["Race"] = "OR",
-				["Name"] = "Gonexxt",
-				["Sex"] = 1,
-				["Location"] = "CSF",
-				["Level"] = 80,
 				["Equip"] = {
 					"44412:0", -- [1]
 					"37397:0", -- [2]
@@ -144,11 +133,31 @@ GS_Data = {
 					"44192:3368", -- [17]
 					"39208:0", -- [18]
 				},
-				["Faction"] = "H",
+				["Date"] = 202406181657,
+				["PVP"] = 1,
+				["Average"] = 181,
+				["Level"] = 80,
+				["GearScore"] = 2881,
+				["Race"] = "OR",
+				["Name"] = "Gonexxt",
+				["Sex"] = 1,
+				["Location"] = "CSF",
+				["Scanned"] = "Gonexxt",
+				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 			["Domilia"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Renew",
+				["Class"] = "DK",
+				["Date"] = 202406171745,
+				["PVP"] = 1,
+				["Average"] = 200,
+				["Scanned"] = "Dogstyle",
+				["GearScore"] = 3635,
+				["Race"] = "BE",
+				["Name"] = "Domilia",
+				["Faction"] = "H",
 				["Equip"] = {
 					"40817:3795", -- [1]
 					"42028:0", -- [2]
@@ -169,22 +178,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"40867:0", -- [18]
 				},
-				["Date"] = 202406171745,
-				["PVP"] = 1,
-				["Average"] = 200,
 				["Level"] = 80,
-				["GearScore"] = 3635,
-				["Race"] = "BE",
-				["Name"] = "Domilia",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Dogstyle",
-				["Class"] = "DK",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Dogstyle"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Omnipotent",
+				["Class"] = "DK",
+				["Date"] = 202406171735,
+				["PVP"] = 1,
+				["Average"] = 201,
+				["Scanned"] = "Dogstyle",
+				["GearScore"] = 3667,
+				["Race"] = "OR",
+				["Name"] = "Dogstyle",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37849:0", -- [1]
 					"42027:0", -- [2]
@@ -205,31 +214,24 @@ GS_Data = {
 					"40703:3368", -- [17]
 					"40715:0", -- [18]
 				},
-				["Date"] = 202406171735,
-				["PVP"] = 1,
-				["Average"] = 201,
 				["Level"] = 80,
-				["GearScore"] = 3667,
-				["Race"] = "OR",
-				["Name"] = "Dogstyle",
-				["Sex"] = 1,
 				["Location"] = "SMV",
-				["Scanned"] = "Dogstyle",
-				["Class"] = "DK",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Pitisham"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
-				["Location"] = "XXX",
+				["Faction"] = "H",
 				["Date"] = 202406181657,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 194,
-				["Scanned"] = "Kimi",
+				["Level"] = 80,
 				["GearScore"] = 3469,
 				["Race"] = "TA",
 				["Name"] = "Pitisham",
 				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Kimi",
 				["Equip"] = {
 					"37857:0", -- [1]
 					"40681:0", -- [2]
@@ -250,13 +252,20 @@ GS_Data = {
 					"40700:0", -- [17]
 					"25645:0", -- [18]
 				},
-				["Level"] = 80,
-				["Faction"] = "H",
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Fahrenheit"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Omnipotent",
+				["Class"] = "MA",
+				["Date"] = 202406171831,
+				["PVP"] = 1,
+				["Average"] = 187,
+				["Scanned"] = "Fahrenheit",
+				["GearScore"] = 2982,
+				["Race"] = "TR",
+				["Name"] = "Fahrenheit",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37684:0", -- [1]
 					"43285:0", -- [2]
@@ -277,22 +286,22 @@ GS_Data = {
 					"37051:0", -- [17]
 					"37038:0", -- [18]
 				},
-				["Date"] = 202406171831,
-				["PVP"] = 1,
-				["Average"] = 187,
 				["Level"] = 80,
-				["GearScore"] = 2982,
-				["Race"] = "TR",
-				["Name"] = "Fahrenheit",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Fahrenheit",
-				["Class"] = "MA",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Wanmark"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "*",
+				["Class"] = "SH",
+				["Date"] = 202406171801,
+				["PVP"] = 1,
+				["Average"] = 175,
+				["Scanned"] = "Gwydion",
+				["GearScore"] = 2821,
+				["Race"] = "TR",
+				["Name"] = "Wanmark",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37857:0", -- [1]
 					"37595:0", -- [2]
@@ -313,31 +322,24 @@ GS_Data = {
 					"0:0", -- [17]
 					"46978:0", -- [18]
 				},
-				["Date"] = 202406171801,
-				["PVP"] = 1,
-				["Average"] = 175,
 				["Level"] = 80,
-				["GearScore"] = 2821,
-				["Race"] = "TR",
-				["Name"] = "Wanmark",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Gwydion",
-				["Class"] = "SH",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Kimi"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Omnipotent",
-				["Location"] = "XXX",
+				["Faction"] = "H",
 				["Date"] = 202406181655,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 192,
-				["Scanned"] = "Kimi",
+				["Level"] = 80,
 				["GearScore"] = 3396,
 				["Race"] = "UN",
 				["Name"] = "Kimi",
 				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Kimi",
 				["Equip"] = {
 					"37849:0", -- [1]
 					"40678:0", -- [2]
@@ -358,13 +360,20 @@ GS_Data = {
 					"0:0", -- [17]
 					"37574:0", -- [18]
 				},
-				["Level"] = 80,
-				["Faction"] = "H",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Tiltery"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Inadaptados",
+				["Class"] = "HU",
+				["Date"] = 202406171800,
+				["PVP"] = 1,
+				["Average"] = 202,
+				["Scanned"] = "Gwydion",
+				["GearScore"] = 3846,
+				["Race"] = "BE",
+				["Name"] = "Tiltery",
+				["Faction"] = "H",
 				["Equip"] = {
 					"42551:3817", -- [1]
 					"40678:0", -- [2]
@@ -385,22 +394,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"37191:3608", -- [18]
 				},
-				["Date"] = 202406171800,
-				["PVP"] = 1,
-				["Average"] = 202,
 				["Level"] = 80,
-				["GearScore"] = 3846,
-				["Race"] = "BE",
-				["Name"] = "Tiltery",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Gwydion",
-				["Class"] = "HU",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Vrokir"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "*",
+				["Class"] = "DR",
+				["Date"] = 202406171740,
+				["PVP"] = 1,
+				["Average"] = 200,
+				["Scanned"] = "Someonelse",
+				["GearScore"] = 3664,
+				["Race"] = "TA",
+				["Name"] = "Vrokir",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37293:0", -- [1]
 					"40678:0", -- [2]
@@ -421,21 +430,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"40713:0", -- [18]
 				},
-				["Date"] = 202406171740,
-				["PVP"] = 1,
-				["Average"] = 200,
 				["Level"] = 80,
-				["GearScore"] = 3664,
-				["Race"] = "TA",
-				["Name"] = "Vrokir",
-				["Sex"] = 1,
 				["Location"] = "XXX",
-				["Scanned"] = "Someonelse",
-				["Class"] = "DR",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Autismblast"] = {
+				["Sex"] = 1,
+				["Guild"] = "Omnipotent Prime",
+				["Level"] = 80,
+				["Date"] = 202406181715,
 				["Class"] = "MA",
+				["Average"] = 201,
+				["Location"] = "XXX",
+				["GearScore"] = 3684,
+				["Race"] = "UN",
+				["Name"] = "Autismblast",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37294:3820", -- [1]
 					"40064:0", -- [2]
@@ -456,23 +466,22 @@ GS_Data = {
 					"40698:0", -- [17]
 					"37238:0", -- [18]
 				},
-				["Guild"] = "Omnipotent Prime",
 				["Scanned"] = "Autismblast",
-				["Date"] = 202406181715,
-				["PVP"] = 1,
-				["Average"] = 201,
 				["Spec"] = 1,
-				["GearScore"] = 3684,
-				["Race"] = "UN",
-				["Name"] = "Autismblast",
-				["Faction"] = "H",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Sex"] = 1,
+				["PVP"] = 1,
 			},
 			["Trage"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Cursed",
+				["Class"] = "MA",
+				["Date"] = 202406171827,
+				["PVP"] = 1,
+				["Average"] = 200,
+				["Scanned"] = "Magvar",
+				["GearScore"] = 3636,
+				["Race"] = "TR",
+				["Name"] = "Trage",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37294:3820", -- [1]
 					"40680:0", -- [2]
@@ -493,22 +502,22 @@ GS_Data = {
 					"40699:0", -- [17]
 					"37238:0", -- [18]
 				},
-				["Date"] = 202406171827,
-				["PVP"] = 1,
-				["Average"] = 200,
 				["Level"] = 80,
-				["GearScore"] = 3636,
-				["Race"] = "TR",
-				["Name"] = "Trage",
-				["Sex"] = 1,
 				["Location"] = "XXX",
-				["Scanned"] = "Magvar",
-				["Class"] = "MA",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Unknown"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "*",
+				["Class"] = "PR",
+				["Date"] = 202406171800,
+				["PVP"] = 1,
+				["Average"] = 198,
+				["Scanned"] = "Gwydion",
+				["GearScore"] = 3568,
+				["Race"] = "BE",
+				["Name"] = "Unknown",
+				["Faction"] = "H",
 				["Equip"] = {
 					"42553:0", -- [1]
 					"37683:0", -- [2]
@@ -529,22 +538,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"37177:0", -- [18]
 				},
-				["Date"] = 202406171800,
-				["PVP"] = 1,
-				["Average"] = 198,
 				["Level"] = 80,
-				["GearScore"] = 3568,
-				["Race"] = "BE",
-				["Name"] = "Unknown",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Gwydion",
-				["Class"] = "PR",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Bucciarati"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Elysium",
+				["Class"] = "PA",
+				["Date"] = 202406171803,
+				["PVP"] = 1,
+				["Average"] = 199,
+				["Scanned"] = "Gwydion",
+				["GearScore"] = 3685,
+				["Race"] = "UN",
+				["Name"] = "Bucciarati",
+				["Faction"] = "H",
 				["Equip"] = {
 					"44902:0", -- [1]
 					"42028:0", -- [2]
@@ -565,33 +574,13 @@ GS_Data = {
 					"0:0", -- [17]
 					"37574:0", -- [18]
 				},
-				["Date"] = 202406171803,
-				["PVP"] = 1,
-				["Average"] = 199,
 				["Level"] = 80,
-				["GearScore"] = 3685,
-				["Race"] = "UN",
-				["Name"] = "Bucciarati",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Gwydion",
-				["Class"] = "PA",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Merline"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "Killing Spree",
-				["Faction"] = "H",
-				["Date"] = 202406171823,
-				["Spec"] = 1,
-				["Average"] = 203,
-				["Level"] = 80,
-				["GearScore"] = 3722,
-				["Race"] = "TA",
-				["Name"] = "Merline",
-				["Sex"] = 3,
-				["Location"] = "ICN",
-				["Scanned"] = "Kimi",
 				["Equip"] = {
 					"37149:3820", -- [1]
 					"42030:0", -- [2]
@@ -612,11 +601,31 @@ GS_Data = {
 					"40698:0", -- [17]
 					"40712:0", -- [18]
 				},
-				["Class"] = "DR",
+				["Date"] = 202406171823,
+				["PVP"] = 1,
+				["Average"] = 203,
+				["Scanned"] = "Kimi",
+				["GearScore"] = 3722,
+				["Race"] = "TA",
+				["Name"] = "Merline",
+				["Faction"] = "H",
+				["Location"] = "ICN",
+				["Level"] = 80,
+				["Sex"] = 3,
+				["Spec"] = 1,
 			},
 			["Peshodupkata"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Azure Death Sect",
+				["Class"] = "HU",
+				["Date"] = 202406171827,
+				["PVP"] = 1,
+				["Average"] = 203,
+				["Scanned"] = "Magvar",
+				["GearScore"] = 3805,
+				["Race"] = "TR",
+				["Name"] = "Peshodupkata",
+				["Faction"] = "H",
 				["Equip"] = {
 					"42551:3817", -- [1]
 					"40065:0", -- [2]
@@ -637,22 +646,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"40265:3608", -- [18]
 				},
-				["Date"] = 202406171827,
-				["PVP"] = 1,
-				["Average"] = 203,
 				["Level"] = 80,
-				["GearScore"] = 3805,
-				["Race"] = "TR",
-				["Name"] = "Peshodupkata",
-				["Sex"] = 1,
 				["Location"] = "XXX",
-				["Scanned"] = "Magvar",
-				["Class"] = "HU",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Treaxesa"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Omnipotent",
+				["Class"] = "SH",
+				["Date"] = 202406171829,
+				["PVP"] = 1,
+				["Average"] = 170,
+				["Scanned"] = "Treaxesa",
+				["GearScore"] = 2556,
+				["Race"] = "OR",
+				["Name"] = "Treaxesa",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37857:0", -- [1]
 					"36988:0", -- [2]
@@ -673,22 +682,22 @@ GS_Data = {
 					"37749:0", -- [17]
 					"28066:0", -- [18]
 				},
-				["Date"] = 202406171829,
-				["PVP"] = 1,
-				["Average"] = 170,
 				["Level"] = 80,
-				["GearScore"] = 2556,
-				["Race"] = "OR",
-				["Name"] = "Treaxesa",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Treaxesa",
-				["Class"] = "SH",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Fush"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "*",
+				["Class"] = "DR",
+				["Date"] = 202406171829,
+				["PVP"] = 1,
+				["Average"] = 176,
+				["Scanned"] = "Treaxesa",
+				["GearScore"] = 3380,
+				["Race"] = "TA",
+				["Name"] = "Fush",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37294:0", -- [1]
 					"37290:0", -- [2]
@@ -709,21 +718,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"40711:0", -- [18]
 				},
-				["Date"] = 202406171829,
-				["PVP"] = 1,
-				["Average"] = 176,
 				["Level"] = 80,
-				["GearScore"] = 3380,
-				["Race"] = "TA",
-				["Name"] = "Fush",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Treaxesa",
-				["Class"] = "DR",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Daddybeefus"] = {
+				["Sex"] = 1,
+				["Guild"] = "Omnipotent Prime",
+				["Level"] = 80,
+				["Date"] = 202406181747,
 				["Class"] = "DR",
+				["Average"] = 186,
+				["Location"] = "ORG",
+				["GearScore"] = 3055,
+				["Race"] = "TA",
+				["Name"] = "Daddybeefus",
+				["Faction"] = "H",
 				["Equip"] = {
 					"44409:0", -- [1]
 					"40678:0", -- [2]
@@ -744,23 +754,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"0:0", -- [18]
 				},
-				["Guild"] = "Omnipotent Prime",
 				["Scanned"] = "Daddybeefus",
-				["Date"] = 202406181747,
-				["PVP"] = 1,
-				["Average"] = 186,
 				["Spec"] = 1,
-				["GearScore"] = 3055,
-				["Race"] = "TA",
-				["Name"] = "Daddybeefus",
-				["Faction"] = "H",
-				["Location"] = "ORG",
-				["Level"] = 80,
-				["Sex"] = 1,
+				["PVP"] = 1,
 			},
 			["Starfallbrr"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "The Monday Haters",
+				["Class"] = "DR",
+				["Date"] = 202406171802,
+				["PVP"] = 1,
+				["Average"] = 189,
+				["Scanned"] = "Gwydion",
+				["GearScore"] = 2914,
+				["Race"] = "TA",
+				["Name"] = "Starfallbrr",
+				["Faction"] = "H",
 				["Equip"] = {
 					"44408:0", -- [1]
 					"37683:0", -- [2]
@@ -781,22 +790,22 @@ GS_Data = {
 					"40699:0", -- [17]
 					"0:0", -- [18]
 				},
-				["Date"] = 202406171802,
-				["PVP"] = 1,
-				["Average"] = 189,
 				["Level"] = 80,
-				["GearScore"] = 2914,
-				["Race"] = "TA",
-				["Name"] = "Starfallbrr",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Gwydion",
-				["Class"] = "DR",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Dentist"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Antinaxxers",
+				["Class"] = "DR",
+				["Date"] = 202406171801,
+				["PVP"] = 1,
+				["Average"] = 203,
+				["Scanned"] = "Gwydion",
+				["GearScore"] = 3773,
+				["Race"] = "TA",
+				["Name"] = "Dentist",
+				["Faction"] = "H",
 				["Equip"] = {
 					"42554:3820", -- [1]
 					"44658:0", -- [2]
@@ -817,22 +826,22 @@ GS_Data = {
 					"40698:0", -- [17]
 					"40321:0", -- [18]
 				},
-				["Date"] = 202406171801,
-				["PVP"] = 1,
-				["Average"] = 203,
 				["Level"] = 80,
-				["GearScore"] = 3773,
-				["Race"] = "TA",
-				["Name"] = "Dentist",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Gwydion",
-				["Class"] = "DR",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Gwydion"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Omnipotent",
+				["Class"] = "DK",
+				["Date"] = 202406171805,
+				["PVP"] = 1,
+				["Average"] = 202,
+				["Scanned"] = "Gwydion",
+				["GearScore"] = 3731,
+				["Race"] = "BE",
+				["Name"] = "Gwydion",
+				["Faction"] = "H",
 				["Equip"] = {
 					"41386:3817", -- [1]
 					"40678:0", -- [2]
@@ -853,57 +862,22 @@ GS_Data = {
 					"37871:3368", -- [17]
 					"40715:0", -- [18]
 				},
-				["Date"] = 202406171805,
-				["PVP"] = 1,
-				["Average"] = 202,
 				["Level"] = 80,
-				["GearScore"] = 3731,
-				["Race"] = "BE",
-				["Name"] = "Gwydion",
-				["Sex"] = 1,
 				["Location"] = "XXX",
-				["Scanned"] = "Gwydion",
-				["Class"] = "DK",
-				["Spec"] = 1,
-			},
-			["Asmodeus"] = {
-				["Class"] = "SH",
-				["Equip"] = {
-					"37592:0", -- [1]
-					"42023:0", -- [2]
-					"37673:0", -- [3]
-					nil, -- [4]
-					"37236:3252", -- [5]
-					"37242:0", -- [6]
-					"43313:3720", -- [7]
-					"37654:0", -- [8]
-					"37788:2332", -- [9]
-					"39591:3246", -- [10]
-					"37694:0", -- [11]
-					"44283:0", -- [12]
-					"40685:0", -- [13]
-					"37657:0", -- [14]
-					"37799:3831", -- [15]
-					"37169:3830", -- [16]
-					"40700:1128", -- [17]
-					"40709:0", -- [18]
-				},
-				["Guild"] = "Omnipotent Prime",
-				["Scanned"] = "Asmodeus",
-				["Date"] = 202406181806,
-				["PVP"] = 1,
-				["Average"] = 200,
-				["Spec"] = 1,
-				["GearScore"] = 3577,
-				["Race"] = "OR",
-				["Name"] = "Asmodeus",
-				["Faction"] = "H",
-				["Location"] = "DAL",
-				["Level"] = 80,
 				["Sex"] = 1,
 			},
 			["Mokhla"] = {
+				["Sex"] = 1,
+				["Guild"] = "Omnipotent Prime",
+				["Level"] = 80,
+				["Date"] = 202406181758,
 				["Class"] = "HU",
+				["Average"] = 184,
+				["Location"] = "DAL",
+				["GearScore"] = 2800,
+				["Race"] = "OR",
+				["Name"] = "Mokhla",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37767:0", -- [1]
 					"37861:0", -- [2]
@@ -924,23 +898,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"36653:0", -- [18]
 				},
-				["Guild"] = "Omnipotent Prime",
 				["Scanned"] = "Mokhla",
-				["Date"] = 202406181758,
-				["PVP"] = 1,
-				["Average"] = 184,
 				["Spec"] = 1,
-				["GearScore"] = 2800,
-				["Race"] = "OR",
-				["Name"] = "Mokhla",
-				["Faction"] = "H",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 1,
+				["PVP"] = 1,
 			},
 			["Vorovka"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "*",
+				["Class"] = "RO",
+				["Date"] = 202406171831,
+				["PVP"] = 1,
+				["Average"] = 98,
+				["Scanned"] = "Magvar",
+				["GearScore"] = 1710,
+				["Race"] = "BE",
+				["Name"] = "Vorovka",
+				["Faction"] = "H",
 				["Equip"] = {
 					"43260:0", -- [1]
 					"20442:0", -- [2]
@@ -961,22 +934,22 @@ GS_Data = {
 					"37856:0", -- [17]
 					"41245:0", -- [18]
 				},
-				["Date"] = 202406171831,
-				["PVP"] = 1,
-				["Average"] = 98,
 				["Level"] = 80,
-				["GearScore"] = 1710,
-				["Race"] = "BE",
-				["Name"] = "Vorovka",
-				["Sex"] = 1,
 				["Location"] = "XXX",
-				["Scanned"] = "Magvar",
-				["Class"] = "RO",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Fobi"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Dz Brothers",
+				["Class"] = "MA",
+				["Date"] = 202406171745,
+				["PVP"] = 1,
+				["Average"] = 186,
+				["Scanned"] = "Gwydion",
+				["GearScore"] = 3068,
+				["Race"] = "TR",
+				["Name"] = "Fobi",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37684:0", -- [1]
 					"45813:0", -- [2]
@@ -997,22 +970,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"37177:0", -- [18]
 				},
-				["Date"] = 202406171745,
-				["PVP"] = 1,
-				["Average"] = 186,
 				["Level"] = 80,
-				["GearScore"] = 3068,
-				["Race"] = "TR",
-				["Name"] = "Fobi",
-				["Sex"] = 1,
 				["Location"] = "XXX",
-				["Scanned"] = "Gwydion",
-				["Class"] = "MA",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Thoughlife"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Omnipotent",
+				["Class"] = "WK",
+				["Date"] = 202406171749,
+				["PVP"] = 1,
+				["Average"] = 193,
+				["Scanned"] = "Thoughlife",
+				["GearScore"] = 3332,
+				["Race"] = "UN",
+				["Name"] = "Thoughlife",
+				["Faction"] = "H",
 				["Equip"] = {
 					"44019:0", -- [1]
 					"40680:0", -- [2]
@@ -1033,22 +1006,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"44214:0", -- [18]
 				},
-				["Date"] = 202406171749,
-				["PVP"] = 1,
-				["Average"] = 193,
 				["Level"] = 80,
-				["GearScore"] = 3332,
-				["Race"] = "UN",
-				["Name"] = "Thoughlife",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Thoughlife",
-				["Class"] = "WK",
-				["Spec"] = 1,
+				["Sex"] = 1,
 			},
 			["Daragoz"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "Demons of Chaos",
+				["Class"] = "PR",
+				["Date"] = 202406171801,
+				["PVP"] = 1,
+				["Average"] = 202,
+				["Scanned"] = "Gwydion",
+				["GearScore"] = 3739,
+				["Race"] = "TR",
+				["Name"] = "Daragoz",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37294:0", -- [1]
 					"40680:0", -- [2]
@@ -1069,310 +1042,22 @@ GS_Data = {
 					"40698:0", -- [17]
 					"37238:0", -- [18]
 				},
-				["Date"] = 202406171801,
-				["PVP"] = 1,
-				["Average"] = 202,
 				["Level"] = 80,
-				["GearScore"] = 3739,
-				["Race"] = "TR",
-				["Name"] = "Daragoz",
-				["Sex"] = 1,
 				["Location"] = "DAL",
-				["Scanned"] = "Gwydion",
-				["Class"] = "PR",
-				["Spec"] = 1,
-			},
-			["Zamors"] = {
-				["Class"] = "PA",
-				["Equip"] = {
-					"44296:3819", -- [1]
-					"43285:0", -- [2]
-					"16476:0", -- [3]
-					nil, -- [4]
-					"28057:3252", -- [5]
-					"31202:0", -- [6]
-					"16475:0", -- [7]
-					"16472:3244", -- [8]
-					"37668:1119", -- [9]
-					"16471:3246", -- [10]
-					"44283:3840", -- [11]
-					"37694:3840", -- [12]
-					"37111:0", -- [13]
-					"42413:0", -- [14]
-					"37799:3831", -- [15]
-					"41824:425", -- [16]
-					"44313:3251", -- [17]
-					"40705:0", -- [18]
-				},
-				["Guild"] = "I Love Pierogi",
-				["Scanned"] = "Autismblast",
-				["Date"] = 202406181724,
-				["PVP"] = 1,
-				["Average"] = 155,
-				["Spec"] = 1,
-				["GearScore"] = 2437,
-				["Race"] = "DR",
-				["Name"] = "Zamors",
-				["Faction"] = "H",
-				["Location"] = "XXX",
-				["Level"] = 80,
 				["Sex"] = 1,
-			},
-			["Bmulius"] = {
-				["Faction"] = "H",
-				["Guild"] = "Omnipotent",
-				["Equip"] = {
-					"41386:3817", -- [1]
-					"37397:0", -- [2]
-					"40185:3808", -- [3]
-					nil, -- [4]
-					"39606:3252", -- [5]
-					"37826:0", -- [6]
-					"37263:0", -- [7]
-					"44306:3826", -- [8]
-					"40888:1600", -- [9]
-					"39609:3231", -- [10]
-					"37624:0", -- [11]
-					"37151:0", -- [12]
-					"40684:0", -- [13]
-					"44014:0", -- [14]
-					"37840:0", -- [15]
-					"37733:0", -- [16]
-					"44249:3828", -- [17]
-					"44245:0", -- [18]
-				},
-				["Date"] = 202406171816,
-				["PVP"] = 1,
-				["Average"] = 200,
-				["Level"] = 80,
-				["GearScore"] = 3546,
-				["Race"] = "TA",
-				["Name"] = "Bmulius",
-				["Sex"] = 1,
-				["Location"] = "XXX",
-				["Scanned"] = "Bmulius",
-				["Class"] = "WA",
-				["Spec"] = 1,
-			},
-			["Shokobaroko"] = {
-				["Class"] = "SH",
-				["Equip"] = {
-					"34652:3819", -- [1]
-					"40681:0", -- [2]
-					"34655:3810", -- [3]
-					nil, -- [4]
-					"34650:2381", -- [5]
-					"34651:0", -- [6]
-					"34656:0", -- [7]
-					"34648:3606", -- [8]
-					"41064:2326", -- [9]
-					"34649:3604", -- [10]
-					"39407:0", -- [11]
-					"37192:0", -- [12]
-					"37111:0", -- [13]
-					"37657:0", -- [14]
-					"42064:3859", -- [15]
-					"38238:3869", -- [16]
-					"15522:0", -- [17]
-					"40708:0", -- [18]
-				},
-				["Guild"] = "*",
-				["Scanned"] = "Autismblast",
-				["Date"] = 202406181724,
-				["PVP"] = 1,
-				["Average"] = 129,
-				["Spec"] = 1,
-				["GearScore"] = 1734,
-				["Race"] = "DW",
-				["Name"] = "Shokobaroko",
-				["Faction"] = "H",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Sex"] = 1,
-			},
-			["Magvar"] = {
-				["Faction"] = "H",
-				["Guild"] = "Omnipotent",
-				["Equip"] = {
-					"41386:3817", -- [1]
-					"40678:0", -- [2]
-					"43481:3808", -- [3]
-					nil, -- [4]
-					"39633:3252", -- [5]
-					"37178:0", -- [6]
-					"37263:3823", -- [7]
-					"41391:1597", -- [8]
-					"37891:3845", -- [9]
-					"44362:0", -- [10]
-					"37685:0", -- [11]
-					"37624:0", -- [12]
-					"44014:0", -- [13]
-					"43573:0", -- [14]
-					"37647:3831", -- [15]
-					"41257:3789", -- [16]
-					"0:0", -- [17]
-					"40706:0", -- [18]
-				},
-				["Date"] = 202406171750,
-				["PVP"] = 1,
-				["Average"] = 196,
-				["Level"] = 80,
-				["GearScore"] = 3487,
-				["Race"] = "UN",
-				["Name"] = "Magvar",
-				["Sex"] = 1,
-				["Location"] = "XXX",
-				["Scanned"] = "Magvar",
-				["Class"] = "PA",
-				["Spec"] = 1,
-			},
-			["Themushroom"] = {
-				["Faction"] = "H",
-				["Guild"] = "*",
-				["Equip"] = {
-					"41387:3818", -- [1]
-					"42646:0", -- [2]
-					"44312:3852", -- [3]
-					nil, -- [4]
-					"39611:3252", -- [5]
-					"37241:0", -- [6]
-					"43500:3822", -- [7]
-					"41392:3232", -- [8]
-					"37620:3231", -- [9]
-					"39622:3234", -- [10]
-					"42643:0", -- [11]
-					"43582:0", -- [12]
-					"37220:0", -- [13]
-					"44063:0", -- [14]
-					"43565:1951", -- [15]
-					"41383:3731", -- [16]
-					"42508:1952", -- [17]
-					"41168:0", -- [18]
-				},
-				["Date"] = 202406171738,
-				["PVP"] = 1,
-				["Average"] = 201,
-				["Level"] = 80,
-				["GearScore"] = 3775,
-				["Race"] = "UN",
-				["Name"] = "Themushroom",
-				["Sex"] = 1,
-				["Location"] = "XXX",
-				["Scanned"] = "Cetrin",
-				["Class"] = "WA",
-				["Spec"] = 1,
-			},
-			["Someonelse"] = {
-				["Faction"] = "H",
-				["Guild"] = "Omnipotent",
-				["Equip"] = {
-					"37188:0", -- [1]
-					"37823:0", -- [2]
-					"43183:0", -- [3]
-					nil, -- [4]
-					"37800:0", -- [5]
-					"37778:0", -- [6]
-					"37221:0", -- [7]
-					"41228:0", -- [8]
-					"39657:0", -- [9]
-					"37886:0", -- [10]
-					"37624:0", -- [11]
-					"43926:0", -- [12]
-					"44014:0", -- [13]
-					"40684:0", -- [14]
-					"43406:0", -- [15]
-					"41815:0", -- [16]
-					"0:0", -- [17]
-					"37615:0", -- [18]
-				},
-				["Date"] = 202406171739,
-				["PVP"] = 1,
-				["Average"] = 187,
-				["Level"] = 80,
-				["GearScore"] = 3076,
-				["Race"] = "BE",
-				["Name"] = "Someonelse",
-				["Sex"] = 1,
-				["Location"] = "XXX",
-				["Scanned"] = "Someonelse",
-				["Class"] = "HU",
-				["Spec"] = 1,
-			},
-			["Manalust"] = {
-				["Class"] = "PA",
-				["Equip"] = {
-					"35891:0", -- [1]
-					"44402:0", -- [2]
-					"37115:0", -- [3]
-					nil, -- [4]
-					"39072:0", -- [5]
-					"35653:0", -- [6]
-					"35835:0", -- [7]
-					"35866:0", -- [8]
-					"39680:0", -- [9]
-					"35651:0", -- [10]
-					"38218:0", -- [11]
-					"37819:0", -- [12]
-					"29592:0", -- [13]
-					"35937:0", -- [14]
-					"18461:0", -- [15]
-					"35576:0", -- [16]
-					"0:0", -- [17]
-					"23203:0", -- [18]
-				},
-				["Guild"] = "Omnipotent Prime",
-				["Scanned"] = "Manalust",
-				["Date"] = 202406181712,
-				["PVP"] = 1,
-				["Average"] = 135,
-				["Spec"] = 1,
-				["GearScore"] = 1793,
-				["Race"] = "BE",
-				["Name"] = "Manalust",
-				["Faction"] = "H",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Sex"] = 1,
-			},
-			["Darkenout"] = {
-				["Faction"] = "H",
-				["Guild"] = "Omnipotent",
-				["Equip"] = {
-					"37633:0", -- [1]
-					"37646:0", -- [2]
-					"37635:0", -- [3]
-					nil, -- [4]
-					"37735:0", -- [5]
-					"37801:0", -- [6]
-					"37292:0", -- [7]
-					"37712:0", -- [8]
-					"40888:1891", -- [9]
-					"37645:2934", -- [10]
-					"37257:0", -- [11]
-					"37186:0", -- [12]
-					"42122:0", -- [13]
-					"37166:0", -- [14]
-					"37197:2662", -- [15]
-					"37255:0", -- [16]
-					"40701:0", -- [17]
-					"40707:0", -- [18]
-				},
-				["Date"] = 202406171751,
-				["PVP"] = 1,
-				["Average"] = 201,
-				["Level"] = 80,
-				["GearScore"] = 3463,
-				["Race"] = "BE",
-				["Name"] = "Darkenout",
-				["Sex"] = 1,
-				["Location"] = "ORG",
-				["Scanned"] = "Darkenout",
-				["Class"] = "PA",
-				["Spec"] = 1,
 			},
 			["Slazuu"] = {
-				["Faction"] = "H",
+				["Spec"] = 1,
 				["Guild"] = "I Love Pierogi",
+				["Class"] = "WK",
+				["Date"] = 202406171818,
+				["PVP"] = 1,
+				["Average"] = 201,
+				["Scanned"] = "Bmulius",
+				["GearScore"] = 3716,
+				["Race"] = "OR",
+				["Name"] = "Slazuu",
+				["Faction"] = "H",
 				["Equip"] = {
 					"37294:3820", -- [1]
 					"40680:0", -- [2]
@@ -1393,18 +1078,333 @@ GS_Data = {
 					"40698:0", -- [17]
 					"37177:0", -- [18]
 				},
-				["Date"] = 202406171818,
+				["Level"] = 80,
+				["Location"] = "DAL",
+				["Sex"] = 1,
+			},
+			["Asmodeus"] = {
+				["Sex"] = 1,
+				["Guild"] = "Omnipotent Prime",
+				["Level"] = 80,
+				["Date"] = 202406181806,
+				["Class"] = "SH",
+				["Average"] = 200,
+				["Location"] = "DAL",
+				["GearScore"] = 3577,
+				["Race"] = "OR",
+				["Name"] = "Asmodeus",
+				["Faction"] = "H",
+				["Equip"] = {
+					"37592:0", -- [1]
+					"42023:0", -- [2]
+					"37673:0", -- [3]
+					nil, -- [4]
+					"37236:3252", -- [5]
+					"37242:0", -- [6]
+					"43313:3720", -- [7]
+					"37654:0", -- [8]
+					"37788:2332", -- [9]
+					"39591:3246", -- [10]
+					"37694:0", -- [11]
+					"44283:0", -- [12]
+					"40685:0", -- [13]
+					"37657:0", -- [14]
+					"37799:3831", -- [15]
+					"37169:3830", -- [16]
+					"40700:1128", -- [17]
+					"40709:0", -- [18]
+				},
+				["Scanned"] = "Asmodeus",
+				["Spec"] = 1,
+				["PVP"] = 1,
+			},
+			["Darkenout"] = {
+				["Spec"] = 1,
+				["Guild"] = "Omnipotent",
+				["Class"] = "PA",
+				["Date"] = 202406171751,
 				["PVP"] = 1,
 				["Average"] = 201,
+				["Scanned"] = "Darkenout",
+				["GearScore"] = 3463,
+				["Race"] = "BE",
+				["Name"] = "Darkenout",
+				["Faction"] = "H",
+				["Equip"] = {
+					"37633:0", -- [1]
+					"37646:0", -- [2]
+					"37635:0", -- [3]
+					nil, -- [4]
+					"37735:0", -- [5]
+					"37801:0", -- [6]
+					"37292:0", -- [7]
+					"37712:0", -- [8]
+					"40888:1891", -- [9]
+					"37645:2934", -- [10]
+					"37257:0", -- [11]
+					"37186:0", -- [12]
+					"42122:0", -- [13]
+					"37166:0", -- [14]
+					"37197:2662", -- [15]
+					"37255:0", -- [16]
+					"40701:0", -- [17]
+					"40707:0", -- [18]
+				},
 				["Level"] = 80,
-				["GearScore"] = 3716,
-				["Race"] = "OR",
-				["Name"] = "Slazuu",
+				["Location"] = "ORG",
 				["Sex"] = 1,
-				["Location"] = "DAL",
-				["Scanned"] = "Bmulius",
-				["Class"] = "WK",
+			},
+			["Magvar"] = {
 				["Spec"] = 1,
+				["Guild"] = "Omnipotent",
+				["Class"] = "PA",
+				["Date"] = 202406171750,
+				["PVP"] = 1,
+				["Average"] = 196,
+				["Scanned"] = "Magvar",
+				["GearScore"] = 3487,
+				["Race"] = "UN",
+				["Name"] = "Magvar",
+				["Faction"] = "H",
+				["Equip"] = {
+					"41386:3817", -- [1]
+					"40678:0", -- [2]
+					"43481:3808", -- [3]
+					nil, -- [4]
+					"39633:3252", -- [5]
+					"37178:0", -- [6]
+					"37263:3823", -- [7]
+					"41391:1597", -- [8]
+					"37891:3845", -- [9]
+					"44362:0", -- [10]
+					"37685:0", -- [11]
+					"37624:0", -- [12]
+					"44014:0", -- [13]
+					"43573:0", -- [14]
+					"37647:3831", -- [15]
+					"41257:3789", -- [16]
+					"0:0", -- [17]
+					"40706:0", -- [18]
+				},
+				["Level"] = 80,
+				["Location"] = "XXX",
+				["Sex"] = 1,
+			},
+			["Shokobaroko"] = {
+				["Sex"] = 1,
+				["Guild"] = "*",
+				["Level"] = 80,
+				["Date"] = 202406181724,
+				["Class"] = "SH",
+				["Average"] = 129,
+				["Location"] = "XXX",
+				["GearScore"] = 1734,
+				["Race"] = "DW",
+				["Name"] = "Shokobaroko",
+				["Faction"] = "H",
+				["Equip"] = {
+					"34652:3819", -- [1]
+					"40681:0", -- [2]
+					"34655:3810", -- [3]
+					nil, -- [4]
+					"34650:2381", -- [5]
+					"34651:0", -- [6]
+					"34656:0", -- [7]
+					"34648:3606", -- [8]
+					"41064:2326", -- [9]
+					"34649:3604", -- [10]
+					"39407:0", -- [11]
+					"37192:0", -- [12]
+					"37111:0", -- [13]
+					"37657:0", -- [14]
+					"42064:3859", -- [15]
+					"38238:3869", -- [16]
+					"15522:0", -- [17]
+					"40708:0", -- [18]
+				},
+				["Scanned"] = "Autismblast",
+				["Spec"] = 1,
+				["PVP"] = 1,
+			},
+			["Someonelse"] = {
+				["Spec"] = 1,
+				["Guild"] = "Omnipotent",
+				["Class"] = "HU",
+				["Date"] = 202406171739,
+				["PVP"] = 1,
+				["Average"] = 187,
+				["Scanned"] = "Someonelse",
+				["GearScore"] = 3076,
+				["Race"] = "BE",
+				["Name"] = "Someonelse",
+				["Faction"] = "H",
+				["Equip"] = {
+					"37188:0", -- [1]
+					"37823:0", -- [2]
+					"43183:0", -- [3]
+					nil, -- [4]
+					"37800:0", -- [5]
+					"37778:0", -- [6]
+					"37221:0", -- [7]
+					"41228:0", -- [8]
+					"39657:0", -- [9]
+					"37886:0", -- [10]
+					"37624:0", -- [11]
+					"43926:0", -- [12]
+					"44014:0", -- [13]
+					"40684:0", -- [14]
+					"43406:0", -- [15]
+					"41815:0", -- [16]
+					"0:0", -- [17]
+					"37615:0", -- [18]
+				},
+				["Level"] = 80,
+				["Location"] = "XXX",
+				["Sex"] = 1,
+			},
+			["Themushroom"] = {
+				["Spec"] = 1,
+				["Guild"] = "*",
+				["Class"] = "WA",
+				["Date"] = 202406171738,
+				["PVP"] = 1,
+				["Average"] = 201,
+				["Scanned"] = "Cetrin",
+				["GearScore"] = 3775,
+				["Race"] = "UN",
+				["Name"] = "Themushroom",
+				["Faction"] = "H",
+				["Equip"] = {
+					"41387:3818", -- [1]
+					"42646:0", -- [2]
+					"44312:3852", -- [3]
+					nil, -- [4]
+					"39611:3252", -- [5]
+					"37241:0", -- [6]
+					"43500:3822", -- [7]
+					"41392:3232", -- [8]
+					"37620:3231", -- [9]
+					"39622:3234", -- [10]
+					"42643:0", -- [11]
+					"43582:0", -- [12]
+					"37220:0", -- [13]
+					"44063:0", -- [14]
+					"43565:1951", -- [15]
+					"41383:3731", -- [16]
+					"42508:1952", -- [17]
+					"41168:0", -- [18]
+				},
+				["Level"] = 80,
+				["Location"] = "XXX",
+				["Sex"] = 1,
+			},
+			["Manalust"] = {
+				["Sex"] = 1,
+				["Guild"] = "Omnipotent Prime",
+				["Level"] = 80,
+				["Date"] = 202406181712,
+				["Class"] = "PA",
+				["Average"] = 135,
+				["Location"] = "XXX",
+				["GearScore"] = 1793,
+				["Race"] = "BE",
+				["Name"] = "Manalust",
+				["Faction"] = "H",
+				["Equip"] = {
+					"35891:0", -- [1]
+					"44402:0", -- [2]
+					"37115:0", -- [3]
+					nil, -- [4]
+					"39072:0", -- [5]
+					"35653:0", -- [6]
+					"35835:0", -- [7]
+					"35866:0", -- [8]
+					"39680:0", -- [9]
+					"35651:0", -- [10]
+					"38218:0", -- [11]
+					"37819:0", -- [12]
+					"29592:0", -- [13]
+					"35937:0", -- [14]
+					"18461:0", -- [15]
+					"35576:0", -- [16]
+					"0:0", -- [17]
+					"23203:0", -- [18]
+				},
+				["Scanned"] = "Manalust",
+				["Spec"] = 1,
+				["PVP"] = 1,
+			},
+			["Bmulius"] = {
+				["Spec"] = 1,
+				["Guild"] = "Omnipotent",
+				["Class"] = "WA",
+				["Date"] = 202406171816,
+				["PVP"] = 1,
+				["Average"] = 200,
+				["Scanned"] = "Bmulius",
+				["GearScore"] = 3546,
+				["Race"] = "TA",
+				["Name"] = "Bmulius",
+				["Faction"] = "H",
+				["Equip"] = {
+					"41386:3817", -- [1]
+					"37397:0", -- [2]
+					"40185:3808", -- [3]
+					nil, -- [4]
+					"39606:3252", -- [5]
+					"37826:0", -- [6]
+					"37263:0", -- [7]
+					"44306:3826", -- [8]
+					"40888:1600", -- [9]
+					"39609:3231", -- [10]
+					"37624:0", -- [11]
+					"37151:0", -- [12]
+					"40684:0", -- [13]
+					"44014:0", -- [14]
+					"37840:0", -- [15]
+					"37733:0", -- [16]
+					"44249:3828", -- [17]
+					"44245:0", -- [18]
+				},
+				["Level"] = 80,
+				["Location"] = "XXX",
+				["Sex"] = 1,
+			},
+			["Zamors"] = {
+				["Sex"] = 1,
+				["Guild"] = "I Love Pierogi",
+				["Level"] = 80,
+				["Date"] = 202406181724,
+				["Class"] = "PA",
+				["Average"] = 155,
+				["Location"] = "XXX",
+				["GearScore"] = 2437,
+				["Race"] = "DR",
+				["Name"] = "Zamors",
+				["Faction"] = "H",
+				["Equip"] = {
+					"44296:3819", -- [1]
+					"43285:0", -- [2]
+					"16476:0", -- [3]
+					nil, -- [4]
+					"28057:3252", -- [5]
+					"31202:0", -- [6]
+					"16475:0", -- [7]
+					"16472:3244", -- [8]
+					"37668:1119", -- [9]
+					"16471:3246", -- [10]
+					"44283:3840", -- [11]
+					"37694:3840", -- [12]
+					"37111:0", -- [13]
+					"42413:0", -- [14]
+					"37799:3831", -- [15]
+					"41824:425", -- [16]
+					"44313:3251", -- [17]
+					"40705:0", -- [18]
+				},
+				["Scanned"] = "Autismblast",
+				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 		},
 		["CurrentPlayer"] = {
@@ -1442,16 +1442,16 @@ GS_Settings = {
 	["Emalon"] = 3650,
 	["Crusade"] = 4100,
 	["HEmalon"] = 3750,
-	["Heroics"] = 2600,
-	["MinLevel"] = 80,
+	["HMaly"] = 3800,
+	["Compare"] = -1,
 	["ShowHelp"] = 1,
 	["CHAT"] = -1,
 	["HArchavon"] = 3350,
 	["Player"] = 1,
-	["HSarth"] = 3450,
+	["MinLevel"] = 80,
 	["Date2"] = 1,
-	["Compare"] = -1,
-	["HMaly"] = 3800,
+	["HSarth"] = 3450,
+	["Heroics"] = 2600,
 	["ML"] = -1,
 	["Slider"] = 10,
 }

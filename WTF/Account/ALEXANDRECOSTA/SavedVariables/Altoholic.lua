@@ -5,7 +5,7 @@ AltoholicDB = {
 	},
 	["global"] = {
 		["options"] = {
-			["Lola"] = "N01RCFL09ILT18SMGNXC",
+			["Lola"] = "F07KHFC17KEV18BMGFXH",
 			["ShowMinimap"] = 0,
 		},
 		["Characters"] = {

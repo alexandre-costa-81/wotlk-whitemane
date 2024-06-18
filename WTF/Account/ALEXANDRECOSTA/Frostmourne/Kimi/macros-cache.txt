@@ -23,13 +23,13 @@ END
 MACRO 16777234 "HoR" INV_Misc_QuestionMark
 /cast [@Mouseover] Hand of Reckoning
 END
-MACRO 16777235 "HoS" INV_Misc_QuestionMark
-#showtooltip
-/cast [@Mouseover] Hand of Salvation
-END
 MACRO 16777237 "HoS" INV_Misc_QuestionMark
 #showtooltip
 /cast [@Mouseover] Hand of Sacrifice
+END
+MACRO 16777235 "HoS" INV_Misc_QuestionMark
+#showtooltip
+/cast [@Mouseover] Hand of Salvation
 END
 MACRO 16777228 "HW&E" INV_Misc_QuestionMark
 /cast [nomod:alt] Holy Wrath;Exorcism

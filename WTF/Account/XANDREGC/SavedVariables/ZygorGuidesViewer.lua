@@ -1,56 +1,51 @@
 
 ZygorGuidesViewerSettings = {
 	["char"] = {
-		["Queemi - Frostmourne"] = {
-			["starting"] = false,
+		["Queemificina - Frostmourne"] = {
+			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
 				{
-					["short"] = "Undead (1-13)",
-					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
+					["short"] = "Death Knight (55-60)",
+					["full"] = "Zygor's Horde Leveling Guides\\Death Knight (55-60)",
 					["step"] = 1,
 				}, -- [1]
 			},
-			["guidename"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
 			["maint_fetchquestdata"] = true,
+			["guidename"] = "Zygor's Horde Leveling Guides\\Death Knight (55-60)",
 			["taxis"] = {
 			},
 			["debuglog"] = {
-				"18:46:44> Viewer started. ---------------------------", -- [1]
-				"18:46:44> PLAYER_ENTERING_WORLD (dead?)", -- [2]
-				"18:46:44> PLAYER_ALIVE (dead?)", -- [3]
-				"18:46:44> CacheQuestLog cached 0 quests", -- [4]
-				"18:46:44> Got completed quests list", -- [5]
-				"18:46:44> CacheQuestLog cached 0 quests", -- [6]
-				"18:46:45> ZONE_CHANGED_NEW_AREA (dead?)", -- [7]
-				"18:46:45> Guides loaded. -----", -- [8]
-				"18:46:45> SetGuide Zygor's Horde Leveling Guides\\Undead (1-13) (1", -- [9]
-				"18:46:45> Guide loaded: Zygor's Horde Leveling Guides\\Undead (1-13)", -- [10]
-				"18:46:45> FocusStep 1", -- [11]
-				"18:46:45> frameNeedsUpdating, so updating.", -- [12]
-				"18:46:54> Viewer started. ---------------------------", -- [13]
-				"18:46:54> PLAYER_ENTERING_WORLD (dead?)", -- [14]
-				"18:46:55> Got completed quests list", -- [15]
-				"18:46:55> CacheQuestLog cached 0 quests", -- [16]
-				"18:46:55> CacheQuestLog cached 0 quests", -- [17]
-				"18:46:55> Guides loaded. -----", -- [18]
-				"18:46:55> SetGuide Zygor's Horde Leveling Guides\\Undead (1-13) (1", -- [19]
-				"18:46:55> Guide loaded: Zygor's Horde Leveling Guides\\Undead (1-13)", -- [20]
-				"18:46:55> FocusStep 1", -- [21]
-				"18:46:55> Translated: accept/turnin Rude Awakening", -- [22]
-				"18:46:55> frameNeedsUpdating, so updating.", -- [23]
+				"11:39:32> Viewer started. ---------------------------", -- [1]
+				"11:39:33> PLAYER_ENTERING_WORLD (dead?)", -- [2]
+				"11:39:33> PLAYER_ALIVE (dead?)", -- [3]
+				"11:39:33> CacheQuestLog cached 0 quests", -- [4]
+				"11:39:33> Got completed quests list", -- [5]
+				"11:39:33> CacheQuestLog cached 0 quests", -- [6]
+				"11:39:33> CacheQuestLog cached 0 quests", -- [7]
+				"11:39:34> ZONE_CHANGED_NEW_AREA (dead?)", -- [8]
+				"11:39:34> Guides loaded. -----", -- [9]
+				"11:39:34> SetGuide Zygor's Horde Leveling Guides\\Death Knight (55-60) (1", -- [10]
+				"11:39:34> Guide loaded: Zygor's Horde Leveling Guides\\Death Knight (55-60)", -- [11]
+				"11:39:34> FocusStep 1", -- [12]
+				"11:39:34> frameNeedsUpdating, so updating.", -- [13]
+				"11:39:42> Viewer started. ---------------------------", -- [14]
+				"11:39:42> PLAYER_ENTERING_WORLD (dead?)", -- [15]
+				"11:39:42> Got completed quests list", -- [16]
+				"11:39:42> CacheQuestLog cached 0 quests", -- [17]
+				"11:39:42> CacheQuestLog cached 0 quests", -- [18]
+				"11:39:43> Got completed quests list", -- [19]
+				"11:39:43> Guides loaded. -----", -- [20]
+				"11:39:43> SetGuide Zygor's Horde Leveling Guides\\Death Knight (55-60) (1", -- [21]
+				"11:39:43> Guide loaded: Zygor's Horde Leveling Guides\\Death Knight (55-60)", -- [22]
+				"11:39:43> FocusStep 1", -- [23]
+				"11:39:43> Translated: accept/turnin In Service Of The Lich King", -- [24]
+				"11:39:43> frameNeedsUpdating, so updating.", -- [25]
+				"11:40:09> Hiding arrow with guide", -- [26]
 			},
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 		},
 		["Queemu - Frostmourne"] = {
-			["maint_fetchitemdata"] = true,
-			["guidename"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
-			["guides_history"] = {
-				{
-					["short"] = "Tauren (1-13)",
-					["full"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
-					["step"] = 1,
-				}, -- [1]
-			},
+			["starting"] = false,
 			["RecipesKnown"] = {
 				[58315] = true,
 				[59497] = true,
@@ -213,15 +208,15 @@ ZygorGuidesViewerSettings = {
 				[57226] = true,
 				[57242] = true,
 				[57274] = true,
-				[58478] = true,
-				[58299] = true,
+				[57703] = true,
+				[57277] = true,
 				[58344] = true,
 				[52739] = true,
 				[57270] = true,
-				[50602] = true,
-				[71015] = true,
+				[57245] = true,
+				[56943] = true,
 				[58481] = true,
-				[57197] = true,
+				[57708] = true,
 				[59478] = true,
 				[58472] = true,
 				[58488] = true,
@@ -231,87 +226,95 @@ ZygorGuidesViewerSettings = {
 				[50608] = true,
 				[57035] = true,
 				[64267] = true,
-				[64275] = true,
+				[57029] = true,
 				[61120] = true,
-				[59486] = true,
-				[59494] = true,
+				[50598] = true,
+				[57249] = true,
 				[57131] = true,
-				[58482] = true,
+				[56953] = true,
 				[57163] = true,
-				[50609] = true,
+				[56948] = true,
 				[57706] = true,
-				[50599] = true,
+				[50600] = true,
 				[57227] = true,
 				[57243] = true,
 				[57259] = true,
 				[57275] = true,
-				[57263] = true,
-				[57271] = true,
+				[59490] = true,
+				[58476] = true,
 				[58345] = true,
 				[57248] = true,
-				[61288] = true,
+				[57709] = true,
 				[50610] = true,
-				[58490] = true,
+				[56957] = true,
 				[58565] = true,
 				[56954] = true,
+				[58489] = true,
 				[58473] = true,
-				[59495] = true,
 				[56956] = true,
 				[56972] = true,
-				[57200] = true,
+				[58485] = true,
 				[57004] = true,
 				[57020] = true,
 				[57036] = true,
 				[62162] = true,
-				[57030] = true,
-				[57031] = true,
-				[58480] = true,
-				[58484] = true,
-				[57132] = true,
-				[50603] = true,
-				[59500] = true,
-				[57707] = true,
-				[57196] = true,
-				[59489] = true,
-				[50601] = true,
-				[57244] = true,
-				[50617] = true,
-				[56955] = true,
-				[50616] = true,
-				[58330] = true,
-				[50619] = true,
-				[57257] = true,
-				[58317] = true,
-				[57201] = true,
 				[57114] = true,
-				[58485] = true,
-				[58489] = true,
+				[57201] = true,
+				[58317] = true,
+				[57257] = true,
+				[57132] = true,
+				[50619] = true,
+				[59500] = true,
+				[50616] = true,
+				[57707] = true,
+				[56955] = true,
+				[57244] = true,
+				[50601] = true,
+				[50617] = true,
+				[59489] = true,
+				[57196] = true,
+				[58330] = true,
+				[50603] = true,
+				[58484] = true,
+				[58480] = true,
+				[57031] = true,
+				[57030] = true,
+				[57200] = true,
+				[59495] = true,
 				[59480] = true,
 				[59496] = true,
-				[56957] = true,
+				[58490] = true,
 				[56973] = true,
-				[57709] = true,
+				[61288] = true,
 				[57005] = true,
-				[58476] = true,
-				[59490] = true,
-				[50600] = true,
-				[56948] = true,
-				[56953] = true,
-				[57249] = true,
-				[50598] = true,
+				[57271] = true,
+				[57263] = true,
+				[50599] = true,
+				[50609] = true,
+				[58482] = true,
+				[59494] = true,
+				[59486] = true,
 				[57133] = true,
-				[57029] = true,
+				[64275] = true,
 				[57165] = true,
 				[57181] = true,
-				[57708] = true,
+				[57197] = true,
 				[57213] = true,
-				[56943] = true,
-				[57245] = true,
+				[71015] = true,
+				[50602] = true,
 				[50618] = true,
-				[57277] = true,
-				[57703] = true,
+				[58299] = true,
+				[58478] = true,
+			},
+			["guides_history"] = {
+				{
+					["short"] = "Tauren (1-13)",
+					["full"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
+					["step"] = 1,
+				}, -- [1]
 			},
 			["maint_fetchquestdata"] = true,
+			["guidename"] = "Zygor's Horde Leveling Guides\\Tauren (1-13)",
 			["taxis"] = {
 			},
 			["debuglog"] = {
@@ -416,53 +419,55 @@ ZygorGuidesViewerSettings = {
 				"09:54:52> New Quest: Proof of Demise: Cyanigosa id 13256", -- [99]
 				"09:54:53> CacheQuestLog cached 9 quests", -- [100]
 			},
-			["starting"] = false,
+			["maint_fetchitemdata"] = true,
 		},
-		["Queemificina - Frostmourne"] = {
-			["starting"] = false,
+		["Queemi - Frostmourne"] = {
+			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
 				{
-					["short"] = "Death Knight (55-60)",
-					["full"] = "Zygor's Horde Leveling Guides\\Death Knight (55-60)",
+					["short"] = "Undead (1-13)",
+					["full"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
 					["step"] = 1,
 				}, -- [1]
 			},
-			["guidename"] = "Zygor's Horde Leveling Guides\\Death Knight (55-60)",
 			["maint_fetchquestdata"] = true,
+			["guidename"] = "Zygor's Horde Leveling Guides\\Undead (1-13)",
 			["taxis"] = {
 			},
 			["debuglog"] = {
-				"11:39:32> Viewer started. ---------------------------", -- [1]
-				"11:39:33> PLAYER_ENTERING_WORLD (dead?)", -- [2]
-				"11:39:33> PLAYER_ALIVE (dead?)", -- [3]
-				"11:39:33> CacheQuestLog cached 0 quests", -- [4]
-				"11:39:33> Got completed quests list", -- [5]
-				"11:39:33> CacheQuestLog cached 0 quests", -- [6]
-				"11:39:33> CacheQuestLog cached 0 quests", -- [7]
-				"11:39:34> ZONE_CHANGED_NEW_AREA (dead?)", -- [8]
-				"11:39:34> Guides loaded. -----", -- [9]
-				"11:39:34> SetGuide Zygor's Horde Leveling Guides\\Death Knight (55-60) (1", -- [10]
-				"11:39:34> Guide loaded: Zygor's Horde Leveling Guides\\Death Knight (55-60)", -- [11]
-				"11:39:34> FocusStep 1", -- [12]
-				"11:39:34> frameNeedsUpdating, so updating.", -- [13]
-				"11:39:42> Viewer started. ---------------------------", -- [14]
-				"11:39:42> PLAYER_ENTERING_WORLD (dead?)", -- [15]
-				"11:39:42> Got completed quests list", -- [16]
-				"11:39:42> CacheQuestLog cached 0 quests", -- [17]
-				"11:39:42> CacheQuestLog cached 0 quests", -- [18]
-				"11:39:43> Got completed quests list", -- [19]
-				"11:39:43> Guides loaded. -----", -- [20]
-				"11:39:43> SetGuide Zygor's Horde Leveling Guides\\Death Knight (55-60) (1", -- [21]
-				"11:39:43> Guide loaded: Zygor's Horde Leveling Guides\\Death Knight (55-60)", -- [22]
-				"11:39:43> FocusStep 1", -- [23]
-				"11:39:43> Translated: accept/turnin In Service Of The Lich King", -- [24]
-				"11:39:43> frameNeedsUpdating, so updating.", -- [25]
-				"11:40:09> Hiding arrow with guide", -- [26]
+				"18:46:44> Viewer started. ---------------------------", -- [1]
+				"18:46:44> PLAYER_ENTERING_WORLD (dead?)", -- [2]
+				"18:46:44> PLAYER_ALIVE (dead?)", -- [3]
+				"18:46:44> CacheQuestLog cached 0 quests", -- [4]
+				"18:46:44> Got completed quests list", -- [5]
+				"18:46:44> CacheQuestLog cached 0 quests", -- [6]
+				"18:46:45> ZONE_CHANGED_NEW_AREA (dead?)", -- [7]
+				"18:46:45> Guides loaded. -----", -- [8]
+				"18:46:45> SetGuide Zygor's Horde Leveling Guides\\Undead (1-13) (1", -- [9]
+				"18:46:45> Guide loaded: Zygor's Horde Leveling Guides\\Undead (1-13)", -- [10]
+				"18:46:45> FocusStep 1", -- [11]
+				"18:46:45> frameNeedsUpdating, so updating.", -- [12]
+				"18:46:54> Viewer started. ---------------------------", -- [13]
+				"18:46:54> PLAYER_ENTERING_WORLD (dead?)", -- [14]
+				"18:46:55> Got completed quests list", -- [15]
+				"18:46:55> CacheQuestLog cached 0 quests", -- [16]
+				"18:46:55> CacheQuestLog cached 0 quests", -- [17]
+				"18:46:55> Guides loaded. -----", -- [18]
+				"18:46:55> SetGuide Zygor's Horde Leveling Guides\\Undead (1-13) (1", -- [19]
+				"18:46:55> Guide loaded: Zygor's Horde Leveling Guides\\Undead (1-13)", -- [20]
+				"18:46:55> FocusStep 1", -- [21]
+				"18:46:55> Translated: accept/turnin Rude Awakening", -- [22]
+				"18:46:55> frameNeedsUpdating, so updating.", -- [23]
 			},
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 		},
 		["Kimitress - Frostmourne"] = {
-			["starting"] = false,
+			["RecipesKnown"] = {
+				[2658] = true,
+				[2657] = true,
+				[3304] = true,
+				[2659] = true,
+			},
 			["guidename"] = "Zygor's Horde Leveling Guides\\Orc (1-13)",
 			["debuglog"] = {
 				"11:40:30> Viewer started. ---------------------------", -- [1]
@@ -495,12 +500,27 @@ ZygorGuidesViewerSettings = {
 				"11:40:40> frameNeedsUpdating, so updating.", -- [28]
 				"11:41:48> Hiding arrow with guide", -- [29]
 				"11:47:01> 3 Mining recipes found", -- [30]
+				"13:18:30> Viewer started. ---------------------------", -- [31]
+				"13:18:30> PLAYER_ENTERING_WORLD (dead?)", -- [32]
+				"13:18:30> PLAYER_ALIVE (dead?)", -- [33]
+				"13:18:30> CacheQuestLog cached 0 quests", -- [34]
+				"13:18:30> Got completed quests list", -- [35]
+				"13:18:31> CacheQuestLog cached 0 quests", -- [36]
+				"13:18:31> CacheQuestLog cached 1 quests", -- [37]
+				"13:18:31> New Quest: Report to Sen'jin Village id 805", -- [38]
+				"13:18:31> ZONE_CHANGED_NEW_AREA (dead?)", -- [39]
+				"13:18:32> Guides loaded. -----", -- [40]
+				"13:18:32> SetGuide Zygor's Horde Leveling Guides\\Orc (1-13) (1", -- [41]
+				"13:18:32> Guide loaded: Zygor's Horde Leveling Guides\\Orc (1-13)", -- [42]
+				"13:18:32> FocusStep 1", -- [43]
+				"13:18:35> Got completed quests list", -- [44]
+				"13:20:21> 3 Mining recipes found", -- [45]
+				"13:20:37> 3 Mining recipes found", -- [46]
+				"13:22:21> 3 Mining recipes found", -- [47]
+				"13:25:00> 3 Mining recipes found", -- [48]
+				"13:30:51> 4 Mining recipes found", -- [49]
 			},
-			["RecipesKnown"] = {
-				[2657] = true,
-				[3304] = true,
-				[2659] = true,
-			},
+			["maint_fetchitemdata"] = true,
 			["guides_history"] = {
 				{
 					["short"] = "Orc (1-13)",
@@ -511,34 +531,34 @@ ZygorGuidesViewerSettings = {
 			["maint_fetchquestdata"] = true,
 			["taxis"] = {
 			},
-			["maint_fetchitemdata"] = true,
+			["starting"] = false,
 		},
 	},
 	["profileKeys"] = {
-		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["profiles"] = {
-		["Queemi - Frostmourne"] = {
+		["Queemificina - Frostmourne"] = {
 			["arrowsmooth"] = true,
 			["arrowcam"] = false,
+			["visible"] = false,
 		},
 		["Queemu - Frostmourne"] = {
 			["visible"] = false,
 			["arrowcam"] = false,
 			["arrowsmooth"] = true,
 		},
-		["Queemificina - Frostmourne"] = {
+		["Queemi - Frostmourne"] = {
 			["arrowsmooth"] = true,
 			["arrowcam"] = false,
-			["visible"] = false,
 		},
 		["Kimitress - Frostmourne"] = {
-			["arrowsmooth"] = true,
-			["arrowcam"] = false,
 			["visible"] = false,
+			["arrowcam"] = false,
+			["arrowsmooth"] = true,
 		},
 	},
 }

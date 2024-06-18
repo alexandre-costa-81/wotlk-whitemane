@@ -1,11 +1,11 @@
 Version: 1
 Frame: ColorPickerFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 0
-W: 365
-H: 200
+FrameLevel: 8
+Anchor: RIGHT
+X: -314
+Y: 190
+W: 405
+H: 240
 Frame: PallyPowerFrame
 FrameLevel: 1
 Anchor: BOTTOM
@@ -21,7 +21,7 @@ Y: -259
 W: 32
 H: 32
 Frame: ZygorGuidesViewerFrame
-FrameLevel: 13
+FrameLevel: 11
 Anchor: CENTER
 X: 110
 Y: -30

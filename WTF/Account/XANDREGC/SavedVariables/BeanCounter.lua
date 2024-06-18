@@ -4,6 +4,37 @@ BeanCounterDB = {
 		["Queemu"] = {
 			["vendorsell"] = {
 			},
+			["postedBids"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["wealth"] = 6406483,
+			["postedAuctions"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBids"] = {
+			},
+			["version"] = 2.12,
+			["failedBidsNeutral"] = {
+			},
+			["faction"] = "Horde",
+			["completedBidsBuyouts"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["mailbox"] = {
+			},
+		},
+		["Queemi"] = {
+			["vendorsell"] = {
+			},
 			["completedAuctions"] = {
 			},
 			["postedBids"] = {
@@ -12,7 +43,38 @@ BeanCounterDB = {
 			},
 			["postedAuctions"] = {
 			},
-			["wealth"] = 6406483,
+			["wealth"] = 135709,
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedBidsBuyouts"] = {
+			},
+			["version"] = 2.12,
+			["faction"] = "Horde",
+			["failedBidsNeutral"] = {
+			},
+			["failedAuctionsNeutral"] = {
+			},
+			["completedAuctionsNeutral"] = {
+			},
+			["mailbox"] = {
+			},
+		},
+		["Queemificina"] = {
+			["vendorsell"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["postedBids"] = {
+			},
+			["completedBidsBuyoutsNeutral"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 308061,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
@@ -35,88 +97,26 @@ BeanCounterDB = {
 		["Kimitress"] = {
 			["vendorsell"] = {
 			},
-			["postedBids"] = {
-			},
 			["completedAuctions"] = {
 			},
-			["wealth"] = 249130,
-			["postedAuctions"] = {
+			["postedBids"] = {
 			},
 			["completedBidsBuyoutsNeutral"] = {
 			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 235000,
 			["vendorbuy"] = {
 			},
 			["failedAuctions"] = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
-			["failedBidsNeutral"] = {
-			},
-			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
-			},
-			["failedAuctionsNeutral"] = {
-			},
-			["completedAuctionsNeutral"] = {
-			},
-			["mailbox"] = {
-			},
-		},
-		["Queemificina"] = {
-			["vendorsell"] = {
-			},
-			["postedBids"] = {
-			},
-			["completedAuctions"] = {
-			},
-			["wealth"] = 308061,
-			["postedAuctions"] = {
-			},
-			["completedBidsBuyoutsNeutral"] = {
-			},
-			["vendorbuy"] = {
-			},
-			["failedAuctions"] = {
-			},
-			["failedBids"] = {
-			},
-			["failedBidsNeutral"] = {
 			},
 			["version"] = 2.12,
 			["faction"] = "Horde",
-			["completedBidsBuyouts"] = {
-			},
-			["failedAuctionsNeutral"] = {
-			},
-			["completedAuctionsNeutral"] = {
-			},
-			["mailbox"] = {
-			},
-		},
-		["Queemi"] = {
-			["vendorsell"] = {
-			},
-			["postedBids"] = {
-			},
-			["completedAuctions"] = {
-			},
-			["wealth"] = 135709,
-			["postedAuctions"] = {
-			},
-			["completedBidsBuyoutsNeutral"] = {
-			},
-			["vendorbuy"] = {
-			},
-			["failedAuctions"] = {
-			},
-			["failedBids"] = {
-			},
-			["version"] = 2.12,
 			["failedBidsNeutral"] = {
-			},
-			["faction"] = "Horde",
-			["completedBidsBuyouts"] = {
 			},
 			["failedAuctionsNeutral"] = {
 			},

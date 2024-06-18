@@ -1,9 +1,9 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
-		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["global"] = {
@@ -44,11 +44,11 @@ DataStore_TalentsDB = {
 						[16] = 5,
 						[17] = 3,
 						[18] = 1,
-						[26] = 5,
-						[20] = 5,
-						[11] = 3,
-						[22] = 3,
 						[24] = 3,
+						[20] = 5,
+						[22] = 3,
+						[11] = 3,
+						[26] = 5,
 					},
 					["Balance|1"] = {
 						5, -- [1]
@@ -166,7 +166,7 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1718721630,
+				["lastUpdate"] = 1718727510,
 				["Class"] = "HUNTER",
 				["PointsSpent"] = "0,0,0,0,0,0",
 			},
@@ -227,9 +227,9 @@ DataStore_TalentsDB = {
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
-		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["global"] = {
@@ -237,6 +237,7 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "enUS",
 			["Trees"] = {
 				["Unholy"] = {
+					["background"] = "DeathKnightUnholy",
 					["talents"] = {
 						"2082|Vicious Strikes|Spell_Deathknight_PlagueStrike|1|1|2", -- [1]
 						"1932|Virulence|Spell_Shadow_BurningSpirit|1|2|3", -- [2]
@@ -270,16 +271,16 @@ DataStore_TalentsRefDB = {
 						"2036|Rage of Rivendare|INV_Weapon_Halberd14|10|2|5", -- [30]
 						"2000|Summon Gargoyle|Ability_Hunter_Pet_Bat|11|2|1", -- [31]
 					},
+					["icon"] = "Spell_Deathknight_UnholyPresence",
 					["prereqs"] = {
 						[20] = "4|4",
 						[24] = "6|4",
 						[22] = "6|2",
 						[28] = "8|2",
 					},
-					["icon"] = "Spell_Deathknight_UnholyPresence",
-					["background"] = "DeathKnightUnholy",
 				},
 				["Frost"] = {
+					["background"] = "DeathKnightFrost",
 					["talents"] = {
 						"2031|Improved Icy Touch|Spell_DeathKnight_IceTouch|1|1|3", -- [1]
 						"2020|Runic Power Mastery|Spell_Arcane_Arcane01|1|2|2", -- [2]
@@ -311,14 +312,14 @@ DataStore_TalentsRefDB = {
 						"1998|Tundra Stalker|Spell_Nature_Tranquility|10|2|5", -- [28]
 						"1989|Howling Blast|Spell_Frost_ArcticWinds|11|2|1", -- [29]
 					},
+					["icon"] = "Spell_Deathknight_FrostPresence",
 					["prereqs"] = {
 						[7] = "1|1",
 						[16] = "3|1",
 					},
-					["icon"] = "Spell_Deathknight_FrostPresence",
-					["background"] = "DeathKnightFrost",
 				},
 				["Blood"] = {
+					["background"] = "DeathKnightBlood",
 					["talents"] = {
 						"1939|Butchery|INV_Axe_68|1|1|2", -- [1]
 						"1945|Subversion|Spell_DeathKnight_Subversion|1|2|3", -- [2]
@@ -349,12 +350,11 @@ DataStore_TalentsRefDB = {
 						"2034|Blood Gorged|Spell_Nature_Reincarnation|10|2|5", -- [27]
 						"1961|Dancing Rune Weapon|INV_Sword_07|11|2|1", -- [28]
 					},
+					["icon"] = "Spell_Deathknight_BloodPresence",
 					["prereqs"] = {
 						[10] = "3|1",
 						[16] = "3|2",
 					},
-					["icon"] = "Spell_Deathknight_BloodPresence",
-					["background"] = "DeathKnightBlood",
 				},
 			},
 			["Version"] = 12340,
@@ -364,7 +364,16 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "enUS",
 			["Trees"] = {
 				["Balance"] = {
+					["prereqs"] = {
+						[19] = "7|2",
+						[14] = "5|2",
+						[24] = "7|2",
+						[21] = "7|2",
+						[8] = "2|2",
+						[7] = "2|2",
+					},
 					["background"] = "DruidBalance",
+					["icon"] = "Spell_Nature_StarFall",
 					["talents"] = {
 						"762|Starlight Wrath|Spell_Nature_AbolishMagic|1|2|5", -- [1]
 						"2238|Genesis|Spell_Arcane_Arcane03|1|3|5", -- [2]
@@ -395,18 +404,19 @@ DataStore_TalentsRefDB = {
 						"1928|Earth and Moon|Ability_Druid_EarthandSky|10|2|3", -- [27]
 						"1926|Starfall|Ability_Druid_Starfall|11|2|1", -- [28]
 					},
-					["icon"] = "Spell_Nature_StarFall",
-					["prereqs"] = {
-						[19] = "7|2",
-						[14] = "5|2",
-						[24] = "7|2",
-						[21] = "7|2",
-						[8] = "2|2",
-						[7] = "2|2",
-					},
 				},
 				["Restoration"] = {
+					["prereqs"] = {
+						[16] = "4|3",
+						[27] = "9|2",
+						[9] = "2|3",
+						[24] = "9|2",
+						[18] = "5|2",
+						[23] = "8|2",
+						[12] = "3|1",
+					},
 					["background"] = "DruidRestoration",
+					["icon"] = "Spell_Nature_HealingTouch",
 					["talents"] = {
 						"821|Improved Mark of the Wild|Spell_Nature_Regeneration|1|1|2", -- [1]
 						"823|Nature's Focus|Spell_Nature_HealingWaveGreater|1|2|3", -- [2]
@@ -436,19 +446,20 @@ DataStore_TalentsRefDB = {
 						"1916|Gift of the Earthmother|Ability_Druid_ManaTree|10|3|5", -- [26]
 						"1917|Wild Growth|Ability_Druid_Flourish|11|2|1", -- [27]
 					},
-					["icon"] = "Spell_Nature_HealingTouch",
-					["prereqs"] = {
-						[16] = "4|3",
-						[27] = "9|2",
-						[9] = "2|3",
-						[12] = "3|1",
-						[18] = "5|2",
-						[23] = "8|2",
-						[24] = "9|2",
-					},
 				},
 				["Feral Combat"] = {
+					["prereqs"] = {
+						[26] = "7|2",
+						[12] = "3|3",
+						[20] = "7|2",
+						[17] = "4|2",
+						[11] = "3|3",
+						[22] = "7|2",
+						[29] = "10|2",
+						[27] = "9|2",
+					},
 					["background"] = "DruidFeralCombat",
+					["icon"] = "Ability_Racial_BearForm",
 					["talents"] = {
 						"796|Ferocity|Ability_Hunter_Pet_Hyena|1|2|5", -- [1]
 						"795|Feral Aggression|Ability_Druid_DemoralizingRoar|1|3|5", -- [2]
@@ -481,17 +492,6 @@ DataStore_TalentsRefDB = {
 						"2266|Primal Gore|Ability_Druid_Rake|10|3|1", -- [29]
 						"1927|Berserk|Ability_Druid_Berserk|11|2|1", -- [30]
 					},
-					["icon"] = "Ability_Racial_BearForm",
-					["prereqs"] = {
-						[26] = "7|2",
-						[12] = "3|3",
-						[20] = "7|2",
-						[17] = "4|2",
-						[11] = "3|3",
-						[27] = "9|2",
-						[29] = "10|2",
-						[22] = "7|2",
-					},
 				},
 			},
 			["Version"] = 12340,
@@ -501,16 +501,6 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "enUS",
 			["Trees"] = {
 				["Demonology"] = {
-					["prereqs"] = {
-						[19] = "6|2",
-						[16] = "4|2",
-						[14] = "4|2",
-						[13] = "3|3",
-						[23] = "8|2",
-						[12] = "3|2",
-					},
-					["background"] = "WarlockSummoning",
-					["icon"] = "Spell_Shadow_Metamorphosis",
 					["talents"] = {
 						"1221|Improved Healthstone|INV_Stone_04|1|1|2", -- [1]
 						"1222|Improved Imp|Spell_Shadow_SummonImp|1|2|3", -- [2]
@@ -540,16 +530,18 @@ DataStore_TalentsRefDB = {
 						"1885|Demonic Pact|Spell_Shadow_DemonicPact|10|2|5", -- [26]
 						"1886|Metamorphosis|Spell_Shadow_DemonForm|11|2|1", -- [27]
 					},
+					["prereqs"] = {
+						[19] = "6|2",
+						[16] = "4|2",
+						[14] = "4|2",
+						[13] = "3|3",
+						[12] = "3|2",
+						[23] = "8|2",
+					},
+					["icon"] = "Spell_Shadow_Metamorphosis",
+					["background"] = "WarlockSummoning",
 				},
 				["Affliction"] = {
-					["prereqs"] = {
-						[26] = "9|2",
-						[18] = "5|2",
-						[16] = "3|3",
-						[25] = "7|2",
-					},
-					["background"] = "WarlockCurses",
-					["icon"] = "Spell_Shadow_DeathCoil",
 					["talents"] = {
 						"1284|Improved Curse of Agony|Spell_Shadow_CurseOfSargeras|1|1|2", -- [1]
 						"1005|Suppression|Spell_Shadow_UnsummonBuilding|1|2|3", -- [2]
@@ -580,17 +572,16 @@ DataStore_TalentsRefDB = {
 						"1876|Everlasting Affliction|Ability_Warlock_EverlastingAffliction|10|2|5", -- [27]
 						"2041|Haunt|Ability_Warlock_Haunt|11|2|1", -- [28]
 					},
+					["prereqs"] = {
+						[26] = "9|2",
+						[18] = "5|2",
+						[16] = "3|3",
+						[25] = "7|2",
+					},
+					["icon"] = "Spell_Shadow_DeathCoil",
+					["background"] = "WarlockCurses",
 				},
 				["Destruction"] = {
-					["prereqs"] = {
-						[12] = "4|1",
-						[14] = "3|3",
-						[17] = "5|2",
-						[21] = "7|3",
-						[22] = "7|2",
-					},
-					["background"] = "WarlockDestruction",
-					["icon"] = "Spell_Shadow_RainOfFire",
 					["talents"] = {
 						"944|Improved Shadow Bolt|Spell_Shadow_ShadowBolt|1|2|5", -- [1]
 						"943|Bane|Spell_Shadow_DeathPact|1|3|5", -- [2]
@@ -619,6 +610,15 @@ DataStore_TalentsRefDB = {
 						"1890|Fire and Brimstone|Ability_Warlock_FireandBrimstone|10|2|5", -- [25]
 						"1891|Chaos Bolt|Ability_Warlock_ChaosBolt|11|2|1", -- [26]
 					},
+					["prereqs"] = {
+						[12] = "4|1",
+						[14] = "3|3",
+						[17] = "5|2",
+						[21] = "7|3",
+						[22] = "7|2",
+					},
+					["icon"] = "Spell_Shadow_RainOfFire",
+					["background"] = "WarlockDestruction",
 				},
 			},
 			["Version"] = 12340,
@@ -628,7 +628,14 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "enUS",
 			["Trees"] = {
 				["Marksmanship"] = {
+					["prereqs"] = {
+						[20] = "5|3",
+						[9] = "2|3",
+						[19] = "5|2",
+						[24] = "8|2",
+					},
 					["background"] = "HunterMarksmanship",
+					["icon"] = "Ability_Marksmanship",
 					["talents"] = {
 						"1341|Improved Concussive Shot|Spell_Frost_Stun|1|1|2", -- [1]
 						"2197|Focused Aim|Ability_Hunter_FocusedAim|1|2|3", -- [2]
@@ -658,16 +665,17 @@ DataStore_TalentsRefDB = {
 						"2134|Marked for Death|Ability_Hunter_Assassinate|10|2|5", -- [26]
 						"2135|Chimera Shot|Ability_Hunter_ChimeraShot2|11|2|1", -- [27]
 					},
-					["icon"] = "Ability_Marksmanship",
-					["prereqs"] = {
-						[20] = "5|3",
-						[9] = "2|3",
-						[19] = "5|2",
-						[24] = "8|2",
-					},
 				},
 				["Beast Mastery"] = {
+					["prereqs"] = {
+						[23] = "7|2",
+						[20] = "7|1",
+						[24] = "8|3",
+						[18] = "5|2",
+						[16] = "4|3",
+					},
 					["background"] = "HunterBeastMastery",
+					["icon"] = "Ability_Hunter_BeastTaming",
 					["talents"] = {
 						"1382|Improved Aspect of the Hawk|Spell_Nature_RavenForm|1|2|5", -- [1]
 						"1389|Endurance Training|Spell_Nature_Reincarnation|1|3|5", -- [2]
@@ -696,17 +704,19 @@ DataStore_TalentsRefDB = {
 						"2227|Kindred Spirits|Ability_Hunter_SeparationAnxiety|10|2|5", -- [25]
 						"2139|Beast Mastery|Ability_Hunter_BeastMastery|11|2|1", -- [26]
 					},
-					["icon"] = "Ability_Hunter_BeastTaming",
-					["prereqs"] = {
-						[23] = "7|2",
-						[20] = "7|1",
-						[24] = "8|3",
-						[18] = "5|2",
-						[16] = "4|3",
-					},
 				},
 				["Survival"] = {
+					["prereqs"] = {
+						[19] = "6|1",
+						[16] = "3|3",
+						[14] = "3|1",
+						[28] = "9|2",
+						[20] = "5|2",
+						[23] = "7|2",
+						[27] = "7|3",
+					},
 					["background"] = "HunterSurvival",
+					["icon"] = "Ability_Hunter_SwiftStrike",
 					["talents"] = {
 						"1623|Improved Tracking|Ability_Hunter_ImprovedTracking|1|1|5", -- [1]
 						"1820|Hawk Eye|Ability_TownWatch|1|2|3", -- [2]
@@ -736,16 +746,6 @@ DataStore_TalentsRefDB = {
 						"2143|Sniper Training|Ability_Hunter_LongShots|9|4|3", -- [26]
 						"2144|Hunting Party|Ability_Hunter_HuntingParty|10|3|3", -- [27]
 						"2145|Explosive Shot|Ability_Hunter_ExplosiveShot|11|2|1", -- [28]
-					},
-					["icon"] = "Ability_Hunter_SwiftStrike",
-					["prereqs"] = {
-						[19] = "6|1",
-						[16] = "3|3",
-						[14] = "3|1",
-						[28] = "9|2",
-						[27] = "7|3",
-						[23] = "7|2",
-						[20] = "5|2",
 					},
 				},
 			},

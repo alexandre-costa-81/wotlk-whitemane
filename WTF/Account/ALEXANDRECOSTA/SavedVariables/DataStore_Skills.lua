@@ -6,7 +6,7 @@ DataStore_SkillsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmourne.Kimi"] = {
-				["lastUpdate"] = 1718726802,
+				["lastUpdate"] = 1718727281,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "1|75",
@@ -19,7 +19,7 @@ DataStore_SkillsDB = {
 						["Holy"] = "1|1",
 					},
 					["Professions"] = {
-						["Jewelcrafting"] = "149|150",
+						["Jewelcrafting"] = "153|150",
 						["Mining"] = "248|300",
 					},
 					["Languages"] = {
