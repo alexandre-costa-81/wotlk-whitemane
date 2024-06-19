@@ -3,8 +3,8 @@ _details_global = {
 	["got_first_run"] = true,
 	["tutorial"] = {
 		["unlock_button"] = 0,
-		["main_help_button"] = 8,
-		["logons"] = 8,
+		["main_help_button"] = 12,
+		["logons"] = 12,
 		["version_announce"] = 0,
 		["alert_frames"] = {
 			false, -- [1]
@@ -23,7 +23,7 @@ _details_global = {
 		1, -- [2]
 	},
 	["realm_sync"] = true,
-	["lastUpdateWarning"] = 1718721697,
+	["lastUpdateWarning"] = 1718808348,
 	["__profiles"] = {
 		["Kimi-Frostmourne"] = {
 			["capture_real"] = {
@@ -125,11 +125,11 @@ _details_global = {
 					0, -- [3]
 					0.25, -- [4]
 				},
-				["PALADIN"] = {
-					0, -- [1]
-					0.25, -- [2]
-					0.5, -- [3]
-					0.75, -- [4]
+				["SHAMAN"] = {
+					0.25, -- [1]
+					0.49609375, -- [2]
+					0.25, -- [3]
+					0.5, -- [4]
 				},
 				["MAGE"] = {
 					0.25, -- [1]
@@ -185,11 +185,11 @@ _details_global = {
 					0.25, -- [3]
 					0.5, -- [4]
 				},
-				["ROGUE"] = {
-					0.49609375, -- [1]
-					0.7421875, -- [2]
-					0, -- [3]
-					0.25, -- [4]
+				["PALADIN"] = {
+					0, -- [1]
+					0.25, -- [2]
+					0.5, -- [3]
+					0.75, -- [4]
 				},
 				["Horde"] = {
 					0.7421875, -- [1]
@@ -197,11 +197,11 @@ _details_global = {
 					0.75, -- [3]
 					1, -- [4]
 				},
-				["SHAMAN"] = {
-					0.25, -- [1]
-					0.49609375, -- [2]
-					0.25, -- [3]
-					0.5, -- [4]
+				["ROGUE"] = {
+					0.49609375, -- [1]
+					0.7421875, -- [2]
+					0, -- [3]
+					0.25, -- [4]
 				},
 				["ENEMY"] = {
 					0, -- [1]
@@ -217,15 +217,6 @@ _details_global = {
 				},
 			},
 			["disable_window_groups"] = false,
-			["total_abbreviation"] = 2,
-			["clear_graphic"] = true,
-			["report_schema"] = 1,
-			["trash_auto_remove"] = true,
-			["overall_clear_newchallenge"] = true,
-			["windows_fade_in"] = {
-				"in", -- [1]
-				0.2, -- [2]
-			},
 			["class_colors"] = {
 				["HUNTER"] = {
 					0.67, -- [1]
@@ -237,10 +228,10 @@ _details_global = {
 					0.61, -- [2]
 					0.43, -- [3]
 				},
-				["ROGUE"] = {
-					1, -- [1]
-					0.96, -- [2]
-					0.41, -- [3]
+				["SHAMAN"] = {
+					0, -- [1]
+					0.44, -- [2]
+					0.87, -- [3]
 				},
 				["MAGE"] = {
 					0.41, -- [1]
@@ -282,38 +273,49 @@ _details_global = {
 					0.49, -- [2]
 					0.04, -- [3]
 				},
+				["version"] = 1,
 				["ENEMY"] = {
 					0.94117, -- [1]
 					0, -- [2]
 					0.0196, -- [3]
 					1, -- [4]
 				},
-				["WARLOCK"] = {
-					0.58, -- [1]
-					0.51, -- [2]
-					0.79, -- [3]
+				["ROGUE"] = {
+					1, -- [1]
+					0.96, -- [2]
+					0.41, -- [3]
 				},
 				["PALADIN"] = {
 					0.96, -- [1]
 					0.55, -- [2]
 					0.73, -- [3]
 				},
-				["SHAMAN"] = {
-					0, -- [1]
-					0.44, -- [2]
-					0.87, -- [3]
-				},
 				["NEUTRAL"] = {
 					1, -- [1]
 					1, -- [2]
 					0, -- [3]
 				},
-				["version"] = 1,
+				["WARLOCK"] = {
+					0.58, -- [1]
+					0.51, -- [2]
+					0.79, -- [3]
+				},
 				["PET"] = {
 					0.3, -- [1]
 					0.4, -- [2]
 					0.5, -- [3]
 				},
+			},
+			["clear_graphic"] = true,
+			["report_schema"] = 1,
+			["overall_clear_newboss"] = true,
+			["overall_clear_newchallenge"] = true,
+			["windows_fade_in"] = {
+				"in", -- [1]
+				0.2, -- [2]
+			},
+			["hotcorner_topleft"] = {
+				["hide"] = false,
 			},
 			["segments_auto_erase"] = 1,
 			["cloud_capture"] = true,
@@ -351,11 +353,9 @@ _details_global = {
 			},
 			["time_type"] = 2,
 			["standard_skin"] = false,
-			["hotcorner_topleft"] = {
-				["hide"] = false,
-			},
+			["trash_auto_remove"] = true,
 			["memory_ram"] = 64,
-			["overall_clear_newboss"] = true,
+			["total_abbreviation"] = 2,
 			["profile_save_pos"] = true,
 			["disable_reset_button"] = false,
 			["data_broker_text"] = "",
@@ -558,16 +558,16 @@ _details_global = {
 						["textR_outline"] = false,
 						["textL_outline"] = false,
 						["icon_file"] = "Interface\\AddOns\\Details\\images\\classes_small_alpha",
+						["percent_type"] = 1,
+						["texture"] = "ElvUI Norm",
+						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
+						["textR_enable_custom_text"] = false,
+						["textR_custom_text"] = "{data1}({data2}, {data3}%)",
 						["fixed_texture_color"] = {
 							0, -- [1]
 							0, -- [2]
 							0, -- [3]
 						},
-						["texture"] = "ElvUI Norm",
-						["texture_highlight"] = "Interface\\FriendsFrame\\UI-FriendsList-Highlight",
-						["textR_enable_custom_text"] = false,
-						["textR_custom_text"] = "{data1}({data2}, {data3}%)",
-						["textL_enable_custom_text"] = false,
 						["textL_show_number"] = true,
 						["space"] = {
 							["right"] = -2,
@@ -611,7 +611,7 @@ _details_global = {
 						["height"] = 20,
 						["texture_file"] = "Interface\\AddOns\\ElvUI\\Media\\Textures\\NormTex2.tga",
 						["texture_background_file"] = "Interface\\AddOns\\ElvUI\\Media\\Textures\\NormTex2.tga",
-						["percent_type"] = 1,
+						["textL_enable_custom_text"] = false,
 					},
 					["backdrop_texture"] = "Details Ground",
 					["hide_icon"] = true,

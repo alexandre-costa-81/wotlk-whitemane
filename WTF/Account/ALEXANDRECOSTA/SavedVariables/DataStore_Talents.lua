@@ -21,7 +21,7 @@ DataStore_TalentsDB = {
 					"1|1|||0", -- [12]
 				},
 				["ActiveTalents"] = 2,
-				["lastUpdate"] = 1718762896,
+				["lastUpdate"] = 1718816574,
 				["Class"] = "PALADIN",
 				["TalentTrees"] = {
 					["Protection|1"] = {
@@ -117,7 +117,14 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "enUS",
 			["Trees"] = {
 				["Protection"] = {
+					["prereqs"] = {
+						[17] = "5|2",
+						[9] = "3|1",
+						[22] = "7|2",
+						[24] = "9|2",
+					},
 					["background"] = "PaladinProtection",
+					["icon"] = "Spell_Holy_DevotionAura",
 					["talents"] = {
 						"1442|Divinity|Spell_Holy_BlindingHeal|1|2|5", -- [1]
 						"2185|Divine Strength|Ability_GolemThunderClap|1|3|5", -- [2]
@@ -146,16 +153,15 @@ DataStore_TalentsRefDB = {
 						"2200|Judgements of the Just|Ability_Paladin_JudgementsoftheJust|10|3|2", -- [25]
 						"2196|Hammer of the Righteous|Ability_Paladin_HammeroftheRighteous|11|2|1", -- [26]
 					},
-					["icon"] = "Spell_Holy_DevotionAura",
-					["prereqs"] = {
-						[17] = "5|2",
-						[9] = "3|1",
-						[22] = "7|2",
-						[24] = "9|2",
-					},
 				},
 				["Holy"] = {
+					["prereqs"] = {
+						[13] = "3|2",
+						[18] = "5|2",
+						[24] = "7|2",
+					},
 					["background"] = "PaladinHoly",
+					["icon"] = "Spell_Holy_HolyBolt",
 					["talents"] = {
 						"1432|Spiritual Focus|Spell_Arcane_Blink|1|2|5", -- [1]
 						"1463|Seals of the Pure|Ability_ThunderBolt|1|3|5", -- [2]
@@ -184,15 +190,14 @@ DataStore_TalentsRefDB = {
 						"2191|Enlightened Judgements|Ability_Paladin_EnlightenedJudgements|10|3|2", -- [25]
 						"2192|Beacon of Light|Ability_Paladin_BeaconofLight|11|2|1", -- [26]
 					},
-					["icon"] = "Spell_Holy_HolyBolt",
-					["prereqs"] = {
-						[13] = "3|2",
-						[18] = "5|2",
-						[24] = "7|2",
-					},
 				},
 				["Retribution"] = {
+					["prereqs"] = {
+						[15] = "3|2",
+						[20] = "7|2",
+					},
 					["background"] = "PaladinCombat",
+					["icon"] = "Spell_Holy_AuraOfLight",
 					["talents"] = {
 						"1403|Deflection|Ability_Parry|1|2|5", -- [1]
 						"1407|Benediction|Spell_Frost_WindWalkOn|1|3|5", -- [2]
@@ -220,11 +225,6 @@ DataStore_TalentsRefDB = {
 						"2179|Sheath of Light|Ability_Paladin_SheathofLight|9|3|3", -- [24]
 						"2149|Righteous Vengeance|Ability_Paladin_RighteousVengeance|10|2|3", -- [25]
 						"2150|Divine Storm|Ability_Paladin_DivineStorm|11|2|1", -- [26]
-					},
-					["icon"] = "Spell_Holy_AuraOfLight",
-					["prereqs"] = {
-						[15] = "3|2",
-						[20] = "7|2",
 					},
 				},
 			},

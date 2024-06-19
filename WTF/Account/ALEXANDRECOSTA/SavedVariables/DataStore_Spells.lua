@@ -6,7 +6,7 @@ DataStore_SpellsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmourne.Kimi"] = {
-				["lastUpdate"] = 1718762896,
+				["lastUpdate"] = 1718816574,
 				["Spells"] = {
 					["Protection"] = {
 						"31935|Rank 1", -- [1]

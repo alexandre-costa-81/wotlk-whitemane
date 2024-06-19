@@ -39,6 +39,7 @@ DataStore_CraftsDB = {
 						["isSecondary"] = true,
 					},
 					["Mining"] = {
+						["isPrimary"] = true,
 						["NumCrafts"] = 8,
 						["Crafts"] = {
 							"0|Metal & Stone", -- [1]
@@ -51,7 +52,6 @@ DataStore_CraftsDB = {
 							"4|3304", -- [8]
 							"4|2657", -- [9]
 						},
-						["isPrimary"] = true,
 					},
 					["Riding"] = {
 						["isSecondary"] = true,
@@ -156,6 +156,17 @@ DataStore_CraftsDB = {
 			},
 			["Default.Frostmourne.Omnipotent Prime"] = {
 				["Members"] = {
+					["Manalust"] = {
+						["Version"] = 12340,
+					},
+					["Lynya"] = {
+						["Professions"] = {
+							13614, -- [1]
+							"|cffffd000|Htrade:51304:450:450:8B6F:WJFCwhhEFAchGAIAAAADJAQAhAMBgACZ5O8FAQ7Bgr9v|h[Alchemy]|h|r", -- [2]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1718812232,
+					},
 					["Kimi"] = {
 						["Professions"] = {
 							2575, -- [1]
@@ -163,10 +174,16 @@ DataStore_CraftsDB = {
 							"|cffffd000|Htrade:2550:1:75:46C2:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1718756998,
+						["lastUpdate"] = 1718813272,
 					},
-					["Manalust"] = {
+					["Bmulius"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:51311:449:450:8046:c4YRMoEEAQAgCEFAAAAAAAAAg1BgXlAAAAAAAAAAAAAAIERDAAQAgAAAQx6GSRsxlKHhgz4GCIAQRgIMA/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r", -- [1]
+							2575, -- [2]
+							"|cffffd000|Htrade:51296:431:450:8046:GwI1Wdx/V9JTnpAwBA4DOBAIoJgBUKA|h[Cooking]|h|r", -- [3]
+						},
 						["Version"] = 12340,
+						["lastUpdate"] = 1718808470,
 					},
 				},
 			},

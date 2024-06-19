@@ -5,7 +5,7 @@ ElvDB = {
 	},
 	["gold"] = {
 		["Frostmourne"] = {
-			["Kimi"] = 41076662,
+			["Kimi"] = 44206332,
 		},
 	},
 	["namespaces"] = {
@@ -21,6 +21,12 @@ ElvDB = {
 		["general"] = {
 			["locale"] = "enUS",
 		},
+		["bags"] = {
+			["ignoredItems"] = {
+				["6948"] = "|cffffffff|Hitem:6948:0:0:0:0:0:0:0:80|h[Hearthstone]|h|r",
+				["20815"] = "|cffffffff|Hitem:20815:0:0:0:0:0:0:0:80|h[Jeweler's Kit]|h|r",
+			},
+		},
 		["nameplates"] = {
 			["filters"] = {
 				["ElvUI_Totem"] = {
@@ -29,6 +35,7 @@ ElvDB = {
 				},
 			},
 		},
+		["afkEnabled"] = true,
 	},
 	["profiles"] = {
 		["Kimi - Frostmourne"] = {
@@ -165,6 +172,7 @@ ElvDB = {
 			},
 			["layoutSet"] = "healer",
 			["movers"] = {
+				["ElvBar_Pet"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,344",
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,482",
 				["MirrorTimer1Mover"] = "TOP,ElvUIParent,TOP,-1,-96",
 				["ElvUF_PlayerCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,290",
@@ -179,10 +187,10 @@ ElvDB = {
 				["AlertFrameMover"] = "TOP,ElvUIParent,TOP,-1,-18",
 				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-341,99",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,737",
-				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,859,274",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,842,274",
 				["TotemBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,485,4",
 				["ElvUF_FocusMover"] = "BOTTOM,ElvUIParent,BOTTOM,342,59",
-				["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,38",
+				["ElvUF_TargetCastbarMover"] = "TOP,ElvUIParent,TOP,0,-245",
 				["ElvUF_PlayerMover"] = "BOTTOM,ElvUIParent,BOTTOM,-341,138",
 				["BNETMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-4,-274",
 				["ElvAB_1"] = "BOTTOM,ElvUIParent,BOTTOM,-102,88",
@@ -291,21 +299,32 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["party"] = {
-						["healPrediction"] = {
-							["enable"] = true,
+					["boss"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = -16,
+							["numrows"] = 1,
+							["maxDuration"] = 300,
 						},
-						["height"] = 74,
-						["enable"] = false,
-						["rdebuffs"] = {
-							["font"] = "PT Sans Narrow",
+						["width"] = 246,
+						["infoPanel"] = {
+							["height"] = 17,
 						},
-						["power"] = {
-							["height"] = 13,
-						},
-						["width"] = 231,
 						["health"] = {
 							["frequentUpdates"] = true,
+						},
+						["portrait"] = {
+							["camDistanceScale"] = 2,
+							["width"] = 45,
+						},
+						["height"] = 60,
+						["buffs"] = {
+							["sizeOverride"] = 27,
+							["yOffset"] = 16,
+							["maxDuration"] = 300,
+						},
+						["castbar"] = {
+							["width"] = 246,
 						},
 					},
 					["raid40"] = {
@@ -370,34 +389,6 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["boss"] = {
-						["debuffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = -16,
-							["numrows"] = 1,
-							["maxDuration"] = 300,
-						},
-						["width"] = 246,
-						["infoPanel"] = {
-							["height"] = 17,
-						},
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-						["portrait"] = {
-							["camDistanceScale"] = 2,
-							["width"] = 45,
-						},
-						["height"] = 60,
-						["buffs"] = {
-							["sizeOverride"] = 27,
-							["yOffset"] = 16,
-							["maxDuration"] = 300,
-						},
-						["castbar"] = {
-							["width"] = 246,
-						},
-					},
 					["player"] = {
 						["debuffs"] = {
 							["perrow"] = 7,
@@ -428,6 +419,23 @@ ElvDB = {
 						["height"] = 82,
 						["buffs"] = {
 							["perrow"] = 7,
+						},
+					},
+					["party"] = {
+						["healPrediction"] = {
+							["enable"] = true,
+						},
+						["height"] = 74,
+						["enable"] = false,
+						["rdebuffs"] = {
+							["font"] = "PT Sans Narrow",
+						},
+						["power"] = {
+							["height"] = 13,
+						},
+						["width"] = 231,
+						["health"] = {
+							["frequentUpdates"] = true,
 						},
 					},
 				},

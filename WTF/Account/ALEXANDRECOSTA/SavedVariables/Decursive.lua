@@ -17,7 +17,7 @@ DecursiveDB = {
 		},
 	},
 	["global"] = {
-		["LastExpirationAlert"] = 1718638461,
+		["LastExpirationAlert"] = 1718813264,
 	},
 	["profiles"] = {
 		["Default"] = {

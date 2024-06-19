@@ -12,7 +12,7 @@ DataStore_InventoryDB = {
 					37635, -- [3]
 					6117, -- [4]
 					37735, -- [5]
-					37379, -- [6]
+					37801, -- [6]
 					37688, -- [7]
 					37712, -- [8]
 					44341, -- [9]
@@ -28,7 +28,7 @@ DataStore_InventoryDB = {
 					43154, -- [19]
 				},
 				["averageItemLvl"] = 198.5294117647059,
-				["lastUpdate"] = 1718762908,
+				["lastUpdate"] = 1718816574,
 			},
 		},
 		["Guilds"] = {
@@ -56,8 +56,14 @@ DataStore_InventoryDB = {
 			},
 			["Default.Frostmourne.Omnipotent Prime"] = {
 				["Members"] = {
+					["Lynya"] = {
+						["averageItemLvl"] = 189,
+					},
 					["Kimi"] = {
 						["averageItemLvl"] = 198,
+					},
+					["Bmulius"] = {
+						["averageItemLvl"] = 200,
 					},
 				},
 			},
