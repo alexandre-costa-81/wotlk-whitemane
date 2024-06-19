@@ -3,106 +3,106 @@ ZygorGuidesViewerSettings = {
 	["char"] = {
 		["Kimi - Frostmourne"] = {
 			["debuglog"] = {
-				"12:03:53> Guide loaded: Zygor's Horde Dailies Guides\\Icecrown\\Icecrown Full Zone Quest Path (Includes Regular Dailies Pre-Quests)", -- [1]
-				"12:03:53> FocusStep 81", -- [2]
-				"12:03:56> Got completed quests list", -- [3]
-				"12:07:07> Viewer started. ---------------------------", -- [4]
-				"12:07:07> PLAYER_ENTERING_WORLD (dead?)", -- [5]
-				"12:07:07> PLAYER_ALIVE (dead?)", -- [6]
-				"12:07:07> CacheQuestLog cached 0 quests", -- [7]
-				"12:07:08> Got completed quests list", -- [8]
-				"12:07:08> CacheQuestLog cached 16 quests", -- [9]
-				"12:07:08> New Quest: Funky Fungi id 13204", -- [10]
-				"12:07:08> New Quest: All Things in Good Time id 13190", -- [11]
-				"12:07:08> New Quest: Assault by Air id 13310", -- [12]
-				"12:07:08> New Quest: Assault by Ground id 13301", -- [13]
-				"12:07:08> New Quest: Blood of the Chosen id 13330", -- [14]
-				"12:07:08> New Quest: Get to Ymirheim! id 13293", -- [15]
-				"12:07:08> New Quest: It's All Fun and Games id 12892", -- [16]
-				"12:07:08> New Quest: Slaves to Saronite id 13302", -- [17]
-				"12:07:08> New Quest: The Broken Front id 13228", -- [18]
-				"12:07:08> New Quest: Proof of Demise: Mal'Ganis id 13251", -- [19]
-				"12:07:08> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [20]
-				"12:07:08> New Quest: Bones and Arrows id 13193", -- [21]
-				"12:07:08> New Quest: Slay them all! id 13178", -- [22]
-				"12:07:08> New Quest: Stop the Siege id 13185", -- [23]
-				"12:07:08> New Quest: Toppling the Towers id 13539", -- [24]
-				"12:07:08> New Quest: Victory in Wintergrasp id 13183", -- [25]
-				"12:07:08> ZONE_CHANGED_NEW_AREA (dead?)", -- [26]
-				"12:07:08> CacheQuestLog cached 16 quests", -- [27]
-				"12:07:09> Guides loaded. -----", -- [28]
-				"12:07:09> SetGuide Zygor's Horde Dailies Guides\\Icecrown\\Icecrown Full Zone Quest Path (Includes Regular Dailies Pre-Quests) (81", -- [29]
-				"12:07:09> Guide loaded: Zygor's Horde Dailies Guides\\Icecrown\\Icecrown Full Zone Quest Path (Includes Regular Dailies Pre-Quests)", -- [30]
-				"12:07:09> FocusStep 81", -- [31]
-				"12:07:12> Got completed quests list", -- [32]
-				"12:29:22> PLAYER_ENTERING_WORLD (dead?)", -- [33]
-				"12:29:22> PLAYER_ALIVE (dead?)", -- [34]
-				"12:29:22> CacheQuestLog cached 16 quests", -- [35]
-				"12:29:22> ZONE_CHANGED_NEW_AREA (dead?)", -- [36]
-				"12:29:22> CacheQuestLog cached 16 quests", -- [37]
-				"12:29:22> CacheQuestLog cached 16 quests", -- [38]
-				"12:29:22> CacheQuestLog cached 16 quests", -- [39]
-				"12:29:35> PLAYER_ENTERING_WORLD (dead?)", -- [40]
-				"12:29:35> PLAYER_ALIVE (dead?)", -- [41]
-				"12:29:35> CacheQuestLog cached 16 quests", -- [42]
-				"12:29:35> ZONE_CHANGED_NEW_AREA (dead?)", -- [43]
-				"12:29:35> CacheQuestLog cached 16 quests", -- [44]
-				"12:29:35> CacheQuestLog cached 16 quests", -- [45]
-				"12:43:32> 27 Jewelcrafting recipes found", -- [46]
-				"13:01:32> PLAYER_ENTERING_WORLD (dead?)", -- [47]
-				"13:01:32> PLAYER_ALIVE (dead?)", -- [48]
-				"13:01:32> CacheQuestLog cached 16 quests", -- [49]
-				"13:01:32> ZONE_CHANGED_NEW_AREA (dead?)", -- [50]
-				"13:01:32> CacheQuestLog cached 16 quests", -- [51]
-				"13:02:36> PLAYER_ENTERING_WORLD (dead?)", -- [52]
-				"13:02:36> PLAYER_ALIVE (dead?)", -- [53]
-				"13:02:36> CacheQuestLog cached 16 quests", -- [54]
-				"13:02:36> ZONE_CHANGED_NEW_AREA (dead?)", -- [55]
-				"13:02:36> CacheQuestLog cached 16 quests", -- [56]
-				"13:02:36> CacheQuestLog cached 16 quests", -- [57]
-				"13:04:01> 28 Jewelcrafting recipes found", -- [58]
-				"13:04:11> 8 Mining recipes found", -- [59]
-				"13:04:12> 28 Jewelcrafting recipes found", -- [60]
-				"13:06:30> ZONE_CHANGED_NEW_AREA (dead?)", -- [61]
-				"13:06:42> PLAYER_ENTERING_WORLD (dead?)", -- [62]
-				"13:06:42> PLAYER_ALIVE (dead?)", -- [63]
-				"13:06:42> CacheQuestLog cached 16 quests", -- [64]
-				"13:06:42> ZONE_CHANGED_NEW_AREA (dead?)", -- [65]
-				"13:06:42> CacheQuestLog cached 16 quests", -- [66]
-				"13:06:42> CacheQuestLog cached 16 quests", -- [67]
-				"13:11:50> Viewer started. ---------------------------", -- [68]
-				"13:11:50> PLAYER_ENTERING_WORLD (dead?)", -- [69]
-				"13:11:50> PLAYER_ALIVE (dead?)", -- [70]
-				"13:11:50> CacheQuestLog cached 0 quests", -- [71]
-				"13:11:51> Got completed quests list", -- [72]
-				"13:11:51> CacheQuestLog cached 0 quests", -- [73]
-				"13:11:51> CacheQuestLog cached 16 quests", -- [74]
-				"13:11:51> New Quest: Funky Fungi id 13204", -- [75]
-				"13:11:51> New Quest: All Things in Good Time id 13190", -- [76]
-				"13:11:51> New Quest: Assault by Air id 13310", -- [77]
-				"13:11:51> New Quest: Assault by Ground id 13301", -- [78]
-				"13:11:51> New Quest: Blood of the Chosen id 13330", -- [79]
-				"13:11:51> New Quest: Get to Ymirheim! id 13293", -- [80]
-				"13:11:51> New Quest: It's All Fun and Games id 12892", -- [81]
-				"13:11:51> New Quest: Slaves to Saronite id 13302", -- [82]
-				"13:11:51> New Quest: The Broken Front id 13228", -- [83]
-				"13:11:51> New Quest: Proof of Demise: Mal'Ganis id 13251", -- [84]
-				"13:11:51> New Quest: Timear Foresees Ymirjar Berserkers in your Future! id 13241", -- [85]
-				"13:11:51> New Quest: Bones and Arrows id 13193", -- [86]
-				"13:11:51> New Quest: Slay them all! id 13178", -- [87]
-				"13:11:51> New Quest: Stop the Siege id 13185", -- [88]
-				"13:11:51> New Quest: Toppling the Towers id 13539", -- [89]
-				"13:11:51> New Quest: Victory in Wintergrasp id 13183", -- [90]
-				"13:11:51> ZONE_CHANGED_NEW_AREA (dead?)", -- [91]
-				"13:11:51> CacheQuestLog cached 16 quests", -- [92]
-				"13:11:52> Guides loaded. -----", -- [93]
-				"13:11:52> SetGuide Zygor's Horde Dailies Guides\\Icecrown\\Icecrown Full Zone Quest Path (Includes Regular Dailies Pre-Quests) (81", -- [94]
-				"13:11:52> Guide loaded: Zygor's Horde Dailies Guides\\Icecrown\\Icecrown Full Zone Quest Path (Includes Regular Dailies Pre-Quests)", -- [95]
-				"13:11:52> FocusStep 81", -- [96]
-				"13:11:52> ZONE_CHANGED_NEW_AREA (dead?)", -- [97]
-				"13:11:55> Got completed quests list", -- [98]
-				"13:12:22> ZONE_CHANGED_NEW_AREA (dead?)", -- [99]
-				"13:13:29> 29 Jewelcrafting recipes found", -- [100]
+				"22:29:10> PLAYER_ALIVE (dead?)", -- [1]
+				"22:29:10> CacheQuestLog cached 14 quests", -- [2]
+				"22:29:11> CacheQuestLog cached 14 quests", -- [3]
+				"22:29:11> ZONE_CHANGED_NEW_AREA (dead?)", -- [4]
+				"22:33:22> PLAYER_ENTERING_WORLD (dead?)", -- [5]
+				"22:33:22> Player dead!", -- [6]
+				"22:33:22> SetCorpseArrow, mc/mz=4/0", -- [7]
+				"22:33:22> SetCorpseArrow, seeking corpse", -- [8]
+				"22:33:22> SetCorpseArrow, corpse on c=1? 0:0", -- [9]
+				"22:33:22> SetCorpseArrow, corpse on c=2? 0:0", -- [10]
+				"22:33:22> SetCorpseArrow, corpse on c=3? 0:0", -- [11]
+				"22:33:22> SetCorpseArrow, corpse on c=4? 0:0", -- [12]
+				"22:33:22> SetCorpseArrow, corpse on cont 0", -- [13]
+				"22:33:22> PLAYER_ALIVE (dead?)", -- [14]
+				"22:33:22> Player dead!", -- [15]
+				"22:33:22> SetCorpseArrow, mc/mz=4/0", -- [16]
+				"22:33:22> SetCorpseArrow, seeking corpse", -- [17]
+				"22:33:22> SetCorpseArrow, corpse on c=1? 0:0", -- [18]
+				"22:33:22> SetCorpseArrow, corpse on c=2? 0:0", -- [19]
+				"22:33:22> SetCorpseArrow, corpse on c=3? 0:0", -- [20]
+				"22:33:22> SetCorpseArrow, corpse on c=4? 0:0", -- [21]
+				"22:33:22> SetCorpseArrow, corpse on cont 0", -- [22]
+				"22:33:22> CacheQuestLog cached 14 quests", -- [23]
+				"22:33:22> CacheQuestLog cached 14 quests", -- [24]
+				"22:33:22> ZONE_CHANGED_NEW_AREA (dead?)", -- [25]
+				"22:33:22> Player dead!", -- [26]
+				"22:33:22> SetCorpseArrow, mc/mz=4/1", -- [27]
+				"22:34:02> PLAYER_ENTERING_WORLD (dead?)", -- [28]
+				"22:34:02> PLAYER_ALIVE (dead?)", -- [29]
+				"22:34:02> CacheQuestLog cached 14 quests", -- [30]
+				"22:34:02> CacheQuestLog cached 14 quests", -- [31]
+				"22:34:02> CacheQuestLog cached 14 quests", -- [32]
+				"22:34:02> ZONE_CHANGED_NEW_AREA (dead?)", -- [33]
+				"22:42:44> PLAYER_ENTERING_WORLD (dead?)", -- [34]
+				"22:42:44> Player dead!", -- [35]
+				"22:42:44> SetCorpseArrow, mc/mz=4/0", -- [36]
+				"22:42:44> SetCorpseArrow, seeking corpse", -- [37]
+				"22:42:44> SetCorpseArrow, corpse on c=1? 0:0", -- [38]
+				"22:42:44> SetCorpseArrow, corpse on c=2? 0:0", -- [39]
+				"22:42:44> SetCorpseArrow, corpse on c=3? 0:0", -- [40]
+				"22:42:44> SetCorpseArrow, corpse on c=4? 0:0", -- [41]
+				"22:42:44> SetCorpseArrow, corpse on cont 0", -- [42]
+				"22:42:44> PLAYER_ALIVE (dead?)", -- [43]
+				"22:42:44> Player dead!", -- [44]
+				"22:42:44> SetCorpseArrow, mc/mz=4/0", -- [45]
+				"22:42:44> SetCorpseArrow, seeking corpse", -- [46]
+				"22:42:44> SetCorpseArrow, corpse on c=1? 0:0", -- [47]
+				"22:42:44> SetCorpseArrow, corpse on c=2? 0:0", -- [48]
+				"22:42:44> SetCorpseArrow, corpse on c=3? 0:0", -- [49]
+				"22:42:44> SetCorpseArrow, corpse on c=4? 0:0", -- [50]
+				"22:42:44> SetCorpseArrow, corpse on cont 0", -- [51]
+				"22:42:44> CacheQuestLog cached 14 quests", -- [52]
+				"22:42:44> CacheQuestLog cached 14 quests", -- [53]
+				"22:42:44> CacheQuestLog cached 14 quests", -- [54]
+				"22:42:44> ZONE_CHANGED_NEW_AREA (dead?)", -- [55]
+				"22:42:44> Player dead!", -- [56]
+				"22:42:44> SetCorpseArrow, mc/mz=4/1", -- [57]
+				"22:43:23> PLAYER_ENTERING_WORLD (dead?)", -- [58]
+				"22:43:23> PLAYER_ALIVE (dead?)", -- [59]
+				"22:43:23> CacheQuestLog cached 14 quests", -- [60]
+				"22:43:23> CacheQuestLog cached 14 quests", -- [61]
+				"22:43:23> ZONE_CHANGED_NEW_AREA (dead?)", -- [62]
+				"22:43:32> PLAYER_ENTERING_WORLD (dead?)", -- [63]
+				"22:43:32> PLAYER_ALIVE (dead?)", -- [64]
+				"22:43:32> CacheQuestLog cached 14 quests", -- [65]
+				"22:43:32> CacheQuestLog cached 14 quests", -- [66]
+				"22:43:32> CacheQuestLog cached 14 quests", -- [67]
+				"22:43:32> ZONE_CHANGED_NEW_AREA (dead?)", -- [68]
+				"22:44:03> PLAYER_ENTERING_WORLD (dead?)", -- [69]
+				"22:44:03> PLAYER_ALIVE (dead?)", -- [70]
+				"22:44:03> CacheQuestLog cached 14 quests", -- [71]
+				"22:44:03> ZONE_CHANGED_NEW_AREA (dead?)", -- [72]
+				"22:44:03> CacheQuestLog cached 14 quests", -- [73]
+				"22:45:31> PLAYER_ENTERING_WORLD (dead?)", -- [74]
+				"22:45:31> PLAYER_ALIVE (dead?)", -- [75]
+				"22:45:31> CacheQuestLog cached 14 quests", -- [76]
+				"22:45:31> CacheQuestLog cached 14 quests", -- [77]
+				"22:45:32> ZONE_CHANGED_NEW_AREA (dead?)", -- [78]
+				"22:45:32> CacheQuestLog cached 14 quests", -- [79]
+				"22:47:40> PLAYER_ENTERING_WORLD (dead?)", -- [80]
+				"22:47:40> PLAYER_ALIVE (dead?)", -- [81]
+				"22:47:40> ZONE_CHANGED_NEW_AREA (dead?)", -- [82]
+				"22:47:40> CacheQuestLog cached 14 quests", -- [83]
+				"22:47:40> CacheQuestLog cached 14 quests", -- [84]
+				"22:48:26> PLAYER_ENTERING_WORLD (dead?)", -- [85]
+				"22:48:26> PLAYER_ALIVE (dead?)", -- [86]
+				"22:48:26> CacheQuestLog cached 14 quests", -- [87]
+				"22:48:26> ZONE_CHANGED_NEW_AREA (dead?)", -- [88]
+				"22:48:26> CacheQuestLog cached 14 quests", -- [89]
+				"22:49:54> PLAYER_ENTERING_WORLD (dead?)", -- [90]
+				"22:49:54> PLAYER_ALIVE (dead?)", -- [91]
+				"22:49:54> CacheQuestLog cached 14 quests", -- [92]
+				"22:49:54> CacheQuestLog cached 14 quests", -- [93]
+				"22:49:54> CacheQuestLog cached 14 quests", -- [94]
+				"22:49:54> ZONE_CHANGED_NEW_AREA (dead?)", -- [95]
+				"23:08:16> PLAYER_ENTERING_WORLD (dead?)", -- [96]
+				"23:08:16> PLAYER_ALIVE (dead?)", -- [97]
+				"23:08:16> CacheQuestLog cached 14 quests", -- [98]
+				"23:08:16> CacheQuestLog cached 14 quests", -- [99]
+				"23:08:17> ZONE_CHANGED_NEW_AREA (dead?)", -- [100]
 			},
 			["guidename"] = "Zygor's Horde Dailies Guides\\Icecrown\\Icecrown Full Zone Quest Path (Includes Regular Dailies Pre-Quests)",
 			["step"] = 81,
@@ -124,8 +124,10 @@ ZygorGuidesViewerSettings = {
 				[25339] = true,
 				[25278] = true,
 				[25280] = true,
+				[7928] = true,
 				[25283] = true,
 				[25284] = true,
+				[7929] = true,
 				[25287] = true,
 				[26926] = true,
 				[26927] = true,
@@ -134,28 +136,41 @@ ZygorGuidesViewerSettings = {
 				[3304] = true,
 				[10097] = true,
 				[25610] = true,
+				[45545] = true,
 				[25613] = true,
 				[2659] = true,
 				[25490] = true,
 				[25493] = true,
 				[25305] = true,
 				[37818] = true,
+				[18630] = true,
 				[25498] = true,
 				[32178] = true,
 				[32179] = true,
+				[3275] = true,
+				[3276] = true,
+				[3277] = true,
 				[25317] = true,
 				[25318] = true,
+				[7934] = true,
+				[25321] = true,
 				[36523] = true,
+				[10840] = true,
+				[32801] = true,
+				[18629] = true,
 				[3308] = true,
-				[38175] = true,
-				[32259] = true,
 				[32807] = true,
 				[36524] = true,
-				[32801] = true,
+				[38175] = true,
+				[32259] = true,
+				[45546] = true,
+				[27032] = true,
+				[27033] = true,
+				[10841] = true,
 				[3569] = true,
 				[26925] = true,
 				[25255] = true,
-				[25321] = true,
+				[3278] = true,
 				[3307] = true,
 				[2657] = true,
 			},
@@ -218,11 +233,11 @@ ZygorGuidesViewerSettings = {
 				["The Argent Vanguard"] = true,
 				["Camp Winterhoof"] = true,
 				["Brackenwall Village"] = true,
-				["Emerald Sanctuary"] = true,
+				["Splintertree Post"] = true,
 				["Dun Nifflelem"] = true,
 				["Thunderlord Stronghold"] = true,
-				["Splintertree Post"] = true,
 				["Cosmowrench"] = true,
+				["Emerald Sanctuary"] = true,
 				["Falcon Watch"] = true,
 				["Hellfire Peninsula, The Dark Portal"] = true,
 				["Camp Mojache"] = true,

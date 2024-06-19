@@ -33,13 +33,13 @@ MACRO 16777224 "Rej" INV_Misc_QuestionMark
 #showtooltip
 /cast [@Mouseover] Rejuvenation
 END
-MACRO 16777217 "Shift" INV_Misc_QuestionMark
-#showtooltip
-/cast [swimming] !Aquatic Form;[flyable,nocombat,nomod:alt] !Swift Flight Form(Shapeshift); [outdoors,nomod:alt] !Travel Form; !Moonkin Form(Shapeshift)
-END
 MACRO 16777218 "Shift" INV_Misc_QuestionMark
 #showtooltip
 /cast [swimming] !Aquatic Form; [outdoors,nomod:alt] !Travel Form; !Moonkin Form(Shapeshift)
+END
+MACRO 16777217 "Shift" INV_Misc_QuestionMark
+#showtooltip
+/cast [swimming] !Aquatic Form;[flyable,nocombat,nomod:alt] !Swift Flight Form(Shapeshift); [outdoors,nomod:alt] !Travel Form; !Moonkin Form(Shapeshift)
 END
 MACRO 16777220 "ShiftHealer" INV_Misc_QuestionMark
 #showtooltip

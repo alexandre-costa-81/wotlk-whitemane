@@ -2,6 +2,10 @@
 PallyPowerDB = {
 	["profiles"] = {
 		["Default"] = {
+			["seal"] = 8,
+			["display"] = {
+				["frameLocked"] = true,
+			},
 			["sets"] = {
 				["primary"] = {
 					["buffs"] = {
@@ -17,32 +21,40 @@ PallyPowerDB = {
 						3, -- [10]
 						3, -- [11]
 					},
-					["rf"] = true,
+					["seal"] = 8,
 				},
 			},
-			["seal"] = 8,
-			["rfbuff"] = false,
-			["display"] = {
-				["frameLocked"] = true,
-			},
-			["rf"] = false,
+			["rf"] = true,
 			["disable"] = false,
 		},
 	},
 }
 PallyPower_Assignments = {
-	["Kimi"] = {
+	["Hou"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
 		3, -- [4]
-		2, -- [5]
+		3, -- [5]
 		3, -- [6]
 		3, -- [7]
 		3, -- [8]
 		3, -- [9]
 		3, -- [10]
 		3, -- [11]
+	},
+	["Kimi"] = {
+		3, -- [1]
+		2, -- [2]
+		3, -- [3]
+		2, -- [4]
+		4, -- [5]
+		3, -- [6]
+		4, -- [7]
+		3, -- [8]
+		1, -- [9]
+		3, -- [10]
+		4, -- [11]
 	},
 	["Dierren"] = {
 		3, -- [1]
@@ -72,12 +84,15 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
+	["Hou"] = {
+	},
 	["Dierren"] = {
 	},
 	["Norafis"] = {
 	},
 }
 PallyPower_AuraAssignments = {
+	["Hou"] = 1,
 	["Kimi"] = 1,
 	["Dierren"] = 1,
 	["Norafis"] = 1,

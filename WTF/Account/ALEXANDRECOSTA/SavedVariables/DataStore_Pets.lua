@@ -6,7 +6,7 @@ DataStore_PetsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmourne.Kimi"] = {
-				["lastUpdate"] = 1718727111,
+				["lastUpdate"] = 1718762896,
 				["MOUNT"] = {
 					"18364|Blue Wind Rider|32244|ability_mount_bluewindrider", -- [1]
 					"11153|Red Skeletal Horse|17462|Ability_Mount_Undeadhorse", -- [2]

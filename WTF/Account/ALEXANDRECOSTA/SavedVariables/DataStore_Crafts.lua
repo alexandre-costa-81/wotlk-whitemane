@@ -11,6 +11,48 @@ DataStore_CraftsDB = {
 						["FullLink"] = "|cffffd000|Htrade:2550:1:75:46C2:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cooking]|h|r",
 						["isSecondary"] = true,
 					},
+					["First Aid"] = {
+						["FullLink"] = "|cffffd000|Htrade:45542:400:450:46C2:8LPfAA|h[First Aid]|h|r",
+						["isSecondary"] = true,
+						["Crafts"] = {
+							"0|Bandage", -- [1]
+							"2|45546", -- [2]
+							"3|45545", -- [3]
+							"4|27033", -- [4]
+							"4|27032", -- [5]
+							"4|18630", -- [6]
+							"4|18629", -- [7]
+							"4|10841", -- [8]
+							"4|10840", -- [9]
+							"4|7929", -- [10]
+							"4|7928", -- [11]
+							"4|3278", -- [12]
+							"4|3277", -- [13]
+							"4|3276", -- [14]
+							"4|3275", -- [15]
+							"0|Other", -- [16]
+							"4|7934", -- [17]
+						},
+						["NumCrafts"] = 15,
+					},
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
+					["Mining"] = {
+						["NumCrafts"] = 8,
+						["Crafts"] = {
+							"0|Metal & Stone", -- [1]
+							"4|10097", -- [2]
+							"4|3308", -- [3]
+							"4|3569", -- [4]
+							"4|3307", -- [5]
+							"4|2658", -- [6]
+							"4|2659", -- [7]
+							"4|3304", -- [8]
+							"4|2657", -- [9]
+						},
+						["isPrimary"] = true,
+					},
 					["Riding"] = {
 						["isSecondary"] = true,
 					},
@@ -54,28 +96,8 @@ DataStore_CraftsDB = {
 						},
 						["NumCrafts"] = 29,
 					},
-					["Mining"] = {
-						["isPrimary"] = true,
-						["NumCrafts"] = 7,
-						["Crafts"] = {
-							"4|10097", -- [1]
-							"4|3308", -- [2]
-							"4|3569", -- [3]
-							"4|3307", -- [4]
-							"4|2658", -- [5]
-							"4|2659", -- [6]
-							"4|3304", -- [7]
-						},
-					},
-					["First Aid"] = {
-						["FullLink"] = "|cffffd000|Htrade:45542:400:450:46C2:8LPfAA|h[First Aid]|h|r",
-						["isSecondary"] = true,
-					},
-					["Fishing"] = {
-						["isSecondary"] = true,
-					},
 				},
-				["lastUpdate"] = 1718727281,
+				["lastUpdate"] = 1718757204,
 			},
 		},
 		["Guilds"] = {
@@ -136,12 +158,12 @@ DataStore_CraftsDB = {
 				["Members"] = {
 					["Kimi"] = {
 						["Professions"] = {
-							"|cffffd000|Htrade:25230:149:150:46C2:+/6BAAAAAwDAAAAAAAAAAAAAgfAAgJBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Jewelcrafting]|h|r", -- [1]
-							2575, -- [2]
+							2575, -- [1]
+							"|cffffd000|Htrade:28894:153:225:46C2:8/6FAAAAAwHAAAAAAAAAAAAAgfAAgJBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Jewelcrafting]|h|r", -- [2]
 							"|cffffd000|Htrade:2550:1:75:46C2:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1718727118,
+						["lastUpdate"] = 1718756998,
 					},
 					["Manalust"] = {
 						["Version"] = 12340,

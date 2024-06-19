@@ -7,3 +7,5 @@ _Whitemane_Assistant: enabled
 gatherer_hud: enabled
 GathererDB_Wowhead: enabled
 !Swatter: disabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

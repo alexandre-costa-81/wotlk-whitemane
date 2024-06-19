@@ -1,3 +1,4 @@
 MACRO 1 "Decursive" INV_Misc_QuestionMark
-/script Dcr:Println('No spell available')
+/stopcasting
+/cast [target=mouseover,nomod,exists] Remove Curse;  [target=mouseover,exists,mod:ctrl] Abolish Poison; [target=mouseover,exists,mod:shift] Cyclone
 END

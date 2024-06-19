@@ -6,7 +6,7 @@ AucAdvancedStatPurchasedData = {
 			["means"] = {
 			},
 			["daily"] = {
-				["created"] = 1718680284,
+				["created"] = 1718762939,
 			},
 		},
 	},

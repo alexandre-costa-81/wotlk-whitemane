@@ -8,16 +8,14 @@ PawnCommon = {
 	["ShowItemID"] = false,
 	["ShowUnenchanted"] = true,
 	["ButtonPosition"] = 2,
-	["Debug"] = false,
-	["ShowAsterisks"] = 1,
 	["Scales"] = {
 		["\"Wowhead\":ShamanEnhancement"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -27,18 +25,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Shaman: enhancement",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "526fbf",
-			["LocalizedName"] = "Shaman: enhancement",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":DeathKnightUnholyDps"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -48,18 +46,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "DK: unholy DPS",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf3950",
-			["LocalizedName"] = "DK: unholy DPS",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":DeathKnightFrostDps"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -69,18 +67,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "DK: frost DPS",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf3950",
-			["LocalizedName"] = "DK: frost DPS",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":WarriorArms"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -90,18 +88,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Warrior: arms",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "957552",
-			["LocalizedName"] = "Warrior: arms",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":WarlockDestruction"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 					["Visible"] = true,
@@ -112,18 +110,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Warlock: destruction",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "8d7bbf",
-			["LocalizedName"] = "Warlock: destruction",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":PaladinTank"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -133,18 +131,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Paladin: tank",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "b7698b",
-			["LocalizedName"] = "Paladin: tank",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":HunterBeastMastery"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -154,18 +152,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Hunter: beast mastery",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "809f56",
-			["LocalizedName"] = "Hunter: beast mastery",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":PaladinHoly"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -175,18 +173,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Paladin: holy",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "b7698b",
-			["LocalizedName"] = "Paladin: holy",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":RogueCombat"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -196,18 +194,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Rogue: combat",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bfb74e",
-			["LocalizedName"] = "Rogue: combat",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":PriestDiscipline"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -217,18 +215,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Priest: discipline",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bfbfbf",
-			["LocalizedName"] = "Priest: discipline",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":DeathKnightBloodTank"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -238,18 +236,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "DK: blood tank",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf3950",
-			["LocalizedName"] = "DK: blood tank",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":MageFrost"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -259,18 +257,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Mage: frost",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "4e99b3",
-			["LocalizedName"] = "Mage: frost",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":ShamanRestoration"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -280,18 +278,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Shaman: restoration",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "526fbf",
-			["LocalizedName"] = "Shaman: restoration",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":MageFire"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -301,18 +299,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Mage: fire",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "4e99b3",
-			["LocalizedName"] = "Mage: fire",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":WarriorFury"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -322,18 +320,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Warrior: fury",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "957552",
-			["LocalizedName"] = "Warrior: fury",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":DeathKnightBloodDps"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -343,18 +341,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "DK: blood DPS",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf3950",
-			["LocalizedName"] = "DK: blood DPS",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":WarlockDemonology"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 					["Visible"] = true,
@@ -365,19 +363,19 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Warlock: demonology",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "8d7bbf",
-			["LocalizedName"] = "Warlock: demonology",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":DruidRestoration"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
 					["Visible"] = true,
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -387,40 +385,39 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Druid: restoration",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf5d07",
-			["LocalizedName"] = "Druid: restoration",
+			["SmartGemSocketing"] = true,
 		},
-		["\"Wowhead\":DruidFeralTank"] = {
+		["\"Wowhead\":RogueSubtlety"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
-					["Visible"] = true,
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
-			["Color"] = "ff7d0a",
+			["Color"] = "fff569",
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Rogue: subtlety",
 			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "bf5d07",
-			["LocalizedName"] = "Druid: feral bear",
+			["UnenchantedColor"] = "bfb74e",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":HunterMarksman"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -430,39 +427,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Hunter: marksman",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "809f56",
-			["LocalizedName"] = "Hunter: marksman",
-		},
-		["\"Wowhead\":ShamanElemental"] = {
-			["PerCharacterOptions"] = {
-				["Queemificina-Frostmourne"] = {
-				},
-				["Kimitress-Frostmourne"] = {
-				},
-				["Queemu-Frostmourne"] = {
-				},
-				["Queemi-Frostmourne"] = {
-				},
-			},
-			["MetaGemQualityLevel"] = 81,
-			["Color"] = "6e95ff",
-			["SmartMetaGemSocketing"] = true,
-			["GemQualityLevel"] = 81,
-			["NormalizationFactor"] = 1,
 			["SmartGemSocketing"] = true,
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "526fbf",
-			["LocalizedName"] = "Shaman: elemental",
 		},
 		["\"Wowhead\":DeathKnightFrostTank"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -472,18 +448,39 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "DK: frost tank",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bf3950",
-			["LocalizedName"] = "DK: frost tank",
+			["SmartGemSocketing"] = true,
+		},
+		["\"Wowhead\":ShamanElemental"] = {
+			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
+				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
+				},
+				["Queemi-Frostmourne"] = {
+				},
+			},
+			["MetaGemQualityLevel"] = 81,
+			["Color"] = "6e95ff",
+			["SmartMetaGemSocketing"] = true,
+			["GemQualityLevel"] = 81,
+			["NormalizationFactor"] = 1,
+			["LocalizedName"] = "Shaman: elemental",
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "526fbf",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":PaladinRetribution"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -493,18 +490,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Paladin: retribution",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "b7698b",
-			["LocalizedName"] = "Paladin: retribution",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":MageArcane"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -514,18 +511,146 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Mage: arcane",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "4e99b3",
-			["LocalizedName"] = "Mage: arcane",
+			["SmartGemSocketing"] = true,
+		},
+		["\"Wowhead\":DruidFeralDps"] = {
+			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
+				["Queemu-Frostmourne"] = {
+					["Visible"] = true,
+				},
+				["Kimitress-Frostmourne"] = {
+				},
+				["Queemi-Frostmourne"] = {
+				},
+			},
+			["MetaGemQualityLevel"] = 81,
+			["Color"] = "ff7d0a",
+			["SmartMetaGemSocketing"] = true,
+			["GemQualityLevel"] = 81,
+			["NormalizationFactor"] = 1,
+			["LocalizedName"] = "Druid: feral cat",
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "bf5d07",
+			["SmartGemSocketing"] = true,
+		},
+		["\"Wowhead\":WarriorTank"] = {
+			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
+				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
+				},
+				["Queemi-Frostmourne"] = {
+				},
+			},
+			["MetaGemQualityLevel"] = 81,
+			["Color"] = "c79c6e",
+			["SmartMetaGemSocketing"] = true,
+			["GemQualityLevel"] = 81,
+			["NormalizationFactor"] = 1,
+			["LocalizedName"] = "Warrior: tank",
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "957552",
+			["SmartGemSocketing"] = true,
+		},
+		["\"Wowhead\":RogueAssassination"] = {
+			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
+				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
+				},
+				["Queemi-Frostmourne"] = {
+				},
+			},
+			["MetaGemQualityLevel"] = 81,
+			["Color"] = "fff569",
+			["SmartMetaGemSocketing"] = true,
+			["GemQualityLevel"] = 81,
+			["NormalizationFactor"] = 1,
+			["LocalizedName"] = "Rogue: assassination",
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "bfb74e",
+			["SmartGemSocketing"] = true,
+		},
+		["\"Wowhead\":DruidBalance"] = {
+			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
+				["Queemu-Frostmourne"] = {
+					["Visible"] = true,
+				},
+				["Kimitress-Frostmourne"] = {
+				},
+				["Queemi-Frostmourne"] = {
+				},
+			},
+			["MetaGemQualityLevel"] = 81,
+			["Color"] = "ff7d0a",
+			["SmartMetaGemSocketing"] = true,
+			["GemQualityLevel"] = 81,
+			["NormalizationFactor"] = 1,
+			["LocalizedName"] = "Druid: balance",
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "bf5d07",
+			["SmartGemSocketing"] = true,
+		},
+		["\"Wowhead\":PriestShadow"] = {
+			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
+				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
+				},
+				["Queemi-Frostmourne"] = {
+				},
+			},
+			["MetaGemQualityLevel"] = 81,
+			["Color"] = "ffffff",
+			["SmartMetaGemSocketing"] = true,
+			["GemQualityLevel"] = 81,
+			["NormalizationFactor"] = 1,
+			["LocalizedName"] = "Priest: shadow",
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "bfbfbf",
+			["SmartGemSocketing"] = true,
+		},
+		["\"Wowhead\":HunterSurvival"] = {
+			["PerCharacterOptions"] = {
+				["Queemificina-Frostmourne"] = {
+				},
+				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
+				},
+				["Queemi-Frostmourne"] = {
+				},
+			},
+			["MetaGemQualityLevel"] = 81,
+			["Color"] = "abd473",
+			["SmartMetaGemSocketing"] = true,
+			["GemQualityLevel"] = 81,
+			["NormalizationFactor"] = 1,
+			["LocalizedName"] = "Hunter: survival",
+			["Provider"] = "Wowhead",
+			["UnenchantedColor"] = "809f56",
+			["SmartGemSocketing"] = true,
 		},
 		["\"Wowhead\":WarlockAffliction"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 					["Visible"] = true,
@@ -536,146 +661,18 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Warlock: affliction",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "8d7bbf",
-			["LocalizedName"] = "Warlock: affliction",
-		},
-		["\"Wowhead\":WarriorTank"] = {
-			["PerCharacterOptions"] = {
-				["Queemificina-Frostmourne"] = {
-				},
-				["Kimitress-Frostmourne"] = {
-				},
-				["Queemu-Frostmourne"] = {
-				},
-				["Queemi-Frostmourne"] = {
-				},
-			},
-			["MetaGemQualityLevel"] = 81,
-			["Color"] = "c79c6e",
-			["SmartMetaGemSocketing"] = true,
-			["GemQualityLevel"] = 81,
-			["NormalizationFactor"] = 1,
 			["SmartGemSocketing"] = true,
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "957552",
-			["LocalizedName"] = "Warrior: tank",
-		},
-		["\"Wowhead\":RogueAssassination"] = {
-			["PerCharacterOptions"] = {
-				["Queemificina-Frostmourne"] = {
-				},
-				["Kimitress-Frostmourne"] = {
-				},
-				["Queemu-Frostmourne"] = {
-				},
-				["Queemi-Frostmourne"] = {
-				},
-			},
-			["MetaGemQualityLevel"] = 81,
-			["Color"] = "fff569",
-			["SmartMetaGemSocketing"] = true,
-			["GemQualityLevel"] = 81,
-			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "bfb74e",
-			["LocalizedName"] = "Rogue: assassination",
-		},
-		["\"Wowhead\":DruidBalance"] = {
-			["PerCharacterOptions"] = {
-				["Queemificina-Frostmourne"] = {
-				},
-				["Kimitress-Frostmourne"] = {
-				},
-				["Queemu-Frostmourne"] = {
-					["Visible"] = true,
-				},
-				["Queemi-Frostmourne"] = {
-				},
-			},
-			["MetaGemQualityLevel"] = 81,
-			["Color"] = "ff7d0a",
-			["SmartMetaGemSocketing"] = true,
-			["GemQualityLevel"] = 81,
-			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "bf5d07",
-			["LocalizedName"] = "Druid: balance",
-		},
-		["\"Wowhead\":PriestShadow"] = {
-			["PerCharacterOptions"] = {
-				["Queemificina-Frostmourne"] = {
-				},
-				["Kimitress-Frostmourne"] = {
-				},
-				["Queemu-Frostmourne"] = {
-				},
-				["Queemi-Frostmourne"] = {
-				},
-			},
-			["MetaGemQualityLevel"] = 81,
-			["Color"] = "ffffff",
-			["SmartMetaGemSocketing"] = true,
-			["GemQualityLevel"] = 81,
-			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "bfbfbf",
-			["LocalizedName"] = "Priest: shadow",
-		},
-		["\"Wowhead\":HunterSurvival"] = {
-			["PerCharacterOptions"] = {
-				["Queemificina-Frostmourne"] = {
-				},
-				["Kimitress-Frostmourne"] = {
-				},
-				["Queemu-Frostmourne"] = {
-				},
-				["Queemi-Frostmourne"] = {
-				},
-			},
-			["MetaGemQualityLevel"] = 81,
-			["Color"] = "abd473",
-			["SmartMetaGemSocketing"] = true,
-			["GemQualityLevel"] = 81,
-			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "809f56",
-			["LocalizedName"] = "Hunter: survival",
-		},
-		["\"Wowhead\":DruidFeralDps"] = {
-			["PerCharacterOptions"] = {
-				["Queemificina-Frostmourne"] = {
-				},
-				["Kimitress-Frostmourne"] = {
-				},
-				["Queemu-Frostmourne"] = {
-					["Visible"] = true,
-				},
-				["Queemi-Frostmourne"] = {
-				},
-			},
-			["MetaGemQualityLevel"] = 81,
-			["Color"] = "ff7d0a",
-			["SmartMetaGemSocketing"] = true,
-			["GemQualityLevel"] = 81,
-			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
-			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "bf5d07",
-			["LocalizedName"] = "Druid: feral cat",
 		},
 		["\"Wowhead\":PriestHoly"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
@@ -685,31 +682,34 @@ PawnCommon = {
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Priest: holy",
 			["Provider"] = "Wowhead",
 			["UnenchantedColor"] = "bfbfbf",
-			["LocalizedName"] = "Priest: holy",
+			["SmartGemSocketing"] = true,
 		},
-		["\"Wowhead\":RogueSubtlety"] = {
+		["\"Wowhead\":DruidFeralTank"] = {
 			["PerCharacterOptions"] = {
 				["Queemificina-Frostmourne"] = {
 				},
-				["Kimitress-Frostmourne"] = {
-				},
 				["Queemu-Frostmourne"] = {
+					["Visible"] = true,
+				},
+				["Kimitress-Frostmourne"] = {
 				},
 				["Queemi-Frostmourne"] = {
 				},
 			},
 			["MetaGemQualityLevel"] = 81,
-			["Color"] = "fff569",
+			["Color"] = "ff7d0a",
 			["SmartMetaGemSocketing"] = true,
 			["GemQualityLevel"] = 81,
 			["NormalizationFactor"] = 1,
-			["SmartGemSocketing"] = true,
+			["LocalizedName"] = "Druid: feral bear",
 			["Provider"] = "Wowhead",
-			["UnenchantedColor"] = "bfb74e",
-			["LocalizedName"] = "Rogue: subtlety",
+			["UnenchantedColor"] = "bf5d07",
+			["SmartGemSocketing"] = true,
 		},
 	},
+	["ShowAsterisks"] = 1,
+	["Debug"] = false,
 }

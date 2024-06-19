@@ -1,7 +1,10 @@
 
 DecursiveDB = {
-	["global"] = {
-		["LastExpirationAlert"] = 1718606441,
+	["profileKeys"] = {
+		["Queemi - Frostmourne"] = "Default",
+		["Queemu - Frostmourne"] = "Default",
+		["Queemificina - Frostmourne"] = "Default",
+		["Kimitress - Frostmourne"] = "Default",
 	},
 	["class"] = {
 		["DEATHKNIGHT"] = {
@@ -49,19 +52,16 @@ DecursiveDB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Queemificina - Frostmourne"] = "Default",
-		["Queemu - Frostmourne"] = "Default",
-		["Queemi - Frostmourne"] = "Default",
-		["Kimitress - Frostmourne"] = "Default",
+	["global"] = {
+		["LastExpirationAlert"] = 1718606441,
 	},
 	["profiles"] = {
 		["Default"] = {
-			["DebuffsFrame_y"] = -462.9333343791163,
+			["DebuffsFrame_y"] = -274.4887007199753,
 			["MainBarX"] = 682.6666925341594,
 			["Hidden"] = true,
 			["MainBarY"] = -95.99992115956388,
-			["DebuffsFrame_x"] = 487.8224342966958,
+			["DebuffsFrame_x"] = 472.1776736641906,
 		},
 	},
 }

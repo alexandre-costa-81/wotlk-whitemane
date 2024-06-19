@@ -1,11 +1,25 @@
 
 ZygorTalentAdvisorSettings = {
 	["char"] = {
-		["Queemificina - Frostmourne"] = {
+		["Queemi - Frostmourne"] = {
 			["debuglog"] = {
-				"11:39:32> Viewer started. ---------------------------", -- [1]
-				"11:39:33> PLAYER_ALIVE", -- [2]
-				"11:39:42> Viewer started. ---------------------------", -- [3]
+				"18:46:44> Viewer started. ---------------------------", -- [1]
+				"18:46:44> PLAYER_ALIVE", -- [2]
+				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [3]
+				"18:46:44> < ", -- [4]
+				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [5]
+				"18:46:44> < ", -- [6]
+				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [7]
+				"18:46:44> < ", -- [8]
+				"18:46:44> > PET_TALENT_UPDATE (points: 0, talents not ready)", -- [9]
+				"18:46:44> < No pet build", -- [10]
+				"18:46:54> Viewer started. ---------------------------", -- [11]
+				"18:46:55> > UNIT_PET player (type nil, talents not ready, points 0)", -- [12]
+				"18:46:55> < ", -- [13]
+				"18:46:55> > UNIT_PET player (type nil, talents not ready, points 0)", -- [14]
+				"18:46:55> < ", -- [15]
+				"18:50:24> > UNIT_PET player (type nil, talents not ready, points 0)", -- [16]
+				"18:50:24> < ", -- [17]
 			},
 		},
 		["Queemu - Frostmourne"] = {
@@ -90,27 +104,21 @@ ZygorTalentAdvisorSettings = {
 				"09:53:35> PLAYER_ALIVE", -- [78]
 				"09:53:35> > PET_TALENT_UPDATE (points: 0, talents not ready)", -- [79]
 				"09:53:35> < No pet build", -- [80]
+				"23:09:02> Viewer started. ---------------------------", -- [81]
+				"23:09:03> PLAYER_ALIVE", -- [82]
+				"23:12:05> PLAYER_ALIVE", -- [83]
+				"23:16:32> PLAYER_ALIVE", -- [84]
+				"23:16:51> PLAYER_ALIVE", -- [85]
+				"23:30:36> PLAYER_ALIVE", -- [86]
+				"23:35:45> PLAYER_ALIVE", -- [87]
+				"23:49:22> PLAYER_ALIVE", -- [88]
 			},
 		},
-		["Queemi - Frostmourne"] = {
+		["Queemificina - Frostmourne"] = {
 			["debuglog"] = {
-				"18:46:44> Viewer started. ---------------------------", -- [1]
-				"18:46:44> PLAYER_ALIVE", -- [2]
-				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [3]
-				"18:46:44> < ", -- [4]
-				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [5]
-				"18:46:44> < ", -- [6]
-				"18:46:44> > UNIT_PET player (type nil, talents not ready, points 0)", -- [7]
-				"18:46:44> < ", -- [8]
-				"18:46:44> > PET_TALENT_UPDATE (points: 0, talents not ready)", -- [9]
-				"18:46:44> < No pet build", -- [10]
-				"18:46:54> Viewer started. ---------------------------", -- [11]
-				"18:46:55> > UNIT_PET player (type nil, talents not ready, points 0)", -- [12]
-				"18:46:55> < ", -- [13]
-				"18:46:55> > UNIT_PET player (type nil, talents not ready, points 0)", -- [14]
-				"18:46:55> < ", -- [15]
-				"18:50:24> > UNIT_PET player (type nil, talents not ready, points 0)", -- [16]
-				"18:50:24> < ", -- [17]
+				"11:39:32> Viewer started. ---------------------------", -- [1]
+				"11:39:33> PLAYER_ALIVE", -- [2]
+				"11:39:42> Viewer started. ---------------------------", -- [3]
 			},
 		},
 		["Kimitress - Frostmourne"] = {
@@ -148,17 +156,17 @@ ZygorTalentAdvisorSettings = {
 		},
 	},
 	["profileKeys"] = {
-		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["profiles"] = {
-		["Queemificina - Frostmourne"] = {
+		["Queemi - Frostmourne"] = {
 		},
 		["Queemu - Frostmourne"] = {
 		},
-		["Queemi - Frostmourne"] = {
+		["Queemificina - Frostmourne"] = {
 		},
 		["Kimitress - Frostmourne"] = {
 		},

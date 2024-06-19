@@ -6,7 +6,55 @@ DataStore_QuestsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmourne.Kimi"] = {
+				["lastUpdate"] = 1718762896,
+				["HistoryLastUpdate"] = 1718756995,
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cff40c040|Hquest:13204:76|h[Funky Fungi]|h|r", -- [2]
+					"|cffffff00|Hquest:13190:80|h[All Things in Good Time]|h|r", -- [3]
+					nil, -- [4]
+					"|cffffff00|Hquest:13310:80|h[Assault by Air]|h|r", -- [5]
+					"|cffffff00|Hquest:13301:80|h[Assault by Ground]|h|r", -- [6]
+					"|cffffff00|Hquest:13330:80|h[Blood of the Chosen]|h|r", -- [7]
+					"|cffffff00|Hquest:13293:80|h[Get to Ymirheim!]|h|r", -- [8]
+					"|cffffff00|Hquest:12892:80|h[It's All Fun and Games]|h|r", -- [9]
+					"|cffffff00|Hquest:13302:80|h[Slaves to Saronite]|h|r", -- [10]
+					"|cffffff00|Hquest:13228:80|h[The Broken Front]|h|r", -- [11]
+					nil, -- [12]
+					"|cffffff00|Hquest:13193:80|h[Bones and Arrows]|h|r", -- [13]
+					"|cffffff00|Hquest:13178:80|h[Slay them all!]|h|r", -- [14]
+					"|cffffff00|Hquest:13185:80|h[Stop the Siege]|h|r", -- [15]
+					"|cffffff00|Hquest:13539:80|h[Toppling the Towers]|h|r", -- [16]
+					"|cffffff00|Hquest:13183:80|h[Victory in Wintergrasp]|h|r", -- [17]
+				},
+				["HistorySize"] = 525,
 				["HistoryBuild"] = "12340",
+				["Rewards"] = {
+					[16] = "r|43228|10|1",
+					[14] = "r|43228|10|1",
+					[17] = "r|43228|10|1",
+					[15] = "r|43228|10|1",
+					[13] = "r|43228|10|1",
+				},
+				["Quests"] = {
+					"0|Ahn'kahet: The Old Kingdom", -- [1]
+					"1|Dungeon|0|253800|0", -- [2]
+					"1|Heroic|0|222000|0", -- [3]
+					"0|Icecrown", -- [4]
+					"1||0|132300|0", -- [5]
+					"1||0|132300|1", -- [6]
+					"1||0|132300|1", -- [7]
+					"1||0|13200|0", -- [8]
+					"1||0|132300|0", -- [9]
+					"1||0|132300|0", -- [10]
+					"1||0|132300|0", -- [11]
+					"0|Wintergrasp", -- [12]
+					"1|PvP|0|132300|0", -- [13]
+					"1|PvP|0|132300|0", -- [14]
+					"1|PvP|0|132300|0", -- [15]
+					"1|PvP|0|132300|0", -- [16]
+					"1|PvP|0|132300|0", -- [17]
+				},
 				["History"] = {
 					[13274] = true,
 					[24791] = true,
@@ -397,6 +445,7 @@ DataStore_QuestsDB = {
 					[13073] = true,
 					[13081] = true,
 					[6548] = true,
+					[404] = true,
 					[6629] = true,
 					[11638] = true,
 					[13039] = true,
@@ -409,7 +458,7 @@ DataStore_QuestsDB = {
 					[342] = true,
 					[11881] = true,
 					[4290] = true,
-					[404] = true,
+					[13241] = true,
 					[340] = true,
 					[376] = true,
 					[13157] = true,
@@ -534,9 +583,6 @@ DataStore_QuestsDB = {
 					[9572] = true,
 					[11905] = true,
 				},
-				["HistorySize"] = 525,
-				["lastUpdate"] = 1718727110,
-				["HistoryLastUpdate"] = 1718727115,
 			},
 		},
 	},

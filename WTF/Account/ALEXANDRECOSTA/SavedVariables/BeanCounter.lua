@@ -8,7 +8,7 @@ BeanCounterDB = {
 			},
 			["completedAuctions"] = {
 			},
-			["wealth"] = 39723747,
+			["wealth"] = 41076662,
 			["postedAuctions"] = {
 			},
 			["completedBidsBuyoutsNeutral"] = {
@@ -19,9 +19,9 @@ BeanCounterDB = {
 			},
 			["failedBids"] = {
 			},
-			["version"] = 2.12,
 			["failedBidsNeutral"] = {
 			},
+			["version"] = 2.12,
 			["faction"] = "Horde",
 			["completedBidsBuyouts"] = {
 			},

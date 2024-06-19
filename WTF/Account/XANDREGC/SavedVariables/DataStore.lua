@@ -1,24 +1,24 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmourne.Queemu"] = {
-				["guildName"] = "Omnipotent",
 				["faction"] = "Horde",
+				["guildName"] = "Omnipotent",
 			},
 			["Default.Frostmourne.Queemi"] = {
-				["faction"] = "Horde",
 				["guildName"] = "TorosNegros",
+				["faction"] = "Horde",
 			},
 			["Default.Frostmourne.Kimitress"] = {
-				["faction"] = "Horde",
 				["guildName"] = "La Lista Negra",
+				["faction"] = "Horde",
 			},
 			["Default.Frostmourne.Queemificina"] = {
 				["faction"] = "Horde",

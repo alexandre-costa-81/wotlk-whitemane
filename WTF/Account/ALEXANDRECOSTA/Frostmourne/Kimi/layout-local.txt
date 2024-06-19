@@ -35,14 +35,14 @@ Y: -260
 W: 32
 H: 32
 Frame: ZygorGuidesViewerFrameMaster
-FrameLevel: 10
+FrameLevel: 9
 Anchor: RIGHT
 X: -267
 Y: 234
 W: 40
 H: 40
 Frame: ZygorGuidesViewerFrame
-FrameLevel: 11
+FrameLevel: 10
 Anchor: RIGHT
 X: -47
 Y: 204

@@ -1,28 +1,28 @@
 
 DataStore_StatsDB = {
 	["profileKeys"] = {
-		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
-		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
 		["Queemificina - Frostmourne"] = "Queemificina - Frostmourne",
+		["Queemu - Frostmourne"] = "Queemu - Frostmourne",
+		["Queemi - Frostmourne"] = "Queemi - Frostmourne",
 		["Kimitress - Frostmourne"] = "Kimitress - Frostmourne",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Frostmourne.Queemu"] = {
-				["lastUpdate"] = 1718708605,
+				["lastUpdate"] = 1718765521,
 				["Stats"] = {
-					["Ranged"] = "20-21|1.8980000901502|133|70|0",
-					["Spell"] = "1083|1083|70|9.6772117614746|175|315",
-					["Melee"] = "213-358|1.9630000932375|304|70|11.64121055603|0",
-					["MaxPower"] = "0|15156",
+					["Ranged"] = "18-20|1.8750000890577|120|54|0",
+					["Spell"] = "1098|1098|54|9.4312114715576|218|322",
+					["Melee"] = "209-354|1.9320000917651|274|54|11.485210418701|0",
+					["MaxPower"] = "0|14541",
 					["PVP"] = "0|0|0|55844",
-					["HealthMax"] = 14557,
-					["Arena2"] = "2vs2|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
-					["Resistances"] = "75|75|75|75|75|75",
-					["Defense"] = "2550|400|8.5940475463867|0|0|0",
-					["Base"] = "162|143|695|796|669|2550",
 					["Arena5"] = "SoloQueue|5|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
 					["Arena3"] = "3vs3|3|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
+					["HealthMax"] = 16307,
+					["Arena2"] = "2vs2|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
+					["Resistances"] = "75|75|75|75|75|75",
+					["Base"] = "147|130|870|755|702|2524",
+					["Defense"] = "2524|400|8.3227434158325|0|0|0",
 				},
 			},
 			["Default.Frostmourne.Queemi"] = {
@@ -47,13 +47,13 @@ DataStore_StatsDB = {
 					["Melee"] = "19-24|3.1000001472421|60|0|5.015200138092|0",
 					["MaxPower"] = "0|256",
 					["PVP"] = "0|0|0|0",
-					["Arena5"] = "SoloQueue|5|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
 					["HealthMax"] = 289,
 					["Arena2"] = "2vs2|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
 					["Resistances"] = "0|0|0|0|0|0",
-					["Defense"] = "131|50|2.2321715354919|5|0|0",
-					["Base"] = "27|33|36|22|30|131",
 					["Arena3"] = "3vs3|3|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
+					["Base"] = "27|33|36|22|30|131",
+					["Arena5"] = "SoloQueue|5|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0",
+					["Defense"] = "131|50|2.2321715354919|5|0|0",
 				},
 			},
 			["Default.Frostmourne.Queemificina"] = {
